@@ -75,4 +75,4 @@ Retained separate-host simulator evidence ran on distinct Intel Xeon 6767P worke
 
 Local software checks, evidence audits, presentation verification, and media review have separate scopes. New-host acceptance requires its own inventory and challenge. Physical motion, robot safeguards, device attestation, and hard real time remain separate gates. No vendor certification or production ROI is asserted.
 
-Read [architecture and authority](docs/ARCHITECTURE.md), [acceptance rubric](docs/ACCEPTANCE.md), and [the video review](docs/FINAL_VIDEO_REVIEW.md). Hosted GitHub checks have previously been blocked before execution by account billing/spending restrictions; local passes do not imply a hosted pass.
+Read [architecture and authority](docs/ARCHITECTURE.md), [acceptance rubric](docs/ACCEPTANCE.md), and [the video review](docs/FINAL_VIDEO_REVIEW.md). The new repository’s hosted GitHub job was blocked before any steps ran by the account billing/spending restriction. All 128 local checks passed. The tracked-only historical proof package also passes its independent audit. See `verification/precommit-20261023/result.json`; no hosted pass is claimed.

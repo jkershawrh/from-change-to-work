@@ -28,5 +28,18 @@
   "CDD": "GREEN for existing contracts and rejection checks",
   "BDD": "Retained simulator behavior and prior browser checks; no new physical challenge claimed",
   "CBT": "Existing software boundaries and retained separate-host proof; no new host qualification claimed",
-  "hosted_ci": "Reported separately after push. Prior account billing restriction is not a local test failure."
+  "hosted_ci": {
+    "status": "AMBER_INFRASTRUCTURE_BLOCK",
+    "run_id": 39971845640,
+    "job_id": 120476287178,
+    "source_commit": "3744f660346a9764f3d4e648cd6a4dee126878be",
+    "executed_steps": 0,
+    "annotations": "hosted-ci-annotations.json",
+    "messages": [
+      "The job was not started because recent account payments have failed or your spending limit needs to be increased. Please check the 'Billing & plans' section in your settings"
+    ]
+  },
+  "tracked_only_proof_audit": "PASS; see tracked-only-audit.json",
+  "git_lfs_objects": "PASS; see standalone-lfs.log",
+  "working_tree_dependency_links": "Not tracked; checked after removing ignored local development links from initial index."
 }

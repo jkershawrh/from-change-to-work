@@ -46,3 +46,7 @@ Use green only for a named passing test on a named source/host; amber for a spec
 The new repository starts with a standalone snapshot and a fresh Git history. Frozen execution records, source snapshots, contracts, compatibility identifiers, third-party notices, and original attribution remain intact so historical evidence stays auditable. Repository branding and supported handoff instructions use **From Change to Work**. See `NOTICE.md` and `PROVENANCE.json` for source and asset lineage.
 
 No credentials, generated session state, local dependency symlinks, or development caches belong in Git. Run the normal setup on the recipient’s checkout; do not copy a developer’s environment or private state.
+
+## Handoff verification
+
+All 128 local software tests passed in this standalone source tree, together with builds, blueprint validation, offline assets, and the retained independent audit. A separate package check copied only Git-tracked proof files into a fresh temporary directory and audited them successfully. Git LFS object verification passed. The initial omitted-evidence failure remains recorded; the ignore rule now explicitly includes the public retained exports. New-repository hosted CI was blocked by account billing before any step ran. See `verification/precommit-20261023/result.json`.
