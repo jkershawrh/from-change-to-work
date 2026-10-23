@@ -2,7 +2,7 @@
 
 **Deliver an approved task from remote engineering to a robot cell. Keep execution control local.**
 
-A standalone Red Hat × Intel robotics demo, dashboard, simulator workflow, and hardware-testing handoff. The first use case is aerospace inspection positioning. Rework positioning exercises the same transfer and recovery mechanism; additional cell types require separately reviewed adapters.
+A public, standalone Red Hat × Intel robotics demo, dashboard, simulator workflow, and hardware-testing handoff. The first use case is aerospace inspection positioning. Rework positioning exercises the same transfer and recovery mechanism; additional cell types require separately reviewed adapters.
 
 The business hypothesis is that a repeatable, accountable handoff can reduce the effort between an approved engineering change and accepted work. Factory delay, inspection accuracy, production savings, physical robot performance, and accelerator benefit have not been measured by this demo.
 

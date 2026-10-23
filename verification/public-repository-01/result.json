@@ -1,0 +1,22 @@
+{
+  "status": "PUBLIC_VISIBILITY_REQUEST_APPLIED",
+  "repository": "https://github.com/jkershawrh/from-change-to-work",
+  "requested_by": "Repository owner in this chat",
+  "target": "Standalone repository only",
+  "credential_screen": {
+    "tracked_paths_examined": 2930,
+    "excluded": "Media, model, font, binary and compressed assets; prior public-export checks retained separately.",
+    "findings": [],
+    "rules": [
+      "PEM private keys",
+      "GitHub tokens",
+      "OpenAI keys",
+      "AWS access IDs",
+      "ElevenLabs keys",
+      "literal bearer credentials"
+    ],
+    "scope": "Targeted credential screen; not a comprehensive security audit."
+  },
+  "onboarding_visibility": "public",
+  "original_repository": "No visibility change requested or applied"
+}

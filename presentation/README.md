@@ -16,7 +16,7 @@ Space plays/pauses, arrows change chapter, P opens presenter notes, and F reques
 
 `audio/voice-profile.json` pins the saved Kersh profile from the two-week visibility strategy: Eleven v3, stability 0.5, similarity 0.8, style 0.3, speaker boost enabled, speed 1.0. This edition locally edits the retained cinema-02 take: it removes the personal introduction/disclaimer, replaces six-second chapter holds with 0.55-second gaps, and shortens the ending hold to 2.2 seconds. It performs no new provider generation or account voice-setting change.
 
-The active script and editorial checks are under `audio/cinema-06/`. The source alignment stays under `audio/cinema-02/`; `public/audio/cinema-06/plan.json`, captions and edited audio ship with the private handoff. All captions and event cues share the edited audio clock. Ordinary setup needs no provider key. Never delete a generation-intent record to force another request or put a provider key in browser code. Objective checks do not claim subjective listening.
+The active script and editorial checks are under `audio/cinema-06/`. The source alignment stays under `audio/cinema-02/`; `public/audio/cinema-06/plan.json`, captions and edited audio ship with the handoff. All captions and event cues share the edited audio clock. Ordinary setup needs no provider key. Never delete a generation-intent record to force another request or put a provider key in browser code. Objective checks do not claim subjective listening.
 
 ## Repeatable film export
 

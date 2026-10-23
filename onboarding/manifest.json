@@ -144,7 +144,7 @@
   ],
   "repository": {
     "url": "https://github.com/jkershawrh/from-change-to-work",
-    "private": true,
+    "private": false,
     "title": "From Change to Work"
   }
 }
