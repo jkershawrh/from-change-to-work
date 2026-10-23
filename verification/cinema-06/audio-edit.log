@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/edit_story_audio.py", line 59, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/edit_story_audio.py", line 42, in main
+    words.append((m.group(),retained_time(starts[m.start()],segments),retained_time(ends[m.end()-1],segments)))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/edit_story_audio.py", line 16, in retained_time
+    raise ValueError('Timestamp belongs to removed audio')
+ValueError: Timestamp belongs to removed audio

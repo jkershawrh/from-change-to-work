@@ -1,0 +1,50 @@
+Looking in links: /work/input/wheels
+Processing /work/input/wheels/mujoco-3.3.7-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+Processing /work/input/wheels/numpy-2.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing /work/input/wheels/fastapi-0.115.12-py3-none-any.whl
+Processing /work/input/wheels/httpx-0.28.1-py3-none-any.whl
+Processing /work/input/wheels/cryptography-44.0.3-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing /work/input/wheels/pydantic_settings-2.8.1-py3-none-any.whl
+Processing /work/input/wheels/uvicorn-0.34.2-py3-none-any.whl
+Processing /work/input/wheels/redis-5.2.1-py3-none-any.whl
+Processing /work/input/wheels/aiokafka-0.12.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing /work/input/wheels/twilio-9.5.2-py2.py3-none-any.whl
+Processing /work/input/wheels/python_multipart-0.0.20-py3-none-any.whl
+Processing /work/input/wheels/absl_py-2.5.1-py3-none-any.whl (from mujoco==3.3.7)
+Processing /work/input/wheels/etils-1.14.0-py3-none-any.whl (from mujoco==3.3.7)
+Processing /work/input/wheels/glfw-2.11.0-py2.py3-none-manylinux2014_x86_64.whl (from mujoco==3.3.7)
+Processing /work/input/wheels/pyopengl-3.1.10-py3-none-any.whl (from mujoco==3.3.7)
+Processing /work/input/wheels/starlette-0.46.2-py3-none-any.whl (from fastapi==0.115.12)
+Processing /work/input/wheels/pydantic-2.14.1-py3-none-any.whl (from fastapi==0.115.12)
+Processing /work/input/wheels/typing_extensions-4.16.0-py3-none-any.whl (from fastapi==0.115.12)
+Processing /work/input/wheels/anyio-4.15.1-py3-none-any.whl (from httpx==0.28.1)
+Processing /work/input/wheels/certifi-2026.10.19-py3-none-any.whl (from httpx==0.28.1)
+Processing /work/input/wheels/httpcore-1.0.9-py3-none-any.whl (from httpx==0.28.1)
+Processing /work/input/wheels/idna-3.20-py3-none-any.whl (from httpx==0.28.1)
+Processing /work/input/wheels/cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from cryptography==44.0.3)
+Processing /work/input/wheels/python_dotenv-1.2.4-py3-none-any.whl (from pydantic-settings==2.8.1)
+Processing /work/input/wheels/click-8.5.0-py3-none-any.whl (from uvicorn==0.34.2)
+Processing /work/input/wheels/h11-0.16.0-py3-none-any.whl (from uvicorn==0.34.2)
+Processing /work/input/wheels/async_timeout-5.0.1-py3-none-any.whl (from aiokafka==0.12.0)
+Processing /work/input/wheels/packaging-26.3-py3-none-any.whl (from aiokafka==0.12.0)
+Processing /work/input/wheels/requests-2.34.2-py3-none-any.whl (from twilio==9.5.2)
+Processing /work/input/wheels/pyjwt-2.15.1-py3-none-any.whl (from twilio==9.5.2)
+Processing /work/input/wheels/aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from twilio==9.5.2)
+Processing /work/input/wheels/aiohttp_retry-2.9.1-py3-none-any.whl (from twilio==9.5.2)
+Processing /work/input/wheels/aiohappyeyeballs-2.7.1-py3-none-any.whl (from aiohttp>=3.8.4->twilio==9.5.2)
+Processing /work/input/wheels/aiosignal-1.4.0-py3-none-any.whl (from aiohttp>=3.8.4->twilio==9.5.2)
+Processing /work/input/wheels/attrs-26.1.0-py3-none-any.whl (from aiohttp>=3.8.4->twilio==9.5.2)
+Processing /work/input/wheels/frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (from aiohttp>=3.8.4->twilio==9.5.2)
+Processing /work/input/wheels/multidict-7.1.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from aiohttp>=3.8.4->twilio==9.5.2)
+Processing /work/input/wheels/propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from aiohttp>=3.8.4->twilio==9.5.2)
+Processing /work/input/wheels/yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from aiohttp>=3.8.4->twilio==9.5.2)
+Processing /work/input/wheels/pycparser-3.12-py3-none-any.whl (from cffi>=1.12->cryptography==44.0.3)
+Processing /work/input/wheels/annotated_types-0.8.0-py3-none-any.whl (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.12)
+Processing /work/input/wheels/pydantic_core-2.50.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.12)
+Processing /work/input/wheels/typing_inspection-0.4.4-py3-none-any.whl (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.12)
+Processing /work/input/wheels/charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from requests>=2.0.0->twilio==9.5.2)
+Processing /work/input/wheels/urllib3-2.8.0-py3-none-any.whl (from requests>=2.0.0->twilio==9.5.2)
+Processing /work/input/wheels/fsspec-2026.9.0-py3-none-any.whl (from etils[epath]->mujoco==3.3.7)
+Processing /work/input/wheels/zipp-4.1.2-py3-none-any.whl (from etils[epath]->mujoco==3.3.7)
+Installing collected packages: pyopengl, glfw, zipp, urllib3, typing-extensions, redis, python-multipart, python-dotenv, PyJWT, pycparser, propcache, packaging, numpy, multidict, idna, h11, fsspec, frozenlist, etils, click, charset_normalizer, certifi, attrs, async-timeout, annotated-types, aiohappyeyeballs, absl-py, yarl, uvicorn, typing-inspection, requests, pydantic-core, httpcore, cffi, anyio, aiosignal, aiokafka, starlette, pydantic, httpx, cryptography, aiohttp, pydantic-settings, mujoco, fastapi, aiohttp-retry, twilio
+Successfully installed PyJWT-2.15.1 absl-py-2.5.1 aiohappyeyeballs-2.7.1 aiohttp-3.14.5 aiohttp-retry-2.9.1 aiokafka-0.12.0 aiosignal-1.4.0 annotated-types-0.8.0 anyio-4.15.1 async-timeout-5.0.1 attrs-26.1.0 certifi-2026.10.19 cffi-2.1.1 charset_normalizer-3.5.2 click-8.5.0 cryptography-44.0.3 etils-1.14.0 fastapi-0.115.12 frozenlist-1.8.0 fsspec-2026.9.0 glfw-2.11.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 mujoco-3.3.7 multidict-7.1.0 numpy-2.0.2 packaging-26.3 propcache-0.5.4 pycparser-3.12 pydantic-2.14.1 pydantic-core-2.50.1 pydantic-settings-2.8.1 pyopengl-3.1.10 python-dotenv-1.2.4 python-multipart-0.0.20 redis-5.2.1 requests-2.34.2 starlette-0.46.2 twilio-9.5.2 typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-2.8.0 uvicorn-0.34.2 yarl-1.25.1 zipp-4.1.2

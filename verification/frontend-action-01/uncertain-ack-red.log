@@ -1,0 +1,14 @@
+.....F........
+======================================================================
+FAIL: test_uncertain_control_ack_never_claims_recovery (test_console_auth.ConsoleAuth.test_uncertain_control_ack_never_claims_recovery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/services/tests/test_console_auth.py", line 35, in test_uncertain_control_ack_never_claims_recovery
+    with self.assertRaises(ValueError):asyncio.run(c.command('recover',{'schema':'aeris.lab-command.v1','command_id':'command-one','action_id':'one'}))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.049s
+
+FAILED (failures=1)

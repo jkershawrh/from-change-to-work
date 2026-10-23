@@ -1,0 +1,289 @@
+{
+  "config": {
+    "argv": [
+      "/Users/jkershaw/.local/node-v22.15.0-darwin-arm64/bin/node",
+      "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/playwright.config.ts",
+    "rootDir": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests",
+        "testIgnore": [],
+        "testMatch": [
+          "cinema.spec.ts"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "verification/cinema-01/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "cinema.spec.ts",
+      "file": "cinema.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "all cinematic chapters and mechanism reveals fit stage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5705,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T00:40:06.677Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-025cc829899b8a55eba5",
+          "file": "cinema.spec.ts",
+          "line": 4,
+          "column": 104
+        },
+        {
+          "title": "all cinematic chapters and mechanism reveals fit laptop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5111,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T00:40:12.755Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-48f3e6277954b35de894",
+          "file": "cinema.spec.ts",
+          "line": 4,
+          "column": 104
+        },
+        {
+          "title": "all cinematic chapters and mechanism reveals fit mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4563,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T00:40:17.877Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-a8d0ade3d07ad23a31bd",
+          "file": "cinema.spec.ts",
+          "line": 4,
+          "column": 104
+        },
+        {
+          "title": "voice clock plays, pauses and seeks without running a robot action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2887,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T00:40:22.452Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-1e9cad4bbbd2770b2117",
+          "file": "cinema.spec.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "authenticated observations populate only the current session payoff",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1634,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T00:40:25.348Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-783a8663926b47ee3ba5",
+          "file": "cinema.spec.ts",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "packaged video has verified metadata and a playable nonempty MP4 stream",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1531,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T00:40:26.996Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-1c6b7ece47f7762351da",
+          "file": "cinema.spec.ts",
+          "line": 38,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-23T00:40:06.292Z",
+    "duration": 22346.161,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

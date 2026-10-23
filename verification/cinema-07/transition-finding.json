@@ -1,0 +1,7 @@
+{
+  "finding": "A new chapter heading was recorded while the sampled live canvas still held the previous scene image.",
+  "retained_before": "scene-1-before.png",
+  "correction": "Use synchronous decoded-image selection on the export clock; decoded live images update before browser paint.",
+  "regression": "presentation/src/cinema/plates.test.ts",
+  "scope": "Visual scene handoff only; no runtime execution change"
+}

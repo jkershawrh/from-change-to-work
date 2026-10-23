@@ -1,0 +1,65 @@
+{
+  "schema": "evy-aeris.action-module-descriptor.v1",
+  "id": "capability-transfer",
+  "version": 3,
+  "implementation": "crates/aeris-skill-transfer",
+  "entrypoint": "aeris-skill-transfer LOCAL_CONFIG DATABASE action REQUEST_FILE",
+  "request_contract": "evy-aeris.transfer-action.v1",
+  "result_contract": "evy-aeris.transfer-action-result.v1",
+  "trust": "Operator-local config; no producer-supplied trust, interpreter, plugin or shell command",
+  "shared_process": [
+    "bind immutable action request",
+    "receive expected approved capability or reuse verified staged bytes",
+    "verify identity and compatibility",
+    "activate only at idle",
+    "execute the expected release locally",
+    "retain receipt",
+    "return receipt without reexecution on terminal retry"
+  ],
+  "qualified_profile": "mujoco-six-axis-goals-v1",
+  "example_capabilities": [
+    "inspection-positioning",
+    "rework-positioning"
+  ],
+  "extension_requirements": [
+    "explicit signed capability origin and bounded artifacts",
+    "reviewed local executor/profile and compatibility rules",
+    "local admission and stop constraints",
+    "business acceptance checks",
+    "shared contract/crash/disconnection/recovery proof",
+    "exact receipt scope and source/binary identities"
+  ],
+  "integration_status": {
+    "local_rust_action_interface": "implemented; see recorded qualification result",
+    "evy_action_registration": "verified in isolated deployment of existing EVY FastAPI gateway with private source-bound patch; /actions/catalog and /actions/capability-transfer; not production rollout",
+    "aeris_existing_usecase_catalog": "not registered",
+    "dynamic_plugin_loading": false,
+    "physical_motion_authorized": false,
+    "frontend_action_use_case": "implemented through the real EVY action interface; separate from the authored fixture UseCase catalog"
+  },
+  "evy_request_contract": "evy.capability-action.v1",
+  "network_adapter": "services/edge_gateway.py; reuses the retained proof Inbox/worker and adds bounded simulator-only observation/interruption/recovery",
+  "qualification": {
+    "result": "verification/evy-action-integration-03/result.json",
+    "proof": "proof/skill_transfer_network_v1/runs/flightpath-002",
+    "scope": "Intel/RHEL distinct-node simulation on OpenShift; physical motion disabled"
+  },
+  "frontend": {
+    "entry": "/?actions=1",
+    "component": "frontend/src/actions/TransferWorkbench.tsx",
+    "mode_separation": [
+      "RETAINED_FLIGHTPATH_PROOF",
+      "LIVE_SIMULATION"
+    ],
+    "controls": [
+      "transfer",
+      "disconnect",
+      "reconnect",
+      "interrupt_simulator",
+      "explicit_recover"
+    ],
+    "physical_motion_authorized": false
+  },
+  "reference_console": "services/action_console",
+  "handoff_repository": "https://github.com/jkershawrh/evy-aeris-edge-actions"
+}

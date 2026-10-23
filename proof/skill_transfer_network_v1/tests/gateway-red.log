@@ -1,0 +1,22 @@
+E
+======================================================================
+ERROR: test_gateway (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_gateway
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/test_gateway.py", line 5, in <module>
+    g=importlib.util.module_from_spec(spec);spec.loader.exec_module(g)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 982, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1039, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/gateway.py'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

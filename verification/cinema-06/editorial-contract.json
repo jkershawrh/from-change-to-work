@@ -1,0 +1,21 @@
+{
+  "status": "PASS_REPRODUCIBLE_AUDIO_EDIT",
+  "active_files_reproduced_byte_for_byte": {
+    "captions.vtt": true,
+    "ambient.wav": true,
+    "plan.json": true,
+    "film-mix.wav": true,
+    "captions.srt": true,
+    "narration.wav": true
+  },
+  "captions_match_edited_script": true,
+  "voice_profile_unchanged": true,
+  "provider_requests": 0,
+  "speaking_speed_changed": false,
+  "source_edition_preserved": true,
+  "duration_seconds": 326.4519954648526,
+  "removed_from_previous_film_seconds": 51.308004535147404,
+  "chapter_gap_seconds": 0.55,
+  "closing_hold_seconds": 2.2,
+  "scope": "Local editorial integrity and timing; subjective listening is not asserted."
+}

@@ -1,0 +1,5 @@
+prune: Removed types... Mesh (952), Node (952), Primitive (1613), Accessor (5002)
+prune: Detected single-color specularTexture texture. Pruning specularTexture not yet supported.
+prune: Detected single-color specularTexture texture. Pruning specularTexture not yet supported.
+prune: Removed types... Texture (1), Accessor (61)
+{"schema":"robot-demo.approved-scene.v1","source":"USER_APPROVED_C17_REVIEW_SCENE","source_asset_sha256":"b50c651330f108b6330b918937a46d2aecedbdf96d2ab31ba41a45a3a5494de1","sha256":"990803394c56f755bf7bba7ee8e6ef2bc3a799ec67f0160a30c89d89be2d0c95","bytes":12582708,"meshes":34,"materials":32,"static_robot_included":false,"scope":"Illustrative aircraft and hangar. The demo supplies the existing articulated simulator robot. No execution evidence or calibration."}

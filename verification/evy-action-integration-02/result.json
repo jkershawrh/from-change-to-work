@@ -1,0 +1,92 @@
+{
+  "schema": "aeris.evy-action-integration-checkpoint.v1",
+  "observed_utc": "2026-10-22T21:43:54.151490+00:00",
+  "aeris_base_commit": "60a78130373e459e4b0df5ed37aa9ec0cb8566d8",
+  "evy_base_commit": "ec644a54f6d39df48dc9da93f9593c49be091ebd",
+  "delivery": "Private AERIS patch against tracked EVY API gateway; no push to public EVY origin.",
+  "tests": {
+    "action_tests": 12,
+    "regression_passed": 69,
+    "regression_skipped": 6,
+    "hardening_red_failures": 2
+  },
+  "scope": "Local Python action dispatcher and actual EVY FastAPI route registration only. Existing Rust action source unchanged. No edge HTTP gateway, frontend, network execution or host-to-host loop implemented in this patch.",
+  "rubric": [
+    {
+      "id": "TDD",
+      "status": "GREEN",
+      "scope": "Local action adapter: retained initial missing-module red and two hardening failure cases, then passing tests."
+    },
+    {
+      "id": "CDD",
+      "status": "AMBER",
+      "scope": "Strict intent and role/destination binding checked locally; complete network receipt contract unqualified."
+    },
+    {
+      "id": "BDD",
+      "status": "AMBER",
+      "scope": "Actual EVY routes tested disabled, viewer-read, viewer-write refusal and unknown-target refusal; remote execution absent."
+    },
+    {
+      "id": "CBT",
+      "status": "RED",
+      "scope": "EVY-to-edge HTTP boundary and separate-host Rust execution not yet tested."
+    },
+    {
+      "id": "EDD",
+      "status": "AMBER",
+      "scope": "Source-bound patch and test logs retained; no separate-host execution trace exists."
+    },
+    {
+      "id": "INTEL_RED_HAT_SEPARATE_HOST",
+      "status": "RED",
+      "scope": "Not executed."
+    },
+    {
+      "id": "LAB_TRUST_BOOTSTRAP",
+      "status": "AMBER",
+      "scope": "Temporary TOFU pins, no independent CA authentication."
+    }
+  ],
+  "lab_access": {
+    "oberon": {
+      "api": "https://api.oberon.fm2aihpcsed.com:6443",
+      "api_version": "v1.35.5",
+      "tls": "API verified under temporary lab-only CA pin. OAuth TLS 1.2 and 1.3 fail with EOF before password prompt. oc login returns EOF. No password submitted, no resources changed.",
+      "evy_location": "UNVERIFIED",
+      "ca_sha256": [
+        "bef25e63d6aff0f650efaf4aedc953738ad1f0ea579ff367a35f01b9623117e9",
+        "91e05a27a7bee34e44d0212df15ed9eed187f0ab79371b72405fd77db573a6af"
+      ]
+    },
+    "flightpath": {
+      "login": "SUCCESS",
+      "node_count": 6,
+      "node_os": "Red Hat Enterprise Linux CoreOS 9.6.20260407-0",
+      "cpu_vendor": "NOT_MEASURED",
+      "deployment_search": {
+        "routes_scanned": 48,
+        "deployments_scanned": 358,
+        "filter": [
+          "evy",
+          "aeris",
+          "edge-inference",
+          "api-gateway",
+          "summit"
+        ],
+        "matches": 0,
+        "limitation": "Filtered name/image/route metadata search; does not establish absence of all possible EVY deployments."
+      },
+      "proof_resources_created": 0
+    }
+  },
+  "next_gate": "Working authenticated cluster access, isolated proof namespace, preregistered distinct-node execution through actual EVY action adapter and Rust executor, disconnect/recovery and independently audited receipts.",
+  "files": {
+    "evy-capability-action.patch": "8edebed6c1d3b36d5484fea06c4352d4fe9a5fe51d96f0674a32e1a1d2e0c008",
+    "gateway-tests.log": "2a29f3a18a7bef7bc9239f3cb26939f5a9e686520dfdb9db2dc259971aee3b59",
+    "hardening-green.log": "c77b20d64289b86c995a30c3e8723255b1692bc9b8945d778bfc895876ebff6d",
+    "hardening-red.log": "26877b1f19a5a72fc602ff69ae23f23af0888e7fb9e893feef1e0dd5ec277cc4",
+    "initial-red.log": "5e1098a4806659012cfb0db7d3afbae2294cc131d825c0b5d0348a05994d0b3b",
+    "regression-tests.log": "909fbe2a4722c9784aa7f3a706342b188f3ad57235f40721be6df3e8f29a32b1"
+  }
+}

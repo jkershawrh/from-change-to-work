@@ -1,0 +1,11 @@
+{
+  "status": "MATCH",
+  "scope": "Fresh idle preview registration, not an execution proof",
+  "registered_files": 171,
+  "active_story_files": {
+    "presentation/public/audio/cinema-02/plan.json": "12fe87d4809a14c892cd1065df529869c7bb8584795cc387b669fcff93d796d0",
+    "presentation/audio/cinema-02/script.json": "b9ffcc7d6041e52b73d174dc6922ccac3e9a28ce29057066288ef5b7995b7e14",
+    "presentation/src/cinema/process.ts": "ed8a7f37f70208dad13f8fc0b25a6872b6a2c74cd225e396496a7f64c40793bf",
+    "presentation/src/cinema/ProcessStage.tsx": "8b68576e011adb038076461fa9df2af53d97cfcb4eab264a0a19072f5db0f421"
+  }
+}

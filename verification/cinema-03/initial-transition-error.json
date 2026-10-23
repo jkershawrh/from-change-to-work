@@ -1,0 +1,1 @@
+{"status":"RESOLVED","observed":"Failed to execute removeChild on Node during the initial flow/cell transition","cause":"Transient DOM-overlay label portals during 3D scene changes","change":"All in-world labels now use local-font WebGL textures; no DOM label portals remain","recheck":"Repeated flow, hangar, detail, cell and return transitions produced zero browser errors"}

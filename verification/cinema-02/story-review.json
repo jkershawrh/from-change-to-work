@@ -1,0 +1,21 @@
+{
+  "schema": "story.revision-review.v1",
+  "business_review": "docs/BUSINESS_STORY.md",
+  "audience_identity": "From change to work",
+  "distinct_scene_kinds": [
+    "production",
+    "engineering",
+    "delivery",
+    "execution",
+    "recovery",
+    "modules",
+    "decision"
+  ],
+  "source_files_reviewed": 21,
+  "business_value": "UNMEASURED_HYPOTHESIS",
+  "saved_voice_settings": "EXACT_MATCH",
+  "production_story": "RETAINED_SIMULATOR_AND_ILLUSTRATIONS",
+  "actuation_authority": "NONE",
+  "backend_contract_change": false,
+  "hardware_qualification": "NOT_PERFORMED_BY_VISUAL_REVISION"
+}

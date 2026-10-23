@@ -1,0 +1,17 @@
+# Aerospace hangar and spatial architecture
+
+This revision adds a procedural aerospace assembly hangar around the existing MJCF-derived robot: airframe shell, frame rings, fasteners, wings/nacelles, overhead trusses and crane, floor markings, service equipment, tooling carts, shelving and assembly fixtures. It adds wide, cell and robot-detail camera views, orbit, blueprint, and exploded robot assembly inspection. These are illustrative visual assets; no physical installation, calibrated inspection or safety claim follows from them.
+
+The 3D architecture explains seven causal stages: approved recipe, immutable dispatch, delivery, local admission, idle activation, local execution and retained receipt. The authenticated observer is separate. Delivery, local control and evidence use distinct paths. The local-control nodes stay within the local boundary. Selecting an event reveals responsibility, checks and a repository source; hover and keyboard controls remain passive.
+
+This is a causal process view, not an assertion that the bundle transits the central dispatcher. The dispatcher binds an action and destination; the local executor fetches exact signed recipe bytes from the configured publisher. The delivery stage aggregates these bounded HTTPS operations. The existing blueprint and source remain authoritative for the underlying service/API topology.
+
+The original cinema-01 and cinema-02 evidence is unchanged. Red-first event-contract output, initial browser failures and their corrections are retained here. The first scene-transition pass found a DOM-overlay label removal error; in-world labels are now WebGL textures. The first spatial test sought before the asynchronous narration clock was ready; it now waits for positive duration. Current checks and media reports are recorded in this directory.
+
+The film reuses cinema-02's complete saved Kersh narration and exact voice profile. No new provider generation is performed. Camera geometry and logos preserve aspect ratio in export. Narration, event animation, orbit, blueprint and exploded controls have no actuation authority. This visual revision does not qualify a new host, physical robot, production value or real-time behavior.
+
+The first encoded-media review caught a misplaced connection-cut card in the architecture chapter. `initial-encoded-architecture.png`, `initial-encoded-media.json` and `initial-compositor-review.json` retain that failure. Stream decoding alone had passed; it was not visual approval. The first download was withdrawn. The compositor now has mutually exclusive chapter callouts, with `record.test.ts` proving the architecture cannot inherit the disconnect claim. `red-compositor.log` retains the actual failing assertion before the fix. A complete corrected recording and encode replace the withdrawn delivery.
+
+The final source registration is separate from the earlier idle preview because the compositor changed after that initial registration. This is source/build registration only; no new robot task or hardware proof is inferred. All visual components remain passive and source-addressable: `Hangar.tsx` provides reusable scenery, `EventFlow.tsx` renders the typed `events.ts` process, and `SceneLabel.tsx` preserves labels in WebGL/video.
+
+Hosted run 39888274457 started no steps: GitHub reports failed account payments or an insufficient spending limit. See `hosted-check-status.json`. This infrastructure block is separate from the passing local checks; no billing change was made.

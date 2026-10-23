@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/verify_story_music.py", line 15, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/verify_story_music.py", line 11, in main
+    base=ROOT/'presentation/public/audio/cinema-07';voice=read(base/'narration.wav');original=read(ROOT/'presentation/public/audio/cinema-06/narration.wav');assert np.array_equal(voice,original),'Voice take must remain unchanged';music=read(base/'ambient.wav');mix=read(base/'film-mix.wav');assert len(voice)==len(music)==len(mix)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/verify_story_music.py", line 7, in read
+    with wave.open(str(p),'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/wave.py", line 649, in open
+    return Wave_read(f)
+           ^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+        ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/public/audio/cinema-07/narration.wav'

@@ -1,0 +1,54 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test
+
+
+Running 7 tests using 1 worker
+
+(node:95484) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage (6.3s)
+  ✓  2 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop (4.8s)
+  ✓  3 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile (3.8s)
+  ✓  4 visual-tests/cinema.spec.ts:29:1 › voice clock plays, pauses and seeks without running a robot action (2.7s)
+  ✘  5 visual-tests/cinema.spec.ts:35:1 › authenticated observations populate only the current session payoff (7.1s)
+(node:95654) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  6 visual-tests/cinema.spec.ts:41:1 › packaged video has verified metadata and a playable nonempty MP4 stream (1.7s)
+  ✓  7 visual-tests/cinema.spec.ts:46:1 › business illustrations explain their elements on hover and keyboard focus (3.1s)
+
+
+  1) visual-tests/cinema.spec.ts:35:1 › authenticated observations populate only the current session payoff 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('.cine-payoff')
+    Expected substring: "AWAITING_ACTION"
+    Received string:    "CURRENT SESSION / LIVE SIMULATION OBSERVATIONAWAITING ACTION0 committed ticks observed at 8:36:02 PM. This is not an independent audit.Continue into the dashboard Close presentation Next: named compute hosts, a bounded capability, an acceptance owner."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('.cine-payoff') with timeout 5000ms
+      - waiting for locator('.cine-payoff')
+        14 × locator resolved to <div class="cine-payoff">…</div>
+           - unexpected value "CURRENT SESSION / LIVE SIMULATION OBSERVATIONAWAITING ACTION0 committed ticks observed at 8:36:02 PM. This is not an independent audit.Continue into the dashboard Close presentation Next: named compute hosts, a bounded capability, an acceptance owner."
+
+
+      37 |  const {readFileSync}=await import('node:fs'),{join}=await import('node:path');const code=readFileSync(join(process.env.AERIS_TEST_STATE!,'central/private/viewer-code'),'utf8').trim();const origin=process.env.AERIS_TEST_URL??'http://127.0.0.1:8090'
+      38 |  expect((await page.request.post('/api/action-demo/session',{headers:{Origin:origin,'X-Aeris-Action':'v1'},data:{code}})).status()).toBe(200)
+    > 39 |  const current=await page.request.get('/api/action-demo/export').then(r=>r.json());const plan=await page.request.get('/show/audio/cinema-02/plan.json').then(r=>r.json());await page.goto('/show/?t='+plan.chapters[6].start);await expect(page.locator('.cine-payoff')).toContainText('NOT OBSERVED');await page.getByRole('button',{name:'Read session observations',exact:true}).click();await expect(page.locator('.cine-evidence')).toContainText((current.state.action?.action_id??current.state.phase));await page.getByRole('button',{name:'Close evidence'}).click();await expect(page.locator('.cine-payoff')).toContainText(current.state.phase);await expect(page.locator('.cine-payoff')).toContainText('not an independent audit')
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^
+      40 | })
+      41 | test('packaged video has verified metadata and a playable nonempty MP4 stream',async({page})=>{
+      42 |  const report=await page.request.get('/show/film/production.json');expect(report.status()).toBe(200);expect((await report.json()).status).toBe('PASS_ENCODED_MEDIA')
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:39:602
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/cinema-authenticated-obser-99435--the-current-session-payoff/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/cinema-authenticated-obser-99435--the-current-session-payoff/error-context.md
+
+  1 failed
+    visual-tests/cinema.spec.ts:35:1 › authenticated observations populate only the current session payoff 
+  6 passed (32.7s)

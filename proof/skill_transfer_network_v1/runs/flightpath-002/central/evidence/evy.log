@@ -1,0 +1,24 @@
+INFO:     Started server process [81]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on https://0.0.0.0:8444 (Press CTRL+C to quit)
+INFO:     127.0.0.1:38176 - "GET /actions/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38188 - "POST /actions/capability-transfer HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:38196 - "POST /actions/capability-transfer HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:52158 - "POST /actions/capability-transfer HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:52174 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35474 - "GET /actions/capability-transfer/inspection-disconnected HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:35486 - "GET /actions/capability-transfer/inspection-disconnected HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40716 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:40720 - "POST /actions/capability-transfer HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:38330 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:49764 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:49774 - "GET /actions/capability-transfer/wrong-release HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41254 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:41270 - "GET /actions/capability-transfer/rework-interrupted HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44192 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:44194 - "GET /actions/capability-transfer/rework-recovered HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44198 - "GET /actions/capability-transfer/rework-recovered HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44206 - "GET /actions/capability-transfer/rework-recovered HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56868 - "GET /actions/capability-transfer/rework-recovered HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56882 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted

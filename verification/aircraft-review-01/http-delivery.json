@@ -1,0 +1,17 @@
+[
+  {
+    "view": "01-hangar",
+    "status": "PASS",
+    "sha256": "6ad1eb878e6f146aec75ff36da0e8e131984985906ea0bc75f44bd4407d47a61"
+  },
+  {
+    "view": "02-aircraft-detail",
+    "status": "PASS",
+    "sha256": "fff5b36bb8cf3b0a8f659bd9aaf2456dc94554539608848a1a3825bb22a473a3"
+  },
+  {
+    "view": "03-robot-cell",
+    "status": "PASS",
+    "sha256": "f52fccad25d78f28ca21e10a171c800fbd63ba675d31d7f6312f79b9a906b5e7"
+  }
+]

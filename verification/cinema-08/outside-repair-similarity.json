@@ -1,0 +1,9 @@
+{
+  "status": "PASS_NO_UNEXPECTED_PICTURE_CHANGE",
+  "compared_frames": 8131,
+  "minimum_ssim": 0.999601,
+  "minimum_at_movie_second": 137.92,
+  "comparison_resolution": "160x90",
+  "excluded": "Two declared repairs plus 80ms boundary tolerance",
+  "threshold": 0.98
+}

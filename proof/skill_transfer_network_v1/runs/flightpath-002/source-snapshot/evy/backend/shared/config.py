@@ -1,0 +1,151 @@
+"""Shared configuration settings for Edge Inference at Scale services."""
+from pydantic_settings import BaseSettings
+from typing import Optional
+
+
+class Settings(BaseSettings):
+    """Application settings loaded from environment variables."""
+
+    env: str = "development"
+
+    # Node identity
+    node_id: str = "edge-node-001"
+
+    # SMS mode: "sim" (web simulator) or "twilio" (real SMS)
+    sms_mode: str = "sim"
+
+    # Twilio (only when sms_mode=twilio)
+    twilio_account_sid: Optional[str] = None
+    twilio_auth_token: Optional[str] = None
+    twilio_phone_number: Optional[str] = None
+
+    # Discord interaction testing (optional)
+    discord_public_key: Optional[str] = None
+    discord_command_name: str = "ask"
+    discord_api_base: str = "https://discord.com/api/v10"
+    discord_ephemeral: bool = True
+
+    # BitNet inference server
+    bitnet_server_url: str = "http://bitnet-server:8080"
+    model_name: str = "bitnet-2b4t"
+
+    # Model / LLM
+    generation_enabled: bool = True
+    llm_provider: str = "bitnet"
+    default_model: str = "bitnet-2b4t"
+    embedding_model: str = "all-MiniLM-L6-v2"
+    embedding_cache_dir: str = "/data/models/embedding_cache"
+    embedding_model_dir: str = "/opt/models"
+    embedding_require_local_model: bool = False
+    rag_min_similarity: float = 0.4
+    rag_candidate_pool_multiplier: int = 4
+    rag_candidate_pool_min: int = 10
+
+    # Vector Database
+    chroma_host: str = "chromadb"
+    chroma_port: int = 8000
+    chroma_persist_dir: str = "/data/chroma"
+
+    # Data
+    summit_data_dir: str = "/data/summit_connect"
+    corpus_manifest_path: Optional[str] = None
+    corpus_event_id: Optional[str] = None
+    corpus_version: Optional[str] = None
+    corpus_public_key_path: Optional[str] = None
+    corpus_require_signature: bool = False
+    corpus_read_only: bool = False
+    corpus_activation_root: Optional[str] = None
+
+    # Opt-in disconnected trusted-time and revocation enforcement. Disabled in
+    # labs until a field profile supplies dedicated authority keys and evidence.
+    offline_trust_enabled: bool = False
+    offline_trust_state_path: str = "/data/offline-trust/state.json"
+    offline_trust_boot_id_path: str = "/proc/sys/kernel/random/boot_id"
+    offline_trust_anchor_path: Optional[str] = None
+    offline_trust_revocation_snapshot_path: Optional[str] = None
+    offline_trust_time_public_key_path: Optional[str] = None
+    offline_trust_revocation_public_key_path: Optional[str] = None
+    offline_trust_time_key_id: Optional[str] = None
+    offline_trust_revocation_key_id: Optional[str] = None
+    offline_trust_release_signing_key_id: Optional[str] = None
+    offline_trust_site_id: Optional[str] = None
+    offline_trust_generation: int = 0
+    offline_trust_max_snapshot_age_seconds: int = 0
+
+    # Durable message stream. Redis Streams is the lightweight field default;
+    # Kafka remains available for connected OpenShift/AMQ Streams labs.
+    stream_backend: str = "redis"
+    redis_url: str = "redis://redis:6379/0"
+    kafka_bootstrap_servers: str = "kafka:9092"
+
+    # Message stream
+    stream_topic: str = "sms.inbound"
+    stream_consumer_group: str = "processors"
+    stream_max_len: int = 10000
+    stream_claim_idle_ms: int = 30000
+
+    # Chat history
+    chat_history_max_turns: int = 10
+    chat_history_ttl_seconds: int = 3600
+
+    # Service URLs (internal container networking)
+    sms_gateway_url: str = "http://sms-gateway:8001"
+    message_router_url: str = "http://message-router:8002"
+    llm_inference_url: str = "http://llm-inference:8003"
+    rag_service_url: str = "http://rag-service:8004"
+    privacy_filter_url: str = "http://privacy-filter:8005"
+
+    # Service Ports
+    api_gateway_port: int = 8000
+    sms_gateway_port: int = 8001
+    message_router_port: int = 8002
+    llm_inference_port: int = 8003
+    rag_service_port: int = 8004
+    privacy_filter_port: int = 8005
+
+    # Fleet control plane. Production requires an operator-owned enrollment
+    # registry and durable replay state. "lab" is an explicit compatibility
+    # mode for the local scale simulator only.
+    fleet_auth_mode: str = "required"
+    fleet_node_registry_path: str = "/etc/lil-evy/fleet/nodes.json"
+    fleet_replay_state_path: str = "/var/lib/lil-evy/fleet/replay.sqlite3"
+    fleet_max_clock_skew_seconds: int = 300
+
+    # Rate Limiting
+    max_sms_per_minute: int = 10
+    max_sms_per_hour: int = 100
+
+    # Edge load envelope
+    sms_inbound_queue_maxsize: int = 500
+    sms_outbound_queue_maxsize: int = 1000
+    sms_forward_max_retries: int = 3
+    sms_forward_retry_backoff_seconds: int = 2
+    sms_router_timeout_seconds: float = 60.0
+    llm_request_timeout_seconds: float = 60.0
+    llm_max_inflight_requests: int = 2
+    rag_direct_threshold: float = 0.55
+    rag_direct_max_chars: int = 400
+    rag_min_vector_confidence: float = 0.0
+    api_gateway_proxy_timeout_seconds: float = 125.0
+    rag_grounding_required: bool = False
+    emergency_rag_enabled: bool = False
+    grounding_failure_message: str = (
+        "I can't verify that from the active local information. "
+        "Please use a trusted local source or responder."
+    )
+    emergency_grounding_failure_message: str = (
+        "I can't verify current emergency guidance. "
+        "Use a trusted local responder or posted emergency instructions."
+    )
+    rag_chunk_size_chars: int = 600
+    rag_chunk_overlap_chars: int = 120
+
+    # Security
+    secret_key: str = "change_this_secret_key_in_production"  # overridden by SECRET_KEY env var
+
+    class Config:
+        env_file = ".env"
+        case_sensitive = False
+
+
+settings = Settings()

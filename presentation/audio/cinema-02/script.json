@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cell",
+    "text": "An aerospace panel waits in its fixture. Engineering has prepared a task change, but the cell needs more than an instruction sent from somewhere else. It needs an approved task it can accept, an operator who knows what will happen, and a result that can be traced. That is our business question: how do we get from a change that is ready to work that is accountable? The production floor you see is an illustration. We have not measured factory delay or savings. We are building the smallest practical proof of the handoff, before asking a customer to bet production on it."
+  },
+  {
+    "id": "recipe",
+    "text": "Start in engineering. Package one bounded task, identify the receiving profile, and define the result we expect back. Think of this as a work package, rather than a remote hand taking over the robot. In this implementation, the package contains signed joint goals for a simulator. It carries an exact release identity. It does not install a driver, a new robot program, or trained weights. The receiving cell still has its own approval and operating limits. The exploded view separates those responsibilities: what work is proposed, where it is allowed to run, and what receipt will connect the outcome to the request."
+  },
+  {
+    "id": "architecture",
+    "text": "Now follow the change across the distance. An operator chooses the approved capability. The central dispatcher binds the request to its destination and release. The delivery channel moves the package. At the receiving boundary, the local runtime checks what arrived against what that cell is allowed to accept. Only an idle executor can activate it. Once work starts, the task keeps its exact release. Each boundary answers a business question: did we send the right change, did the right cell accept it, and can we account for what happened? The technical checks are available for inspection. The overarching idea is simple: remote delivery, local responsibility."
+  },
+  {
+    "id": "disconnect",
+    "text": "This is where the robot earns its place in the story. The cell has accepted the task. Local execution now owns the movement. Cut the central data plane after progress has begun. In the retained simulator proof, the finite task completes without that central path. The separate management observer remains available; this is not a total network blackout or a safety stop. The robot poses replay committed simulator samples. To challenge the mechanism yourself, open the workbench and use the real transfer and disconnect controls. Reconnect and retry the same completed request: the receipt returns, rather than starting the movement again."
+  },
+  {
+    "id": "recovery",
+    "text": "A lost connection and a lost executor are different problems. If the executor dies, we cannot turn uncertainty into a success message. Follow the work history. The old task remains visible. Explicit recovery records it as interrupted. It does not silently resume the movement. If the operator decides to try again, that is a deliberately new action, with its own identity and outcome. This is the operational value we want to test: can the team understand what happened, recover deliberately, and avoid accidental repeated work? The evidence must answer that question. A polished animation cannot answer it for us."
+  },
+  {
+    "id": "ecosystem",
+    "text": "Now change the task. Inspection positioning and rework positioning already exercise the same delivery and recovery process in simulation. The reusable part is the handoff: bind the request, admit the release, execute locally, retain the receipt, and recover explicitly. Machine tending and other cell types are possible next modules, shown here as concepts. Their device interfaces, calibration, tooling and acceptance still need reviewed adapters. Intel and Red Hat provide the target compute and platform context. Historical separate-host evidence used Intel processors and Red Hat Enterprise Linux on OpenShift. That evidence does not qualify a new host, demonstrate accelerator benefit, or establish a physical robot installation."
+  },
+  {
+    "id": "qualify",
+    "text": "The next commitment is a focused pilot, not a fleet promise. Choose one bounded task, name the central and edge hosts, and give acceptance to an owner. Measure the effort from approved release to accepted task, the manual handoffs, the recovery effort, and the verified result. Use the dashboard and agent start packet to inspect the implementation and run the tests. Keep software evidence, compute qualification, and physical cell acceptance distinct. Red, amber and green must refer to a specific test and its scope. I am Kersh. I work at Red Hat; these are my personal views. From change to work: deliver the capability, keep control local, and earn the next step with evidence."
+  }
+]

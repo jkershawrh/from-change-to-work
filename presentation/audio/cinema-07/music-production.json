@@ -1,0 +1,23 @@
+{
+  "schema": "robot-demo.original-score.v1",
+  "composition": "Original D minor / B-flat / F / C pad and soft piano arpeggio",
+  "bpm": 78,
+  "note_events": 849,
+  "music_db_below_active_voice_target": 19,
+  "duck_attack_release": "speech envelope, fast reduction and gradual recovery",
+  "master_gain": 1.0,
+  "duration_seconds": 326.4519954648526,
+  "source_narration": "cinema-06 unchanged",
+  "voice_profile_changed": false,
+  "provider_requests": 0,
+  "caption_burn_in": false,
+  "subjective_listening_performed": false,
+  "files": {
+    "captions.vtt": "f731bea2a229b335ca1b863cee9433ec9866434c88a8079a91a43843cf69bdb7",
+    "ambient.wav": "d65f25d0bb9da0454fb26007a84e1942808ed50a5a3e88c62ac1e7b6aeb26a70",
+    "plan.json": "c84bd10997b5e5f994e3109b33eb6d5e619825924b5083cec5950de8884a4b55",
+    "film-mix.wav": "73c0af895197b6426d043ac95b8674a00d51ef2714477819b69d7d4961cf738b",
+    "captions.srt": "a7dfd5813fbd922faf6662666a5bcfd2b89449b4b3b4be8bdcfd813e3cd549b7",
+    "narration.wav": "1eee26704393df289ddbe5f2d6e7f83f3484bc6310d4b54597cfe88bb17c7dae"
+  }
+}

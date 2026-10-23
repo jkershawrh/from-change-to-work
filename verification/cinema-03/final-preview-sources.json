@@ -1,0 +1,7 @@
+{
+  "status": "MATCH",
+  "registered_files": 177,
+  "scope": "Fresh idle preview source/build registration only",
+  "compositor_source": "eb3c8e1dbceb14e44c8ed57e176bcb495f8299766a8a30440383ea219eb90e43",
+  "compositor_regression_test": "3999872a09b23cd3887e53a684d33940e348050e46636dbe13f37bd29c39da95"
+}

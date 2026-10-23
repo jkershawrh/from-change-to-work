@@ -1,0 +1,62 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/public/film/from-change-to-work-approved-aircraft.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.3.100
+  Duration: 00:06:17.76, start: 0.000000, bitrate: 768 kb/s
+  Stream #0:0[0x1](eng): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt709/bt709/iec61966-2-1, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 580 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.3.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 180 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+  Stream #0:1 -> #0:1 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.3.100
+  Stream #0:0(eng): Video: wrapped_avframe, yuvj420p(pc, bt709/bt709/iec61966-2-1, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.3.100 wrapped_avframe
+  Stream #0:1(und): Audio: pcm_s16le, 44100 Hz, mono, s16, 705 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.3.100 pcm_s16le
+frame=    0 fps=0.0 q=-0.0 size=N/A time=00:00:00.30 bitrate=N/A speed=12.1x    
+frame=  330 fps=0.0 q=-0.0 size=N/A time=00:00:13.53 bitrate=N/A speed=25.6x    
+frame=  704 fps=683 q=-0.0 size=N/A time=00:00:28.44 bitrate=N/A speed=27.6x    
+frame=  998 fps=650 q=-0.0 size=N/A time=00:00:40.24 bitrate=N/A speed=26.2x    
+frame= 1305 fps=641 q=-0.0 size=N/A time=00:00:52.52 bitrate=N/A speed=25.8x    
+frame= 1700 fps=670 q=-0.0 size=N/A time=00:01:08.31 bitrate=N/A speed=26.9x    
+frame= 2122 fps=699 q=-0.0 size=N/A time=00:01:25.21 bitrate=N/A speed=28.1x    
+frame= 2557 fps=722 q=-0.0 size=N/A time=00:01:42.58 bitrate=N/A speed=  29x    
+frame= 3038 fps=752 q=-0.0 size=N/A time=00:02:01.83 bitrate=N/A speed=30.2x    
+frame= 3379 fps=743 q=-0.0 size=N/A time=00:02:15.44 bitrate=N/A speed=29.8x    
+frame= 3719 fps=737 q=-0.0 size=N/A time=00:02:29.07 bitrate=N/A speed=29.5x    
+frame= 4001 fps=721 q=-0.0 size=N/A time=00:02:40.33 bitrate=N/A speed=28.9x    
+frame= 4329 fps=716 q=-0.0 size=N/A time=00:02:53.47 bitrate=N/A speed=28.7x    
+frame= 4595 fps=701 q=-0.0 size=N/A time=00:03:04.11 bitrate=N/A speed=28.1x    
+frame= 4944 fps=701 q=-0.0 size=N/A time=00:03:18.06 bitrate=N/A speed=28.1x    
+frame= 5415 fps=717 q=-0.0 size=N/A time=00:03:36.89 bitrate=N/A speed=28.7x    
+frame= 5929 fps=736 q=-0.0 size=N/A time=00:03:57.47 bitrate=N/A speed=29.5x    
+frame= 6405 fps=749 q=-0.0 size=N/A time=00:04:16.51 bitrate=N/A speed=  30x    
+frame= 6892 fps=761 q=-0.0 size=N/A time=00:04:35.96 bitrate=N/A speed=30.5x    
+frame= 7330 fps=767 q=-0.0 size=N/A time=00:04:53.50 bitrate=N/A speed=30.7x    
+frame= 7792 fps=774 q=-0.0 size=N/A time=00:05:11.98 bitrate=N/A speed=  31x    
+frame= 8251 fps=780 q=-0.0 size=N/A time=00:05:30.32 bitrate=N/A speed=31.2x    
+frame= 8730 fps=788 q=-0.0 size=N/A time=00:05:49.57 bitrate=N/A speed=31.6x    
+frame= 9141 fps=790 q=-0.0 size=N/A time=00:06:05.92 bitrate=N/A speed=31.6x    
+frame= 9444 fps=796 q=-0.0 Lsize=N/A time=00:06:17.74 bitrate=N/A speed=31.8x    
+video:4427kB audio:32538kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown

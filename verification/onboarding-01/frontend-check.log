@@ -1,0 +1,38 @@
+
+> evy-aeris-edge-actions-frontend@0.1.0 check
+> npm run test && npm run build
+
+
+> evy-aeris-edge-actions-frontend@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/frontend
+
+
+ Test Files  2 passed (2)
+      Tests  7 passed (7)
+   Start at  18:59:12
+   Duration  843ms (transform 51ms, setup 131ms, import 37ms, tests 5ms, environment 1.23s)
+
+
+> evy-aeris-edge-actions-frontend@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 2613 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               0.72 kB │ gzip:   0.43 kB
+dist/assets/Dashboard-CGx9hCnH.css           17.32 kB │ gzip:   4.29 kB
+dist/assets/TransferWorkbench-DSMo2Dmr.css   29.31 kB │ gzip:   5.92 kB
+dist/assets/index-DclSUKqI.css               32.39 kB │ gzip:   7.67 kB
+dist/assets/with-selector-CZG6BxYk.js         1.62 kB │ gzip:   0.71 kB
+dist/assets/contracts-BXlVHMti.js             9.08 kB │ gzip:   4.02 kB
+dist/assets/Dashboard-BYwlK-bt.js            31.06 kB │ gzip:  10.62 kB
+dist/assets/TransferWorkbench-2hMSOLTG.js   196.38 kB │ gzip:  63.77 kB
+dist/assets/index-C6rJ1Oct.js               222.27 kB │ gzip:  69.81 kB
+dist/assets/ArmScene-BNwaI_8V.js            944.63 kB │ gzip: 251.48 kB
+
+✓ built in 463ms

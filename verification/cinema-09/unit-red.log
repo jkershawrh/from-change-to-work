@@ -1,0 +1,116 @@
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run --maxWorkers=1
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+ ❯ src/cinema/TitleScreen.test.tsx (3 tests | 1 failed) 129ms
+     × announces the title before entering the story 14ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/cinema/TitleScreen.test.tsx > opening title > announces the title before entering the story
+AssertionError: expected "vi.fn()" to not be called at all, but actually been called 1 times
+
+Received:
+
+  1st vi.fn() call:
+
+    Array [
+      SyntheticBaseEvent {
+        "_reactName": "onClick",
+        "_targetInst": null,
+        "altKey": false,
+        "bubbles": true,
+        "button": 0,
+        "buttons": 0,
+        "cancelable": true,
+        "clientX": 0,
+        "clientY": 0,
+        "ctrlKey": false,
+        "currentTarget": null,
+        "defaultPrevented": false,
+        "detail": 0,
+        "eventPhase": 3,
+        "getModifierState": [Function modifierStateGetter],
+        "isDefaultPrevented": [Function functionThatReturnsFalse],
+        "isPropagationStopped": [Function functionThatReturnsFalse],
+        "isTrusted": false,
+        "metaKey": false,
+        "movementX": 0,
+        "movementY": 0,
+        "nativeEvent": MouseEvent {
+          "isTrusted": false,
+        },
+        "pageX": 0,
+        "pageY": 0,
+        "relatedTarget": null,
+        "screenX": 0,
+        "screenY": 0,
+        "shiftKey": false,
+        "target": <button
+          class="cine-title-play"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-play"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"
+            />
+          </svg>
+           Watch the narrated story 
+          <span>
+            5:26
+          </span>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-arrow-right"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 12h14"
+            />
+            <path
+              d="m12 5 7 7-7 7"
+            />
+          </svg>
+        </button>,
+        "timeStamp": 1792763400313,
+        "type": "click",
+        "view": null,
+      },
+    ]
+
+
+Number of calls: 1
+
+ ❯ src/cinema/TitleScreen.test.tsx:10:451
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 12 passed (13)
+      Tests  1 failed | 54 passed (55)
+   Start at  08:49:56
+   Duration  9.24s (transform 213ms, setup 551ms, import 743ms, tests 885ms, environment 5.45s)
+

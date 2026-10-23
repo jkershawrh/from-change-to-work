@@ -1,0 +1,32 @@
+{
+  "schema": "aeris.handoff-provenance.v1",
+  "source_repository": "https://github.com/jkershawrh/aeris",
+  "baseline_commit": "26aee392eb508421839beddf7431f776950bc8b6",
+  "evy_source": "https://github.com/jkershawrh/edge-inference-at-scale",
+  "evy_base_commit": "ec644a54f6d39df48dc9da93f9593c49be091ebd",
+  "composition": "Existing AERIS React/Vite/Three/React Flow components; existing EVY gateway and action adapter; unchanged standalone Rust executor/controller; simulator assets and retained separate-host proof; new simulator-only browser bridge and fault controls.",
+  "physical_motion_authorized": false,
+  "license_notes": "Retain third-party notices shipped beside assets. No blanket license is inferred for owner-provided application code or brand assets.",
+  "integration_commit": "806f5c241da39f5631c2a8818e64a75d4497e2b7",
+  "onboarding_and_dashboard": "Agent entrypoint, source map, read-only prerequisite reports, unverified hardware intake and default demo dashboard. Current local evidence: verification/onboarding-01/result.json.",
+  "presentation_framework": {
+    "repository": "demo-story-starter",
+    "revision": "f5bf471e258d508a8267d90b0efd6275178c99d2",
+    "method": "Canonical repository bootstrap, reviewed blueprint, bespoke Three.js cinematic extension, preserved guided renderer, shared same-repository robot geometry and action contracts."
+  },
+  "voice": "Exact saved Kersh eleven_v3 settings from the two-week visibility strategy; one continuous provider request; see presentation/audio/voice-profile.json and production-checks.json.",
+  "aircraft_visual_review": {
+    "status": "CANDIDATE_REVIEW_ONLY",
+    "source": "presentation/assets/aircraft-review/manifest.json",
+    "recipe": "scripts/visuals/render_aircraft_review.py",
+    "guide": "docs/AIRCRAFT_VISUAL_REVIEW.md",
+    "scope": "Three Blender/Cycles stills; no new film, interactive aircraft acceptance, robot execution or hardware proof."
+  },
+  "standalone_handoff": {
+    "repository": "https://github.com/jkershawrh/from-change-to-work",
+    "snapshot_source_commit": "b40e8d44ba412d6208f134f0ad76b84fdeba4736",
+    "fresh_git_history": true,
+    "product_name": "From Change to Work",
+    "historical_proof_bytes_preserved": true
+  }
+}

@@ -1,0 +1,13 @@
+
+> aeris-demo@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.11 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/frontend
+
+
+ Test Files  15 passed (15)
+      Tests  93 passed (93)
+   Start at  18:22:35
+   Duration  3.89s (transform 1.15s, setup 1.21s, import 2.07s, tests 1.40s, environment 15.48s)
+

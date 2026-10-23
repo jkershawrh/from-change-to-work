@@ -1,0 +1,15 @@
+{
+  "registered_utc": "2026-10-22T21:58:18.358250+00:00",
+  "reason": "First attempt finished the one-pose rework task before coordinator could observe RUNNING and deliver the separate remote kill. Retain attempt as FAIL; no executor failure was injected.",
+  "changes": [
+    "Use four alternating bounded rework poses through the same existing one-to-four-goal profile.",
+    "Observe at least 15 committed ticks and verify the Rust process identity before SIGKILL within one edge-local fault helper, avoiding extra coordinator round trips.",
+    "Use fresh proof-only inbox/Rust/EVY databases after retained export, reusing the same isolated pod toolchains."
+  ],
+  "unchanged": [
+    "Runtime, controller, simulator and root Cargo.lock",
+    "All task, physics, disconnection and recovery acceptance thresholds",
+    "Simulation-only authority"
+  ],
+  "prior_run": "runs/flightpath-001"
+}

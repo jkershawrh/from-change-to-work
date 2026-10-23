@@ -1,0 +1,8 @@
+import { describe,it,expect } from 'vitest'
+import { parseReadiness,makePacket } from './contracts'
+const report={schema:'aeris.readiness-report.v1',measurement_scope:'CURRENT_PROCESS_HOST_ONLY',simulation_only:true,physical_motion_authorized:false,observed_at_ms:1000,simulation_prerequisites:'READY',checks:[{id:'python',status:'GREEN',detail:'3.12.8',next_step:null}],qualification:[{id:'PHYSICAL_ROBOT',status:'RED',reason:'Not proved'}],host:{system:'Linux',architecture:'x86_64'},source:{commit:'a'.repeat(40)},alignment:{status:'CANDIDATE_ONLY',scope:'Not certification'}}
+describe('readiness evidence scope',()=>{
+ it('rejects remote host claims, physical authority and invented ready',()=>{for(const delta of [{measurement_scope:'ALL_HOSTS'},{physical_motion_authorized:true},{simulation_prerequisites:'READY',checks:[{id:'python',status:'RED'}]},{qualification:[{id:'PHYSICAL_ROBOT',status:'GREEN'}]}])expect(()=>parseReadiness({...report,...delta})).toThrow()})
+ it('keeps proposed hardware distinct from observation and qualification',()=>{const p=makePacket({deployment:'two-host',compute:'Intel box',os:'RHEL planned',topology:'unknown',robot:'unknown',interface:'unknown',owner:'Preston'},parseReadiness(report),null);expect(p.proposed_hardware.evidence_status).toBe('UNVERIFIED_OPERATOR_INPUT');expect(p.physical_motion_authorized).toBe(false);expect(p.observed_readiness?.measurement_scope).toBe('CURRENT_PROCESS_HOST_ONLY');expect(p.independent_execution_audit).toBe('NOT_INCLUDED')})
+ it('an offline packet preserves missing observations',()=>{const p=makePacket({deployment:'local',compute:'',os:'',topology:'',robot:'',interface:'',owner:''},null,null);expect(p.observed_readiness).toBeNull();expect(p.live_observation).toBeNull()})
+})

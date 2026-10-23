@@ -1,0 +1,188 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.27
+   Compiling quote v1.0.47
+   Compiling libc v0.2.190
+   Compiling find-msvc-tools v0.1.14
+   Compiling shlex v2.0.1
+   Compiling pkg-config v0.3.34
+   Compiling stable_deref_trait v1.2.1
+   Compiling dunce v1.0.5
+   Compiling syn v3.0.9
+   Compiling once_cell v1.21.4
+   Compiling jobserver v0.1.35
+   Compiling fs_extra v1.3.0
+   Compiling cc v1.8.0
+   Compiling itoa v1.0.18
+   Compiling bytes v1.12.1
+   Compiling zeroize v1.9.1
+   Compiling pin-project-lite v0.2.17
+   Compiling cmake v0.1.58
+   Compiling futures-core v0.3.34
+   Compiling syn v1.0.109
+   Compiling synstructure v0.14.0
+   Compiling aws-lc-sys v0.46.0
+   Compiling smallvec v1.16.3
+   Compiling zerofrom-derive v0.1.8
+   Compiling yoke-derive v0.8.4
+   Compiling zerovec-derive v0.11.6
+   Compiling displaydoc v0.2.7
+   Compiling zerofrom v0.1.8
+   Compiling yoke v0.8.3
+   Compiling memchr v2.8.3
+   Compiling zerovec v0.11.8
+   Compiling version_check v0.9.5
+   Compiling tinystr v0.8.4
+   Compiling litemap v0.8.3
+   Compiling writeable v0.6.4
+   Compiling aws-lc-rs v1.18.2
+   Compiling icu_locale_core v2.1.1
+   Compiling generic-array v0.14.7
+   Compiling potential_utf v0.1.6
+   Compiling zerotrie v0.2.5
+   Compiling socket2 v0.6.5
+   Compiling mio v1.2.4
+   Compiling syn v2.0.119
+   Compiling ident_case v1.0.1
+   Compiling fnv v1.0.7
+   Compiling icu_normalizer_data v2.1.1
+   Compiling strsim v0.10.0
+   Compiling icu_properties_data v2.1.2
+   Compiling darling_core v0.14.4
+   Compiling tokio v1.53.2
+   Compiling icu_provider v2.1.1
+   Compiling icu_collections v2.1.1
+   Compiling rustls-pki-types v1.15.1
+   Compiling http v1.5.0
+   Compiling subtle v2.6.1
+   Compiling futures-sink v0.3.34
+   Compiling serde_core v1.0.229
+   Compiling cfg-if v1.0.5
+   Compiling typenum v1.20.1
+   Compiling http-body v1.1.0
+   Compiling darling_macro v0.14.4
+   Compiling autocfg v1.5.1
+   Compiling untrusted v0.9.0
+   Compiling httparse v1.10.1
+   Compiling rustls v0.23.46
+   Compiling slab v0.4.12
+   Compiling futures-io v0.3.34
+   Compiling percent-encoding v2.3.2
+   Compiling futures-task v0.3.34
+   Compiling futures-util v0.3.34
+   Compiling num-traits v0.2.19
+   Compiling icu_properties v2.1.2
+   Compiling darling v0.14.4
+   Compiling icu_normalizer v2.1.1
+   Compiling semver v1.0.28
+   Compiling try-lock v0.2.5
+   Compiling bitflags v2.13.2
+   Compiling tower-service v0.3.3
+   Compiling zmij v1.0.23
+   Compiling serde v1.0.229
+   Compiling want v0.3.2
+   Compiling rustc_version v0.4.1
+   Compiling idna_adapter v1.2.1
+   Compiling derive_builder_core v0.11.2
+   Compiling crypto-common v0.1.7
+   Compiling block-buffer v0.10.4
+   Compiling serde_derive v1.0.229
+   Compiling tracing-core v0.1.36
+   Compiling thiserror v1.0.69
+   Compiling vcpkg v0.2.15
+   Compiling serde_json v1.0.154
+   Compiling atomic-waker v1.1.2
+   Compiling utf8_iter v1.0.4
+   Compiling idna v1.1.0
+   Compiling hyper v1.12.0
+   Compiling libsqlite3-sys v0.35.0
+   Compiling tracing v0.1.44
+   Compiling derive_builder_macro v0.11.2
+   Compiling digest v0.10.7
+   Compiling curve25519-dalek v4.1.3
+   Compiling form_urlencoded v1.2.2
+   Compiling futures-channel v0.3.34
+   Compiling thiserror-impl v1.0.69
+   Compiling sync_wrapper v1.0.2
+   Compiling openssl-probe v0.2.1
+   Compiling cpufeatures v0.2.17
+   Compiling ipnet v2.12.1
+   Compiling foldhash v0.1.5
+   Compiling base64 v0.23.1
+   Compiling clarabel v0.11.1
+   Compiling tower-layer v0.3.3
+   Compiling either v1.19.0
+   Compiling hyper-util v0.1.21
+   Compiling itertools v0.11.0
+   Compiling tower v0.5.3
+   Compiling hashbrown v0.15.5
+   Compiling rustls-native-certs v0.8.5
+   Compiling url v2.5.8
+   Compiling amd v0.2.2
+   Compiling derive_builder v0.11.2
+   Compiling serde-big-array v0.5.1
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling enum_dispatch v0.3.13
+   Compiling signature v2.2.0
+   Compiling lazy_static v1.5.1
+   Compiling log v0.4.34
+   Compiling ed25519 v2.2.3
+   Compiling tower-http v0.6.11
+   Compiling hashlink v0.10.0
+   Compiling sha2 v0.10.9
+   Compiling http-body-util v0.1.5
+   Compiling rustix v1.1.5
+   Compiling getrandom v0.4.3
+   Compiling base64 v0.22.1
+   Compiling fallible-iterator v0.3.0
+   Compiling fallible-streaming-iterator v0.1.9
+   Compiling rusqlite v0.37.0
+   Compiling ed25519-dalek v2.2.0
+   Compiling aeris-control-v2 v0.1.0 (/work/input/repo/proof/control_v2/controller)
+   Compiling rustls-webpki v0.103.15
+   Compiling linux-raw-sys v0.12.1
+   Compiling fastrand v2.5.0
+   Compiling tempfile v3.27.0
+   Compiling tokio-rustls v0.26.6
+   Compiling rustls-platform-verifier v0.7.0
+   Compiling hyper-rustls v0.27.9
+   Compiling reqwest v0.13.4
+   Compiling aeris-skill-transfer v0.1.0 (/work/input/repo/crates/aeris-skill-transfer)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 32.32s
+     Running unittests src/lib.rs (crates/aeris-skill-transfer/target/debug/deps/aeris_skill_transfer-03336a93363c046e)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (crates/aeris-skill-transfer/target/debug/deps/aeris_skill_transfer-71d2da1ca1051e8b)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/lifecycle.rs (crates/aeris-skill-transfer/target/debug/deps/lifecycle-16e3b555fa8fdb4e)
+
+running 8 tests
+test action_identity_is_immutable_across_retries ... ok
+test duplicate_delivery_is_idempotent_and_wrong_local_config_refused ... ok
+test pinned_execution_refuses_another_release_even_for_a_completed_task ... ok
+test activation_refuses_a_stored_bundle_under_the_wrong_digest ... ok
+test orphaned_running_task_blocks_activation_until_explicit_recovery ... ok
+test staged_bytes_and_active_pointer_survive_reopen ... ok
+test tampering_and_replay_do_not_change_active_or_floor ... ok
+test signed_contract_rejections_leave_an_empty_store ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.14s
+
+     Running tests/test_support.rs (crates/aeris-skill-transfer/target/debug/deps/test_support-80f98cd09e0906e0)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests aeris_skill_transfer
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

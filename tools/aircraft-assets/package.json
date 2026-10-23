@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "draco3d": "^1.5.9",
+    "meshoptimizer": "^1.3.0"
+  },
+  "name": "robot-demo-aircraft-assets",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pinned local GLB decoding tools for the aircraft visual review."
+}

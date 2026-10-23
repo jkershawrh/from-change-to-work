@@ -1,0 +1,61 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test
+
+
+Running 13 tests using 1 worker
+
+(node:9684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage (6.9s)
+  ✓   2 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop (5.9s)
+  ✓   3 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile (7.5s)
+  ✓   4 visual-tests/cinema.spec.ts:29:1 › voice clock plays, pauses and seeks without running a robot action (3.8s)
+  -   5 visual-tests/cinema.spec.ts:35:1 › authenticated observations populate only the current session payoff
+  ✓   6 visual-tests/cinema.spec.ts:41:1 › packaged video has verified metadata and a playable nonempty MP4 stream (1.3s)
+  ✓   7 visual-tests/cinema.spec.ts:46:1 › business illustrations explain their elements on hover and keyboard focus (6.3s)
+  ✓   8 visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive (13.7s)
+  ✘   9 visual-tests/cinema.spec.ts:59:1 › approved scene and Blender opening views are local and passive (9.5s)
+(node:10024) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 visual-tests/cinema.spec.ts:66:1 › every visual has a title, input and outcome; Act 3 fits above captions (12.2s)
+  ✓  11 visual-tests/cinema.spec.ts:77:1 › zero-time deep link opens a complete title screen and enters the story (10.5s)
+  ✓  12 visual-tests/cinema.spec.ts:82:1 › captions stay off by default across Scene 1 handoff (3.6s)
+  ✓  13 visual-tests/cinema.spec.ts:84:1 › WebGL chapter identity matches after each scene handoff (3.6s)
+
+
+  1) visual-tests/cinema.spec.ts:59:1 › approved scene and Blender opening views are local and passive 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('.cinematic-plate')
+    Expected: "01-hangar"
+    Received: "03-robot-cell"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('.cinematic-plate') with timeout 5000ms
+      - waiting for locator('.cinematic-plate')
+        7 × locator resolved to <div class="cinematic-plate" data-approved-view="03-robot-cell">…</div>
+          - unexpected value "03-robot-cell"
+
+
+      58 |
+      59 | test('approved scene and Blender opening views are local and passive',async({page})=>{
+    > 60 |  const errors:string[]=[],writes:string[]=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.method()!=='GET'&&r.url().includes('/api/'))writes.push(r.url())});await page.goto('/show/?t=12');await expect(page.locator('.cinematic-plate')).toHaveAttribute('data-approved-view','01-hangar');await expect(page.locator('.robot-stage')).toHaveAttribute('data-asset-ready','true',{timeout:90000});
+         |                                                                                                                                                                                                                                                                         ^
+      61 |  const manifest=await page.request.get('/show/models/approved-aircraft/scene.json').then(r=>r.json());expect(manifest.source).toBe('USER_APPROVED_C17_REVIEW_SCENE');expect(manifest.static_robot_included).toBe(false);expect(manifest.meshes).toBeGreaterThan(0);
+      62 |  await page.evaluate(()=>window.__AERIS_CINEMA__!.seek(65));await expect(page.locator('.cinematic-plate')).toHaveAttribute('data-approved-view','03-robot-cell');await page.evaluate(()=>window.__AERIS_CINEMA__!.seek(151));await page.getByLabel('Hangar camera view').selectOption('aircraft');await page.waitForTimeout(300);await page.screenshot({path:out+'/approved-aircraft-webgl.png'});expect(errors).toEqual([]);expect(writes).toEqual([])
+      63 | })
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:60:265
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/cinema-approved-scene-and--f5fe5-views-are-local-and-passive/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/cinema-approved-scene-and--f5fe5-views-are-local-and-passive/error-context.md
+
+  1 failed
+    visual-tests/cinema.spec.ts:59:1 › approved scene and Blender opening views are local and passive 
+  1 skipped
+  11 passed (1.6m)

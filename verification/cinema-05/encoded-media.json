@@ -1,0 +1,20 @@
+{
+  "schema": "aeris.encoded-story.v1",
+  "status": "PASS_ENCODED_MEDIA",
+  "film_name": "from-change-to-work-approved-aircraft.mp4",
+  "edition": "cinema-05",
+  "audio_edition": "cinema-02",
+  "duration_seconds": 377.76,
+  "resolution": "1920x1080",
+  "fps": 25,
+  "audio": "AAC / complete saved Kersh waveform and original quiet bed",
+  "decoded_audio_rms": 3435.6051271440274,
+  "entire_audio_timeline_retained": true,
+  "frame_samples": 8,
+  "full_video_audio_decode": true,
+  "sha256": "cb5eeeecf705a62dddfbc02b7959a566f8173d5843aacb2f04607e0acd4faef7",
+  "voice_profile": "audio/voice-profile.json",
+  "browser_actuation_requests": 0,
+  "scope": "Narrated retained-evidence story. Not a new physical, hardware or live execution proof.",
+  "subjective_listening_performed": false
+}

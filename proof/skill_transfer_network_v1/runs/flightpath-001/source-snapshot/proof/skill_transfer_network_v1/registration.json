@@ -1,0 +1,36 @@
+{
+  "schema": "evy-aeris.separate-host-registration.v1",
+  "registered_utc": "2026-10-22T21:45:30.501420+00:00",
+  "cluster": "flightpath",
+  "namespace": "aeris-transfer-ae928d8d71",
+  "image": "registry.redhat.io/rhaii/vllm-cpu-rhel9@sha256:cf6577f6d526561651df5390aad916c53820a18a1659e3fb39c1c5a62aef0e3c",
+  "central_node": "fp2.fm2aihpcsed.com",
+  "edge_node": "fp3.fm2aihpcsed.com",
+  "scope": "Actual EVY FastAPI action dispatcher on central host to durable HTTP inbox to unchanged Rust action and six-axis MuJoCo simulator on distinct edge host. Deterministic behaviors; no training.",
+  "acceptance": [
+    "Distinct Kubernetes node UID and systemUUID; observed GenuineIntel cpuinfo; RHEL container and Red Hat CoreOS node identity",
+    "Only pinned HTTPS endpoints and operator-provisioned signing approval; no request paths or commands",
+    "Durable inbox before acknowledgement; changed ID reuse rejected; no repeated execution on terminal retry",
+    "Inspection and rework capabilities through same gateway and Rust profile",
+    "Publisher and EVY connection outage after observed edge control progress; failed reconnect from edge during outage; edge completes pinned release without network dependency",
+    "Executor killed during observed progress; durable interruption; explicit Rust recover; new deliberate action succeeds",
+    "Reject unauthorized, wrong capability/digest, malformed request; no promotion of nonterminal/fake receipt",
+    "Independent SQLite and substep trace audit; reject mutated proof inputs",
+    "Retain all failed attempts, source/binary/environment identities, cleaned owned namespace confirmation"
+  ],
+  "rubric": {
+    "TDD": "RED until relevant registered acceptance gates pass",
+    "EDD": "RED until relevant registered acceptance gates pass",
+    "CDD": "RED until relevant registered acceptance gates pass",
+    "BDD": "RED until relevant registered acceptance gates pass",
+    "CBT": "RED until relevant registered acceptance gates pass",
+    "INTEL_RED_HAT_SEPARATE_HOST": "RED until relevant registered acceptance gates pass"
+  },
+  "limitations": [
+    "Stepped simulation, not hard real time or physical robot",
+    "Temporary lab-only TOFU control-plane CA trust remains AMBER",
+    "No signed device attestation or external immutable ledger",
+    "No production EVY rollout; isolated actual source deployment",
+    "Process-kill/restart durability, not node loss, power loss or disk corruption"
+  ]
+}

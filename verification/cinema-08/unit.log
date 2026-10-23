@@ -1,0 +1,13 @@
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run --maxWorkers=1
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+
+ Test Files  13 passed (13)
+      Tests  54 passed (54)
+   Start at  08:27:59
+   Duration  12.29s (transform 350ms, setup 679ms, import 1.14s, tests 1.05s, environment 7.28s)
+

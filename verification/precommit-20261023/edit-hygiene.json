@@ -1,0 +1,25 @@
+{
+  "status": "PASS_NEW_EDITS",
+  "checked_changed_files": [
+    ".gitignore",
+    "AGENTS.md",
+    "NOTICE.md",
+    "PROVENANCE.json",
+    "README.md",
+    "docs/AGENT_START.md",
+    "docs/ARCHITECTURE.md",
+    "docs/FINAL_VIDEO_REVIEW.md",
+    "docs/PRESTON.md",
+    "frontend/package-lock.json",
+    "frontend/package.json",
+    "frontend/src/actions/TransferWorkbench.tsx",
+    "frontend/src/dashboard/Dashboard.tsx",
+    "frontend/src/dashboard/PilotRoadmap.tsx",
+    "onboarding/manifest.json",
+    "presentation/package-lock.json",
+    "presentation/package.json"
+  ],
+  "introduced_whitespace_findings": [],
+  "tracked_dependency_symlinks": [],
+  "import_whitespace": "Inherited source and frozen proof whitespace retained; initial-import findings in import-whitespace.log."
+}

@@ -1,0 +1,18 @@
+test_browser_cannot_supply_paths_or_release_authority (test_console_auth.ConsoleAuth.test_browser_cannot_supply_paths_or_release_authority) ... ok
+test_changed_destination_cannot_reuse_database (test_console_auth.ConsoleAuth.test_changed_destination_cannot_reuse_database) ... ok
+test_cross_origin_request_refused_even_with_session (test_console_auth.ConsoleAuth.test_cross_origin_request_refused_even_with_session) ... ok
+test_login_requires_same_origin_and_never_returns_code (test_console_auth.ConsoleAuth.test_login_requires_same_origin_and_never_returns_code) ... ok
+test_unauthenticated_actions_fail (test_console_auth.ConsoleAuth.test_unauthenticated_actions_fail) ... ok
+test_viewer_cannot_transfer_or_cut_link (test_console_auth.ConsoleAuth.test_viewer_cannot_transfer_or_cut_link) ... ok
+test_duplicate_fields_rejected (test_lab_contracts.Contracts.test_duplicate_fields_rejected) ... ok
+test_physical_target_cannot_enable_fault_controls (test_lab_contracts.Contracts.test_physical_target_cannot_enable_fault_controls) ... ok
+test_safe_same_origin_required (test_lab_contracts.Contracts.test_safe_same_origin_required) ... ok
+test_unknown_fields_and_physical_scope_rejected (test_lab_contracts.Contracts.test_unknown_fields_and_physical_scope_rejected) ... ok
+test_command_retry_does_not_reverse_a_newer_transition (test_link.LinkTests.test_command_retry_does_not_reverse_a_newer_transition) ... ok
+test_same_id_cannot_change_operation (test_link.LinkTests.test_same_id_cannot_change_operation) ... ok
+test_unknown_operation_rejects (test_link.LinkTests.test_unknown_operation_rejects) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.038s
+
+OK

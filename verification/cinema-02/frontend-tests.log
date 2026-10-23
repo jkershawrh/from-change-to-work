@@ -1,0 +1,13 @@
+
+> evy-aeris-edge-actions-frontend@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/frontend
+
+
+ Test Files  2 passed (2)
+      Tests  7 passed (7)
+   Start at  20:26:57
+   Duration  1.48s (transform 234ms, setup 329ms, import 161ms, tests 9ms, environment 2.10s)
+

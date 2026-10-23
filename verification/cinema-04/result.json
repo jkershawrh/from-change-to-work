@@ -1,0 +1,7 @@
+{
+  "status": "REJECTED_VISUAL_DIRECTION",
+  "reason": "User rejected the procedural aircraft proportions and rendering. Recording was stopped; no aircraft-04 film was published.",
+  "runtime": "Previous approved source restored; proposed Blender/GLB review is a separate artifact.",
+  "physical_motion_authorized": false,
+  "retained_working_files": ".production/rejected-procedural-aircraft-04/verification"
+}

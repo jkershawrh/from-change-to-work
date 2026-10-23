@@ -1,0 +1,369 @@
+diff --git a/backend/actions/__init__.py b/backend/actions/__init__.py
+new file mode 100644
+index 0000000..629ae3e
+--- /dev/null
++++ b/backend/actions/__init__.py
+@@ -0,0 +1 @@
++"""Opt-in, operator-authenticated capability actions. No LLM actuation path."""
+diff --git a/backend/actions/capability_transfer.py b/backend/actions/capability_transfer.py
+new file mode 100644
+index 0000000..7230774
+--- /dev/null
++++ b/backend/actions/capability_transfer.py
+@@ -0,0 +1,182 @@
++"""Durable EVY dispatch binding to a preconfigured local robot gateway.
++
++This adapter never approves/signs a release, accepts executable paths from a
++caller, or turns generated text into actuator commands. Rust retains activation
++and task authority at the edge. Terminal receipts remain explicitly scoped.
++"""
++from __future__ import annotations
++import hashlib
++from contextlib import contextmanager
++import hmac
++import json
++import os
++from pathlib import Path
++import re
++import sqlite3
++import ssl
++from urllib.parse import urlsplit
++import httpx
++
++MAX_REQUEST=4096
++MAX_RESPONSE=65536
++ID=re.compile(r'[A-Za-z0-9_.-]{1,80}\Z')
++DIGEST=re.compile(r'[a-f0-9]{64}\Z')
++
++
++class ActionError(ValueError):
++    def __init__(self,code,status=422):super().__init__(code);self.code=code;self.status=status
++
++
++def require(value,code,status=422):
++    if not value:raise ActionError(code,status)
++
++
++def canonical(value):return json.dumps(value,sort_keys=True,separators=(',',':'),allow_nan=False)
++
++
++def unique_pairs(pairs):
++    result={}
++    for k,v in pairs:
++        require(k not in result,'DUPLICATE_FIELD')
++        result[k]=v
++    return result
++
++
++def decode(raw,limit):
++    require(len(raw)<=limit,'BODY_LIMIT',413)
++    try:return json.loads(raw,object_pairs_hook=unique_pairs,parse_constant=lambda _:(_ for _ in ()).throw(ActionError('NONFINITE')))
++    except (UnicodeError,json.JSONDecodeError):raise ActionError('JSON_REQUIRED') from None
++
++
++def parse_intent(raw):
++    value=decode(raw,MAX_REQUEST)
++    require(type(value)is dict and set(value)=={'schema','action_id','edge_id','skill_id','release_digest'},'ACTION_FIELDS')
++    require(value['schema']=='evy.capability-action.v1','ACTION_SCHEMA')
++    require(all(type(value[k])is str and ID.fullmatch(value[k]) for k in ('action_id','edge_id','skill_id')),'ACTION_IDENTITY')
++    require(type(value['release_digest'])is str and DIGEST.fullmatch(value['release_digest']),'RELEASE_DIGEST')
++    return value
++
++
++def local_bytes(path,limit=32768):
++    p=Path(path);require(p.is_absolute() and p.is_file(),'LOCAL_CONFIG_PATH',503)
++    with p.open('rb') as f:data=f.read(limit+1)
++    require(len(data)<=limit,'LOCAL_CONFIG_BOUND',503)
++    return data
++
++
++def rust_request(request):
++    return {'schema':'evy-aeris.transfer-action.v1',**{k:request[k] for k in ('action_id','skill_id','release_digest')}}
++
++
++class ActionDispatcher:
++    def __init__(self,config,*,transport=None):
++        require(type(config)is dict and set(config)=={'schema','database','operator_token_file','viewer_token_file','targets'},'CONFIG_FIELDS',503)
++        require(config['schema']=='evy.capability-actions.config.v1','CONFIG_SCHEMA',503)
++        require(Path(config['database']).is_absolute(),'LOCAL_DATABASE',503)
++        require(type(config['targets'])is list and 1<=len(config['targets'])<=32,'TARGETS',503)
++        self.config=config;self.targets={};self.transport=transport
++        for target in config['targets']:
++            require(type(target)is dict and set(target)=={'id','base_url','ca_file','token_file','profile','allowed_skills','simulation_only'},'TARGET_FIELDS',503)
++            require(type(target['id'])is str and ID.fullmatch(target['id']) and target['id'] not in self.targets,'TARGET_ID',503)
++            url=urlsplit(target['base_url'])
++            require(url.scheme=='https' and url.hostname and not url.username and not url.password and not url.query and not url.fragment and url.path in ('','/'),'TLS_TARGET_REQUIRED',503)
++            require(target['profile']=='mujoco-six-axis-goals-v1' and target['simulation_only']is True,'UNQUALIFIED_PROFILE',503)
++            require(type(target['allowed_skills'])is list and 1<=len(target['allowed_skills'])<=32 and all(type(s)is str and ID.fullmatch(s) for s in target['allowed_skills']),'SKILL_ALLOWLIST',503)
++            self.targets[target['id']]=target
++        with self.connect() as db:
++            db.execute('PRAGMA journal_mode=WAL')
++            db.execute('CREATE TABLE IF NOT EXISTS actions(id TEXT PRIMARY KEY, request TEXT NOT NULL,target_sha TEXT NOT NULL,observed TEXT)')
++
++    @classmethod
++    def from_environment(cls):
++        path=os.environ.get('EVY_ACTION_CONFIG','')
++        require(bool(path),'ACTIONS_DISABLED',503)
++        return cls(decode(local_bytes(path),32768))
++
++    @contextmanager
++    def connect(self):
++        db=sqlite3.connect(self.config['database'],timeout=2)
++        try:
++            db.execute('PRAGMA synchronous=FULL')
++            with db:
++                yield db
++        finally:
++            db.close()
++
++    def authorize(self,token,*,write):
++        require(type(token)is str and len(token)<=256,'AUTH_REQUIRED',401)
++        choices=['operator_token_file'] if write else ['operator_token_file','viewer_token_file']
++        valid=False
++        for field in choices:
++            expected=local_bytes(self.config[field],256).decode().strip()
++            require(len(expected)>=32,'AUTH_CONFIG',503)
++            valid |= hmac.compare_digest(token,expected)
++        require(valid,'AUTH_REQUIRED',403)
++
++    def target(self,request):
++        target=self.targets.get(request['edge_id']);require(target is not None,'UNKNOWN_EDGE')
++        require(request['skill_id']in target['allowed_skills'],'SKILL_NOT_ENABLED')
++        return target
++
++    def bind(self,request):
++        # Parsing here also protects callers using the Python API instead of HTTP.
++        request=parse_intent(canonical(request).encode())
++        target=self.target(request)
++        target_sha=hashlib.sha256(canonical(target).encode()).hexdigest()
++        encoded=canonical(request)
++        with self.connect() as db:
++            db.execute('BEGIN IMMEDIATE')
++            db.execute('INSERT OR IGNORE INTO actions VALUES(?,?,?,NULL)',(request['action_id'],encoded,target_sha))
++            saved=db.execute('SELECT request,target_sha FROM actions WHERE id=?',(request['action_id'],)).fetchone()
++            require(saved==(encoded,target_sha),'ACTION_ID_OR_TARGET_CHANGED',409)
++        return request,target
++
++    def validate_remote(self,request,body):
++        require(type(body)is dict and body.get('schema')=='evy-aeris.edge-action.v1','EDGE_CONTRACT',502)
++        require(body.get('edge_id')==request['edge_id'] and body.get('action')==rust_request(request),'EDGE_BINDING',502)
++        require(body.get('simulation_only')is True and body.get('physical_motion_authorized')is False,'UNQUALIFIED_AUTHORITY',502)
++        require(body.get('state')in ('QUEUED','RUNNING','COMPLETE','FAILED','INTERRUPTED'),'EDGE_STATE',502)
++        if body['state']=='COMPLETE':
++            result=body.get('result')
++            require(type(result)is dict and result.get('schema')=='evy-aeris.transfer-action-result.v1' and result.get('status')=='COMPLETE','TERMINAL_RECEIPT_REQUIRED',502)
++            require(all(result.get(k)==request[k] for k in ('action_id','skill_id','release_digest')),'RESULT_BINDING',502)
++            require(result.get('simulation_only')is True and result.get('physical_motion_authorized')is False,'RESULT_AUTHORITY',502)
++            receipt=result.get('receipt',{})
++            require(type(receipt)is dict,'EXECUTION_RECEIPT_REQUIRED',502)
++            if receipt.get('idempotent')is True:
++                receipt=receipt.get('result',{})
++                require(type(receipt)is dict,'EXECUTION_RECEIPT_REQUIRED',502)
++            require(receipt.get('schema')=='evy-aeris.sim-transfer-receipt.v2' and receipt.get('status')=='COMPLETE' and receipt.get('release_digest')==request['release_digest'],'EXECUTION_RECEIPT_REQUIRED',502)
++        return body
++
++    async def exchange(self,method,request,target):
++        context=ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
++        context.load_verify_locations(cafile=target['ca_file'])
++        token=local_bytes(target['token_file'],256).decode().strip()
++        require(len(token)>=32,'EDGE_AUTH_CONFIG',503)
++        path='/v1/actions' if method=='POST' else '/v1/actions/'+request['action_id']
++        try:
++            async with httpx.AsyncClient(verify=context,transport=self.transport,follow_redirects=False,trust_env=False,timeout=httpx.Timeout(5,connect=2)) as client:
++                async with client.stream(method,target['base_url'].rstrip('/')+path,headers={'Authorization':'Bearer '+token},json=rust_request(request) if method=='POST' else None) as response:
++                    require(response.status_code in (200,202),'EDGE_REFUSED',502)
++                    data=bytearray()
++                    async for block in response.aiter_bytes():
++                        data.extend(block);require(len(data)<=MAX_RESPONSE,'EDGE_RESPONSE_BOUND',502)
++            body=self.validate_remote(request,decode(bytes(data),MAX_RESPONSE))
++        except (httpx.HTTPError,OSError,ssl.SSLError):raise ActionError('EDGE_UNAVAILABLE',502) from None
++        with self.connect() as db:db.execute('UPDATE actions SET observed=? WHERE id=?',(canonical(body),request['action_id']))
++        return {'schema':'evy.capability-action-result.v1','action_id':request['action_id'],'edge_id':request['edge_id'],'state':body['state'],'observation':body,'source':'EDGE_OBSERVED','simulation_only':True,'physical_motion_authorized':False}
++
++    async def dispatch(self,request):
++        request,target=self.bind(request)
++        return await self.exchange('POST',request,target)
++
++    async def status(self,action_id):
++        require(type(action_id)is str and ID.fullmatch(action_id),'ACTION_IDENTITY')
++        with self.connect() as db:row=db.execute('SELECT request FROM actions WHERE id=?',(action_id,)).fetchone()
++        require(row is not None,'ACTION_NOT_FOUND',404)
++        request,target=self.bind(json.loads(row[0]))
++        return await self.exchange('GET',request,target)
++
++    def catalog(self):
++        return {'schema':'evy.action-catalog.v1','actions':[{'id':'capability-transfer','request_contract':'evy.capability-action.v1','edge_id':t['id'],'profile':t['profile'],'capabilities':t['allowed_skills'],'simulation_only':True,'physical_motion_authorized':False} for t in self.targets.values()]}
+diff --git a/backend/actions/router.py b/backend/actions/router.py
+new file mode 100644
+index 0000000..0d5d9f0
+--- /dev/null
++++ b/backend/actions/router.py
+@@ -0,0 +1,33 @@
++"""Opt-in EVY API action registration. Operator/viewer credentials stay server-side."""
++from fastapi import APIRouter,Request,HTTPException
++from backend.actions.capability_transfer import ActionDispatcher,ActionError,MAX_REQUEST,parse_intent
++router=APIRouter(prefix='/actions',tags=['capability-actions'])
++
++def configured(request,write=False):
++    try:
++        dispatcher=ActionDispatcher.from_environment()
++        header=request.headers.get('authorization','')
++        if not header.startswith('Bearer '):raise ActionError('AUTH_REQUIRED',401)
++        dispatcher.authorize(header[7:],write=write)
++        return dispatcher
++    except ActionError as e:raise HTTPException(e.status,e.code) from None
++
++@router.get('/catalog')
++async def catalog(request:Request):return configured(request).catalog()
++
++@router.post('/capability-transfer',status_code=202)
++async def submit(request:Request):
++    dispatcher=configured(request,write=True)
++    try:
++        data=bytearray()
++        async for block in request.stream():
++            data.extend(block)
++            if len(data)>MAX_REQUEST:raise ActionError('BODY_LIMIT',413)
++        return await dispatcher.dispatch(parse_intent(bytes(data)))
++    except ActionError as e:raise HTTPException(e.status,e.code) from None
++
++@router.get('/capability-transfer/{action_id}')
++async def observe(action_id:str,request:Request):
++    dispatcher=configured(request)
++    try:return await dispatcher.status(action_id)
++    except ActionError as e:raise HTTPException(e.status,e.code) from None
+diff --git a/backend/api_gateway/main.py b/backend/api_gateway/main.py
+index 224cc60..e399bd1 100644
+--- a/backend/api_gateway/main.py
++++ b/backend/api_gateway/main.py
+@@ -145,6 +145,9 @@ app = FastAPI(
+     lifespan=lifespan,
+ )
+ 
++from backend.actions.router import router as capability_action_router
++app.include_router(capability_action_router)
++
+ app.add_middleware(
+     CORSMiddleware,
+     allow_origins=["*"],
+diff --git a/tests/actions/test_capability_actions.py b/tests/actions/test_capability_actions.py
+new file mode 100644
+index 0000000..4d01f60
+--- /dev/null
++++ b/tests/actions/test_capability_actions.py
+@@ -0,0 +1,115 @@
++import json
++import sqlite3
++from pathlib import Path
++import httpx
++import pytest
++from backend.actions.capability_transfer import ActionDispatcher, ActionError, parse_intent
++
++
++def intent(**updates):
++    return dict(schema='evy.capability-action.v1',action_id='job-001',edge_id='cell-a',skill_id='inspection-positioning',release_digest='a'*64,**updates)
++
++
++def test_request_rejects_remote_paths_urls_and_duplicate_authority():
++    for extra in ({'config':'/tmp/override'},{'url':'https://evil.test'},{'command':'sh'}):
++        with pytest.raises(ActionError):parse_intent(json.dumps({**intent(),**extra}).encode())
++    with pytest.raises(ActionError):parse_intent(b'{"schema":"evy.capability-action.v1","action_id":"x","action_id":"y"}')
++
++
++def test_config_requires_https_and_known_edge(tmp_path):
++    config=configuration(tmp_path)
++    config['targets'][0]['base_url']='http://untrusted.test'
++    with pytest.raises(ActionError):ActionDispatcher(config)
++
++
++def configuration(tmp_path):
++    for name in ('operator','viewer','edge'):(tmp_path/name).write_text(name*16)
++    return dict(schema='evy.capability-actions.config.v1',database=str(tmp_path/'actions.sqlite'),operator_token_file=str(tmp_path/'operator'),viewer_token_file=str(tmp_path/'viewer'),targets=[dict(id='cell-a',base_url='https://cell-a.test',ca_file=str(tmp_path/'ca.pem'),token_file=str(tmp_path/'edge'),profile='mujoco-six-axis-goals-v1',allowed_skills=['inspection-positioning','rework-positioning'],simulation_only=True)])
++
++
++def test_read_credentials_cannot_submit_actions(tmp_path):
++    dispatcher=ActionDispatcher(configuration(tmp_path))
++    dispatcher.authorize('viewer'*16,write=False)
++    with pytest.raises(ActionError):dispatcher.authorize('viewer'*16,write=True)
++    dispatcher.authorize('operator'*16,write=True)
++
++
++def test_same_id_is_bound_across_restart(tmp_path):
++    cfg=configuration(tmp_path);dispatcher=ActionDispatcher(cfg);request=parse_intent(json.dumps(intent()).encode())
++    dispatcher.bind(request)
++    restarted=ActionDispatcher(cfg);restarted.bind(request)
++    changed={**request,'release_digest':'b'*64}
++    with pytest.raises(ActionError):restarted.bind(changed)
++
++
++def test_unknown_or_unapproved_capability_never_binds(tmp_path):
++    dispatcher=ActionDispatcher(configuration(tmp_path))
++    for key,value in [('edge_id','unknown'),('skill_id','unapproved')]:
++        with pytest.raises(ActionError):dispatcher.bind({**intent(),key:value})
++    with sqlite3.connect(tmp_path/'actions.sqlite') as db:assert db.execute('select count(*) from actions').fetchone()[0]==0
++
++
++def test_receipt_cannot_promote_another_version_or_physical_execution(tmp_path):
++    dispatcher=ActionDispatcher(configuration(tmp_path));request=intent()
++    response={'schema':'evy-aeris.edge-action.v1','edge_id':'cell-a','action':{k:v for k,v in request.items() if k!='edge_id'},'state':'COMPLETE','result':{},'simulation_only':True,'physical_motion_authorized':False}
++    response['action']['schema']='evy-aeris.transfer-action.v1'
++    with pytest.raises(ActionError):dispatcher.validate_remote(request,response)
++
++
++def test_target_reroute_cannot_rebind_existing_job(tmp_path):
++    cfg=configuration(tmp_path);request=intent();ActionDispatcher(cfg).bind(request)
++    cfg['targets'][0]['base_url']='https://other-cell.test'
++    with pytest.raises(ActionError):ActionDispatcher(cfg).bind(request)
++
++
++def test_missing_local_auth_file_is_scoped_configuration_error(tmp_path):
++    cfg=configuration(tmp_path)
++    (tmp_path/'operator').unlink()
++    dispatcher=ActionDispatcher(cfg)
++    with pytest.raises(ActionError,match='LOCAL_CONFIG_PATH'):
++        dispatcher.authorize('operator'*16,write=True)
++
++
++def test_malformed_nested_receipt_is_rejected_without_crash(tmp_path):
++    dispatcher=ActionDispatcher(configuration(tmp_path));request=intent()
++    from backend.actions.capability_transfer import rust_request
++    result=dict(schema='evy-aeris.transfer-action-result.v1',status='COMPLETE',action_id=request['action_id'],skill_id=request['skill_id'],release_digest=request['release_digest'],simulation_only=True,physical_motion_authorized=False)
++    for receipt in [None,[],17,{'idempotent':True,'result':None}]:
++        body=dict(schema='evy-aeris.edge-action.v1',edge_id='cell-a',action=rust_request(request),state='COMPLETE',result={**result,'receipt':receipt},simulation_only=True,physical_motion_authorized=False)
++        with pytest.raises(ActionError):dispatcher.validate_remote(request,body)
++
++
++def test_database_connection_closes_after_transaction(tmp_path):
++    dispatcher=ActionDispatcher(configuration(tmp_path))
++    with dispatcher.connect() as db:db.execute('SELECT 1')
++    with pytest.raises(sqlite3.ProgrammingError):db.execute('SELECT 1')
++
++
++def test_actual_evy_gateway_registers_disabled_action_routes(monkeypatch):
++    from fastapi.testclient import TestClient
++    from backend.api_gateway.main import app
++    monkeypatch.delenv('EVY_ACTION_CONFIG',raising=False)
++    with TestClient(app) as client:
++        response=client.get('/actions/catalog')
++        assert response.status_code==503
++        assert response.json()['detail']=='ACTIONS_DISABLED'
++        assert client.post('/actions/capability-transfer',json=intent()).status_code==503
++
++
++def test_actual_evy_gateway_enforces_operator_and_viewer(tmp_path,monkeypatch):
++    from fastapi.testclient import TestClient
++    from backend.api_gateway.main import app
++    cfg=configuration(tmp_path);path=tmp_path/'local.json';path.write_text(json.dumps(cfg))
++    monkeypatch.setenv('EVY_ACTION_CONFIG',str(path))
++    with TestClient(app) as client:
++        assert client.get('/actions/catalog').status_code==401
++        headers={'Authorization':'Bearer '+'viewer'*16}
++        response=client.get('/actions/catalog',headers=headers)
++        assert response.status_code==200
++        assert response.json()['actions'][0]['edge_id']=='cell-a'
++        assert 'token_file' not in response.text
++        assert client.post('/actions/capability-transfer',headers=headers,json=intent()).status_code==403
++        headers={'Authorization':'Bearer '+'operator'*16}
++        response=client.post('/actions/capability-transfer',headers=headers,json={**intent(),'edge_id':'not-enrolled'})
++        assert response.status_code==422
++        assert response.json()['detail']=='UNKNOWN_EDGE'

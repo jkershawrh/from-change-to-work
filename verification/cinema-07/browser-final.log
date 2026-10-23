@@ -1,0 +1,51 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test
+
+
+Running 12 tests using 1 worker
+
+(node:4026) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage (6.3s)
+  ✓   2 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop (5.0s)
+  ✓   3 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile (4.1s)
+  ✓   4 visual-tests/cinema.spec.ts:29:1 › voice clock plays, pauses and seeks without running a robot action (2.6s)
+  -   5 visual-tests/cinema.spec.ts:35:1 › authenticated observations populate only the current session payoff
+  ✘   6 visual-tests/cinema.spec.ts:41:1 › packaged video has verified metadata and a playable nonempty MP4 stream (207ms)
+(node:4175) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 visual-tests/cinema.spec.ts:46:1 › business illustrations explain their elements on hover and keyboard focus (3.5s)
+  ✓   8 visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive (9.5s)
+  ✓   9 visual-tests/cinema.spec.ts:59:1 › approved scene and Blender opening views are local and passive (2.5s)
+  ✓  10 visual-tests/cinema.spec.ts:66:1 › every visual has a title, input and outcome; Act 3 fits above captions (4.6s)
+  ✓  11 visual-tests/cinema.spec.ts:77:1 › zero-time deep link opens a complete title screen and enters the story (4.1s)
+  ✓  12 visual-tests/cinema.spec.ts:82:1 › captions stay off by default across Scene 1 handoff (2.0s)
+
+
+  1) visual-tests/cinema.spec.ts:41:1 › packaged video has verified metadata and a playable nonempty MP4 stream 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: undefined
+
+      40 | })
+      41 | test('packaged video has verified metadata and a playable nonempty MP4 stream',async({page})=>{
+    > 42 |  const report=await page.request.get('/show/film/production.json');expect(report.status()).toBe(200);const metadata=await report.json();expect(metadata.status).toBe('PASS_ENCODED_MEDIA');expect(metadata.opening_title_seconds).toBe(4);expect(metadata.burned_in_captions).toBe(false);expect(metadata.export_transport_overlay).toBe(false);expect(metadata.music).toContain('piano');expect(Math.abs(metadata.duration_seconds-metadata.story_duration_seconds-4)).toBeLessThan(.1)
+         |                                                                                                                                                                                                                                                                               ^
+      43 |  const video=await page.request.get('/show/film/from-change-to-work-music-cut.mp4',{headers:{Range:'bytes=0-1023'}});expect(video.status()).toBe(206);expect(video.headers()['content-type']).toContain('video/mp4');expect((await video.body()).length).toBe(1024)
+      44 |  await page.goto('/show/');await page.getByRole('button',{name:/Watch the narrated story/}).click();await expect(page.getByRole('link',{name:'Download film',exact:true})).toHaveAttribute('href','/show/film/from-change-to-work-music-cut.mp4')
+      45 | })
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:42:271
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/cinema-packaged-video-has--7eb66-layable-nonempty-MP4-stream/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/cinema-packaged-video-has--7eb66-layable-nonempty-MP4-stream/error-context.md
+
+  1 failed
+    visual-tests/cinema.spec.ts:41:1 › packaged video has verified metadata and a playable nonempty MP4 stream 
+  1 skipped
+  10 passed (47.4s)

@@ -1,0 +1,53 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test --grep-invert packaged video
+
+
+Running 8 tests using 1 worker
+
+(node:81818) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage (6.6s)
+  ✓  2 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop (4.9s)
+  ✓  3 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile (4.2s)
+  ✓  4 visual-tests/cinema.spec.ts:29:1 › voice clock plays, pauses and seeks without running a robot action (3.4s)
+  ✓  5 visual-tests/cinema.spec.ts:35:1 › authenticated observations populate only the current session payoff (2.3s)
+  ✓  6 visual-tests/cinema.spec.ts:46:1 › business illustrations explain their elements on hover and keyboard focus (2.9s)
+  ✘  7 visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive (14.7s)
+(node:82061) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  8 visual-tests/cinema.spec.ts:59:1 › approved scene and Blender opening views are local and passive (3.3s)
+
+
+  1) visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.cine-event-nav')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('.cine-event-nav') with timeout 5000ms
+      - waiting for locator('.cine-event-nav')
+
+
+      54 |  await expect(page.getByRole('button',{name:'Next process event',exact:true})).toBeDisabled();await page.getByRole('button',{name:'Previous process event',exact:true}).click();await expect(page.locator('.cinema')).toHaveAttribute('data-spatial-flow','execute');await page.getByRole('button',{name:'Close inspection'}).click()
+      55 |  await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),plan.chapters[3].start+1);await expect(page.locator('.robot-stage')).toHaveAttribute('data-asset-ready','true',{timeout:90000});for(const mode of ['hangar','aircraft','detail','cell']){await page.getByLabel('Hangar camera view').selectOption(mode);await expect(page.locator('.cinema')).toHaveAttribute('data-camera-view',mode);await page.waitForTimeout(1600);const colors=await page.locator('.robot-stage canvas').evaluate(node=>{const probe=document.createElement('canvas');probe.width=48;probe.height=32;const ctx=probe.getContext('2d')!;ctx.drawImage(node as HTMLCanvasElement,0,0,48,32);const pixels=ctx.getImageData(0,0,48,32).data,unique=new Set<string>();for(let i=0;i<pixels.length;i+=4)unique.add(pixels[i]+','+pixels[i+1]+','+pixels[i+2]);return unique.size});expect(colors,'nonempty 3D '+mode+' view').toBeGreaterThan(30);await page.screenshot({path:out+'/hangar-'+mode+'.png'})}
+    > 56 |  await page.getByLabel('Exploded robot assembly').fill('0.4');await page.getByRole('button',{name:'Blueprint',exact:true}).click();await page.screenshot({path:out+'/robot-exploded-blueprint.png'});await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),plan.chapters[2].start+3);await expect(page.locator('.cine-event-nav')).toBeVisible();expect(writes).toEqual([]);expect(errors).toEqual([])
+         |                                                                                                                                                                                                                                                                                                                                      ^
+      57 | })
+      58 |
+      59 | test('approved scene and Blender opening views are local and passive',async({page})=>{
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:56:326
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/cinema-spatial-architectur-197a2-hangar-views-remain-passive/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/cinema-spatial-architectur-197a2-hangar-views-remain-passive/error-context.md
+
+  1 failed
+    visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive 
+  7 passed (47.5s)

@@ -1,0 +1,581 @@
+21:39:28 | INFO: Data are loaded, start creating Blender stuff
+21:39:28 | INFO: Blender create Mesh node Access door edge seal 1 1
+21:39:28 | INFO: Blender create Mesh node Access door edge seal 1 2
+21:39:28 | INFO: Blender create Mesh node Access door edge seal -1 1
+21:39:28 | INFO: Blender create Mesh node Access door edge seal -1 2
+21:39:28 | INFO: Blender create Mesh node Closed passenger access door 1 1
+21:39:28 | INFO: Blender create Mesh node Closed passenger access door 1 2
+21:39:28 | INFO: Blender create Mesh node Closed passenger access door -1 1
+21:39:28 | INFO: Blender create Mesh node Closed passenger access door -1 2
+21:39:28 | INFO: Blender create Mesh node Finite horizontal stabilizer 1
+21:39:28 | INFO: Blender create Mesh node Finite horizontal stabilizer -1
+21:39:28 | INFO: Blender create Mesh node Finite lofted fuselage with actual window apertures
+21:39:28 | INFO: Blender create Mesh node Finite nose gear well door
+21:39:28 | INFO: Blender create Mesh node Finite swept main wing 1
+21:39:28 | INFO: Blender create Mesh node Finite swept main wing -1
+21:39:28 | INFO: Blender create Mesh node Flap track fairing 1 1
+21:39:28 | INFO: Blender create Mesh node Flap track fairing 1 2
+21:39:28 | INFO: Blender create Mesh node Flap track fairing 1 3
+21:39:28 | INFO: Blender create Mesh node Flap track fairing -1 1
+21:39:28 | INFO: Blender create Mesh node Flap track fairing -1 2
+21:39:28 | INFO: Blender create Mesh node Flap track fairing -1 3
+21:39:28 | INFO: Blender create Mesh node Flight deck glazed pane 1 1
+21:39:28 | INFO: Blender create Mesh node Flight deck glazed pane 1 2
+21:39:28 | INFO: Blender create Mesh node Flight deck glazed pane -1 1
+21:39:28 | INFO: Blender create Mesh node Flight deck glazed pane -1 2
+21:39:28 | INFO: Blender create Mesh node Flight deck seated frame 1 1
+21:39:28 | INFO: Blender create Mesh node Flight deck seated frame 1 2
+21:39:28 | INFO: Blender create Mesh node Flight deck seated frame -1 1
+21:39:28 | INFO: Blender create Mesh node Flight deck seated frame -1 2
+21:39:28 | INFO: Blender create Mesh node Flush door handle 1 1
+21:39:28 | INFO: Blender create Mesh node Flush door handle 1 2
+21:39:28 | INFO: Blender create Mesh node Flush door handle -1 1
+21:39:28 | INFO: Blender create Mesh node Flush door handle -1 2
+21:39:28 | INFO: Blender create Mesh node Main diagonal drag stay 1
+21:39:28 | INFO: Blender create Mesh node Main diagonal drag stay -1
+21:39:28 | INFO: Blender create Mesh node Main gear door seated hinge 1
+21:39:28 | INFO: Blender create Mesh node Main gear door seated hinge -1
+21:39:28 | INFO: Blender create Mesh node Main gear finite door 1
+21:39:28 | INFO: Blender create Mesh node Main gear finite door -1
+21:39:28 | INFO: Blender create Mesh node Main gear root fairing 1
+21:39:28 | INFO: Blender create Mesh node Main gear root fairing -1
+21:39:28 | INFO: Blender create Mesh node Main oleo piston 1
+21:39:28 | INFO: Blender create Mesh node Main oleo piston -1
+21:39:28 | INFO: Blender create Mesh node Main seated oleo barrel 1
+21:39:28 | INFO: Blender create Mesh node Main seated oleo barrel -1
+21:39:28 | INFO: Blender create Mesh node Main through axle 1
+21:39:28 | INFO: Blender create Mesh node Main through axle -1
+21:39:28 | INFO: Blender create Mesh node Main torque link 1 0
+21:39:28 | INFO: Blender create Mesh node Main torque link 1 1
+21:39:28 | INFO: Blender create Mesh node Main torque link -1 0
+21:39:28 | INFO: Blender create Mesh node Main torque link -1 1
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 1 bearing hub
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 1 enclosed hub motor drum
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 1 rounded tyre carcass
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 1 seated through axle
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 1 turned rim and bead seats
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 -1 bearing hub
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 -1 enclosed hub motor drum
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 -1 rounded tyre carcass
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 -1 seated through axle
+21:39:28 | INFO: Blender create Mesh node Main wheel 1 -1 turned rim and bead seats
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 1 bearing hub
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 1 enclosed hub motor drum
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 1 rounded tyre carcass
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 1 seated through axle
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 1 turned rim and bead seats
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 -1 bearing hub
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 -1 enclosed hub motor drum
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 -1 rounded tyre carcass
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 -1 seated through axle
+21:39:28 | INFO: Blender create Mesh node Main wheel -1 -1 turned rim and bead seats
+21:39:28 | INFO: Blender create Mesh node Nose drag brace
+21:39:28 | INFO: Blender create Mesh node Nose fork 1
+21:39:28 | INFO: Blender create Mesh node Nose fork -1
+21:39:28 | INFO: Blender create Mesh node Nose oleo chrome piston
+21:39:28 | INFO: Blender create Mesh node Nose oleo seated upper barrel
+21:39:28 | INFO: Blender create Mesh node Nose through axle
+21:39:28 | INFO: Blender create Mesh node Nose well door hinge support
+21:39:28 | INFO: Blender create Mesh node Nose wheel 1 bearing hub
+21:39:28 | INFO: Blender create Mesh node Nose wheel 1 enclosed hub motor drum
+21:39:28 | INFO: Blender create Mesh node Nose wheel 1 rounded tyre carcass
+21:39:28 | INFO: Blender create Mesh node Nose wheel 1 seated through axle
+21:39:28 | INFO: Blender create Mesh node Nose wheel 1 turned rim and bead seats
+21:39:28 | INFO: Blender create Mesh node Nose wheel -1 bearing hub
+21:39:28 | INFO: Blender create Mesh node Nose wheel -1 enclosed hub motor drum
+21:39:28 | INFO: Blender create Mesh node Nose wheel -1 rounded tyre carcass
+21:39:28 | INFO: Blender create Mesh node Nose wheel -1 seated through axle
+21:39:28 | INFO: Blender create Mesh node Nose wheel -1 turned rim and bead seats
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 1
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 2
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 3
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 4
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 5
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 6
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 7
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 8
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 9
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 10
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 11
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 12
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 13
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 14
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 15
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 16
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 17
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 18
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 19
+21:39:28 | INFO: Blender create Mesh node Passenger window 1 20
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 1
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 2
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 3
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 4
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 5
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 6
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 7
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 8
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 9
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 10
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 11
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 12
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 13
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 14
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 15
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 16
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 17
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 18
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 19
+21:39:28 | INFO: Blender create Mesh node Passenger window -1 20
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 1
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 2
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 3
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 4
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 5
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 6
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 7
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 8
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 9
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 10
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 11
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 12
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 13
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 14
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 15
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 16
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 17
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 18
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 19
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket 1 20
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 1
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 2
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 3
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 4
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 5
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 6
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 7
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 8
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 9
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 10
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 11
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 12
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 13
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 14
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 15
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 16
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 17
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 18
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 19
+21:39:28 | INFO: Blender create Mesh node Passenger window seated gasket -1 20
+21:39:28 | INFO: Blender create Mesh node Rear engine structural pylon 1
+21:39:28 | INFO: Blender create Mesh node Rear engine structural pylon -1
+21:39:28 | INFO: Blender create Mesh node Seated door hinge 1 1 1
+21:39:28 | INFO: Blender create Mesh node Seated door hinge 1 1 -1
+21:39:28 | INFO: Blender create Mesh node Seated door hinge 1 2 1
+21:39:28 | INFO: Blender create Mesh node Seated door hinge 1 2 -1
+21:39:28 | INFO: Blender create Mesh node Seated door hinge -1 1 1
+21:39:28 | INFO: Blender create Mesh node Seated door hinge -1 1 -1
+21:39:28 | INFO: Blender create Mesh node Seated door hinge -1 2 1
+21:39:28 | INFO: Blender create Mesh node Seated door hinge -1 2 -1
+21:39:28 | INFO: Blender create Mesh node Seated finite aileron strip 1
+21:39:28 | INFO: Blender create Mesh node Seated finite aileron strip -1
+21:39:28 | INFO: Blender create Mesh node Shaped seated vertical stabilizer
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 exhaust centerbody
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 exhaust core shaft
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 1
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 2
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 3
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 4
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 5
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 6
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 7
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 8
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 9
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 10
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 11
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 12
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 13
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 14
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 15
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 16
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 17
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 18
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 19
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 20
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 21
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 22
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 23
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 24
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 25
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 26
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 27
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade 28
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 fan blade hub
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 finite open nacelle
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 rear stator bearing disc
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 rounded metallic intake rim
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 seated rotating shaft
+21:39:28 | INFO: Blender create Mesh node Turbofan 1 tapered fan spinner
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 exhaust centerbody
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 exhaust core shaft
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 1
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 2
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 3
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 4
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 5
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 6
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 7
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 8
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 9
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 10
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 11
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 12
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 13
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 14
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 15
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 16
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 17
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 18
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 19
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 20
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 21
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 22
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 23
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 24
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 25
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 26
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 27
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade 28
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 fan blade hub
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 finite open nacelle
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 rear stator bearing disc
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 rounded metallic intake rim
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 seated rotating shaft
+21:39:28 | INFO: Blender create Mesh node Turbofan -1 tapered fan spinner
+21:39:28 | INFO: Blender create Mesh node Ventral seated aerial 1
+21:39:28 | INFO: Blender create Mesh node Ventral seated aerial 2
+21:39:28 | INFO: Blender create Mesh node Wingtip navigation 1 closed optical housing
+21:39:28 | INFO: Blender create Mesh node Wingtip navigation 1 finite curved optic
+21:39:28 | INFO: Blender create Mesh node Wingtip navigation -1 closed optical housing
+21:39:28 | INFO: Blender create Mesh node Wingtip navigation -1 finite curved optic
+21:39:28 | INFO: glTF import finished in 0.21s
+BOUNDS regional [-15.224949836730957, -13.581199645996094, 0.0] [15.224949836730957, 13.581199645996094, 8.911518096923828]
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:31:45)
+Fra:1 Mem:48.73M (Peak 48.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Access door edge seal 1 1
+Fra:1 Mem:48.73M (Peak 48.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Access door edge seal -1 1
+Fra:1 Mem:48.74M (Peak 48.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Closed passenger access door 1 1
+Fra:1 Mem:50.74M (Peak 50.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Closed passenger access door -1 1
+Fra:1 Mem:50.91M (Peak 50.91M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Closed passenger access door -1 2
+Fra:1 Mem:50.94M (Peak 50.94M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finite horizontal stabilizer -1
+Fra:1 Mem:51.03M (Peak 51.03M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finite lofted fuselage with actual window apertures
+Fra:1 Mem:51.12M (Peak 51.12M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Finite swept main wing -1
+Fra:1 Mem:51.20M (Peak 51.20M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flap track fairing 1 1
+Fra:1 Mem:51.25M (Peak 51.25M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flap track fairing 1 2
+Fra:1 Mem:53.13M (Peak 53.13M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.002
+Fra:1 Mem:53.13M (Peak 53.13M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
+Fra:1 Mem:53.13M (Peak 53.13M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area
+Fra:1 Mem:53.19M (Peak 53.19M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Plane
+Fra:1 Mem:53.14M (Peak 53.19M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wingtip navigation -1 finite curved optic
+Fra:1 Mem:57.12M (Peak 57.12M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wingtip navigation -1 closed optical housing
+Fra:1 Mem:57.17M (Peak 57.17M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flap track fairing 1 3
+Fra:1 Mem:57.29M (Peak 57.29M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flap track fairing -1 1
+Fra:1 Mem:57.91M (Peak 57.91M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flap track fairing -1 2
+Fra:1 Mem:57.71M (Peak 57.91M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flap track fairing -1 3
+Fra:1 Mem:57.82M (Peak 57.91M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flight deck glazed pane 1 1
+Fra:1 Mem:58.05M (Peak 58.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flight deck glazed pane 1 2
+Fra:1 Mem:58.06M (Peak 58.06M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flight deck glazed pane -1 1
+Fra:1 Mem:58.16M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flight deck seated frame 1 1
+Fra:1 Mem:57.57M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flight deck seated frame 1 2
+Fra:1 Mem:57.67M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wingtip navigation 1 finite curved optic
+Fra:1 Mem:57.72M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flight deck seated frame -1 2
+Fra:1 Mem:57.76M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush door handle 1 2
+Fra:1 Mem:57.85M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wingtip navigation 1 closed optical housing
+Fra:1 Mem:57.85M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush door handle -1 1
+Fra:1 Mem:57.89M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush door handle -1 2
+Fra:1 Mem:57.89M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main diagonal drag stay 1
+Fra:1 Mem:57.92M (Peak 58.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ventral seated aerial 2
+Fra:1 Mem:58.18M (Peak 58.18M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ventral seated aerial 1
+Fra:1 Mem:58.21M (Peak 58.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main diagonal drag stay -1
+Fra:1 Mem:58.24M (Peak 58.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main gear door seated hinge 1
+Fra:1 Mem:58.18M (Peak 58.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 tapered fan spinner
+Fra:1 Mem:57.79M (Peak 58.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main gear finite door 1
+Fra:1 Mem:58.01M (Peak 58.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main gear finite door -1
+Fra:1 Mem:58.04M (Peak 58.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main gear root fairing 1
+Fra:1 Mem:58.03M (Peak 58.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main oleo piston -1
+Fra:1 Mem:58.20M (Peak 58.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main seated oleo barrel 1
+Fra:1 Mem:58.31M (Peak 58.31M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 seated rotating shaft
+Fra:1 Mem:58.46M (Peak 58.46M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 rounded metallic intake rim
+Fra:1 Mem:58.57M (Peak 58.57M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main through axle 1
+Fra:1 Mem:58.47M (Peak 58.57M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main through axle -1
+Fra:1 Mem:58.48M (Peak 58.57M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main torque link 1 0
+Fra:1 Mem:58.66M (Peak 58.66M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 rear stator bearing disc
+Fra:1 Mem:58.77M (Peak 58.77M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main torque link -1 0
+Fra:1 Mem:58.76M (Peak 58.77M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main torque link -1 1
+Fra:1 Mem:58.78M (Peak 58.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 1 bearing hub
+Fra:1 Mem:58.82M (Peak 58.82M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 1 enclosed hub motor drum
+Fra:1 Mem:58.88M (Peak 58.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 1 rounded tyre carcass
+Fra:1 Mem:58.86M (Peak 58.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 1 seated through axle
+Fra:1 Mem:59.00M (Peak 59.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 1 turned rim and bead seats
+Fra:1 Mem:59.03M (Peak 59.03M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 -1 bearing hub
+Fra:1 Mem:59.09M (Peak 59.09M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 finite open nacelle
+Fra:1 Mem:59.17M (Peak 59.17M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 -1 enclosed hub motor drum
+Fra:1 Mem:59.19M (Peak 59.19M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 -1 rounded tyre carcass
+Fra:1 Mem:59.31M (Peak 59.31M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 -1 seated through axle
+Fra:1 Mem:59.57M (Peak 59.57M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel 1 -1 turned rim and bead seats
+Fra:1 Mem:59.67M (Peak 59.67M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 1 bearing hub
+Fra:1 Mem:59.77M (Peak 59.77M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 1 enclosed hub motor drum
+Fra:1 Mem:59.79M (Peak 59.79M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 1 rounded tyre carcass
+Fra:1 Mem:59.97M (Peak 59.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 1 seated through axle
+Fra:1 Mem:59.97M (Peak 59.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 1 turned rim and bead seats
+Fra:1 Mem:60.13M (Peak 60.13M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 -1 bearing hub
+Fra:1 Mem:60.42M (Peak 60.42M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 -1 enclosed hub motor drum
+Fra:1 Mem:60.42M (Peak 60.42M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 -1 rounded tyre carcass
+Fra:1 Mem:60.58M (Peak 60.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 -1 seated through axle
+Fra:1 Mem:60.94M (Peak 60.94M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main wheel -1 -1 turned rim and bead seats
+Fra:1 Mem:60.95M (Peak 60.95M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose fork 1
+Fra:1 Mem:61.45M (Peak 61.45M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose fork -1
+Fra:1 Mem:61.57M (Peak 61.57M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose oleo chrome piston
+Fra:1 Mem:61.67M (Peak 61.67M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose oleo seated upper barrel
+Fra:1 Mem:61.66M (Peak 61.67M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose through axle
+Fra:1 Mem:61.70M (Peak 61.70M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose well door hinge support
+Fra:1 Mem:62.63M (Peak 62.63M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel 1 bearing hub
+Fra:1 Mem:62.94M (Peak 62.94M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel 1 enclosed hub motor drum
+Fra:1 Mem:63.32M (Peak 63.32M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel 1 rounded tyre carcass
+Fra:1 Mem:63.34M (Peak 63.34M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel 1 seated through axle
+Fra:1 Mem:63.50M (Peak 63.50M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel 1 turned rim and bead seats
+Fra:1 Mem:63.74M (Peak 63.74M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel -1 bearing hub
+Fra:1 Mem:63.89M (Peak 63.89M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel -1 enclosed hub motor drum
+Fra:1 Mem:64.00M (Peak 64.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel -1 rounded tyre carcass
+Fra:1 Mem:63.92M (Peak 64.00M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel -1 seated through axle
+Fra:1 Mem:64.03M (Peak 64.03M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Nose wheel -1 turned rim and bead seats
+Fra:1 Mem:65.16M (Peak 65.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 1
+Fra:1 Mem:65.12M (Peak 65.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 2
+Fra:1 Mem:65.12M (Peak 65.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 3
+Fra:1 Mem:65.44M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 5
+Fra:1 Mem:65.43M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 6
+Fra:1 Mem:64.92M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade hub
+Fra:1 Mem:61.81M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 7
+Fra:1 Mem:61.12M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 8
+Fra:1 Mem:61.17M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 9
+Fra:1 Mem:61.21M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 10
+Fra:1 Mem:61.22M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 12
+Fra:1 Mem:61.34M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 13
+Fra:1 Mem:61.36M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 14
+Fra:1 Mem:61.46M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 16
+Fra:1 Mem:61.45M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 17
+Fra:1 Mem:61.50M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 18
+Fra:1 Mem:61.51M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window 1 20
+Fra:1 Mem:61.51M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 2
+Fra:1 Mem:61.51M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 27
+Fra:1 Mem:61.55M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 3
+Fra:1 Mem:61.56M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 4
+Fra:1 Mem:61.60M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 5
+Fra:1 Mem:61.63M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 6
+Fra:1 Mem:61.66M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 7
+Fra:1 Mem:61.67M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 10
+Fra:1 Mem:61.70M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 11
+Fra:1 Mem:61.75M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 12
+Fra:1 Mem:61.76M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 13
+Fra:1 Mem:61.77M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 14
+Fra:1 Mem:61.80M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 16
+Fra:1 Mem:61.82M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 17
+Fra:1 Mem:61.84M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 18
+Fra:1 Mem:61.87M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window -1 19
+Fra:1 Mem:61.88M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 26
+Fra:1 Mem:61.90M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 3
+Fra:1 Mem:61.94M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 4
+Fra:1 Mem:61.95M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 5
+Fra:1 Mem:61.96M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 6
+Fra:1 Mem:62.03M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 8
+Fra:1 Mem:62.07M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 25
+Fra:1 Mem:62.07M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 9
+Fra:1 Mem:62.15M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 10
+Fra:1 Mem:62.20M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 11
+Fra:1 Mem:62.24M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 12
+Fra:1 Mem:62.29M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 13
+Fra:1 Mem:62.29M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 14
+Fra:1 Mem:62.36M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 15
+Fra:1 Mem:62.44M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 16
+Fra:1 Mem:62.47M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 18
+Fra:1 Mem:62.50M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket 1 20
+Fra:1 Mem:62.53M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 1
+Fra:1 Mem:62.58M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 2
+Fra:1 Mem:62.58M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 3
+Fra:1 Mem:62.65M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 4
+Fra:1 Mem:62.76M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 5
+Fra:1 Mem:62.78M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 8
+Fra:1 Mem:62.84M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 10
+Fra:1 Mem:62.85M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 23
+Fra:1 Mem:62.86M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 11
+Fra:1 Mem:62.90M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 12
+Fra:1 Mem:62.96M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 13
+Fra:1 Mem:62.98M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 14
+Fra:1 Mem:63.00M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 22
+Fra:1 Mem:63.02M (Peak 65.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 15
+Fra:1 Mem:63.09M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 16
+Fra:1 Mem:63.15M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 17
+Fra:1 Mem:63.17M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 18
+Fra:1 Mem:63.19M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 19
+Fra:1 Mem:63.27M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Passenger window seated gasket -1 20
+Fra:1 Mem:63.33M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear engine structural pylon 1
+Fra:1 Mem:63.36M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear engine structural pylon -1
+Fra:1 Mem:63.43M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seated door hinge 1 1 -1
+Fra:1 Mem:63.50M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seated door hinge -1 1 1
+Fra:1 Mem:63.64M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seated door hinge -1 1 -1
+Fra:1 Mem:63.66M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seated door hinge -1 2 1
+Fra:1 Mem:63.74M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seated door hinge -1 2 -1
+Fra:1 Mem:63.67M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seated finite aileron strip 1
+Fra:1 Mem:63.67M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seated finite aileron strip -1
+Fra:1 Mem:63.77M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shaped seated vertical stabilizer
+Fra:1 Mem:63.76M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 exhaust centerbody
+Fra:1 Mem:63.80M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 1
+Fra:1 Mem:63.98M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 2
+Fra:1 Mem:64.12M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 3
+Fra:1 Mem:64.35M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 4
+Fra:1 Mem:64.58M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 5
+Fra:1 Mem:64.58M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 6
+Fra:1 Mem:64.65M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 7
+Fra:1 Mem:64.61M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 8
+Fra:1 Mem:64.69M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 9
+Fra:1 Mem:64.68M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 10
+Fra:1 Mem:64.68M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 12
+Fra:1 Mem:64.68M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 13
+Fra:1 Mem:64.78M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 14
+Fra:1 Mem:64.78M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 15
+Fra:1 Mem:64.75M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 19
+Fra:1 Mem:64.78M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 18
+Fra:1 Mem:64.83M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 19
+Fra:1 Mem:64.83M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 20
+Fra:1 Mem:64.88M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 21
+Fra:1 Mem:64.88M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 22
+Fra:1 Mem:64.90M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 23
+Fra:1 Mem:64.93M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 18
+Fra:1 Mem:64.94M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 26
+Fra:1 Mem:65.11M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 27
+Fra:1 Mem:65.27M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade 28
+Fra:1 Mem:64.90M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 fan blade hub
+Fra:1 Mem:64.98M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 rear stator bearing disc
+Fra:1 Mem:65.05M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 rounded metallic intake rim
+Fra:1 Mem:65.06M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 seated rotating shaft
+Fra:1 Mem:65.15M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 17
+Fra:1 Mem:65.20M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan 1 tapered fan spinner
+Fra:1 Mem:65.30M (Peak 65.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 exhaust centerbody
+Fra:1 Mem:65.53M (Peak 65.53M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 exhaust core shaft
+Fra:1 Mem:65.49M (Peak 65.53M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 1
+Fra:1 Mem:65.47M (Peak 65.53M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 2
+Fra:1 Mem:65.51M (Peak 65.53M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 16
+Fra:1 Mem:65.77M (Peak 65.77M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 3
+Fra:1 Mem:65.72M (Peak 65.77M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 4
+Fra:1 Mem:65.76M (Peak 65.81M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 5
+Fra:1 Mem:65.84M (Peak 65.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 6
+Fra:1 Mem:65.85M (Peak 65.85M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 7
+Fra:1 Mem:65.92M (Peak 65.92M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 15
+Fra:1 Mem:65.90M (Peak 65.92M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 9
+Fra:1 Mem:66.01M (Peak 66.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 10
+Fra:1 Mem:66.01M (Peak 66.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 11
+Fra:1 Mem:66.06M (Peak 66.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 12
+Fra:1 Mem:66.06M (Peak 66.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 13
+Fra:1 Mem:66.04M (Peak 66.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turbofan -1 fan blade 14
+Fra:1 Mem:66.33M (Peak 66.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:65.26M (Peak 66.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading aluminium_aircraft_2k
+Fra:1 Mem:65.26M (Peak 66.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading polished_steel_aircraft_2k
+Fra:1 Mem:65.26M (Peak 66.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading tyre_rubber_aircraft_2k
+Fra:1 Mem:65.26M (Peak 66.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading blue_paint_aircraft_2k
+Fra:1 Mem:193.28M (Peak 209.28M) | Time:00:00.13 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading gelcoat_white_aircraft_2k
+Fra:1 Mem:209.28M (Peak 225.29M) | Time:00:00.14 | Mem:32.00M, Peak:32.00M | Scene, ViewLayer | Updating Images | Loading lamp_red_aircraft_2k
+Fra:1 Mem:273.31M (Peak 289.32M) | Time:00:00.17 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Images | Loading gelcoat_navy_aircraft_2k
+Fra:1 Mem:233.15M (Peak 289.32M) | Time:00:00.24 | Mem:176.00M, Peak:176.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:233.15M (Peak 289.32M) | Time:00:00.24 | Mem:176.00M, Peak:176.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:233.15M (Peak 289.32M) | Time:00:00.24 | Mem:176.00M, Peak:176.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:233.15M (Peak 289.32M) | Time:00:00.24 | Mem:176.00M, Peak:176.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:233.24M (Peak 289.32M) | Time:00:00.24 | Mem:176.01M, Peak:176.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:233.24M (Peak 289.32M) | Time:00:00.24 | Mem:176.01M, Peak:176.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:233.24M (Peak 289.32M) | Time:00:00.24 | Mem:176.01M, Peak:176.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:233.24M (Peak 289.32M) | Time:00:00.24 | Mem:176.01M, Peak:176.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:233.24M (Peak 289.32M) | Time:00:00.24 | Mem:176.01M, Peak:176.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:233.24M (Peak 289.32M) | Time:00:00.24 | Mem:176.01M, Peak:176.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:233.30M (Peak 289.32M) | Time:00:00.24 | Mem:176.07M, Peak:176.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:233.30M (Peak 289.32M) | Time:00:00.24 | Mem:176.07M, Peak:176.07M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:233.30M (Peak 289.32M) | Time:00:00.24 | Mem:176.07M, Peak:176.07M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:233.30M (Peak 289.32M) | Time:00:00.24 | Mem:176.07M, Peak:176.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:233.30M (Peak 289.32M) | Time:00:00.24 | Mem:176.07M, Peak:176.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:237.92M (Peak 289.32M) | Time:00:00.24 | Mem:176.09M, Peak:176.09M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:237.88M (Peak 289.32M) | Time:00:00.24 | Mem:180.65M, Peak:180.65M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:237.88M (Peak 289.32M) | Time:00:00.24 | Mem:180.65M, Peak:180.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:237.88M (Peak 289.32M) | Time:00:00.26 | Mem:184.97M, Peak:184.97M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:237.88M (Peak 289.32M) | Time:00:00.26 | Mem:189.68M, Peak:194.00M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:237.88M (Peak 289.32M) | Time:00:00.26 | Mem:189.68M, Peak:194.00M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:242.66M (Peak 289.32M) | Time:00:00.26 | Mem:189.68M, Peak:194.00M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:242.66M (Peak 289.32M) | Time:00:00.26 | Mem:194.45M, Peak:194.45M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:242.66M (Peak 289.32M) | Time:00:00.26 | Mem:194.46M, Peak:194.46M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:242.66M (Peak 289.32M) | Time:00:00.26 | Mem:194.46M, Peak:194.46M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:242.66M (Peak 289.32M) | Time:00:00.26 | Mem:194.46M, Peak:194.46M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:242.66M (Peak 289.32M) | Time:00:00.26 | Mem:194.46M, Peak:194.46M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:242.66M (Peak 289.32M) | Time:00:00.26 | Mem:194.54M, Peak:194.54M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:242.66M (Peak 289.32M) | Time:00:00.27 | Mem:194.54M, Peak:194.54M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:242.67M (Peak 289.32M) | Time:00:00.27 | Mem:194.54M, Peak:194.54M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:242.67M (Peak 289.32M) | Time:00:00.27 | Mem:194.54M, Peak:194.54M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:242.67M (Peak 289.32M) | Time:00:00.27 | Mem:194.46M, Peak:194.54M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:242.67M (Peak 289.32M) | Time:00:00.27 | Mem:194.55M, Peak:194.55M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:242.67M (Peak 289.32M) | Time:00:00.27 | Mem:194.55M, Peak:194.55M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:242.68M (Peak 289.32M) | Time:00:00.27 | Mem:194.55M, Peak:194.55M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:242.68M (Peak 289.32M) | Time:00:00.27 | Mem:194.55M, Peak:194.55M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:294.71M (Peak 294.71M) | Time:00:00.46 | Remaining:00:04.51 | Mem:246.51M, Peak:246.51M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:316.59M (Peak 349.40M) | Time:00:07.33 | Mem:246.51M, Peak:246.51M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:316.59M (Peak 349.40M) | Time:00:07.33 | Mem:246.51M, Peak:246.51M | Scene, ViewLayer | Finished
+Saved: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/.production/aircraft-review/regional-preview.png'
+Time: 00:07.45 (Saving: 00:00.11)
+
+21:39:35 | INFO: Data are loaded, start creating Blender stuff
+21:39:35 | INFO: Blender create Mesh node Mesh
+21:39:35 | INFO: glTF import finished in 0.01s
+BOUNDS a320 [-21.89642906188965, -17.701936721801758, -2.8210721015930176] [15.7849702835083, 17.776775360107422, 8.501036643981934]
+Fra:1 Mem:11.29M (Peak 11.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | airplane
+Fra:1 Mem:11.29M (Peak 11.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Plane
+Fra:1 Mem:11.31M (Peak 11.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.002
+Fra:1 Mem:11.31M (Peak 11.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
+Fra:1 Mem:11.87M (Peak 12.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:11.86M (Peak 12.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading UV_1KLM_random01_no_logo
+Fra:1 Mem:15.63M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:15.63M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:15.63M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:15.63M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:15.71M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:15.89M (Peak 19.87M) | Time:00:00.01 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:15.89M (Peak 19.87M) | Time:00:00.01 | Mem:4.18M, Peak:4.18M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:15.89M (Peak 19.87M) | Time:00:00.01 | Mem:4.18M, Peak:4.18M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:15.89M (Peak 19.87M) | Time:00:00.01 | Mem:4.34M, Peak:4.34M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:15.89M (Peak 19.87M) | Time:00:00.01 | Mem:4.52M, Peak:4.68M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:15.89M (Peak 19.87M) | Time:00:00.01 | Mem:4.52M, Peak:4.68M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.52M, Peak:4.68M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.72M, Peak:4.72M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.72M, Peak:4.72M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.72M, Peak:4.72M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.72M, Peak:4.72M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.72M, Peak:4.72M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:16.09M (Peak 19.87M) | Time:00:00.01 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:16.10M (Peak 19.87M) | Time:00:00.01 | Mem:4.72M, Peak:4.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:16.10M (Peak 19.87M) | Time:00:00.01 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:16.10M (Peak 19.87M) | Time:00:00.01 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:16.10M (Peak 19.87M) | Time:00:00.01 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:16.10M (Peak 19.87M) | Time:00:00.01 | Mem:4.80M, Peak:4.80M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.19 | Remaining:00:04.04 | Mem:56.77M, Peak:56.77M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:90.01M (Peak 122.83M) | Time:00:06.60 | Mem:56.77M, Peak:56.77M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:90.01M (Peak 122.83M) | Time:00:06.60 | Mem:56.77M, Peak:56.77M | Scene, ViewLayer | Finished
+Saved: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/.production/aircraft-review/a320-preview.png'
+Time: 00:06.64 (Saving: 00:00.04)
+
+
+Blender quit

@@ -1,0 +1,1 @@
+{"ended_unix_ns":1792706273478851000,"error":"AssertionError: Task ended before fault: {'task_status': 'COMPLETE', 'ticks': 47, 'job_state': 'COMPLETE', 'pid': 12389}","namespace":"aeris-transfer-ae928d8d71","physical_motion_authorized":false,"schema":"evy-aeris.network-proof.v1","simulation_only":true,"started_unix_ns":1792706140084150000,"status":"FAIL"}

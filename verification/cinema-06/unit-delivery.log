@@ -1,0 +1,41 @@
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+ ❯ src/App.test.tsx (5 tests | 1 failed) 11983ms
+     × restarts from the brand control 6569ms
+ ❯ src/scenes/SceneRenderer.test.tsx (20 tests | 1 failed) 15366ms
+     × labels rehearsal data instead of presenting it as live 5196ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > presentation controls > restarts from the brand control
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/App.test.tsx:21:3
+     19|   })
+     20|
+     21|   it('restarts from the brand control', () => {
+       |   ^
+     22|     window.history.replaceState(null, '', '/?act=1&scene=0')
+     23|     render(<App />)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/scenes/SceneRenderer.test.tsx > SceneRenderer > labels rehearsal data instead of presenting it as live
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/scenes/SceneRenderer.test.tsx:20:3
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  2 failed | 8 passed (10)
+      Tests  2 failed | 46 passed (48)
+   Start at  07:23:04
+   Duration  67.04s (transform 20.97s, setup 21.15s, import 48.64s, tests 28.94s, environment 239.42s)
+

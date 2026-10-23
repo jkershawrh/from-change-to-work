@@ -1,0 +1,24 @@
+{
+  "schema": "aeris.story-audio-production.v1",
+  "duration_seconds": 367.12,
+  "original_voice_seconds": 317.12,
+  "entire_decoded_source_waveform_retained": true,
+  "provider_requests": 1,
+  "time_stretching": false,
+  "chapter_holds": 6,
+  "closing_hold_seconds": 12.0,
+  "original_ambient_bed_db_below_active_voice_rms": 34,
+  "clipped_samples": 0,
+  "voiced_sample_fraction": 0.6030717618637489,
+  "voice_settings_source": "audio/voice-profile.json",
+  "subjective_listening_performed": false,
+  "files": {
+    "captions.vtt": "24ffde0c80623cbbdc1475df7a1f9428f158c9231dd0d6f2f01b595681dbef50",
+    "ambient.wav": "ace07881b3c4859bc72d078d81c60c69f23d87284a7fce301c6ef7f35b1b192e",
+    "plan.json": "58ef4f394c038779c60a8f6e93bd96b90482aac43a876f7844c18a5dd1e9f7ee",
+    "kersh-raw.mp3": "7fb40cd372e361bf0a59175d029ae128b29a8983a829405214f2c639537cdb8c",
+    "film-mix.wav": "34bb2a833f32b2c743633e6b742c3f7b02f8f32ef999381edfe4dc2498bc9bb2",
+    "captions.srt": "d51b641d1e76fe7c3957a7926c662ace70ea08ee1f47fb645919c8e50114c981",
+    "narration.wav": "2b5eb1c058e5529a22a37535bc315e277fb5a0f4eab36fe41b1c249ceee34b41"
+  }
+}

@@ -1,0 +1,12 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test --grep every visual has
+
+
+Running 1 test using 1 worker
+
+(node:82813) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/cinema.spec.ts:66:1 › every visual has a title, input and outcome; Act 3 fits above captions (2.7s)
+
+  1 passed (4.3s)

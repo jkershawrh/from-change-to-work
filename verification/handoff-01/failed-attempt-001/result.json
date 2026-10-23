@@ -1,0 +1,94 @@
+{
+  "status": "FAIL_LIVE_JOURNEY",
+  "scope": "Local development host; native build overlapped browser simulation",
+  "reason": "Rework task rejected STALE_OBSERVATION before executor interruption; no recovery was injected.",
+  "tasks": [
+    {
+      "task": "action-action-8d004322",
+      "status": "COMPLETE",
+      "receipt": {
+        "behavior_sha256": "ba36c3fa459e510803b3fbe604d7d5db8b0f4505b14eb2727b765aa4380c6867",
+        "completed_at_unix_ms": 1792712430800,
+        "completed_goals": 4,
+        "deadline_refusals": 45,
+        "error": null,
+        "host_elapsed_ms": 21547.696042,
+        "physical_motion_authorized": false,
+        "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b",
+        "requested_goals": 4,
+        "schema": "evy-aeris.sim-transfer-receipt.v2",
+        "sequence": 1,
+        "simulation_only": true,
+        "started_at_unix_ms": 1792712409252,
+        "status": "COMPLETE",
+        "target": {
+          "adapter_sha256": "b60f0342795d18d2660f279256183c9f64f0fbfbe8ce5e51ad835c6c1b30362e",
+          "calibration_sha256": "0245e6e42acd09ea3ce2f5606414f4d0e5fc9127d5b7988f719037797d9d4909",
+          "frame": "world-base",
+          "host_arch": "aarch64",
+          "host_os": "macos",
+          "joint_names": [
+            "shoulder_pan_joint",
+            "shoulder_lift_joint",
+            "elbow_joint",
+            "wrist_1_joint",
+            "wrist_2_joint",
+            "wrist_3_joint"
+          ],
+          "plant_sha256": "3cc976e7249490c535c4317f6dbd0077a75ab142129ad93fecf78efee3e76ab1",
+          "profile": "mujoco-six-axis-goals-v1",
+          "runtime": "mujoco-rust-mpc-v1",
+          "runtime_version": "3.3.7",
+          "units": "rad"
+        },
+        "task": "action-action-8d004322",
+        "ticks": 415,
+        "training_required": false
+      }
+    },
+    {
+      "task": "action-action-4be1beff",
+      "status": "FAILED",
+      "receipt": {
+        "behavior_sha256": "ad791791b54130b7b679430cbb1c8600ab9d00f1c1f2c1e9f37d9b6000e650fd",
+        "completed_at_unix_ms": 1792712463505,
+        "completed_goals": 2,
+        "deadline_refusals": 27,
+        "error": "STALE_OBSERVATION",
+        "host_elapsed_ms": 13517.695249999999,
+        "physical_motion_authorized": false,
+        "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583",
+        "requested_goals": 4,
+        "schema": "evy-aeris.sim-transfer-receipt.v2",
+        "sequence": 2,
+        "simulation_only": true,
+        "started_at_unix_ms": 1792712449987,
+        "status": "FAILED",
+        "target": {
+          "adapter_sha256": "b60f0342795d18d2660f279256183c9f64f0fbfbe8ce5e51ad835c6c1b30362e",
+          "calibration_sha256": "0245e6e42acd09ea3ce2f5606414f4d0e5fc9127d5b7988f719037797d9d4909",
+          "frame": "world-base",
+          "host_arch": "aarch64",
+          "host_os": "macos",
+          "joint_names": [
+            "shoulder_pan_joint",
+            "shoulder_lift_joint",
+            "elbow_joint",
+            "wrist_1_joint",
+            "wrist_2_joint",
+            "wrist_3_joint"
+          ],
+          "plant_sha256": "3cc976e7249490c535c4317f6dbd0077a75ab142129ad93fecf78efee3e76ab1",
+          "profile": "mujoco-six-axis-goals-v1",
+          "runtime": "mujoco-rust-mpc-v1",
+          "runtime_version": "3.3.7",
+          "units": "rad"
+        },
+        "task": "action-action-4be1beff",
+        "ticks": 143,
+        "training_required": false
+      }
+    }
+  ],
+  "unchanged": "No timing, controller or physics acceptance threshold was relaxed."
+}

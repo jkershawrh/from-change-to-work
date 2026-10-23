@@ -1,0 +1,64 @@
+{
+  "schema": "robot-demo.audio-editorial.v1",
+  "source": "cinema-02 retained Kersh take",
+  "source_decoded_sha256": "bbe0bf70e3c334113392ac9ba0f76599bc6494f9a9053989d289f02c1e6993d9",
+  "provider_requests": 0,
+  "voice_profile_changed": false,
+  "time_stretching": false,
+  "duration_seconds": 326.4519954648526,
+  "chapter_gap_seconds": 0.55,
+  "closing_hold_seconds": 2.2,
+  "removed_text": "I am Kersh. I work at Red Hat; these are my personal views.",
+  "source_spans": [
+    {
+      "source_start": 0.0,
+      "source_end": 36.6,
+      "destination_start": 0.6
+    },
+    {
+      "source_start": 36.92,
+      "source_end": 80.36,
+      "destination_start": 37.75
+    },
+    {
+      "source_start": 80.84,
+      "source_end": 128.28,
+      "destination_start": 81.74
+    },
+    {
+      "source_start": 128.56,
+      "source_end": 173.72,
+      "destination_start": 129.73000000000002
+    },
+    {
+      "source_start": 174.2,
+      "source_end": 219.76,
+      "destination_start": 175.44000000000003
+    },
+    {
+      "source_start": 220.14,
+      "source_end": 274.48,
+      "destination_start": 221.55000000000004
+    },
+    {
+      "source_start": 274.76,
+      "source_end": 314.24,
+      "destination_start": 276.44000000000005
+    },
+    {
+      "source_start": 319.3280045351474,
+      "source_end": 327.48,
+      "destination_start": 316.1000000000001
+    }
+  ],
+  "edge_fade_ms": 3,
+  "subjective_listening_performed": false,
+  "files": {
+    "captions.vtt": "f731bea2a229b335ca1b863cee9433ec9866434c88a8079a91a43843cf69bdb7",
+    "ambient.wav": "65e5e7c2a9644f31b7378d7965ea80471cacb773c9b62409fe8133d4becf4e00",
+    "plan.json": "c84bd10997b5e5f994e3109b33eb6d5e619825924b5083cec5950de8884a4b55",
+    "film-mix.wav": "b559b9bca923bcbb288825a46783eac1c0c573de03c884bcb72c3c5f434337e0",
+    "captions.srt": "a7dfd5813fbd922faf6662666a5bcfd2b89449b4b3b4be8bdcfd813e3cd549b7",
+    "narration.wav": "1eee26704393df289ddbe5f2d6e7f83f3484bc6310d4b54597cfe88bb17c7dae"
+  }
+}

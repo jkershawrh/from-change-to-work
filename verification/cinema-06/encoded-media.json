@@ -1,0 +1,23 @@
+{
+  "schema": "aeris.encoded-story.v1",
+  "status": "PASS_ENCODED_MEDIA",
+  "film_name": "from-change-to-work-story-cut.mp4",
+  "edition": "cinema-06",
+  "audio_edition": "cinema-06",
+  "duration_seconds": 330.45,
+  "story_duration_seconds": 326.4519954648526,
+  "opening_title_seconds": 4.0,
+  "resolution": "1920x1080",
+  "fps": 25,
+  "audio": "AAC / editorial cut of saved Kersh take and original quiet bed",
+  "decoded_audio_rms": 3651.609475997965,
+  "entire_audio_timeline_retained": true,
+  "original_provider_waveform_entirely_retained": false,
+  "frame_samples": 9,
+  "full_video_audio_decode": true,
+  "sha256": "e3661127498b1744e98038e3c619199c289c0de66a54a68617ff56d2acbd823b",
+  "voice_profile": "audio/voice-profile.json",
+  "browser_actuation_requests": 0,
+  "scope": "Narrated retained-evidence story. Not a new physical, hardware or live execution proof.",
+  "subjective_listening_performed": false
+}

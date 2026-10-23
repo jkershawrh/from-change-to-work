@@ -1,0 +1,42 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test --grep all cinematic|spatial architecture
+
+
+Running 4 tests using 1 worker
+
+(node:2461) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage (7.6s)
+  ✓  2 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop (5.1s)
+  ✓  3 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile (4.5s)
+  ✘  4 visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive (2.0m)
+
+
+  1) visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive 
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 120000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Inspect process event')
+
+
+      51 | test('spatial architecture walks every event and robot hangar views remain passive',async({page})=>{
+      52 |  const writes:string[]=[],errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.method()!=='GET'&&r.url().includes('/api/'))writes.push(r.url())});await page.goto('/show/');const plan=await page.request.get('/show/audio/cinema-02/plan.json').then(r=>r.json());await page.waitForFunction(()=>Number(window.__AERIS_CINEMA__?.getState().duration)>0);await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),plan.chapters[2].start+1)
+    > 53 |  for(const [i,id] of ['release','dispatch','deliver','admit','activate','execute','receipt'].entries()){await page.getByLabel('Inspect process event').selectOption(String(i));await expect(page.locator('.cinema')).toHaveAttribute('data-spatial-flow',id);await expect(page.locator('.cine-inspector')).toContainText('Source:');await page.getByRole('button',{name:'Close inspection'}).click()}
+         |                                                                                                                                                        ^
+      54 |  await expect(page.getByRole('button',{name:'Next process event',exact:true})).toBeDisabled();await page.getByRole('button',{name:'Previous process event',exact:true}).click();await expect(page.locator('.cinema')).toHaveAttribute('data-spatial-flow','execute');await page.getByRole('button',{name:'Close inspection'}).click()
+      55 |  await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),plan.chapters[3].start+1);for(const mode of ['hangar','detail','cell']){await page.getByLabel('Hangar camera view').selectOption(mode);await expect(page.locator('.cinema')).toHaveAttribute('data-camera-view',mode);await page.waitForTimeout(400);await page.screenshot({path:out+'/hangar-'+mode+'.png'})}
+      56 |  await page.getByLabel('Exploded robot assembly').fill('0.4');await page.getByRole('button',{name:'Blueprint',exact:true}).click();await page.screenshot({path:out+'/robot-exploded-blueprint.png'});await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),plan.chapters[2].start+3);await expect(page.locator('.cine-event-nav')).toBeVisible();expect(writes).toEqual([]);expect(errors).toEqual([])
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:53:152
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/cinema-spatial-architectur-197a2-hangar-views-remain-passive/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/cinema-spatial-architectur-197a2-hangar-views-remain-passive/error-context.md
+
+  1 failed
+    visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive 
+  3 passed (2.3m)

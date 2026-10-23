@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "staged_files": 589,
+  "generated_credential_or_private_key_findings": 0,
+  "runtime_caches_staged": false,
+  "historical_proof_modified": false,
+  "rust_controller_and_simulator_changed": false
+}

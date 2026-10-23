@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00:00.600 --> 00:00:03.640
+An aerospace panel waits in its fixture.
+
+00:00:03.713 --> 00:00:07.800
+Engineering has prepared a task change, but the cell needs more than an
+
+00:00:07.853 --> 00:00:10.040
+instruction sent from somewhere else.
+
+00:00:10.173 --> 00:00:14.600
+It needs an approved task it can accept, an operator who knows what will
+
+00:00:14.669 --> 00:00:17.480
+happen, and a result that can be traced.
+
+00:00:17.720 --> 00:00:22.600
+That is our business question: how do we get from a change that is ready to
+
+00:00:22.680 --> 00:00:27.720
+work that is accountable? The production floor you see is an illustration.
+
+00:00:27.800 --> 00:00:30.680
+We have not measured factory delay or savings.
+
+00:00:30.707 --> 00:00:35.240
+We are building the smallest practical proof of the handoff, before asking a
+
+00:00:35.311 --> 00:00:37.160
+customer to bet production on it.
+
+00:00:37.750 --> 00:00:43.630
+Start in engineering. Package one bounded task, identify the receiving
+
+00:00:43.710 --> 00:00:47.790
+profile, and define the result we expect back.
+
+00:00:47.817 --> 00:00:51.790
+Think of this as a work package, rather than a remote hand taking over the
+
+00:00:51.870 --> 00:00:57.790
+robot. In this implementation, the package contains signed joint goals for a
+
+00:00:57.854 --> 00:01:01.710
+simulator. It carries an exact release identity.
+
+00:01:01.843 --> 00:01:06.350
+It does not install a driver, a new robot program, or trained weights.
+
+00:01:06.530 --> 00:01:10.910
+The receiving cell still has its own approval and operating limits.
+
+00:01:10.990 --> 00:01:15.870
+The exploded view separates those responsibilities: what work is proposed,
+
+00:01:15.977 --> 00:01:20.430
+where it is allowed to run, and what receipt will connect the outcome to the
+
+00:01:20.510 --> 00:01:21.150
+request.
+
+00:01:21.740 --> 00:01:25.380
+Now follow the change across the distance.
+
+00:01:25.513 --> 00:01:28.500
+An operator chooses the approved capability.
+
+00:01:28.600 --> 00:01:33.380
+The central dispatcher binds the request to its destination and release.
+
+00:01:33.500 --> 00:01:36.180
+The delivery channel moves the package.
+
+00:01:36.367 --> 00:01:41.380
+At the receiving boundary, the local runtime checks what arrived against what
+
+00:01:41.428 --> 00:01:43.300
+that cell is allowed to accept.
+
+00:01:43.460 --> 00:01:46.260
+Only an idle executor can activate it.
+
+00:01:46.484 --> 00:01:51.140
+Once work starts, the task keeps its exact release.
+
+00:01:51.284 --> 00:01:56.180
+Each boundary answers a business question: did we send the right change, did
+
+00:01:56.200 --> 00:01:59.860
+the right cell accept it, and can we account for what happened?
+
+00:02:00.080 --> 00:02:03.460
+The technical checks are available for inspection.
+
+00:02:03.600 --> 00:02:09.140
+The overarching idea is simple: remote delivery, local responsibility.
+
+00:02:09.730 --> 00:02:13.330
+This is where the robot earns its place in the story.
+
+00:02:13.430 --> 00:02:15.650
+The cell has accepted the task.
+
+00:02:15.810 --> 00:02:18.850
+Local execution now owns the movement.
+
+00:02:19.090 --> 00:02:22.970
+Cut the central data plane after progress has begun.
+
+00:02:23.090 --> 00:02:27.730
+In the retained simulator proof, the finite task completes without that
+
+00:02:27.780 --> 00:02:33.170
+central path. The separate management observer remains available; this is not
+
+00:02:33.250 --> 00:02:35.890
+a total network blackout or a safety stop.
+
+00:02:36.090 --> 00:02:40.290
+The robot poses replay committed simulator samples.
+
+00:02:40.423 --> 00:02:45.010
+To challenge the mechanism yourself, open the workbench and use the real
+
+00:02:45.090 --> 00:02:50.210
+transfer and disconnect controls. Reconnect and retry the same completed
+
+00:02:50.290 --> 00:02:54.850
+request: the receipt returns, rather than starting the movement again.
+
+00:02:55.440 --> 00:02:59.640
+A lost connection and a lost executor are different problems.
+
+00:02:59.773 --> 00:03:05.160
+If the executor dies, we cannot turn uncertainty into a success message.
+
+00:03:05.343 --> 00:03:10.120
+Follow the work history. The old task remains visible.
+
+00:03:10.236 --> 00:03:13.320
+Explicit recovery records it as interrupted.
+
+00:03:13.480 --> 00:03:16.360
+It does not silently resume the movement.
+
+00:03:16.547 --> 00:03:21.880
+If the operator decides to try again, that is a deliberately new action, with
+
+00:03:21.940 --> 00:03:24.120
+its own identity and outcome.
+
+00:03:24.328 --> 00:03:29.640
+This is the operational value we want to test: can the team understand what
+
+00:03:29.702 --> 00:03:34.520
+happened, recover deliberately, and avoid accidental repeated work?
+
+00:03:34.680 --> 00:03:37.480
+The evidence must answer that question.
+
+00:03:37.840 --> 00:03:40.960
+A polished animation cannot answer it for us.
+
+00:03:41.550 --> 00:03:47.330
+Now change the task. Inspection positioning and rework positioning already
+
+00:03:47.419 --> 00:03:51.410
+exercise the same delivery and recovery process in simulation.
+
+00:03:51.590 --> 00:03:57.570
+The reusable part is the handoff: bind the request, admit the release,
+
+00:03:57.640 --> 00:04:02.050
+execute locally, retain the receipt, and recover explicitly.
+
+00:04:02.180 --> 00:04:07.490
+Machine tending and other cell types are possible next modules, shown here as
+
+00:04:07.570 --> 00:04:13.090
+concepts. Their device interfaces, calibration, tooling and acceptance
+
+00:04:13.183 --> 00:04:18.850
+still need reviewed adapters. Intel and Red Hat provide the target compute and
+
+00:04:18.912 --> 00:04:24.610
+platform context. Historical separate-host evidence used Intel processors
+
+00:04:24.710 --> 00:04:27.970
+and Red Hat Enterprise Linux on OpenShift.
+
+00:04:28.066 --> 00:04:33.410
+That evidence does not qualify a new host, demonstrate accelerator benefit, or
+
+00:04:33.474 --> 00:04:35.850
+establish a physical robot installation.
+
+00:04:36.440 --> 00:04:41.120
+The next commitment is a focused pilot, not a fleet promise.
+
+00:04:41.269 --> 00:04:47.200
+Choose one bounded task, name the central and edge hosts, and give acceptance
+
+00:04:47.253 --> 00:04:52.480
+to an owner. Measure the effort from approved release to accepted task, the
+
+00:04:52.560 --> 00:04:56.800
+manual handoffs, the recovery effort, and the verified result.
+
+00:04:57.080 --> 00:05:02.480
+Use the dashboard and agent start packet to inspect the implementation and run
+
+00:05:02.500 --> 00:05:08.160
+the tests. Keep software evidence, compute qualification, and physical cell
+
+00:05:08.211 --> 00:05:13.920
+acceptance distinct. Red, amber and green must refer to a specific
+
+00:05:14.032 --> 00:05:15.360
+test and its scope.
+
+00:05:16.100 --> 00:05:21.972
+From change to work: deliver the capability, keep control local, and
+
+00:05:22.052 --> 00:05:24.212
+earn the next step with evidence.

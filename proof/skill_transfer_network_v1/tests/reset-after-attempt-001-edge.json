@@ -1,0 +1,5 @@
+{
+  "stdout": "{\"stopped\": [{\"service\": \"gateway\", \"pid\": 12377}], \"reset_scope\": \"Only owned temporary proof state; prior run retained\", \"state_absent\": true}\n",
+  "stderr": "",
+  "exit_code": 0
+}

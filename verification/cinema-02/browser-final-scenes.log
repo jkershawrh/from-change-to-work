@@ -1,0 +1,15 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test --grep all cinematic|voice clock
+
+
+Running 4 tests using 1 worker
+
+(node:92390) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage (5.3s)
+  ✓  2 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop (4.6s)
+  ✓  3 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile (3.9s)
+  ✓  4 visual-tests/cinema.spec.ts:29:1 › voice clock plays, pauses and seeks without running a robot action (2.4s)
+
+  4 passed (17.9s)

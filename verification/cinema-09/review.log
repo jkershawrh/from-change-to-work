@@ -1,0 +1,16 @@
+timeline 0
+timeline 40
+timeline 80
+timeline 120
+timeline 160
+timeline 200
+timeline 240
+timeline 280
+timeline 320
+transition recipe
+transition architecture
+transition disconnect
+transition recovery
+transition ecosystem
+transition qualify
+{"movie_sha256": "422f2833be2012a43e285030e1b65903bde370a52408452f882a080ea32a10ad", "scope": "Encoded final MP4; full-frame integrity and objective audio/timing review. No subjective listening claimed.", "frame_count": 8287, "full_frame_decode": true, "near_black_times": [0.0], "large_frame_changes": [{"time": 0.04, "mean_pixel_change": 15.82}, {"time": 0.08, "mean_pixel_change": 15.71}, {"time": 0.12, "mean_pixel_change": 16.16}, {"time": 0.16, "mean_pixel_change": 15.94}, {"time": 5.0, "mean_pixel_change": 63.12}, {"time": 5.08, "mean_pixel_change": 12.05}, {"time": 5.12, "mean_pixel_change": 12.02}, {"time": 5.16, "mean_pixel_change": 12.02}, {"time": 9.56, "mean_pixel_change": 18.6}, {"time": 42.84, "mean_pixel_change": 36.21}, {"time": 86.76, "mean_pixel_change": 25.85}, {"time": 134.76, "mean_pixel_change": 53.46}, {"time": 180.48, "mean_pixel_change": 54.6}], "transport_region_anomalies": [], "opening_mix_correlation": 0.9999760162742384, "voice_footer_region_anomalies": [], "audio_peak_dbfs": -0.711, "subjective_listening_performed": false, "status": "PASS_FULL_TIMELINE_OBJECTIVE_CHECKS"}

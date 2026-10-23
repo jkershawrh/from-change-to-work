@@ -1,0 +1,7 @@
+{
+  "finding": "A camera screenshot was taken before the aircraft scene had loaded. The flow-stage ready callback could mark the asset ready without loading the hangar.",
+  "retained_before": "browser/hangar-hangar.png",
+  "correction": "Hangar asset readiness is signaled only by the non-flow scene. Camera checks wait for that signal and require more than 30 distinct sampled canvas colors in every view.",
+  "confirmed_after": "browser/loaded-hangar.png",
+  "scope": "Local browser visuals only. The initial DOM tests passed despite the blank view; they were insufficient and were strengthened."
+}

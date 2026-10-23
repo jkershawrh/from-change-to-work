@@ -1,0 +1,8 @@
+{
+  "status": "FAILED_VISUAL_REVIEW",
+  "observed": "A disconnect-only card appeared over the architecture business steps in the first encoded film.",
+  "cause": "The world-canvas condition had also been applied to the independent callout condition.",
+  "required": "Mutually exclusive chapter callouts, regression test and complete re-recording",
+  "initial_media_report": "initial-encoded-media.json",
+  "initial_frame": "initial-encoded-architecture.png"
+}

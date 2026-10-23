@@ -1,0 +1,7 @@
+
+> evy-aeris-cinema@0.1.0 validate:blueprint
+> node --experimental-strip-types scripts/validate-blueprint.ts demo-blueprint.yaml
+
+(node:33285) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Blueprint structure is valid: /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/demo-blueprint.yaml

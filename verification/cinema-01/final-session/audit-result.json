@@ -1,0 +1,39 @@
+{
+  "schema": "aeris.action-session-audit.v1",
+  "status": "PASS_LOCAL_SIMULATION_ACCOUNTING",
+  "scope": "No separate-host, physical-robot or real-time qualification inferred.",
+  "tasks": [
+    {
+      "task": "action-action-1f791028",
+      "status": "COMPLETE",
+      "control_ticks": 427,
+      "physics_substeps": 4270,
+      "peak_speed_rad_s": 0.39999999999996266,
+      "peak_acceleration_rad_s2": 0.8499999999974084,
+      "peak_displacement_rad": 0.2889393093702899
+    },
+    {
+      "task": "action-action-a15565ca",
+      "status": "INTERRUPTED",
+      "control_ticks": 36,
+      "physics_substeps": 360,
+      "peak_speed_rad_s": 0.3033786862239538,
+      "peak_acceleration_rad_s2": 0.8499999999957742,
+      "peak_displacement_rad": 0.12035413670435058
+    },
+    {
+      "task": "action-action-573562fa",
+      "status": "COMPLETE",
+      "control_ticks": 273,
+      "physics_substeps": 2730,
+      "peak_speed_rad_s": 0.3999999999994139,
+      "peak_acceleration_rad_s2": 0.8499999999979357,
+      "peak_displacement_rad": 0.1288914205592433
+    }
+  ],
+  "total_control_ticks": 736,
+  "total_physics_substeps": 7360,
+  "disconnect_and_local_completion": true,
+  "explicit_recovery_and_new_action": true,
+  "physical_motion_authorized": false
+}

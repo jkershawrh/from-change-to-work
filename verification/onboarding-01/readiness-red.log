@@ -1,0 +1,18 @@
+E
+======================================================================
+ERROR: test_readiness (unittest.loader._FailedTest.test_readiness)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_readiness
+Traceback (most recent call last):
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/services/tests/test_readiness.py", line 4, in <module>
+    from services.readiness import evaluate,write_report
+ModuleNotFoundError: No module named 'services.readiness'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

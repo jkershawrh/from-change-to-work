@@ -1,0 +1,1 @@
+{"exit_code": 2, "lines": [{"physical_motion_authorized": false, "reason": "RECOVERY_REQUIRED", "status": "REJECTED"}], "stderr": ""}

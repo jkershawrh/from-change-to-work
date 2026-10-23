@@ -1,0 +1,16 @@
+timeline 0
+timeline 40
+timeline 80
+timeline 120
+timeline 160
+timeline 200
+timeline 240
+timeline 280
+timeline 320
+transition recipe
+transition architecture
+transition disconnect
+transition recovery
+transition ecosystem
+transition qualify
+{"movie_sha256": "17785d64c5ace80e563f9cc1213eeeb32baf16346d2c839dda5c4ac2f2308ee4", "scope": "Encoded final MP4; full-frame integrity and objective audio/timing review. No subjective listening claimed.", "frame_count": 8261, "full_frame_decode": true, "near_black_times": [0.0, 4.0], "large_frame_changes": [{"time": 0.04, "mean_pixel_change": 12.75}, {"time": 0.08, "mean_pixel_change": 12.83}, {"time": 0.12, "mean_pixel_change": 12.74}, {"time": 0.16, "mean_pixel_change": 12.75}, {"time": 0.2, "mean_pixel_change": 12.59}, {"time": 3.84, "mean_pixel_change": 12.62}, {"time": 3.88, "mean_pixel_change": 12.71}, {"time": 3.92, "mean_pixel_change": 12.72}, {"time": 3.96, "mean_pixel_change": 12.81}, {"time": 4.0, "mean_pixel_change": 12.8}, {"time": 4.04, "mean_pixel_change": 12.08}, {"time": 4.08, "mean_pixel_change": 12.12}, {"time": 4.12, "mean_pixel_change": 12.1}, {"time": 4.16, "mean_pixel_change": 12.06}, {"time": 8.56, "mean_pixel_change": 18.63}, {"time": 41.84, "mean_pixel_change": 36.21}, {"time": 85.8, "mean_pixel_change": 45.04}, {"time": 85.84, "mean_pixel_change": 28.34}, {"time": 133.76, "mean_pixel_change": 15.93}, {"time": 133.92, "mean_pixel_change": 25.54}, {"time": 134.28, "mean_pixel_change": 29.73}, {"time": 134.32, "mean_pixel_change": 12.8}, {"time": 179.48, "mean_pixel_change": 54.55}], "transport_region_anomalies": [], "audio_peak_dbfs": -0.704, "subjective_listening_performed": false, "status": "PASS_FULL_TIMELINE_OBJECTIVE_CHECKS"}

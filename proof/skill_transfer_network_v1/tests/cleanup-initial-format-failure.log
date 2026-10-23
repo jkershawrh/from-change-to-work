@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/cleanup.py", line 38, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/cleanup.py", line 11, in main
+    root=Path(__file__).resolve().parent;reg=json.loads((root/'registration.json').read_bytes());created=json.loads((root/'created-resources.json').read_bytes())
+                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 24 column 1 (char 624)

@@ -1,0 +1,9 @@
+{
+  "schema": "aeris.action-capture.v1",
+  "captured_at_ns": 1792715384414486000,
+  "role": "all",
+  "source_status": "MATCH",
+  "changed": [],
+  "simulation_only": true,
+  "physical_motion_authorized": false
+}

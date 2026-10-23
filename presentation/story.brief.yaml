@@ -1,0 +1,73 @@
+version: 1
+blueprint: demo-blueprint.yaml
+presentation:
+  title: From change to work.
+  audience: Aerospace manufacturing owners, Red Hat and Intel partners, edge platform engineers
+  desired_decision: Qualify one approved task transfer on named central and edge compute, then a reviewed physical profile.
+  duration_minutes: 6
+  core_tension: Engineering has a change ready; the cell needs an approved task and a trustworthy outcome. Can we connect the two without making local work depend on a remote connection?
+  cta: Continue into the same dashboard and hardware acceptance workflow.
+source_material:
+  mode: repository
+  items: [demo-blueprint.yaml, ../verification/onboarding-01/result.json, ../docs/PRESTON.md]
+  consequential_assumptions:
+    - Aerospace cell and airframe geometry are illustrative. The executable plant is MuJoCo.
+    - No measured production savings, throughput, coverage, physical actuation or real-time claim.
+    - Narrated film is a labeled retained-evidence rehearsal. A deliberate live observation is separately labeled.
+creative_direction:
+  format: Seven distinct visual compositions—manufacturing floor, exploded engineering drawing, delivery route, detailed 3D cell, interrupted-work timeline, modular ecosystem, and acceptance dossier. Matching saved Kersh voice.
+  recurring_object: One illuminated signed recipe crossing the central-to-edge boundary, then one receipt returning as evidence.
+  opening: A large airframe panel waiting in its fixture; the engineering change sits apart from the work order. Reveal the handoff gap before discussing the technology.
+  mechanism: Follow an approved work package across a delivery route and a local acceptance boundary. Only then reveal the detailed 3D cell for the disconnect trial.
+  ending: Same release process, profile-specific modules, scoped evidence and a deliberate hardware handoff.
+  pacing: Natural voice speed 1.0. Complete narrative generation with chapter pauses and a held close; no stretched audio or clipped speech.
+  accessibility: Captions, keyboard and touch navigation, deep links, reduced-motion stills, fullscreen and presenter notes.
+beats:
+  - {scene: cell, beat: ordinary-world, question: Why is the part still waiting when engineering has the change?}
+  - {scene: recipe, beat: reframe, question: What must engineering package so the cell can accept the change?}
+  - {scene: architecture, beat: system-reveal, question: Who verifies and activates the task?}
+  - {scene: disconnect, beat: live-proof, question: What survives the central cut?}
+  - {scene: recovery, beat: trials, question: What does an interruption really leave behind?}
+  - {scene: ecosystem, beat: transformation, question: Can the process repeat without pretending every robot is the same?}
+  - {scene: qualify, beat: next-journey, question: What do we prove next on your hardware?}
+evidence:
+  - {id: contracts, classification: verified-fact, source: ../crates/aeris-skill-transfer/src, treatment: Signed deterministic recipes and local admission; no model download claim.}
+  - {id: recorded, classification: verified-fact, source: /action-proof.json, treatment: Clearly labeled historical simulator samples and Intel/RHEL scope.}
+  - {id: local-audit, classification: verified-fact, source: ../verification/onboarding-01/result.json, treatment: Historical local independent audit only.}
+  - {id: live, classification: live-measurement, source: /api/action-demo/export, treatment: Explicit read-only current-session observation; never independent qualification.}
+  - {id: set, classification: rehearsal-fixture, source: src/cinema/World.tsx, treatment: Aerospace set and animated transfer are illustrations.}
+  - {id: physical, classification: future-state, source: ../docs/PRESTON.md, treatment: Physical profiles and hardware acceptance remain pending.}
+journey:
+  presentation: Narrated autonomous story and presenter-paced traversal share chapters and source labels.
+  guided_demo: Question-first architecture, hover inspection, mechanism detail and persistent current-session observations.
+  live_demonstration: Deliberate authenticated observation; actual transfer and fault controls remain in the working workbench.
+  hands_on_lab: Existing agent start packet, read-only preflight and current acceptance workflow.
+  handoff: Same-origin dashboard, preserving backend session and deliberate operator authority.
+voice:
+  profile: audio/voice-profile.json
+  source: Plan a two-week visibility strategy / cascade-story-two voice-production.json
+  model: eleven_v3
+  settings: {stability: 0.5, similarity_boost: 0.8, style: 0.3, use_speaker_boost: true, speed: 1.0}
+acceptance:
+  - Seven chapters fit within one desktop viewport at 1920x1080 and 1440x900; narrow rehearsal may scroll.
+  - Inspect every internal architecture question/answer, exploded view, blueprint and evidence drawer.
+  - No actuation from story playback, seeking, hover, replay, export or narration.
+  - No current-session numerical payoff before explicit successful observation.
+  - Pausing, seeking, restarting and chapter navigation keep voice and visuals synchronized.
+  - Narration and final encoded video retain the complete closing, with no clipped audio.
+
+revision_02_business_review:
+  hypothesis: Reduce ambiguity in task rollout and recovery, then measure the effort and result on one named cell.
+  buyer: Manufacturing operations owner; engineering and the cell owner jointly approve the first test.
+  pilot_measurements: [time from approved release to admitted task, manual handoffs, recovery effort, verified task outcome]
+  value_status: Unmeasured hypothesis; no production savings or quality claim.
+  naming: Neutral audience identity; reused source modules retain provenance only.
+
+revision_03_spatial_review:
+  hangar: Procedural aircraft assembly hall, open airframe sections, roof trusses, crane, tooling and floor markings; illustrative scenery only.
+  robot: Preserve the existing MJCF-derived mesh and retained poses; decorative infrastructure does not establish calibration.
+  event_flow: Three-dimensional causal path from release and immutable dispatch through local admission, idle activation, pinned execution and durable receipt.
+  lanes: Delivery crosses the network; local control stays within the edge; observation and receipts form the evidence lane.
+  interaction: Step or select each event; hover and keyboard inspection expose checks, authority, refusal and source.
+  proof: Animation never issues an execution request and never becomes live telemetry.
+  media: Reuse the exact existing narration; re-record the changed visuals with no new provider generation.

@@ -1,0 +1,16 @@
+
+==================================== ERRORS ====================================
+__________ ERROR collecting tests/actions/test_capability_actions.py ___________
+ImportError while importing test module '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-capability-action/tests/actions/test_capability_actions.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../../../../.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/actions/test_capability_actions.py:6: in <module>
+    from backend.actions.capability_transfer import ActionDispatcher, ActionError, parse_intent
+E   ModuleNotFoundError: No module named 'backend.actions.capability_transfer'
+=========================== short test summary info ============================
+ERROR tests/actions/test_capability_actions.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.35s

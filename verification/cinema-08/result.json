@@ -1,0 +1,66 @@
+{
+  "status": "PASS_VISUAL_AND_OBJECTIVE_AUDIO_REVIEW",
+  "movie": "presentation/public/film/from-change-to-work-final.mp4",
+  "sha256": "2a15883e91b701b468803a98be2b76723b788f4aca6cd79546bb0f61249805ca",
+  "runtime_seconds": 330.48,
+  "review": "docs/FINAL_VIDEO_REVIEW.md",
+  "scope": "Local presentation and media review only; no new execution or hardware qualification.",
+  "TDD": {
+    "status": "GREEN",
+    "presentation_unit_tests": 54,
+    "report": "unit-final.log"
+  },
+  "EDD": {
+    "status": "GREEN",
+    "decoded_frames": 8262,
+    "timeline": "final/full-timeline-check.json",
+    "outside_repairs": "outside-repair-similarity.json",
+    "visual_inspection": "One-second contact sheets throughout and 8fps chapter transition sheets inspected. Repaired transitions re-inspected."
+  },
+  "CDD": {
+    "status": "GREEN",
+    "audio_stream_byte_identical": true,
+    "metadata": "encoded-media.json",
+    "source_package": "source-package-final.json"
+  },
+  "BDD": {
+    "status": "GREEN",
+    "full_browser_suite_passed": 12,
+    "skipped": 1,
+    "skip_reason": "Authenticated execution observation is outside this passive media review and requires an operator code.",
+    "report": "browser-final.log",
+    "last_readiness_regression_passed": 3,
+    "last_report": "browser-render-ready.log"
+  },
+  "CBT": {
+    "status": "GREEN",
+    "boundaries": [
+      "Browser WebGL asset readiness and actual canvas content",
+      "Browser media clock",
+      "MP4 HTTP range download",
+      "Encoded picture and copied AAC stream"
+    ]
+  },
+  "audio_review": {
+    "objective_checks": "GREEN",
+    "subjective_listening_performed": false,
+    "subjective_listening_status": "NOT_PERFORMED",
+    "levels": "audio-levels.json"
+  },
+  "retained_findings": [
+    "Original WebGL chapter-entry/camera glitches are visible in the before-review transition sheets.",
+    "browser.log retains the stale 12-second scene expectation failure; corrected to the approved clock."
+  ],
+  "hosted_ci": {
+    "status": "AMBER_INFRASTRUCTURE_BLOCK",
+    "run_id": 39963294817,
+    "job_id": 120446529377,
+    "commit": "01d9c9a2781a846d6cd833984bc913d402db2b35",
+    "executed_steps": 0,
+    "annotations": "hosted-ci-annotations.json",
+    "messages": [
+      "The job was not started because recent account payments have failed or your spending limit needs to be increased. Please check the 'Billing & plans' section in your settings"
+    ]
+  },
+  "private_repo": "https://github.com/jkershawrh/evy-aeris-edge-actions"
+}

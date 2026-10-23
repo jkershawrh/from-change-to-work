@@ -1,0 +1,10 @@
+test_missing_old_or_unobserved_tools_block (services.tests.test_readiness.ReadinessContracts.test_missing_old_or_unobserved_tools_block) ... ok
+test_ready_means_simulator_prerequisites_only (services.tests.test_readiness.ReadinessContracts.test_ready_means_simulator_prerequisites_only) ... ok
+test_report_cannot_overwrite_previous_evidence (services.tests.test_readiness.ReadinessContracts.test_report_cannot_overwrite_previous_evidence) ... ok
+test_unknown_cpu_or_non_rhel_never_claims_alignment (services.tests.test_readiness.ReadinessContracts.test_unknown_cpu_or_non_rhel_never_claims_alignment) ... ok
+test_unpulled_assets_and_dependency_mismatch_block (services.tests.test_readiness.ReadinessContracts.test_unpulled_assets_and_dependency_mismatch_block) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK

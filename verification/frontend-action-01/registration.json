@@ -1,0 +1,21 @@
+{
+  "schema": "aeris.frontend-action-registration.v1",
+  "date": "2026-10-22T23:11:07.577439+00:00",
+  "scope": "Existing React/Vite presentation framework with an action workbench, actual EVY dispatch, Rust execution, bounded simulation connectivity/interruption/recovery controls and a self-contained private hardware handoff repository.",
+  "repo_name": "jkershawrh/evy-aeris-edge-actions",
+  "gates": {
+    "TDD": "Retain red-first service and frontend behavior tests, then passing suites.",
+    "CDD": "Strict action/control bindings, operator/viewer roles, same-origin protection, fixed configured endpoints and simulation-only lab authority.",
+    "BDD": "Transfer to real simulator, actual data-plane disconnection with later control/completion, reconnect, executor interruption, explicit recovery and deliberate new action.",
+    "CBT": "Browser to frontend bridge to actual EVY HTTPS gateway and distinct Rust/simulator process; observers never imply the central link remains connected.",
+    "EDD": "Retained baseline is labeled historical; current-session metrics only from current responses; unknown/unreachable stays unknown; exported evidence and code identities.",
+    "HANDOFF": "Fresh private repo builds without sibling repositories, temporary-path dependencies or lab credentials; explicit Preston hardware acceptance gates."
+  },
+  "limits": [
+    "No physical-motion authorization or hardware adapter inference.",
+    "A local separate-process session does not inherit the historical Flightpath separate-host qualification.",
+    "Controls are disabled on profiles lacking explicit simulation-lab capability.",
+    "Recovery does not silently start another action."
+  ],
+  "decision": "Use existing EVY action contract and Rust executor. New HTTP control endpoints are explicitly scoped to a disposable simulator lab."
+}

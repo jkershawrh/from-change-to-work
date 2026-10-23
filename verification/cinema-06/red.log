@@ -1,0 +1,36 @@
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run --run src/cinema/narrative.test.ts
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+ ❯ src/cinema/narrative.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/cinema/narrative.test.ts [ src/cinema/narrative.test.ts ]
+Error: Failed to resolve import "./narrative" from "src/cinema/narrative.test.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/src/cinema/narrative.test.ts:2:39
+  1  |  import { describe, it, expect } from "vitest";
+  2  |  import { visualContext, flowStepAt } from "./narrative";
+     |                                             ^
+  3  |  describe("audience narrative contract", () => {
+  4  |  	it("names every visual, its input and its outcome in plain language", () => {
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:8766:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:8763:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:26593:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:26663:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:26629:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:8545:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20157:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  no tests
+   Start at  07:10:20
+   Duration  2.15s (transform 83ms, setup 238ms, import 0ms, tests 0ms, environment 1.56s)
+

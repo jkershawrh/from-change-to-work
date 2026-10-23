@@ -1,0 +1,18 @@
+
+> evy-aeris-edge-actions-frontend@0.1.0 test:visual
+> playwright test --config playwright.actions.config.ts
+
+
+Running 7 tests using 1 worker
+
+(node:75164) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/actions.spec.ts:5:1 › operator transfers, cuts actual data plane, observes completion, interrupts and explicitly recovers (32.8s)
+  ✓  2 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits stage (2.3s)
+  ✓  3 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits laptop (2.2s)
+  ✓  4 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits mobile (2.1s)
+  ✓  5 visual-tests/dashboard.spec.ts:5:1 › agent packet separates proposed hardware, observed readiness and missing audit (4.2s)
+  ✓  6 visual-tests/dashboard.spec.ts:23:87 › dashboard and agent guide fit desktop (2.8s)
+  ✓  7 visual-tests/dashboard.spec.ts:23:87 › dashboard and agent guide fit mobile (2.6s)
+
+  7 passed (49.7s)

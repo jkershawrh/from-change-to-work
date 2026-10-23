@@ -1,0 +1,8 @@
+{
+  "status": "PASS_REPEATABLE_DECODE",
+  "source_sha256": "b50c651330f108b6330b918937a46d2aecedbdf96d2ab31ba41a45a3a5494de1",
+  "decoded_sha256": "50283ac9ee1010237a1e8962da8cb57caf41a86a811f3e34996c602a285ab6eb",
+  "independent_second_decode_matches": true,
+  "tool_lock_sha256": "a158de445f038cb3d11148e3f16d1b408af6e48bcef4e009fc1eff5d35e86ff3",
+  "scope": "File conversion identity only. Not hardware, inspection or visual acceptance."
+}

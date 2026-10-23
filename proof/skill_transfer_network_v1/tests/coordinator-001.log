@@ -1,0 +1,15 @@
+{"schema": "evy-aeris.network-proof.v1", "status": "FAIL", "simulation_only": true, "physical_motion_authorized": false, "started_unix_ns": 1792706140084150000, "namespace": "aeris-transfer-ae928d8d71", "error": "AssertionError: Task ended before fault: {'task_status': 'COMPLETE', 'ticks': 47, 'job_state': 'COMPLETE', 'pid': 12389}", "ended_unix_ns": 1792706273478851000}
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/run.py", line 271, in <module>
+    ap=argparse.ArgumentParser();ap.add_argument('--oc',default='/Users/jkershaw/bin/oc');ap.add_argument('--kubeconfig',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--evy',type=Path,required=True);args=ap.parse_args();Proof(args).run()
+                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/run.py", line 262, in run
+    self.prepare();self.exercise();self.collect();result.update(status='PASS_SCENARIOS_PENDING_AUDIT',checks=len(self.checks),passed=sum(c['pass_'] for c in self.checks))
+                   ^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/run.py", line 220, in exercise
+    moving=self.wait_progress(crash['action_id'],15)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/run.py", line 71, in wait_progress
+    if value['task_status']in ('COMPLETE','FAILED','INTERRUPTED'):raise AssertionError('Task ended before fault: '+str(value))
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Task ended before fault: {'task_status': 'COMPLETE', 'ticks': 47, 'job_state': 'COMPLETE', 'pid': 12389}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS_ASSET_CONTRACT",
+  "checks": {
+    "glb_magic": true,
+    "version": true,
+    "length": true,
+    "hash": true,
+    "source_identity": true,
+    "embedded_buffers": true,
+    "embedded_images": true,
+    "static_robot_excluded": true,
+    "meshes": true,
+    "attribution": true
+  },
+  "sha256": "990803394c56f755bf7bba7ee8e6ef2bc3a799ec67f0160a30c89d89be2d0c95",
+  "bytes": 12582708,
+  "scope": "Authored scenery only; no execution/hardware acceptance"
+}

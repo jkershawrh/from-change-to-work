@@ -1,0 +1,4 @@
+{"event": "PUBLISHER_READY"}
+{"event": "BUNDLE_DELIVERED", "bundle": "inspection-positioning.bundle.json", "bytes": 1485, "peer": "10.128.3.212", "tls": "TLSv1.3"}
+{"event": "BUNDLE_DELIVERED", "bundle": "rework-positioning.bundle.json", "bytes": 1346, "peer": "10.128.3.212", "tls": "TLSv1.3"}
+{"event": "BUNDLE_DELIVERED", "bundle": "rework-positioning.bundle.json", "bytes": 1346, "peer": "10.128.3.212", "tls": "TLSv1.3"}

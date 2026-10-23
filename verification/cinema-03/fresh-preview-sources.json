@@ -1,0 +1,12 @@
+{
+  "status": "MATCH",
+  "scope": "Fresh idle preview registration, not a new execution proof",
+  "registered_files": 176,
+  "active_story_files": {
+    "presentation/src/cinema/Hangar.tsx": "8e92bfe841a9191b6e51b766a0c430887374c0a2ff4f1e33a30da07695109117",
+    "presentation/src/cinema/EventFlow.tsx": "aa3473bc2722315e84334f90dac61648d28a0ef280a64109c1227604b71fb015",
+    "presentation/src/cinema/SceneLabel.tsx": "aa55ed88d52634c11e6c17ac6cf05b5f4242b3e5d98e1b332d0428627ed49bd2",
+    "presentation/src/cinema/events.ts": "fe8d110b61b21dfb101a2a84cdd2bf35425f44f72690d4c3b0aabd585797e88d",
+    "presentation/public/audio/cinema-02/plan.json": "12fe87d4809a14c892cd1065df529869c7bb8584795cc387b669fcff93d796d0"
+  }
+}

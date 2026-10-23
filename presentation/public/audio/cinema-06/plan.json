@@ -1,0 +1,459 @@
+{
+  "schema": "aeris.story-audio-plan.v1",
+  "duration": 326.4519954648526,
+  "voice_duration": 320.17199546485267,
+  "lead_seconds": 0.6,
+  "chapter_hold_seconds": 0.55,
+  "closing_hold_seconds": 2.2,
+  "chapters": [
+    {
+      "id": "cell",
+      "start": 0,
+      "end": 37.75
+    },
+    {
+      "id": "recipe",
+      "start": 37.75,
+      "end": 81.74
+    },
+    {
+      "id": "architecture",
+      "start": 81.74,
+      "end": 129.73000000000002
+    },
+    {
+      "id": "disconnect",
+      "start": 129.73000000000002,
+      "end": 175.44000000000003
+    },
+    {
+      "id": "recovery",
+      "start": 175.44000000000003,
+      "end": 221.55000000000004
+    },
+    {
+      "id": "ecosystem",
+      "start": 221.55000000000004,
+      "end": 276.44000000000005
+    },
+    {
+      "id": "qualify",
+      "start": 276.44000000000005,
+      "end": 326.4519954648527
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.6,
+      "end": 3.64,
+      "text": "An aerospace panel waits in its fixture."
+    },
+    {
+      "start": 3.713,
+      "end": 7.8,
+      "text": "Engineering has prepared a task change, but the cell needs more than an"
+    },
+    {
+      "start": 7.853,
+      "end": 10.04,
+      "text": "instruction sent from somewhere else."
+    },
+    {
+      "start": 10.173,
+      "end": 14.6,
+      "text": "It needs an approved task it can accept, an operator who knows what will"
+    },
+    {
+      "start": 14.669,
+      "end": 17.48,
+      "text": "happen, and a result that can be traced."
+    },
+    {
+      "start": 17.720000000000002,
+      "end": 22.6,
+      "text": "That is our business question: how do we get from a change that is ready to"
+    },
+    {
+      "start": 22.68,
+      "end": 27.720000000000002,
+      "text": "work that is accountable? The production floor you see is an illustration."
+    },
+    {
+      "start": 27.8,
+      "end": 30.68,
+      "text": "We have not measured factory delay or savings."
+    },
+    {
+      "start": 30.707,
+      "end": 35.24,
+      "text": "We are building the smallest practical proof of the handoff, before asking a"
+    },
+    {
+      "start": 35.311,
+      "end": 37.160000000000004,
+      "text": "customer to bet production on it."
+    },
+    {
+      "start": 37.75,
+      "end": 43.629999999999995,
+      "text": "Start in engineering. Package one bounded task, identify the receiving"
+    },
+    {
+      "start": 43.709999999999994,
+      "end": 47.790000000000006,
+      "text": "profile, and define the result we expect back."
+    },
+    {
+      "start": 47.81699999999999,
+      "end": 51.790000000000006,
+      "text": "Think of this as a work package, rather than a remote hand taking over the"
+    },
+    {
+      "start": 51.86999999999999,
+      "end": 57.790000000000006,
+      "text": "robot. In this implementation, the package contains signed joint goals for a"
+    },
+    {
+      "start": 57.854,
+      "end": 61.709999999999994,
+      "text": "simulator. It carries an exact release identity."
+    },
+    {
+      "start": 61.843,
+      "end": 66.35,
+      "text": "It does not install a driver, a new robot program, or trained weights."
+    },
+    {
+      "start": 66.53,
+      "end": 70.91,
+      "text": "The receiving cell still has its own approval and operating limits."
+    },
+    {
+      "start": 70.99,
+      "end": 75.87,
+      "text": "The exploded view separates those responsibilities: what work is proposed,"
+    },
+    {
+      "start": 75.977,
+      "end": 80.42999999999999,
+      "text": "where it is allowed to run, and what receipt will connect the outcome to the"
+    },
+    {
+      "start": 80.51,
+      "end": 81.14999999999999,
+      "text": "request."
+    },
+    {
+      "start": 81.73999999999998,
+      "end": 85.38,
+      "text": "Now follow the change across the distance."
+    },
+    {
+      "start": 85.513,
+      "end": 88.49999999999997,
+      "text": "An operator chooses the approved capability."
+    },
+    {
+      "start": 88.6,
+      "end": 93.38,
+      "text": "The central dispatcher binds the request to its destination and release."
+    },
+    {
+      "start": 93.49999999999997,
+      "end": 96.17999999999998,
+      "text": "The delivery channel moves the package."
+    },
+    {
+      "start": 96.36699999999999,
+      "end": 101.38,
+      "text": "At the receiving boundary, the local runtime checks what arrived against what"
+    },
+    {
+      "start": 101.428,
+      "end": 103.29999999999998,
+      "text": "that cell is allowed to accept."
+    },
+    {
+      "start": 103.46000000000001,
+      "end": 106.25999999999999,
+      "text": "Only an idle executor can activate it."
+    },
+    {
+      "start": 106.48400000000001,
+      "end": 111.13999999999999,
+      "text": "Once work starts, the task keeps its exact release."
+    },
+    {
+      "start": 111.28399999999999,
+      "end": 116.17999999999998,
+      "text": "Each boundary answers a business question: did we send the right change, did"
+    },
+    {
+      "start": 116.19999999999999,
+      "end": 119.85999999999999,
+      "text": "the right cell accept it, and can we account for what happened?"
+    },
+    {
+      "start": 120.08000000000001,
+      "end": 123.46000000000001,
+      "text": "The technical checks are available for inspection."
+    },
+    {
+      "start": 123.6,
+      "end": 129.14000000000001,
+      "text": "The overarching idea is simple: remote delivery, local responsibility."
+    },
+    {
+      "start": 129.73000000000002,
+      "end": 133.32999999999998,
+      "text": "This is where the robot earns its place in the story."
+    },
+    {
+      "start": 133.43,
+      "end": 135.65000000000003,
+      "text": "The cell has accepted the task."
+    },
+    {
+      "start": 135.81,
+      "end": 138.85000000000002,
+      "text": "Local execution now owns the movement."
+    },
+    {
+      "start": 139.08999999999997,
+      "end": 142.97000000000003,
+      "text": "Cut the central data plane after progress has begun."
+    },
+    {
+      "start": 143.08999999999997,
+      "end": 147.73000000000002,
+      "text": "In the retained simulator proof, the finite task completes without that"
+    },
+    {
+      "start": 147.78000000000003,
+      "end": 153.17000000000002,
+      "text": "central path. The separate management observer remains available; this is not"
+    },
+    {
+      "start": 153.25000000000006,
+      "end": 155.89000000000004,
+      "text": "a total network blackout or a safety stop."
+    },
+    {
+      "start": 156.08999999999997,
+      "end": 160.29000000000002,
+      "text": "The robot poses replay committed simulator samples."
+    },
+    {
+      "start": 160.423,
+      "end": 165.01000000000005,
+      "text": "To challenge the mechanism yourself, open the workbench and use the real"
+    },
+    {
+      "start": 165.08999999999997,
+      "end": 170.20999999999998,
+      "text": "transfer and disconnect controls. Reconnect and retry the same completed"
+    },
+    {
+      "start": 170.29000000000002,
+      "end": 174.85000000000002,
+      "text": "request: the receipt returns, rather than starting the movement again."
+    },
+    {
+      "start": 175.44,
+      "end": 179.64000000000004,
+      "text": "A lost connection and a lost executor are different problems."
+    },
+    {
+      "start": 179.77300000000002,
+      "end": 185.16000000000003,
+      "text": "If the executor dies, we cannot turn uncertainty into a success message."
+    },
+    {
+      "start": 185.34300000000002,
+      "end": 190.12000000000006,
+      "text": "Follow the work history. The old task remains visible."
+    },
+    {
+      "start": 190.23600000000005,
+      "end": 193.32000000000005,
+      "text": "Explicit recovery records it as interrupted."
+    },
+    {
+      "start": 193.48000000000008,
+      "end": 196.36000000000007,
+      "text": "It does not silently resume the movement."
+    },
+    {
+      "start": 196.54700000000003,
+      "end": 201.88000000000005,
+      "text": "If the operator decides to try again, that is a deliberately new action, with"
+    },
+    {
+      "start": 201.94,
+      "end": 204.12000000000006,
+      "text": "its own identity and outcome."
+    },
+    {
+      "start": 204.32800000000003,
+      "end": 209.64000000000004,
+      "text": "This is the operational value we want to test: can the team understand what"
+    },
+    {
+      "start": 209.70200000000006,
+      "end": 214.52000000000004,
+      "text": "happened, recover deliberately, and avoid accidental repeated work?"
+    },
+    {
+      "start": 214.68,
+      "end": 217.48000000000008,
+      "text": "The evidence must answer that question."
+    },
+    {
+      "start": 217.84000000000003,
+      "end": 220.96000000000004,
+      "text": "A polished animation cannot answer it for us."
+    },
+    {
+      "start": 221.55000000000007,
+      "end": 227.33000000000004,
+      "text": "Now change the task. Inspection positioning and rework positioning already"
+    },
+    {
+      "start": 227.41900000000004,
+      "end": 231.41000000000008,
+      "text": "exercise the same delivery and recovery process in simulation."
+    },
+    {
+      "start": 231.59000000000003,
+      "end": 237.57000000000005,
+      "text": "The reusable part is the handoff: bind the request, admit the release,"
+    },
+    {
+      "start": 237.64000000000004,
+      "end": 242.05000000000007,
+      "text": "execute locally, retain the receipt, and recover explicitly."
+    },
+    {
+      "start": 242.18000000000006,
+      "end": 247.49000000000007,
+      "text": "Machine tending and other cell types are possible next modules, shown here as"
+    },
+    {
+      "start": 247.57000000000005,
+      "end": 253.09000000000003,
+      "text": "concepts. Their device interfaces, calibration, tooling and acceptance"
+    },
+    {
+      "start": 253.18300000000005,
+      "end": 258.85,
+      "text": "still need reviewed adapters. Intel and Red Hat provide the target compute and"
+    },
+    {
+      "start": 258.91200000000003,
+      "end": 264.61,
+      "text": "platform context. Historical separate-host evidence used Intel processors"
+    },
+    {
+      "start": 264.71000000000004,
+      "end": 267.97,
+      "text": "and Red Hat Enterprise Linux on OpenShift."
+    },
+    {
+      "start": 268.06600000000003,
+      "end": 273.4100000000001,
+      "text": "That evidence does not qualify a new host, demonstrate accelerator benefit, or"
+    },
+    {
+      "start": 273.47400000000005,
+      "end": 275.85,
+      "text": "establish a physical robot installation."
+    },
+    {
+      "start": 276.44000000000005,
+      "end": 281.1200000000001,
+      "text": "The next commitment is a focused pilot, not a fleet promise."
+    },
+    {
+      "start": 281.269,
+      "end": 287.20000000000005,
+      "text": "Choose one bounded task, name the central and edge hosts, and give acceptance"
+    },
+    {
+      "start": 287.25300000000004,
+      "end": 292.48,
+      "text": "to an owner. Measure the effort from approved release to accepted task, the"
+    },
+    {
+      "start": 292.56000000000006,
+      "end": 296.80000000000007,
+      "text": "manual handoffs, the recovery effort, and the verified result."
+    },
+    {
+      "start": 297.08000000000004,
+      "end": 302.48,
+      "text": "Use the dashboard and agent start packet to inspect the implementation and run"
+    },
+    {
+      "start": 302.5,
+      "end": 308.1600000000001,
+      "text": "the tests. Keep software evidence, compute qualification, and physical cell"
+    },
+    {
+      "start": 308.211,
+      "end": 313.9200000000001,
+      "text": "acceptance distinct. Red, amber and green must refer to a specific"
+    },
+    {
+      "start": 314.03200000000004,
+      "end": 315.3600000000001,
+      "text": "test and its scope."
+    },
+    {
+      "start": 316.1000000000001,
+      "end": 321.9719954648527,
+      "text": "From change to work: deliver the capability, keep control local, and"
+    },
+    {
+      "start": 322.0519954648527,
+      "end": 324.2119954648527,
+      "text": "earn the next step with evidence."
+    }
+  ],
+  "flow_beats": [
+    {
+      "event": 0,
+      "time": 85.513,
+      "phrase": "An operator chooses"
+    },
+    {
+      "event": 1,
+      "time": 88.6,
+      "phrase": "The central dispatcher"
+    },
+    {
+      "event": 2,
+      "time": 93.49999999999997,
+      "phrase": "The delivery channel"
+    },
+    {
+      "event": 3,
+      "time": 96.36699999999999,
+      "phrase": "At the receiving boundary"
+    },
+    {
+      "event": 4,
+      "time": 103.46000000000001,
+      "phrase": "Only an idle executor"
+    },
+    {
+      "event": 5,
+      "time": 106.48400000000001,
+      "phrase": "Once work starts"
+    },
+    {
+      "event": 6,
+      "time": 117.96000000000001,
+      "phrase": "and can we account"
+    }
+  ]
+}

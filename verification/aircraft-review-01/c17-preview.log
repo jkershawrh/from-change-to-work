@@ -1,0 +1,746 @@
+21:41:13 | INFO: Data are loaded, start creating Blender stuff
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part112_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part113_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part59_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part60_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part260_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part266_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part272_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part174_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part175_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part176_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part286_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part293_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part300_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part311_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part323_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part332_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part118_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part126_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part135_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part148_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part159_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part32_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part33_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part31_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part35_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part36_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part38_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part37_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part30_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part41_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part42_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part43_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part40_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part44_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part46_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part47_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part39_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part50_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part51_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part52_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part49_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part53_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part55_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part54_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part48_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part14_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part15_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part16_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part13_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part17_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part19_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part18_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part11_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part200_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part203_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part204_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part197_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part198_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part199_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part181_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part182_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part183_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part178_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part179_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part180_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part194_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part195_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part196_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part190_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part191_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part192_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part187_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part188_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part189_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part184_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part185_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part186_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part133_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part134_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part136_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part69_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part70_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part71_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part127_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part128_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part129_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part73_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part74_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part75_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part137_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part138_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part139_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part66_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part67_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part68_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part130_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part131_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part132_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part76_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part77_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part78_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part219_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part213_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part223_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part345_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part346_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part347_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part348_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part03_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part04_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part05_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part06_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part07_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part08_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part09_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part10_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part349_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part350_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part351_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part02_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part334_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part108_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part100_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part90_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part91_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part92_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part93_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part94_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part95_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part96_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part97_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part98_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part99_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part250_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part215_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part216_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part251_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part252_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part246_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part245_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part244_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part247_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part249_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part298_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part317_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part330_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part328_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part343_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part344_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part254_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part239_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part209_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part229_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part236_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part207_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part228_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part232_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part238_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part208_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part230_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part307_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part303_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part306_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part302_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part304_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part299_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part305_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part301_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part241_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part224_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part242_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part225_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part243_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part226_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part110_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part111_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part57_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part58_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part114_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part115_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part116_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part117_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part125_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part79_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part80_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part81_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part82_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part20_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part21_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part22_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part24_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part25_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part26_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part27_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part28_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part29_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part119_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part120_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part121_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part86_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part88_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part89_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part122_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part123_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part124_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part83_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part84_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part85_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part335_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part338_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part337_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part336_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part109_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part339_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part340_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part342_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part235_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part206_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part227_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part221_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part150_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part165_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part166_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part149_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part155_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part164_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part172_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part147_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part156_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part163_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part173_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part146_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part154_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part162_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part171_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part145_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part153_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part161_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part169_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part144_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part152_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part160_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part168_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part143_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part151_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part158_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part167_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part142_Mesh
+21:41:13 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part222_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part267_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part268_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part263_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part265_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part269_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part264_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part72_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part87_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part270_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part271_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part273_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part329_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part320_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part327_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part318_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part331_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part321_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part324_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part325_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part326_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part309_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part310_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part312_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part313_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part314_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part315_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part316_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part308_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part319_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part140_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part141_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part157_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part253_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part218_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part261_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part262_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part255_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part256_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part257_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part258_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part259_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part61_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part62_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part63_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part64_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part65_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part101_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part102_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part103_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part104_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part106_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part107_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part333_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part105_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part201_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part322_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part341_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part01_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part12_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part23_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part34_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part45_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part56_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part280_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part281_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part294_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part295_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part282_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part283_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part284_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part285_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part289_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part290_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part276_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part277_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part274_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part275_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part291_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part292_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part278_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part279_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part296_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part297_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part287_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part288_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part210_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part211_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part212_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part170_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part177_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part193_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part202_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part214_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part220_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part231_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part237_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part248_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part233_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part240_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part217_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part234_Mesh
+21:41:14 | INFO: Blender create Mesh node C17_Globemaster_With_Animation_Part205_Mesh
+21:41:14 | INFO: glTF import finished in 0.43s
+BOUNDS c17-decoded [-9.70441722869873, -10.030526161193848, -0.4281896650791168] [9.70441722869873, 10.03537368774414, 6.026805400848389]
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:31:45)
+Fra:1 Mem:89.64M (Peak 89.64M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part112
+Fra:1 Mem:89.64M (Peak 89.64M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part113
+Fra:1 Mem:89.64M (Peak 89.64M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part60
+Fra:1 Mem:89.65M (Peak 89.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part260
+Fra:1 Mem:91.66M (Peak 91.66M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part266
+Fra:1 Mem:91.67M (Peak 91.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part272
+Fra:1 Mem:91.77M (Peak 91.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part174
+Fra:1 Mem:91.75M (Peak 91.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part175
+Fra:1 Mem:91.76M (Peak 91.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part311
+Fra:1 Mem:91.78M (Peak 91.78M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part332
+Fra:1 Mem:91.81M (Peak 91.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part118
+Fra:1 Mem:91.82M (Peak 91.82M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part126
+Fra:1 Mem:91.85M (Peak 91.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part135
+Fra:1 Mem:91.88M (Peak 91.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part159
+Fra:1 Mem:91.88M (Peak 91.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part32
+Fra:1 Mem:91.90M (Peak 91.90M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part33
+Fra:1 Mem:91.92M (Peak 91.92M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.002
+Fra:1 Mem:91.92M (Peak 91.92M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
+Fra:1 Mem:91.93M (Peak 91.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area
+Fra:1 Mem:91.93M (Peak 91.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Plane
+Fra:1 Mem:91.93M (Peak 91.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part205
+Fra:1 Mem:92.38M (Peak 92.38M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part31
+Fra:1 Mem:92.36M (Peak 92.38M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part35
+Fra:1 Mem:92.36M (Peak 92.38M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part36
+Fra:1 Mem:92.46M (Peak 92.46M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part38
+Fra:1 Mem:92.52M (Peak 92.52M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part234
+Fra:1 Mem:92.63M (Peak 92.63M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part30
+Fra:1 Mem:92.63M (Peak 92.63M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part41
+Fra:1 Mem:92.87M (Peak 92.87M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part42
+Fra:1 Mem:92.87M (Peak 92.87M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part43
+Fra:1 Mem:92.94M (Peak 92.94M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part40
+Fra:1 Mem:93.05M (Peak 93.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part44
+Fra:1 Mem:93.00M (Peak 93.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part46
+Fra:1 Mem:93.17M (Peak 93.17M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part47
+Fra:1 Mem:93.21M (Peak 93.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part39
+Fra:1 Mem:93.23M (Peak 93.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part50
+Fra:1 Mem:93.52M (Peak 93.52M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part51
+Fra:1 Mem:93.33M (Peak 93.52M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part49
+Fra:1 Mem:93.40M (Peak 93.52M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part53
+Fra:1 Mem:93.41M (Peak 93.52M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part217
+Fra:1 Mem:93.73M (Peak 93.73M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part240
+Fra:1 Mem:93.79M (Peak 93.78M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part55
+Fra:1 Mem:94.03M (Peak 94.03M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part233
+Fra:1 Mem:94.12M (Peak 94.12M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part54
+Fra:1 Mem:94.20M (Peak 94.20M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part48
+Fra:1 Mem:94.24M (Peak 94.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part14
+Fra:1 Mem:94.82M (Peak 94.82M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part15
+Fra:1 Mem:94.89M (Peak 94.89M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part16
+Fra:1 Mem:94.90M (Peak 94.90M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part13
+Fra:1 Mem:94.92M (Peak 94.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part17
+Fra:1 Mem:95.16M (Peak 95.16M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part19
+Fra:1 Mem:95.30M (Peak 95.30M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part18
+Fra:1 Mem:95.31M (Peak 95.31M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part11
+Fra:1 Mem:95.39M (Peak 95.39M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part200
+Fra:1 Mem:95.44M (Peak 95.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part203
+Fra:1 Mem:95.43M (Peak 95.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part204
+Fra:1 Mem:95.42M (Peak 95.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part198
+Fra:1 Mem:95.43M (Peak 95.44M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part199
+Fra:1 Mem:95.57M (Peak 95.57M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part181
+Fra:1 Mem:95.65M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part182
+Fra:1 Mem:95.49M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part183
+Fra:1 Mem:95.51M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part178
+Fra:1 Mem:95.51M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part180
+Fra:1 Mem:95.41M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part194
+Fra:1 Mem:95.41M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part195
+Fra:1 Mem:95.43M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part190
+Fra:1 Mem:95.43M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part191
+Fra:1 Mem:95.44M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part192
+Fra:1 Mem:95.46M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part187
+Fra:1 Mem:95.46M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part189
+Fra:1 Mem:95.46M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part185
+Fra:1 Mem:95.46M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part186
+Fra:1 Mem:95.46M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part133
+Fra:1 Mem:95.61M (Peak 95.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part134
+Fra:1 Mem:95.70M (Peak 95.70M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part136
+Fra:1 Mem:95.80M (Peak 95.80M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part69
+Fra:1 Mem:95.82M (Peak 95.82M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part71
+Fra:1 Mem:95.88M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part127
+Fra:1 Mem:95.47M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part73
+Fra:1 Mem:95.48M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part74
+Fra:1 Mem:95.48M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part75
+Fra:1 Mem:95.48M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part137
+Fra:1 Mem:95.51M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part138
+Fra:1 Mem:95.52M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part139
+Fra:1 Mem:95.53M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part68
+Fra:1 Mem:95.52M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part130
+Fra:1 Mem:95.56M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part237
+Fra:1 Mem:95.56M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part76
+Fra:1 Mem:95.58M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part78
+Fra:1 Mem:95.60M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part219
+Fra:1 Mem:95.60M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part231
+Fra:1 Mem:95.61M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part213
+Fra:1 Mem:95.61M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part223
+Fra:1 Mem:95.63M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part346
+Fra:1 Mem:95.65M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part347
+Fra:1 Mem:95.65M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part348
+Fra:1 Mem:95.75M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part03
+Fra:1 Mem:95.79M (Peak 95.88M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part220
+Fra:1 Mem:95.97M (Peak 95.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part214
+Fra:1 Mem:96.23M (Peak 96.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part04
+Fra:1 Mem:96.36M (Peak 96.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part202
+Fra:1 Mem:96.37M (Peak 96.37M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part193
+Fra:1 Mem:96.48M (Peak 96.48M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part177
+Fra:1 Mem:96.58M (Peak 96.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part170
+Fra:1 Mem:96.77M (Peak 96.77M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part06
+Fra:1 Mem:97.04M (Peak 97.04M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part212
+Fra:1 Mem:97.29M (Peak 97.29M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part07
+Fra:1 Mem:97.69M (Peak 97.69M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part08
+Fra:1 Mem:97.65M (Peak 97.69M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part10
+Fra:1 Mem:97.96M (Peak 97.96M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part211
+Fra:1 Mem:98.51M (Peak 98.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part349
+Fra:1 Mem:98.48M (Peak 98.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part350
+Fra:1 Mem:98.06M (Peak 98.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part351
+Fra:1 Mem:98.19M (Peak 98.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part02
+Fra:1 Mem:98.21M (Peak 98.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part334
+Fra:1 Mem:98.32M (Peak 98.51M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part108
+Fra:1 Mem:98.65M (Peak 98.65M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part100
+Fra:1 Mem:98.84M (Peak 98.84M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part90
+Fra:1 Mem:99.34M (Peak 99.34M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part91
+Fra:1 Mem:99.66M (Peak 99.66M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part92
+Fra:1 Mem:99.80M (Peak 99.80M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part93
+Fra:1 Mem:99.92M (Peak 99.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part94
+Fra:1 Mem:99.86M (Peak 99.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part95
+Fra:1 Mem:99.90M (Peak 99.92M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part97
+Fra:1 Mem:100.02M (Peak 100.02M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part98
+Fra:1 Mem:100.02M (Peak 100.02M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part99
+Fra:1 Mem:100.05M (Peak 100.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part250
+Fra:1 Mem:100.26M (Peak 100.26M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part215
+Fra:1 Mem:100.30M (Peak 100.30M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part216
+Fra:1 Mem:100.32M (Peak 100.32M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part251
+Fra:1 Mem:100.32M (Peak 100.32M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part252
+Fra:1 Mem:100.32M (Peak 100.32M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part246
+Fra:1 Mem:100.33M (Peak 100.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part245
+Fra:1 Mem:100.38M (Peak 100.38M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part244
+Fra:1 Mem:100.73M (Peak 100.73M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part247
+Fra:1 Mem:100.74M (Peak 100.74M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part298
+Fra:1 Mem:100.94M (Peak 100.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part210
+Fra:1 Mem:100.96M (Peak 100.96M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part317
+Fra:1 Mem:102.05M (Peak 102.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part330
+Fra:1 Mem:102.25M (Peak 102.25M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part328
+Fra:1 Mem:102.68M (Peak 102.68M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part343
+Fra:1 Mem:102.69M (Peak 102.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part344
+Fra:1 Mem:102.92M (Peak 102.92M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part254
+Fra:1 Mem:104.01M (Peak 104.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part239
+Fra:1 Mem:104.04M (Peak 104.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part209
+Fra:1 Mem:104.01M (Peak 104.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part229
+Fra:1 Mem:104.51M (Peak 104.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part236
+Fra:1 Mem:104.53M (Peak 104.53M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part207
+Fra:1 Mem:104.60M (Peak 104.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part228
+Fra:1 Mem:104.30M (Peak 104.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part232
+Fra:1 Mem:103.84M (Peak 104.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part208
+Fra:1 Mem:104.12M (Peak 104.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part230
+Fra:1 Mem:104.34M (Peak 104.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part307
+Fra:1 Mem:104.39M (Peak 104.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part303
+Fra:1 Mem:104.35M (Peak 104.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part306
+Fra:1 Mem:104.47M (Peak 104.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part302
+Fra:1 Mem:104.78M (Peak 104.78M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part299
+Fra:1 Mem:104.76M (Peak 104.78M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part305
+Fra:1 Mem:104.99M (Peak 104.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part301
+Fra:1 Mem:105.40M (Peak 105.40M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part241
+Fra:1 Mem:105.40M (Peak 105.40M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part224
+Fra:1 Mem:105.44M (Peak 105.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part242
+Fra:1 Mem:105.46M (Peak 105.46M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part225
+Fra:1 Mem:105.47M (Peak 105.47M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part243
+Fra:1 Mem:105.49M (Peak 105.49M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part226
+Fra:1 Mem:105.55M (Peak 105.55M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part110
+Fra:1 Mem:105.62M (Peak 105.62M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part111
+Fra:1 Mem:105.63M (Peak 105.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part57
+Fra:1 Mem:105.69M (Peak 105.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part58
+Fra:1 Mem:105.77M (Peak 105.77M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part114
+Fra:1 Mem:105.87M (Peak 105.87M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part115
+Fra:1 Mem:105.87M (Peak 105.87M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part116
+Fra:1 Mem:105.89M (Peak 105.89M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part117
+Fra:1 Mem:105.92M (Peak 105.92M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part125
+Fra:1 Mem:105.98M (Peak 105.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part79
+Fra:1 Mem:105.98M (Peak 105.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part80
+Fra:1 Mem:106.00M (Peak 106.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part81
+Fra:1 Mem:106.01M (Peak 106.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part82
+Fra:1 Mem:106.03M (Peak 106.03M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part21
+Fra:1 Mem:106.10M (Peak 106.10M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part22
+Fra:1 Mem:106.15M (Peak 106.15M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part24
+Fra:1 Mem:106.23M (Peak 106.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part25
+Fra:1 Mem:106.81M (Peak 106.81M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part26
+Fra:1 Mem:106.93M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part27
+Fra:1 Mem:106.75M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part28
+Fra:1 Mem:106.27M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part29
+Fra:1 Mem:106.27M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part119
+Fra:1 Mem:106.33M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part120
+Fra:1 Mem:106.33M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part86
+Fra:1 Mem:106.37M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part88
+Fra:1 Mem:106.44M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part122
+Fra:1 Mem:106.53M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part123
+Fra:1 Mem:106.52M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part124
+Fra:1 Mem:106.53M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part83
+Fra:1 Mem:106.50M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part84
+Fra:1 Mem:106.51M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part85
+Fra:1 Mem:106.52M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part335
+Fra:1 Mem:106.52M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part338
+Fra:1 Mem:106.53M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part337
+Fra:1 Mem:106.54M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part336
+Fra:1 Mem:106.55M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part109
+Fra:1 Mem:106.58M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part339
+Fra:1 Mem:106.87M (Peak 106.93M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part340
+Fra:1 Mem:107.21M (Peak 107.21M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part235
+Fra:1 Mem:107.38M (Peak 107.38M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part227
+Fra:1 Mem:107.23M (Peak 107.38M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part221
+Fra:1 Mem:107.27M (Peak 107.38M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part150
+Fra:1 Mem:107.31M (Peak 107.38M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part165
+Fra:1 Mem:107.31M (Peak 107.38M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part166
+Fra:1 Mem:107.40M (Peak 107.40M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part149
+Fra:1 Mem:107.51M (Peak 107.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part155
+Fra:1 Mem:107.49M (Peak 107.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part164
+Fra:1 Mem:107.50M (Peak 107.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part156
+Fra:1 Mem:107.49M (Peak 107.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part173
+Fra:1 Mem:107.50M (Peak 107.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part146
+Fra:1 Mem:107.50M (Peak 107.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part154
+Fra:1 Mem:107.59M (Peak 107.59M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part162
+Fra:1 Mem:107.63M (Peak 107.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part171
+Fra:1 Mem:107.60M (Peak 107.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part296
+Fra:1 Mem:107.62M (Peak 107.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part145
+Fra:1 Mem:107.62M (Peak 107.63M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part153
+Fra:1 Mem:107.69M (Peak 107.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part161
+Fra:1 Mem:107.95M (Peak 107.95M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part169
+Fra:1 Mem:107.96M (Peak 107.96M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part152
+Fra:1 Mem:107.98M (Peak 107.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part151
+Fra:1 Mem:107.95M (Peak 107.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part158
+Fra:1 Mem:107.96M (Peak 107.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part167
+Fra:1 Mem:107.96M (Peak 107.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part142
+Fra:1 Mem:107.96M (Peak 107.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part222
+Fra:1 Mem:107.98M (Peak 107.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part267
+Fra:1 Mem:107.98M (Peak 107.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part268
+Fra:1 Mem:107.98M (Peak 107.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part263
+Fra:1 Mem:108.07M (Peak 108.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part265
+Fra:1 Mem:108.07M (Peak 108.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part269
+Fra:1 Mem:108.11M (Peak 108.11M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part264
+Fra:1 Mem:108.12M (Peak 108.12M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part72
+Fra:1 Mem:108.12M (Peak 108.12M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part87
+Fra:1 Mem:108.12M (Peak 108.12M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part271
+Fra:1 Mem:108.15M (Peak 108.15M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part273
+Fra:1 Mem:108.17M (Peak 108.17M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part329
+Fra:1 Mem:108.30M (Peak 108.30M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part320
+Fra:1 Mem:108.36M (Peak 108.36M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part327
+Fra:1 Mem:108.48M (Peak 108.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part318
+Fra:1 Mem:108.76M (Peak 108.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part331
+Fra:1 Mem:108.86M (Peak 108.86M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part321
+Fra:1 Mem:108.94M (Peak 108.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part324
+Fra:1 Mem:109.62M (Peak 109.62M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part325
+Fra:1 Mem:109.62M (Peak 109.62M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part326
+Fra:1 Mem:109.56M (Peak 109.62M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part279
+Fra:1 Mem:110.10M (Peak 110.10M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part278
+Fra:1 Mem:110.05M (Peak 110.10M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part309
+Fra:1 Mem:110.79M (Peak 110.79M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part313
+Fra:1 Mem:110.97M (Peak 110.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part314
+Fra:1 Mem:111.49M (Peak 111.49M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part315
+Fra:1 Mem:111.62M (Peak 111.62M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part316
+Fra:1 Mem:111.96M (Peak 111.96M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part308
+Fra:1 Mem:112.19M (Peak 112.19M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part319
+Fra:1 Mem:112.35M (Peak 112.35M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part140
+Fra:1 Mem:112.72M (Peak 112.72M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part141
+Fra:1 Mem:112.88M (Peak 112.88M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part291
+Fra:1 Mem:113.12M (Peak 113.12M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part157
+Fra:1 Mem:114.00M (Peak 114.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part253
+Fra:1 Mem:114.07M (Peak 114.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part218
+Fra:1 Mem:114.21M (Peak 114.21M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part261
+Fra:1 Mem:114.28M (Peak 114.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part262
+Fra:1 Mem:114.15M (Peak 114.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part255
+Fra:1 Mem:114.18M (Peak 114.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part256
+Fra:1 Mem:114.26M (Peak 114.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part257
+Fra:1 Mem:114.28M (Peak 114.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part258
+Fra:1 Mem:114.31M (Peak 114.31M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part259
+Fra:1 Mem:114.42M (Peak 114.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part62
+Fra:1 Mem:114.27M (Peak 114.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part63
+Fra:1 Mem:114.28M (Peak 114.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part64
+Fra:1 Mem:114.28M (Peak 114.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part101
+Fra:1 Mem:114.28M (Peak 114.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part103
+Fra:1 Mem:114.30M (Peak 114.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part104
+Fra:1 Mem:114.35M (Peak 114.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part106
+Fra:1 Mem:114.34M (Peak 114.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part107
+Fra:1 Mem:114.43M (Peak 114.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part333
+Fra:1 Mem:114.48M (Peak 114.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part105
+Fra:1 Mem:114.84M (Peak 114.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part201
+Fra:1 Mem:114.88M (Peak 114.88M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part341
+Fra:1 Mem:114.97M (Peak 114.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part01
+Fra:1 Mem:115.04M (Peak 115.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part23
+Fra:1 Mem:115.07M (Peak 115.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part34
+Fra:1 Mem:115.04M (Peak 115.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part275
+Fra:1 Mem:115.04M (Peak 115.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part45
+Fra:1 Mem:115.12M (Peak 115.13M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part56
+Fra:1 Mem:115.14M (Peak 115.14M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part280
+Fra:1 Mem:115.28M (Peak 115.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part281
+Fra:1 Mem:115.28M (Peak 115.28M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part295
+Fra:1 Mem:115.83M (Peak 115.83M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part282
+Fra:1 Mem:116.61M (Peak 116.61M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part283
+Fra:1 Mem:116.66M (Peak 116.66M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part284
+Fra:1 Mem:116.84M (Peak 116.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part285
+Fra:1 Mem:116.90M (Peak 116.90M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part289
+Fra:1 Mem:117.91M (Peak 117.91M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part290
+Fra:1 Mem:118.18M (Peak 118.18M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part277
+Fra:1 Mem:118.55M (Peak 118.55M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | C17_Globemaster_With_Animation_Part274
+Fra:1 Mem:123.47M (Peak 123.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:121.85M (Peak 123.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_12
+Fra:1 Mem:121.85M (Peak 123.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_2
+Fra:1 Mem:121.85M (Peak 123.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_14
+Fra:1 Mem:153.89M (Peak 157.87M) | Time:00:00.07 | Mem:4.00M, Peak:4.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_13
+Fra:1 Mem:161.89M (Peak 165.90M) | Time:00:00.07 | Mem:8.00M, Peak:8.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_14
+Fra:1 Mem:173.91M (Peak 177.92M) | Time:00:00.07 | Mem:12.00M, Peak:12.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_14
+Fra:1 Mem:177.91M (Peak 177.92M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_map2
+Fra:1 Mem:177.90M (Peak 181.91M) | Time:00:00.07 | Mem:20.00M, Peak:20.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_1
+Fra:1 Mem:181.90M (Peak 185.91M) | Time:00:00.07 | Mem:24.00M, Peak:24.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_1
+Fra:1 Mem:197.92M (Peak 201.93M) | Time:00:00.08 | Mem:28.00M, Peak:28.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal
+Fra:1 Mem:201.92M (Peak 205.93M) | Time:00:00.08 | Mem:32.00M, Peak:32.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_5
+Fra:1 Mem:201.91M (Peak 205.93M) | Time:00:00.08 | Mem:36.00M, Peak:36.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_5
+Fra:1 Mem:213.93M (Peak 217.94M) | Time:00:00.09 | Mem:40.00M, Peak:40.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_5
+Fra:1 Mem:217.93M (Peak 221.94M) | Time:00:00.09 | Mem:44.00M, Peak:44.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_4
+Fra:1 Mem:221.93M (Peak 225.94M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_4
+Fra:1 Mem:221.92M (Peak 225.94M) | Time:00:00.09 | Mem:52.00M, Peak:52.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_4
+Fra:1 Mem:221.91M (Peak 225.94M) | Time:00:00.09 | Mem:56.00M, Peak:56.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_13
+Fra:1 Mem:221.91M (Peak 225.94M) | Time:00:00.09 | Mem:60.00M, Peak:60.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_map16
+Fra:1 Mem:225.91M (Peak 229.92M) | Time:00:00.09 | Mem:64.00M, Peak:64.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_7
+Fra:1 Mem:237.92M (Peak 241.93M) | Time:00:00.10 | Mem:68.00M, Peak:68.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_7
+Fra:1 Mem:237.91M (Peak 241.93M) | Time:00:00.10 | Mem:72.00M, Peak:72.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_7
+Fra:1 Mem:233.91M (Peak 241.93M) | Time:00:00.10 | Mem:76.00M, Peak:76.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_6
+Fra:1 Mem:241.91M (Peak 245.92M) | Time:00:00.10 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_6
+Fra:1 Mem:253.92M (Peak 257.93M) | Time:00:00.10 | Mem:84.00M, Peak:84.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_6
+Fra:1 Mem:261.93M (Peak 265.94M) | Time:00:00.10 | Mem:88.00M, Peak:88.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_8
+Fra:1 Mem:265.93M (Peak 269.94M) | Time:00:00.11 | Mem:92.00M, Peak:92.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_11
+Fra:1 Mem:265.92M (Peak 269.94M) | Time:00:00.11 | Mem:96.00M, Peak:96.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_8
+Fra:1 Mem:269.92M (Peak 273.93M) | Time:00:00.11 | Mem:100.00M, Peak:100.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_8
+Fra:1 Mem:269.91M (Peak 273.93M) | Time:00:00.11 | Mem:104.00M, Peak:104.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_map30
+Fra:1 Mem:269.91M (Peak 273.93M) | Time:00:00.11 | Mem:108.00M, Peak:108.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_3
+Fra:1 Mem:269.90M (Peak 273.93M) | Time:00:00.11 | Mem:112.00M, Peak:112.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_3
+Fra:1 Mem:269.89M (Peak 273.93M) | Time:00:00.11 | Mem:116.00M, Peak:116.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_2
+Fra:1 Mem:273.89M (Peak 277.90M) | Time:00:00.11 | Mem:120.00M, Peak:120.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_emission_color
+Fra:1 Mem:277.89M (Peak 281.90M) | Time:00:00.12 | Mem:124.00M, Peak:124.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_9
+Fra:1 Mem:277.88M (Peak 281.90M) | Time:00:00.12 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_9
+Fra:1 Mem:293.91M (Peak 297.92M) | Time:00:00.12 | Mem:132.00M, Peak:132.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_9
+Fra:1 Mem:293.90M (Peak 297.92M) | Time:00:00.12 | Mem:136.00M, Peak:136.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color
+Fra:1 Mem:293.89M (Peak 297.92M) | Time:00:00.12 | Mem:140.00M, Peak:140.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness
+Fra:1 Mem:301.90M (Peak 305.91M) | Time:00:00.12 | Mem:144.00M, Peak:144.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_3
+Fra:1 Mem:305.90M (Peak 309.91M) | Time:00:00.13 | Mem:148.00M, Peak:148.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_map23
+Fra:1 Mem:301.89M (Peak 309.91M) | Time:00:00.13 | Mem:152.00M, Peak:152.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_emission_color_1
+Fra:1 Mem:321.91M (Peak 325.92M) | Time:00:00.13 | Mem:156.00M, Peak:156.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_11
+Fra:1 Mem:321.91M (Peak 325.92M) | Time:00:00.13 | Mem:160.00M, Peak:160.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_11
+Fra:1 Mem:321.90M (Peak 325.92M) | Time:00:00.13 | Mem:164.00M, Peak:164.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_metallic_roughness_10
+Fra:1 Mem:321.89M (Peak 325.92M) | Time:00:00.13 | Mem:168.00M, Peak:168.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_normal_10
+Fra:1 Mem:321.88M (Peak 325.92M) | Time:00:00.13 | Mem:172.00M, Peak:172.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_map40
+Fra:1 Mem:329.89M (Peak 333.90M) | Time:00:00.14 | Mem:176.00M, Peak:176.00M | Scene, ViewLayer | Updating Images | Loading C17_Globemaster_With_Animation_base_color_12
+Fra:1 Mem:314.92M (Peak 337.89M) | Time:00:00.15 | Mem:208.00M, Peak:208.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:314.92M (Peak 337.89M) | Time:00:00.15 | Mem:208.00M, Peak:208.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:314.92M (Peak 337.89M) | Time:00:00.15 | Mem:208.00M, Peak:208.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:314.92M (Peak 337.89M) | Time:00:00.15 | Mem:208.00M, Peak:208.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:315.02M (Peak 337.89M) | Time:00:00.15 | Mem:208.02M, Peak:208.02M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:315.02M (Peak 337.89M) | Time:00:00.15 | Mem:208.02M, Peak:208.02M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:315.02M (Peak 337.89M) | Time:00:00.15 | Mem:208.02M, Peak:208.02M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:315.02M (Peak 337.89M) | Time:00:00.15 | Mem:208.02M, Peak:208.02M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:315.02M (Peak 337.89M) | Time:00:00.15 | Mem:208.02M, Peak:208.02M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:315.02M (Peak 337.89M) | Time:00:00.15 | Mem:208.02M, Peak:208.02M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:315.10M (Peak 337.89M) | Time:00:00.15 | Mem:208.10M, Peak:208.10M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:315.10M (Peak 337.89M) | Time:00:00.15 | Mem:208.10M, Peak:208.10M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:315.10M (Peak 337.89M) | Time:00:00.15 | Mem:208.10M, Peak:208.10M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:322.60M (Peak 337.89M) | Time:00:00.19 | Mem:208.10M, Peak:208.10M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:322.60M (Peak 337.89M) | Time:00:00.19 | Mem:208.10M, Peak:208.10M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:336.66M (Peak 337.89M) | Time:00:00.20 | Mem:208.15M, Peak:208.15M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:336.59M (Peak 337.89M) | Time:00:00.20 | Mem:222.09M, Peak:222.09M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:336.59M (Peak 337.89M) | Time:00:00.20 | Mem:222.09M, Peak:222.09M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:336.59M (Peak 337.89M) | Time:00:00.20 | Mem:230.00M, Peak:230.00M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:336.59M (Peak 337.89M) | Time:00:00.22 | Mem:237.78M, Peak:245.68M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:336.59M (Peak 337.89M) | Time:00:00.22 | Mem:237.78M, Peak:245.68M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:346.09M (Peak 346.09M) | Time:00:00.22 | Mem:237.78M, Peak:245.68M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:346.09M (Peak 346.09M) | Time:00:00.22 | Mem:247.27M, Peak:247.27M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:346.09M (Peak 346.09M) | Time:00:00.22 | Mem:247.28M, Peak:247.28M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:346.09M (Peak 346.09M) | Time:00:00.22 | Mem:247.28M, Peak:247.28M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:346.09M (Peak 346.09M) | Time:00:00.22 | Mem:247.28M, Peak:247.28M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:346.09M (Peak 346.09M) | Time:00:00.22 | Mem:247.28M, Peak:247.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:346.09M (Peak 346.09M) | Time:00:00.22 | Mem:247.36M, Peak:247.36M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:346.09M (Peak 346.09M) | Time:00:00.22 | Mem:247.36M, Peak:247.36M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:346.30M (Peak 346.30M) | Time:00:00.22 | Mem:247.56M, Peak:247.56M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:346.30M (Peak 346.30M) | Time:00:00.22 | Mem:247.56M, Peak:247.56M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:346.30M (Peak 346.30M) | Time:00:00.22 | Mem:247.48M, Peak:247.56M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:346.30M (Peak 346.30M) | Time:00:00.22 | Mem:247.57M, Peak:247.57M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:346.30M (Peak 346.30M) | Time:00:00.22 | Mem:247.57M, Peak:247.57M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:346.31M (Peak 346.31M) | Time:00:00.22 | Mem:247.57M, Peak:247.57M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:346.31M (Peak 346.31M) | Time:00:00.22 | Mem:247.57M, Peak:247.57M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:398.34M (Peak 398.34M) | Time:00:00.43 | Remaining:00:04.67 | Mem:299.54M, Peak:299.54M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:420.22M (Peak 453.04M) | Time:00:06.76 | Mem:299.54M, Peak:299.54M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:420.22M (Peak 453.04M) | Time:00:06.76 | Mem:299.54M, Peak:299.54M | Scene, ViewLayer | Finished
+Saved: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/.production/aircraft-review/c17-decoded-preview.png'
+Time: 00:06.87 (Saving: 00:00.09)
+
+
+Blender quit

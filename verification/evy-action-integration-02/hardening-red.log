@@ -1,0 +1,54 @@
+........FF                                                               [100%]
+=================================== FAILURES ===================================
+___________ test_malformed_nested_receipt_is_rejected_without_crash ____________
+
+tmp_path = PosixPath('/private/var/folders/qh/kgyp2lln3nb8t1rt2yc1rr4w0000gn/T/pytest-of-jkershaw/pytest-918/test_malformed_nested_receipt_0')
+
+    def test_malformed_nested_receipt_is_rejected_without_crash(tmp_path):
+        dispatcher=ActionDispatcher(configuration(tmp_path));request=intent()
+        from backend.actions.capability_transfer import rust_request
+        result=dict(schema='evy-aeris.transfer-action-result.v1',status='COMPLETE',action_id=request['action_id'],skill_id=request['skill_id'],release_digest=request['release_digest'],simulation_only=True,physical_motion_authorized=False)
+        for receipt in [None,[],17,{'idempotent':True,'result':None}]:
+            body=dict(schema='evy-aeris.edge-action.v1',edge_id='cell-a',action=rust_request(request),state='COMPLETE',result={**result,'receipt':receipt},simulation_only=True,physical_motion_authorized=False)
+>           with pytest.raises(ActionError):dispatcher.validate_remote(request,body)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/actions/test_capability_actions.py:79: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <backend.actions.capability_transfer.ActionDispatcher object at 0x109229fd0>
+request = {'action_id': 'job-001', 'edge_id': 'cell-a', 'release_digest': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'schema': 'evy.capability-action.v1', ...}
+body = {'action': {'action_id': 'job-001', 'release_digest': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...alse, 'receipt': None, 'release_digest': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', ...}, ...}
+
+    def validate_remote(self,request,body):
+        require(type(body)is dict and body.get('schema')=='evy-aeris.edge-action.v1','EDGE_CONTRACT',502)
+        require(body.get('edge_id')==request['edge_id'] and body.get('action')==rust_request(request),'EDGE_BINDING',502)
+        require(body.get('simulation_only')is True and body.get('physical_motion_authorized')is False,'UNQUALIFIED_AUTHORITY',502)
+        require(body.get('state')in ('QUEUED','RUNNING','COMPLETE','FAILED','INTERRUPTED'),'EDGE_STATE',502)
+        if body['state']=='COMPLETE':
+            result=body.get('result')
+            require(type(result)is dict and result.get('schema')=='evy-aeris.transfer-action-result.v1' and result.get('status')=='COMPLETE','TERMINAL_RECEIPT_REQUIRED',502)
+            require(all(result.get(k)==request[k] for k in ('action_id','skill_id','release_digest')),'RESULT_BINDING',502)
+            require(result.get('simulation_only')is True and result.get('physical_motion_authorized')is False,'RESULT_AUTHORITY',502)
+            receipt=result.get('receipt',{})
+>           if receipt.get('idempotent')is True:receipt=receipt.get('result',{})
+               ^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'get'
+
+backend/actions/capability_transfer.py:139: AttributeError
+______________ test_database_connection_closes_after_transaction _______________
+
+tmp_path = PosixPath('/private/var/folders/qh/kgyp2lln3nb8t1rt2yc1rr4w0000gn/T/pytest-of-jkershaw/pytest-918/test_database_connection_close0')
+
+    def test_database_connection_closes_after_transaction(tmp_path):
+        dispatcher=ActionDispatcher(configuration(tmp_path))
+        with dispatcher.connect() as db:db.execute('SELECT 1')
+>       with pytest.raises(sqlite3.ProgrammingError):db.execute('SELECT 1')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'sqlite3.ProgrammingError'>
+
+tests/actions/test_capability_actions.py:85: Failed
+=========================== short test summary info ============================
+FAILED tests/actions/test_capability_actions.py::test_malformed_nested_receipt_is_rejected_without_crash
+FAILED tests/actions/test_capability_actions.py::test_database_connection_closes_after_transaction
+2 failed, 8 passed in 0.23s

@@ -1,0 +1,8 @@
+{
+  "schema": "aeris.hosted-check-status.v1",
+  "source_commit": "12fc0a6d0dd399d2d03b98464931fee8209eeba7",
+  "run_url": "https://github.com/jkershawrh/evy-aeris-edge-actions/actions/runs/39879724166",
+  "status": "BLOCKED_BEFORE_TEST_EXECUTION",
+  "reason": "GitHub reports recent account payments failed or a spending limit needs to be increased. No hosted test steps started.",
+  "local_acceptance": "PASS; see result.json, browser-release.log, complete-check.log, final-audit.log and encoded-media.json. No hosted pass is claimed."
+}

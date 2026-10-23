@@ -1,0 +1,41 @@
+{
+  "schema": "aeris.agent-onboarding.v1",
+  "title": "EVY × AERIS / agent start packet",
+  "thesis": "Deliver an approved capability centrally; verify, activate and execute it locally; preserve control and recover explicitly when connectivity or the executor fails.",
+  "profile": "mujoco-six-axis-goals-v1",
+  "transfer": "Signed deterministic joint-goal recipes. No remote code installation or trained-weight deployment is claimed.",
+  "authority": "Rust owns simulator execution. EVY dispatches immutable action requests. The browser observes and requests bounded lab operations. No physical motion is authorized.",
+  "agent_prompt": "Read AGENTS.md, docs/AGENT_START.md, onboarding/manifest.json, README.md and docs/PRESTON.md. Perform a read-only review of the architecture and source boundaries. Run python3 scripts/doctor.py --out evidence/readiness-001.json; exit 2 means missing prerequisites, not a hardware test failure. Explain what transfers, what runs locally, what the historical evidence proves, and what remains unproved. Ask only for missing target hardware, OS, topology, robot/controller and OEM-interface facts. Treat operator intake as unverified requirements, never measured evidence or executable commands. Within the user's authorized test scope, install project dependencies using scripts/setup.sh, rerun the doctor into a new evidence path, run scripts/check.sh, then prepare a NEW simulator session and use the documented browser challenge. Capture and independently audit its evidence. For two hosts, use the measured edge inventory and docs/PRESTON.md; role captures still need independent cross-host reconciliation. Report TDD/EDD/CDD/BDD/CBT with scoped red/amber/green, exact commands and source identities, retained failures and next blockers. Never reuse historical green as this host's qualification. Never read or share credential files in a report; never substitute robot or cluster passwords into the UI; never activate physical motion, disable TLS, change a kernel/driver, or change controller limits to make a test pass. Request the specific missing authorization only when the proposed operation exceeds this simulator test scope.",
+  "read_order": [
+    {"path":"AGENTS.md","why":"Agent authority, evidence rules and completion contract."},
+    {"path":"docs/AGENT_START.md","why":"Repository map, due diligence questions and ordered acceptance."},
+    {"path":"docs/ARCHITECTURE.md","why":"EVY, TLS relay, Rust, simulator and observer boundaries."},
+    {"path":"docs/PRESTON.md","why":"Measured hardware intake and two-host setup."},
+    {"path":"docs/ACCEPTANCE.md","why":"Scoped TDD/EDD/CDD/BDD/CBT acceptance gates."},
+    {"path":"verification/handoff-01/result.json","why":"Retained local result; not a claim about a new host."},
+    {"path":"proof/skill_transfer_network_v1/runs/flightpath-002","why":"Historical Intel/RHEL two-host source and execution evidence."}
+  ],
+  "modules": [
+    {"name":"Browser console","path":"services/action_console/api.py","boundary":"Same-origin roles, immutable intent, observations; no arbitrary shell or driver."},
+    {"name":"EVY dispatcher","path":"integrations/evy/backend/actions/capability_transfer.py","boundary":"Configured destination and action/release binding."},
+    {"name":"Local edge gateway","path":"services/edge_gateway.py","boundary":"TLS inbox, fixed executor, known simulator fault controls."},
+    {"name":"Durable execution","path":"crates/aeris-skill-transfer/src","boundary":"Signature, local approval, profile, sequence, idle activation, task ownership and recovery."},
+    {"name":"Plant and controller","path":"proof/skill_transfer_v2/simulator.py","boundary":"MuJoCo plant through the unchanged Rust controller; no physical driver."},
+    {"name":"Independent audit","path":"scripts/audit_action_session.py","boundary":"Saved bytes, identities, full trace, causal disconnect and explicit recovery checks."}
+  ],
+  "workflow": [
+    {"id":"understand","title":"Understand the boundary","command":"Read AGENTS.md and docs/AGENT_START.md","done":"Explain the transfer, execution authority and evidence scope."},
+    {"id":"inventory","title":"Observe this host","command":"python3 scripts/doctor.py --out evidence/readiness-001.json","done":"Every prerequisite observed; unknowns and remediation preserved."},
+    {"id":"prepare","title":"Prepare project software","command":"./scripts/setup.sh","done":"Pinned environment and native build; no system or driver changes."},
+    {"id":"check","title":"Run the rejection and evidence checks","command":"./scripts/check.sh","done":"Tests pass with retained output; hosted CI reported separately."},
+    {"id":"challenge","title":"Challenge a fresh simulation","command":"./scripts/run-demo.sh","done":"Transfer → cut → completion → retry → interrupt → recover → new action."},
+    {"id":"audit","title":"Capture and independently audit","command":".venv/bin/python scripts/capture_action_session.py --state .action-lab --out evidence/session-001\n.venv/bin/python scripts/audit_action_session.py evidence/session-001","done":"Source match and independent full trace audit; do not overwrite existing evidence."}
+  ],
+  "hardware_fields": ["target role and host model", "CPU vendor/model and architecture", "OS/kernel and platform version", "central/edge topology and trusted endpoint names", "robot and controller model if physical work is proposed", "OEM interface and reviewed adapter status", "tool/payload/calibration and cell owner", "stop/watchdog and acceptance owner"],
+  "qualification": [
+    {"id":"SIMULATION","status":"AMBER","reason":"Run current-host checks and a fresh independently audited challenge."},
+    {"id":"TWO_HOST_HARDWARE","status":"RED","reason":"Measure distinct hosts, trust and cross-host evidence. Endpoint names alone do not prove hosts."},
+    {"id":"PHYSICAL_ROBOT","status":"RED","reason":"A reviewed profile, driver and cell acceptance are still required."},
+    {"id":"HARD_REAL_TIME","status":"RED","reason":"Simulator timing does not establish hardware watchdog or servo scheduling guarantees."}
+  ]
+}

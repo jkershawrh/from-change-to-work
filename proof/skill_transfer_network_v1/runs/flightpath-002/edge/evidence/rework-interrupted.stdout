@@ -1,0 +1,9 @@
+{"event":"TASK_STARTED","release_digest":"b0219dd1a7701cba00ed8c8aba6054c2ad6c8240d9297eac0a44822063bf51ef","sequence":2,"task":"action-rework-interrupted"}
+{"event":"ADAPTER_READY","pid":12503,"task":"action-rework-interrupted"}
+{"event":"SIM_PROGRESS","goal_index":0,"observed_at_unix_ms":1792706461130,"release_digest":"b0219dd1a7701cba00ed8c8aba6054c2ad6c8240d9297eac0a44822063bf51ef","task":"action-rework-interrupted","tick":1}
+{"event":"SIM_PROGRESS","goal_index":0,"observed_at_unix_ms":1792706461408,"release_digest":"b0219dd1a7701cba00ed8c8aba6054c2ad6c8240d9297eac0a44822063bf51ef","task":"action-rework-interrupted","tick":10}
+{"event":"SIM_PROGRESS","goal_index":0,"observed_at_unix_ms":1792706461711,"release_digest":"b0219dd1a7701cba00ed8c8aba6054c2ad6c8240d9297eac0a44822063bf51ef","task":"action-rework-interrupted","tick":20}
+{"event":"SIM_PROGRESS","goal_index":0,"observed_at_unix_ms":1792706462011,"release_digest":"b0219dd1a7701cba00ed8c8aba6054c2ad6c8240d9297eac0a44822063bf51ef","task":"action-rework-interrupted","tick":30}
+{"event":"SIM_PROGRESS","goal_index":0,"observed_at_unix_ms":1792706462340,"release_digest":"b0219dd1a7701cba00ed8c8aba6054c2ad6c8240d9297eac0a44822063bf51ef","task":"action-rework-interrupted","tick":40}
+{"event":"SIM_PROGRESS","goal_index":1,"observed_at_unix_ms":1792706462640,"release_digest":"b0219dd1a7701cba00ed8c8aba6054c2ad6c8240d9297eac0a44822063bf51ef","task":"action-rework-interrupted","tick":50}
+{"event":"SIM_PROGRESS","goal_index":1,"observed_at_unix_ms":1792706462943,"release_digest":"b0219dd1a7701cba00ed8c8aba6054c2ad6c8240d9297eac0a44822063bf51ef","task":"action-rework-interrupted","tick":60}

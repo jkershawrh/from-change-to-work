@@ -1,0 +1,1 @@
+{"status": 200, "body": {"schema": "evy.action-catalog.v1", "actions": [{"id": "capability-transfer", "request_contract": "evy.capability-action.v1", "edge_id": "flightpath-cell", "profile": "mujoco-six-axis-goals-v1", "capabilities": ["inspection-positioning", "rework-positioning"], "simulation_only": true, "physical_motion_authorized": false}]}}

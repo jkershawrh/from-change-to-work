@@ -1,0 +1,397 @@
+
+> evy-aeris-cinema@0.1.0 check
+> npm run test && npm run build && npm run verify:offline
+
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+ ❯ src/scenes/SceneRenderer.test.tsx (20 tests | 3 failed) 181ms
+     × runs a guided proof through the visible architecture 25ms
+     × guides architecture as audience questions and revealed answers 3ms
+     × does not claim session proof before the live journey runs 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/scenes/SceneRenderer.test.tsx > SceneRenderer > runs a guided proof through the visible architecture
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Inspect technical topology"
+
+Here are the accessible roles:
+
+  region:
+
+  Name "Observe, challenge, then observe again.":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"live-title"[39m
+    [33mclass[39m=[32m"scene"[39m
+    [33mstyle[39m=[32m"opacity: 0; transform: translateY(24px);"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "Observe, challenge, then observe again.":
+  [36m<h1[39m
+    [33mid[39m=[32m"live-title"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"lede"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------
+  navigation:
+
+  Name "Live proof progress":
+  [36m<nav[39m
+    [33maria-label[39m=[32m"Live proof progress"[39m
+    [33mclass[39m=[32m"live-workspace-steps"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "1Read the first observation":
+  [36m<button[39m
+    [33mclass[39m=[32m""[39m
+    [33mdisabled[39m=[32m""[39m
+  [36m/>[39m
+
+  Name "2Read after the workbench challenge":
+  [36m<button[39m
+    [33mclass[39m=[32m""[39m
+    [33mdisabled[39m=[32m""[39m
+  [36m/>[39m
+
+  Name "Read session observation":
+  [36m<button[39m
+    [33mclass[39m=[32m"button button-primary"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  strong:
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  --------------------------------------------------
+  complementary:
+
+  Name "":
+  [36m<aside[39m
+    [33mclass[39m=[32m"live-workspace-context"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<section[39m
+      [33maria-labelledby[39m=[32m"live-title"[39m
+      [33mclass[39m=[32m"scene"[39m
+      [33mstyle[39m=[32m"opacity: 0; transform: translateY(24px);"[39m
+    [36m>[39m
+      [36m<h1[39m
+        [33mid[39m=[32m"live-title"[39m
+      [36m>[39m
+        [0mObserve, challenge, then observe again.[0m
+      [36m</h1>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m"lede"[39m
+      [36m>[39m
+        [0mThe workbench owns real transfer and fault controls. These buttons read the actual session without starting motion.[0m
+      [36m</p>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"live-workspace"[39m
+        [33mdata-testid[39m=[32m"live-workspace"[39m
+      [36m>[39m
+        [36m<nav[39m
+          [33maria-label[39m=[32m"Live proof progress"[39m
+          [33mclass[39m=[32m"live-workspace-steps"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m""[39m
+            [33mdisabled[39m=[32m""[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0m1[0m
+            [36m</span>[39m
+            [0mRead the first observation[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m""[39m
+            [33mdisabled[39m=[32m""[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0m2[0m
+            [36m</span>[39m
+            [0mRead after the workbench challenge[0m
+          [36m</button>[39m
+        [36m</nav>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"live-workspace-main"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"journey-status"[39m
+          [36m>[39m
+            [36m<small>[39m
+              [0mGUIDED PROOF[0m
+            [36m</small>[39m
+            [36m<strong>[39m
+              [0mObserve, challenge, then observe again.[0m
+            [36m</strong>[39m
+            [36m<span>[39m
+              [0mThe workbench owns real transfer and fault controls. These buttons read the actual session without starting motion.[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"live-workspace-intake"[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0mAUDIENCE DECISION[0m
+            [36m</span>[39m
+            [36m<strong>[39m
+              [0mCan this cell retain local authority?[0m
+            [36m</strong>[39m
+            [36m<small>[39m
+              [0mRead the first state, use the workbench to change a condition, then inspect a distinguishable returned observation.[0m
+            [36m</small>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"journey-controls"[39m
+          [36m>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"button button-primary"[39m
+            [36m>[39m
+              [0mRead session observation[0m
+            [36m</button>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<aside[39m
+          [33mclass[39m=[32m"live-workspace-context"[39m
+        [36m>[39m
+          [36m<span>[39m
+            [0mSOURCE AND AUTHORITY[0m
+          [36m</span>[39m
+          [36m<strong>[39m
+            [0mObservations are not independent qualification.[0m
+          [36m</strong>[39m
+          [36m<p>[39m
+            [0mThe browser reads an authenticated simulator session. Unavailable or unchanged results stay visible.[0m
+          [36m</p>[39m
+          [36m<small>[39m
+            [0mHistorical evidence cannot qualify a new host. No physical motion is authorized.[0m
+          [36m</small>[39m
+        [36m</aside>[39m
+      [36m</div>[39m
+    [36m</section>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/scenes/SceneRenderer.test.tsx:30:28
+     28|     expect(screen.getByTestId('live-workspace')).toBeInTheDocument()
+     29|     expect(screen.queryByLabelText('Live technical deployment topology…
+     30|     fireEvent.click(screen.getByRole('button', { name: 'Inspect techni…
+       |                            ^
+     31|     expect(screen.getByLabelText('Live technical deployment topology')…
+     32|     expect(screen.getByText('OpenShift namespace')).toBeInTheDocument()
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+ FAIL  src/scenes/SceneRenderer.test.tsx > SceneRenderer > guides architecture as audience questions and revealed answers
+TestingLibraryElementError: Unable to find an element with the text: What enters the system?. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<section[39m
+      [33maria-labelledby[39m=[32m"architecture-title"[39m
+      [33mclass[39m=[32m"scene"[39m
+      [33mstyle[39m=[32m"opacity: 0; transform: translateY(24px);"[39m
+    [36m>[39m
+      [36m<h1[39m
+        [33mid[39m=[32m"architecture-title"[39m
+      [36m>[39m
+        [0mEvery boundary earns its place.[0m
+      [36m</h1>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m"lede"[39m
+      [36m>[39m
+        [0mAsk before revealing the mechanism.[0m
+      [36m</p>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"guided-architecture "[39m
+        [33mdata-testid[39m=[32m"guided-architecture"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33maria-label[39m=[32m"Architecture progress"[39m
+          [33mclass[39m=[32m"architecture-map"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"architecture-map-item   active"[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0m1[0m
+            [36m</span>[39m
+            [36m<strong>[39m
+              [0mOperator → EVY[0m
+            [36m</strong>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"architecture-map-item   "[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0m2[0m
+            [36m</span>[39m
+            [36m<strong>[39m
+              [0mSignature and local approval[0m
+            [36m</strong>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"architecture-map-item   "[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0m3[0m
+            [36m</span>[39m
+            [36m<strong>[39m
+              [0mRust → local controller → MuJoCo[0m
+            [36m</strong>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"architecture-map-item   "[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0m4[0m
+            [36m</span>[39m
+            [36m<strong>[39m
+              [0mDurable SQLite state[0m
+            [36m</strong>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"architecture-dialog"[39m
+          [33mstyle[39m=[32m"opacity: 0; transform: translateY(12px);"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"architecture-question"[39m
+          [36m>[39m
+            [36m<span>[39m
+              [0mAudience question[0m
+            [36m</span>[39m
+            [36m<h2>[39m
+              [0mWho asks for the change?[0m
+            [36m</h2>[39m
+          [36m</div>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"button button-primary"[39m
+          [36m>[39m
+            [0mReveal technical boundary[0m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</section>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/scenes/SceneRenderer.test.tsx:67:19
+     65|     const scene = scenes.find((item) => item.type === 'guided-architec…
+     66|     render(<SceneRenderer scene={scene} brand={demoConfig.brand} />)
+     67|     expect(screen.getByText('What enters the system?')).toBeInTheDocum…
+       |                   ^
+     68|     expect(screen.queryByText('A bounded, validated request starts the…
+     69|     fireEvent.click(screen.getByRole('button', { name: 'Reveal technic…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+
+ FAIL  src/scenes/SceneRenderer.test.tsx > SceneRenderer > does not claim session proof before the live journey runs
+TestingLibraryElementError: Unable to find an element with the text: Run the live journey to populate this payoff. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<section[39m
+      [33maria-labelledby[39m=[32m"payoff-title"[39m
+      [33mclass[39m=[32m"scene"[39m
+      [33mstyle[39m=[32m"opacity: 0; transform: translateY(24px);"[39m
+    [36m>[39m
+      [36m<h1[39m
+        [33mid[39m=[32m"payoff-title"[39m
+      [36m>[39m
+        [0mWhat did this session actually show?[0m
+      [36m</h1>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"evidence-recap"[39m
+        [33mdata-testid[39m=[32m"evidence-payoff"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"evidence-status"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"source-badge source-rehearsal"[39m
+          [36m>[39m
+            [0mnot run[0m
+          [36m</span>[39m
+          [36m<strong>[39m
+            [0mRead current session observations before interpreting a live payoff.[0m
+          [36m</strong>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"punchline"[39m
+        [36m>[39m
+          [36m<div>[39m
+            [0mThe recipe can travel.[0m
+          [36m</div>[39m
+          [36m<strong>[39m
+            [0mLocal authority and evidence stay inspectable.[0m
+          [36m</strong>[39m
+          [36m<span>[39m
+            [0mContinue into the dashboard and agent-guided acceptance.[0m
+          [36m</span>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</section>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/scenes/SceneRenderer.test.tsx:92:19
+     90|     const scene = { ...configured, adapterIds: ['proof-that-has-not-ru…
+     91|     render(<SceneRenderer scene={scene} brand={demoConfig.brand} />)
+     92|     expect(screen.getByText('Run the live journey to populate this pay…
+       |                   ^
+     93|     expect(screen.getByText('not run')).toBeInTheDocument()
+     94|   })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯
+
+
+ Test Files  1 failed | 4 passed (5)
+      Tests  3 failed | 33 passed (36)
+   Start at  19:15:40
+   Duration  1.79s (transform 463ms, setup 390ms, import 1.05s, tests 346ms, environment 4.70s)
+

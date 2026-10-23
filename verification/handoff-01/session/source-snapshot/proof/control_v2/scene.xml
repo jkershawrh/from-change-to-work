@@ -1,0 +1,8 @@
+<mujoco model="AERIS tightened control revision 2">
+  <include file="../control/assets/ur5e/scene.xml"/>
+  <compiler meshdir="../control/assets/ur5e/assets"/>
+  <worldbody>
+    <geom name="challenge_obstacle" type="sphere" size=".012" pos="10 10 10" rgba=".9 .1 .05 1"/>
+    <camera name="overview" pos="1.3 1.5 1.05" xyaxes="-.755 .655 0 -.265 -.305 .915"/>
+  </worldbody>
+</mujoco>

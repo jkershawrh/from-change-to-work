@@ -1,0 +1,139 @@
+{
+  "status": "ORIGINAL_BYTES_RESTORED_TO_HANDOFF",
+  "reason": "The old ignore rule omitted nested public evidence from tracked snapshots.",
+  "files": [
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/central/evidence/evy.log",
+      "sha256": "08399a39458bbd8b20246cf7960a8e5ef0542471ef4d74c8c51a009514fc9b67"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/central/evidence/publisher.log",
+      "sha256": "1bf4a0dc93e86eca661d2a7675317fca57ebd2c9cc60fe2e6a15ba6929f510eb"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/central/evidence/evy.snapshot",
+      "sha256": "9d4691ae5371a4433fb920294f80b4b5e35d1970c39b89b0458f6ad647e9858a"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/gateway.log",
+      "sha256": "57c51b9a547d9df1ce7c224675bc24065f8574da0326b4ad518c70ce90e312d7"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/rework-interrupted.request.json",
+      "sha256": "23cac2bd7cce3b290bb8021f882d789d1e18e18ac2e82a45d3bc86c981b183c9"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/inspection-disconnected.request.json",
+      "sha256": "c8db87656339fdda2fd4f3b126a2297d337a2f5b691dd00bafbd1b9449c46b93"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/inspection-disconnected.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/inbox.snapshot",
+      "sha256": "ad53dcb1e82d71c86cb7075764eb182ddcf3d02558573f3037925bd67602b648"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/wrong-release.stdout",
+      "sha256": "ad802181eab389e046e62910af685a6439aef792f76715f48e781313afe880b1"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/rework-interrupted.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/wrong-release.request.json",
+      "sha256": "ef05ed69f641dd0911587b72124df49b41a64849079a11fedc2e0fa0dafe1694"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/rework-interrupted.stdout",
+      "sha256": "70baf2f8668d0b3d7ff84aa6d2e0204ec33a7e7fc44b8fd927f905639f6d9142"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/wrong-release.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/inspection-disconnected.stdout",
+      "sha256": "5bb61de11c310bf9e532a2ee3e412860bac9c53bee37b1eba49bd25ca304fce8"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/rust.snapshot",
+      "sha256": "8114a13573aad165292274200849ceae2da168bef015176dae3b1da9d2773aa2"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/central/evidence/evy.log",
+      "sha256": "dc902718973d4ce98c55503849cc75f4e5bee0017d2054ab2ba3050ff6f1f1eb"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/central/evidence/publisher.log",
+      "sha256": "2a2825b7c13b00dfca0f12f145a5dc303d15c1788ea6db9b97670a1e548d3204"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/central/evidence/evy.snapshot",
+      "sha256": "d64300af67f3027684a0a2798ab16b1df90cb211e527a3e65dd813cbd6511192"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/gateway.log",
+      "sha256": "57c51b9a547d9df1ce7c224675bc24065f8574da0326b4ad518c70ce90e312d7"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/rework-recovered.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/rework-interrupted.request.json",
+      "sha256": "fcf05102693492a7f02fd4b2ee2daa23f40edc1ebbba0d7e69a3ad1e83504a43"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/rework-recovered.request.json",
+      "sha256": "71796c009e8497ca7f5aec97fff4a2b290886831bbccccba0f14885421ef40f6"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/inspection-disconnected.request.json",
+      "sha256": "5f19db57f5f0bec76360ebbb1d2d6792a23d632dedac6b42418596bbc22b96d2"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/rework-recovered.stdout",
+      "sha256": "1ce4b33fd74242a3c71687de6af0ad1984364def3dc9cd71a50705b7205ce976"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/inspection-disconnected.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/inbox.snapshot",
+      "sha256": "81732a69d0cd14afae463aad788ac8d6cda687a83d08d63ba880930cbb034968"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/wrong-release.stdout",
+      "sha256": "ad802181eab389e046e62910af685a6439aef792f76715f48e781313afe880b1"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/rework-interrupted.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/wrong-release.request.json",
+      "sha256": "ef05ed69f641dd0911587b72124df49b41a64849079a11fedc2e0fa0dafe1694"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/rework-interrupted.stdout",
+      "sha256": "b1076064ef20d05cc8c765efe50d41dc018ab46eda101744dd82bcff68f96937"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/wrong-release.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/inspection-disconnected.stdout",
+      "sha256": "748d00f176ca2218d66f42b17ad7f32ff45e8a125a90d328efacdb4a104c704e"
+    },
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/rust.snapshot",
+      "sha256": "e7a30dcacbf92a1926641ad264aa6cc861631e6e764af83379ab560e4d9f5ac7"
+    }
+  ],
+  "private_material_copied": false
+}

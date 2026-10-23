@@ -1,0 +1,26 @@
+test_missing_old_or_unobserved_tools_block (services.tests.test_readiness.ReadinessContracts.test_missing_old_or_unobserved_tools_block) ... ok
+test_ready_means_simulator_prerequisites_only (services.tests.test_readiness.ReadinessContracts.test_ready_means_simulator_prerequisites_only) ... ok
+test_report_cannot_overwrite_previous_evidence (services.tests.test_readiness.ReadinessContracts.test_report_cannot_overwrite_previous_evidence) ... ok
+test_unknown_cpu_or_non_rhel_never_claims_alignment (services.tests.test_readiness.ReadinessContracts.test_unknown_cpu_or_non_rhel_never_claims_alignment) ... ok
+test_unpulled_assets_and_dependency_mismatch_block (services.tests.test_readiness.ReadinessContracts.test_unpulled_assets_and_dependency_mismatch_block) ... ok
+test_browser_cannot_supply_paths_or_release_authority (services.tests.test_console_auth.ConsoleAuth.test_browser_cannot_supply_paths_or_release_authority) ... ok
+test_changed_destination_cannot_reuse_database (services.tests.test_console_auth.ConsoleAuth.test_changed_destination_cannot_reuse_database) ... ok
+test_cross_origin_request_refused_even_with_session (services.tests.test_console_auth.ConsoleAuth.test_cross_origin_request_refused_even_with_session) ... ok
+test_login_requires_same_origin_and_never_returns_code (services.tests.test_console_auth.ConsoleAuth.test_login_requires_same_origin_and_never_returns_code) ... ok
+test_unauthenticated_actions_fail (services.tests.test_console_auth.ConsoleAuth.test_unauthenticated_actions_fail) ... ok
+test_uncertain_control_ack_never_claims_recovery (services.tests.test_console_auth.ConsoleAuth.test_uncertain_control_ack_never_claims_recovery) ... ok
+test_viewer_cannot_transfer_or_cut_link (services.tests.test_console_auth.ConsoleAuth.test_viewer_cannot_transfer_or_cut_link) ... ok
+test_browser_cannot_supply_paths_or_release_authority (services.tests.test_readiness_api.ReadinessAPI.test_browser_cannot_supply_paths_or_release_authority) ... ok
+test_changed_destination_cannot_reuse_database (services.tests.test_readiness_api.ReadinessAPI.test_changed_destination_cannot_reuse_database) ... ok
+test_cross_origin_request_refused_even_with_session (services.tests.test_readiness_api.ReadinessAPI.test_cross_origin_request_refused_even_with_session) ... ok
+test_login_requires_same_origin_and_never_returns_code (services.tests.test_readiness_api.ReadinessAPI.test_login_requires_same_origin_and_never_returns_code) ... ok
+test_manifest_source_map_resolves (services.tests.test_readiness_api.ReadinessAPI.test_manifest_source_map_resolves) ... ok
+test_preflight_is_authenticated_read_only_and_cached (services.tests.test_readiness_api.ReadinessAPI.test_preflight_is_authenticated_read_only_and_cached) ... ok
+test_unauthenticated_actions_fail (services.tests.test_readiness_api.ReadinessAPI.test_unauthenticated_actions_fail) ... ok
+test_uncertain_control_ack_never_claims_recovery (services.tests.test_readiness_api.ReadinessAPI.test_uncertain_control_ack_never_claims_recovery) ... ok
+test_viewer_cannot_transfer_or_cut_link (services.tests.test_readiness_api.ReadinessAPI.test_viewer_cannot_transfer_or_cut_link) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.079s
+
+OK

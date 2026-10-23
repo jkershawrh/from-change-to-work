@@ -1,0 +1,33 @@
+test_browser_cannot_supply_paths_or_release_authority (test_console_auth.ConsoleAuth.test_browser_cannot_supply_paths_or_release_authority) ... ok
+test_changed_destination_cannot_reuse_database (test_console_auth.ConsoleAuth.test_changed_destination_cannot_reuse_database) ... ok
+test_cross_origin_request_refused_even_with_session (test_console_auth.ConsoleAuth.test_cross_origin_request_refused_even_with_session) ... ok
+test_login_requires_same_origin_and_never_returns_code (test_console_auth.ConsoleAuth.test_login_requires_same_origin_and_never_returns_code) ... ok
+test_unauthenticated_actions_fail (test_console_auth.ConsoleAuth.test_unauthenticated_actions_fail) ... ok
+test_uncertain_control_ack_never_claims_recovery (test_console_auth.ConsoleAuth.test_uncertain_control_ack_never_claims_recovery) ... ok
+test_viewer_cannot_transfer_or_cut_link (test_console_auth.ConsoleAuth.test_viewer_cannot_transfer_or_cut_link) ... ok
+test_handoff_exposes_only_existing_action_and_health_routes (test_evy_surface.EvySurface.test_handoff_exposes_only_existing_action_and_health_routes) ... /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/.venv/lib/python3.12/site-packages/pydantic/main.py:253: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+ok
+test_duplicate_fields_rejected (test_lab_contracts.Contracts.test_duplicate_fields_rejected) ... ok
+test_physical_target_cannot_enable_fault_controls (test_lab_contracts.Contracts.test_physical_target_cannot_enable_fault_controls) ... ok
+test_safe_same_origin_required (test_lab_contracts.Contracts.test_safe_same_origin_required) ... ok
+test_unknown_fields_and_physical_scope_rejected (test_lab_contracts.Contracts.test_unknown_fields_and_physical_scope_rejected) ... ok
+test_command_retry_does_not_reverse_a_newer_transition (test_link.LinkTests.test_command_retry_does_not_reverse_a_newer_transition) ... ok
+test_same_id_cannot_change_operation (test_link.LinkTests.test_same_id_cannot_change_operation) ... ok
+test_unknown_operation_rejects (test_link.LinkTests.test_unknown_operation_rejects) ... ok
+test_missing_old_or_unobserved_tools_block (test_readiness.ReadinessContracts.test_missing_old_or_unobserved_tools_block) ... ok
+test_ready_means_simulator_prerequisites_only (test_readiness.ReadinessContracts.test_ready_means_simulator_prerequisites_only) ... ok
+test_report_cannot_overwrite_previous_evidence (test_readiness.ReadinessContracts.test_report_cannot_overwrite_previous_evidence) ... ok
+test_unknown_cpu_or_non_rhel_never_claims_alignment (test_readiness.ReadinessContracts.test_unknown_cpu_or_non_rhel_never_claims_alignment) ... ok
+test_unpulled_assets_and_dependency_mismatch_block (test_readiness.ReadinessContracts.test_unpulled_assets_and_dependency_mismatch_block) ... ok
+test_manifest_source_map_resolves (test_readiness_api.ReadinessAPI.test_manifest_source_map_resolves) ... ok
+test_preflight_is_authenticated_read_only_and_cached (test_readiness_api.ReadinessAPI.test_preflight_is_authenticated_read_only_and_cached) ... ok
+test_cut_without_continued_local_completion_rejected (test_session_audit.SessionAudit.test_cut_without_continued_local_completion_rejected) ... ok
+test_forged_physics_sample_rejected (test_session_audit.SessionAudit.test_forged_physics_sample_rejected) ... ok
+test_lost_recovery_evidence_rejected (test_session_audit.SessionAudit.test_lost_recovery_evidence_rejected) ... ok
+test_real_capture_passes (test_session_audit.SessionAudit.test_real_capture_passes) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 1.072s
+
+OK

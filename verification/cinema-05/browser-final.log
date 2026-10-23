@@ -1,0 +1,19 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test --grep-invert packaged video
+
+
+Running 8 tests using 1 worker
+
+(node:35300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage (23.2s)
+  ✓  2 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop (18.7s)
+  ✓  3 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile (10.7s)
+  ✓  4 visual-tests/cinema.spec.ts:29:1 › voice clock plays, pauses and seeks without running a robot action (5.3s)
+  ✓  5 visual-tests/cinema.spec.ts:35:1 › authenticated observations populate only the current session payoff (3.4s)
+  ✓  6 visual-tests/cinema.spec.ts:46:1 › business illustrations explain their elements on hover and keyboard focus (6.1s)
+  ✓  7 visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive (17.2s)
+  ✓  8 visual-tests/cinema.spec.ts:59:1 › approved scene and Blender opening views are local and passive (8.6s)
+
+  8 passed (2.1m)

@@ -1,0 +1,16 @@
+{
+  "status": "PASS_ARTIFACT_INTEGRITY",
+  "scope": "Three visual review images only; visual acceptance is pending the user. No execution, hardware or real-time qualification.",
+  "source_asset_sha256": "b50c651330f108b6330b918937a46d2aecedbdf96d2ab31ba41a45a3a5494de1",
+  "decoded_asset_sha256": "50283ac9ee1010237a1e8962da8cb57caf41a86a811f3e34996c602a285ab6eb",
+  "dimensions": [
+    2560,
+    1440
+  ],
+  "views": [
+    "01-hangar",
+    "02-aircraft-detail",
+    "03-robot-cell"
+  ],
+  "physical_motion_authorized": false
+}

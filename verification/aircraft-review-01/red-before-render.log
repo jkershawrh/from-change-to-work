@@ -1,0 +1,83 @@
+EEEEE
+======================================================================
+ERROR: test_changed_image_identity_is_rejected (test_aircraft_review.ReviewIntegrity.test_changed_image_identity_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/test_aircraft_review.py", line 13, in test_changed_image_identity_is_rejected
+    p=self.copy();r=json.loads((p/'render-report.json').read_text());r['views'][0]['sha256']='0'*64;(p/'render-report.json').write_text(json.dumps(r))
+      ^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/test_aircraft_review.py", line 8, in copy
+    t=tempfile.TemporaryDirectory();self.addCleanup(t.cleanup);out=Path(t.name)/'review';shutil.copytree(FOLDER,out);return out
+                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/shutil.py", line 598, in copytree
+    with os.scandir(src) as itr:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/public/review/aircraft-01'
+
+======================================================================
+ERROR: test_corrupted_pixels_are_rejected (test_aircraft_review.ReviewIntegrity.test_corrupted_pixels_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/test_aircraft_review.py", line 10, in test_corrupted_pixels_are_rejected
+    p=self.copy();image=p/'01-hangar.png';b=bytearray(image.read_bytes());b[len(b)//2]^=1;image.write_bytes(b)
+      ^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/test_aircraft_review.py", line 8, in copy
+    t=tempfile.TemporaryDirectory();self.addCleanup(t.cleanup);out=Path(t.name)/'review';shutil.copytree(FOLDER,out);return out
+                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/shutil.py", line 598, in copytree
+    with os.scandir(src) as itr:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/public/review/aircraft-01'
+
+======================================================================
+ERROR: test_missing_view_is_rejected (test_aircraft_review.ReviewIntegrity.test_missing_view_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/test_aircraft_review.py", line 19, in test_missing_view_is_rejected
+    p=self.copy();r=json.loads((p/'render-report.json').read_text());r['views'].pop();(p/'render-report.json').write_text(json.dumps(r))
+      ^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/test_aircraft_review.py", line 8, in copy
+    t=tempfile.TemporaryDirectory();self.addCleanup(t.cleanup);out=Path(t.name)/'review';shutil.copytree(FOLDER,out);return out
+                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/shutil.py", line 598, in copytree
+    with os.scandir(src) as itr:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/public/review/aircraft-01'
+
+======================================================================
+ERROR: test_three_original_deliverables (test_aircraft_review.ReviewIntegrity.test_three_original_deliverables)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/test_aircraft_review.py", line 6, in test_three_original_deliverables
+    def test_three_original_deliverables(self):self.assertEqual(verify(FOLDER)['status'],'PASS_ARTIFACT_INTEGRITY')
+                                                                ^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/verify_aircraft_review.py", line 23, in verify
+    report=json.loads((folder/'render-report.json').read_text());need(report['engine']=='CYCLES','Cycles render required');need(report['physical_motion_authorized'] is False,'Visual review cannot authorize motion');need([v['name'] for v in report['views']]==EXPECTED,'Three named views required');need(report['dimensions'][0]>=1920 and report['dimensions'][0]*9==report['dimensions'][1]*16,'Full-resolution 16:9 required')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/public/review/aircraft-01/render-report.json'
+
+======================================================================
+ERROR: test_visual_review_cannot_authorize_motion (test_aircraft_review.ReviewIntegrity.test_visual_review_cannot_authorize_motion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/test_aircraft_review.py", line 16, in test_visual_review_cannot_authorize_motion
+    p=self.copy();r=json.loads((p/'render-report.json').read_text());r['physical_motion_authorized']=True;(p/'render-report.json').write_text(json.dumps(r))
+      ^^^^^^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/visuals/test_aircraft_review.py", line 8, in copy
+    t=tempfile.TemporaryDirectory();self.addCleanup(t.cleanup);out=Path(t.name)/'review';shutil.copytree(FOLDER,out);return out
+                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jkershaw/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/shutil.py", line 598, in copytree
+    with os.scandir(src) as itr:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/public/review/aircraft-01'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+FAILED (errors=5)

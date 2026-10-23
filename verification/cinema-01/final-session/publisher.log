@@ -1,0 +1,3 @@
+PUBLISHER_READY
+{"event": "DELIVERED", "release_digest": "fa74282ced8ba295735bf9f09fada2d8126c2f7e096aa6479f4dab0ab7e3275d", "tls": "TLSv1.3", "bytes": 1496}
+{"event": "DELIVERED", "release_digest": "fb50121b567623d3eaffe09621d9440a085f88a84ab30e2547e6cf85c176c15f", "tls": "TLSv1.3", "bytes": 1522}

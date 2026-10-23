@@ -1,0 +1,48 @@
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run --run src/cinema/story.test.ts
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+ ❯ src/cinema/story.test.ts (3 tests | 2 failed) 7ms
+     × earns the technical trial with a business problem and a delivery journey 4ms
+     × keeps reused project identities out of audience chapter copy 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/cinema/story.test.ts > business narrative contract > earns the technical trial with a business problem and a delivery journey
+AssertionError: expected 'When the connection goes,\nwho owns t…' to contain 'waiting'
+
+- Expected
++ Received
+
+- waiting
++ When the connection goes,
++ who owns the next move?
+
+ ❯ src/cinema/story.test.ts:5:111
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/cinema/story.test.ts > business narrative contract > keeps reused project identities out of audience chapter copy
+AssertionError: expected '[{"id":"cell","label":"The cell","act…' not to match /EVY|AERIS/
+
+- Expected:
+/EVY|AERIS/
+
++ Received:
+"[{\"id\":\"cell\",\"label\":\"The cell\",\"act\":\"THE CALL\",\"title\":\"When the connection goes,\\nwho owns the next move?\",\"line\":\"An aerospace manufacturing cell. One task change. A local responsibility.\",\"question\":\"What must keep working when the central connection disappears?\",\"answer\":\"The approved task runs under local authority. A remote network is outside the controller loop.\",\"prompt\":\"Start with the cell and the operator. The aerospace set is illustrative; the executable plant is a simulator.\",\"focus\":\"cell\"},{\"id\":\"recipe\",\"label\":\"The capability\",\"act\":\"THE THRESHOLD\",\"title\":\"Send the capability.\\nKeep the keys local.\",\"line\":\"Signed bounded goals. Exact identity. A locally approved target.\",\"question\":\"What actually crosses the boundary?\",\"answer\":\"A signed deterministic joint-goal recipe. No driver installation, remote servo commands or trained weights.\",\"prompt\":\"Pause and inspect the glowing recipe. A signature proves configured byte identity; it is not independent physical safety approval.\",\"focus\":\"edge\"},{\"id\":\"architecture\",\"label\":\"Inside the edge\",\"act\":\"THE MECHANISM\",\"title\":\"Every boundary\\nearns its place.\",\"line\":\"Choose → bind → verify → activate → pin → execute → retain.\",\"question\":\"Who can activate the task, and when?\",\"answer\":\"Rust verifies admission and activates only while idle. The task pins an exact release before local execution.\",\"prompt\":\"Reveal the audience question before the technical answer. Walk EVY, signature gate, local execution, then retained state.\",\"focus\":\"edge\"},{\"id\":\"disconnect\",\"label\":\"Cut the link\",\"act\":\"THE FIRST TRIAL\",\"title\":\"The central path is cut.\\nLocal work carries on.\",\"line\":\"Retained simulator samples. A separate management observer remains available.\",\"question\":\"What does this connection cut prove?\",\"answer\":\"The finite simulator task can finish without the central data plane. This is neither a total network blackout nor a safety stop.\",\"prompt\":\"Keep the observer path visible. The picture replays retained samples; only the workbench issues a real disconnect.\",\"focus\":\"cell\"},{\"id\":\"recovery\",\"label\":\"Own the recovery\",\"act\":\"THE ORDEAL\",\"title\":\"Uncertainty stays visible.\\nRecovery is deliberate.\",\"line\":\"Interrupt → refuse → explicitly recover → choose a new action.\",\"question\":\"Does recovery resume the old movement?\",\"answer\":\"No. An orphaned simulator task becomes interrupted. Another execution needs a deliberately new action ID.\",\"prompt\":\"Do not turn an interrupted task green. Open evidence and compare the three task identities and statuses.\",\"focus\":\"cell\"},{\"id\":\"ecosystem\",\"label\":\"Repeat the pattern\",\"act\":\"THE RETURN\",\"title\":\"Repeat the process.\\nQualify each profile.\",\"line\":\"Inspection and rework share the process. New robot profiles earn their own acceptance.\",\"question\":\"Can this become an ecosystem of modules?\",\"answer\":\"The action contract and evidence process repeat. Device interfaces, calibration and acceptance remain profile-specific.\",\"prompt\":\"Pull back to multiple illustrative cells. No fleet size, benchmark, product support or accelerator benefit is inferred.\",\"focus\":\"fleet\"},{\"id\":\"qualify\",\"label\":\"Prove your cell\",\"act\":\"THE NEXT JOURNEY\",\"title\":\"One cell. One capability.\\nYour next hardware proof.\",\"line\":\"A working dashboard, an agent start packet, and an evidence-backed acceptance workflow.\",\"question\":\"What is the next useful commitment?\",\"answer\":\"Choose named compute hosts, a bounded capability and an acceptance owner. Test the same transfer and recovery boundaries.\",\"prompt\":\"Use only current-session observations in the live payoff. Close with the dashboard handoff and explicit close control.\",\"focus\":\"cell\"}]"
+
+ ❯ src/cinema/story.test.ts:7:110
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 1 passed (3)
+   Start at  20:21:23
+   Duration  948ms (transform 35ms, setup 81ms, import 25ms, tests 7ms, environment 672ms)
+

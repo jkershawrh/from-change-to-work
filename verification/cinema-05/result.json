@@ -1,0 +1,91 @@
+{
+  "status": "PASS_LOCAL_VISUAL_MEDIA",
+  "edition": "cinema-05",
+  "approved_direction": "visual-direction.json",
+  "film": "from-change-to-work-approved-aircraft.mp4",
+  "film_sha256": "cb5eeeecf705a62dddfbc02b7959a566f8173d5843aacb2f04607e0acd4faef7",
+  "checks": {
+    "presentation_tests": 46,
+    "dashboard_tests": 9,
+    "aircraft_rejection_tests": 5,
+    "browser_behaviors_and_camera_views": 8,
+    "packaged_video_http_check": 1,
+    "production_build": "PASS",
+    "offline_assets": "PASS",
+    "blueprint": "PASS",
+    "scene_contract": "PASS",
+    "source_freeze": "MATCH",
+    "saved_narration": "UNCHANGED",
+    "provider_requests": 0,
+    "browser_action_requests": 0
+  },
+  "rubric": {
+    "TDD": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "red.log",
+        "unit-final.log",
+        "aircraft-rejection.log"
+      ],
+      "scope": "Retained missing-contract failure, presentation behavior and asset rejection checks."
+    },
+    "EDD": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "scene-contract.json",
+        "browser-recording.json",
+        "encoded-media.json",
+        "encoded-decode.log",
+        "encoded-frames"
+      ],
+      "scope": "Local authored scenery and media integrity. No new execution or hardware proof."
+    },
+    "CDD": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "scene-contract.json",
+        "unchanged-narration.json",
+        "source-freeze-check.json"
+      ],
+      "scope": "Pinned licensed scene, embedded resources, separate robot geometry and unchanged audio."
+    },
+    "BDD": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "browser-final.log",
+        "media-browser.log",
+        "browser-final",
+        "visual-finding.json"
+      ],
+      "scope": "Viewport fit, passive playback/hover, populated camera views and packaged media. Film acceptance remains subjective."
+    },
+    "CBT": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "scene-export.log",
+        "scene-optimization.log",
+        "browser-recording.json",
+        "encoded-media.json"
+      ],
+      "scope": "Blender export to optimized GLB, browser presentation and encoded film. Runtime transfer components unchanged."
+    }
+  },
+  "retained_findings": [
+    "Initial contract import failed before implementation.",
+    "An initial screenshot was blank although DOM checks passed; readiness and pixel-diversity checks were corrected.",
+    "The rejected procedural aircraft remains cinema-04 history."
+  ],
+  "amber": [
+    "New Intel x Red Hat hardware, cross-host reconciliation, physical inspection/control and timing acceptance remain separate gates.",
+    "Hosted CI status is separate; prior runs were blocked by account billing."
+  ],
+  "manual_visual_inspection": [
+    "recorded-opening.png",
+    "recorded-cell.png",
+    "recorded-robot.png",
+    "recorded-event-flow.png",
+    "encoded-frames/disconnect.png"
+  ],
+  "subjective_audio_listening_this_edition": false,
+  "scope": "Illustrative local demo and saved narration. No physical actuation, execution qualification, training, inference acceleration or financial outcome claimed."
+}

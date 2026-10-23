@@ -1,0 +1,117 @@
+{
+  "status": "PASS_LOCAL_STORY_AND_MEDIA_REVIEW",
+  "edition": "cinema-06",
+  "thesis": "Remote engineering delivers an approved bounded task; the receiving cell accepts it, owns local execution and returns an accountable result.",
+  "observed_authoring_host": {
+    "os": "Darwin",
+    "machine": "arm64",
+    "python": "3.9.6"
+  },
+  "interactive_story_seconds": 326.4519954648526,
+  "film_seconds": 330.45,
+  "opening_title_seconds": 4,
+  "film_sha256": "e3661127498b1744e98038e3c619199c289c0de66a54a68617ff56d2acbd823b",
+  "changes": [
+    "Full-screen aircraft title cover, including zero-time deep links.",
+    "Short chapter gaps and ending hold; same saved Kersh take/profile and speaking speed.",
+    "Personal introduction and disclaimer removed from current audio/script/captions.",
+    "Three-part bright 3D handoff overview with optional seven-check inspection.",
+    "Spoken-alignment cues govern delivery highlights.",
+    "Titles, inputs and outcomes on every visual.",
+    "Layered package matches narration; robot view appears during local work.",
+    "Diagram footers fit above captions; movie includes a captured title card without playback buttons."
+  ],
+  "tests": {
+    "presentation_unit": 50,
+    "dashboard_unit": 9,
+    "audio_contract": 4,
+    "browser_story_and_title": 10,
+    "packaged_media": 1,
+    "build": "PASS",
+    "offline": "PASS",
+    "blueprint": "PASS",
+    "audio_edit_reproduction": "BYTE_IDENTICAL",
+    "source_freeze": "MATCH",
+    "full_movie_decode": "PASS"
+  },
+  "rubric": {
+    "TDD": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "red.log",
+        "audio-red.log",
+        "unit-serial.log",
+        "audio-contract-green.log"
+      ],
+      "scope": "Presentation behavior and editorial contracts; failures retained."
+    },
+    "EDD": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "editorial-contract.json",
+        "media-sources.json",
+        "browser-recording.json",
+        "encoded-media.json",
+        "encoded-frames"
+      ],
+      "scope": "Source-linked local visuals and objective media verification, not execution or hardware acceptance."
+    },
+    "CDD": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "editorial-contract.json",
+        "source-freeze-cover.json"
+      ],
+      "scope": "One edited speech/caption/event clock, unchanged voice profile, existing execution contracts unchanged."
+    },
+    "BDD": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "browser-cover.log",
+        "media-browser.log",
+        "browser-cover"
+      ],
+      "scope": "All chapters, cue alignment, title/inputs/outcomes, responsive cover and caption clearance."
+    },
+    "CBT": {
+      "status": "GREEN_LOCAL",
+      "evidence": [
+        "title-capture.json",
+        "browser-recording.json",
+        "encoded-decode.log"
+      ],
+      "scope": "Actual browser scene/body and separately captured title through encoding and local media delivery."
+    }
+  },
+  "retained_failures": [
+    "Missing narrative/audio-edit imports before implementation.",
+    "Sample-rate timestamp rounding initially rejected an aligned word; fixed with one-sample tolerance.",
+    "Initial caption-gap assertion lacked floating-point tolerance.",
+    "Early navigation test expected technical controls to survive seeking; default intentionally returns to the audience view.",
+    "Early synchronization test needed initialization wait.",
+    "Early process footer overlapped captions; corrected framing and retained screenshots.",
+    "Draft body recording interrupted for the final caption-clearance correction.",
+    "Two broad UI tests timed out under concurrent recording load; unchanged limits passed with a single worker."
+  ],
+  "provider_requests": 0,
+  "voice_profile_changed": false,
+  "speaking_speed_changed": false,
+  "subjective_audio_listening_claimed": false,
+  "recording_actuation_requests": 0,
+  "hardware_qualification": "NOT_RUN_THIS_REVISION",
+  "amber": [
+    "New Intel/Red Hat hardware, physical integration, inspection accuracy and real-time behavior still require separate acceptance.",
+    "Business savings and production value remain unmeasured.",
+    "Hosted CI is separate from local checks; earlier runs had an account billing block."
+  ],
+  "smallest_next_hardware_gate": "Named central/edge hosts, one bounded simulator task, transfer/disconnect/recovery and independent scoped evidence before any physical profile.",
+  "manual_visual_review": [
+    "browser-delivery/business-delivery-stage.png",
+    "browser-delivery/qualify-stage.png",
+    "opening-screen.png",
+    "encoded-frames/opening-title.png",
+    "encoded-frames/architecture.png",
+    "encoded-frames/qualify.png"
+  ],
+  "review_document": "docs/STORY_REVIEW_06.md"
+}

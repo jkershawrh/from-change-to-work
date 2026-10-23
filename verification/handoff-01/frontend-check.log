@@ -1,0 +1,32 @@
+
+> evy-aeris-edge-actions-frontend@0.1.0 check
+> npm run test && npm run build
+
+
+> evy-aeris-edge-actions-frontend@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/frontend
+
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  18:43:28
+   Duration  3.35s (transform 45ms, setup 160ms, import 25ms, tests 7ms, environment 2.69s)
+
+
+> evy-aeris-edge-actions-frontend@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 2609 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.72 kB │ gzip:   0.43 kB
+dist/assets/index-Ci490HL-.css     61.70 kB │ gzip:  12.70 kB
+dist/assets/index-fAyq93EY.js     428.33 kB │ gzip: 136.80 kB
+dist/assets/ArmScene-ObuGe5xZ.js  944.58 kB │ gzip: 251.46 kB
+
+✓ built in 966ms

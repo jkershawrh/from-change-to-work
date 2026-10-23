@@ -1,0 +1,58 @@
+{
+  "status": "GREEN_LOCAL_PRESENTATION_MEDIA",
+  "edition": "cinema-07",
+  "thesis": "Deliver an approved task from remote engineering to the robot cell; keep execution control local.",
+  "changes": [
+    "Synchronous Scene 1 image handoff",
+    "No burned-in captions",
+    "No decorative playback bar",
+    "Original speech-ducked pad and piano score",
+    "Saved Kersh narration unchanged",
+    "Red Hat and Intel opening logos retained"
+  ],
+  "TDD": {
+    "status": "GREEN",
+    "unit_tests": 52,
+    "boundary_regression": "plates.test.ts"
+  },
+  "EDD": {
+    "status": "GREEN",
+    "full_decode": "encoded-decode.log",
+    "scene_contact_sheet": "scene-1-after.png",
+    "actual_aac_and_caption_transport_check": "encoded-score-check.json"
+  },
+  "CDD": {
+    "status": "GREEN",
+    "unchanged_narration": true,
+    "source_music_contract": "music-contract-committed.log",
+    "served_package": "served-package-check.json"
+  },
+  "BDD": {
+    "status": "GREEN",
+    "browser_passed": 11,
+    "browser_skipped": 1,
+    "skipped_reason": "Authenticated observation test requires an operator code; this media check issues no actions.",
+    "report": "browser-package-verified.log"
+  },
+  "CBT": {
+    "status": "GREEN",
+    "scope": "Actual browser picture, encoded MP4/AAC, HTTP range download, working interactive media clock."
+  },
+  "retained_failures": [
+    "music-red.log",
+    "recording.log",
+    "browser-final.log"
+  ],
+  "hosted_ci": {
+    "status": "AMBER_INFRASTRUCTURE_BLOCK",
+    "run_id": 39960523326,
+    "job_id": 120437070077,
+    "commit": "fc87e11d069736036b600ab4ea5e73b1aaf64fa3",
+    "executed_steps": 0,
+    "annotations": "hosted-ci-annotations.json",
+    "messages": [
+      "The job was not started because recent account payments have failed or your spending limit needs to be increased. Please check the 'Billing & plans' section in your settings"
+    ]
+  },
+  "scope": "Local media and presentation only. No new physical motion, remote-host, timing, inference or hardware qualification."
+}

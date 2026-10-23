@@ -1,0 +1,32 @@
+{
+  "status": "PASS_STANDALONE_PRECOMMIT",
+  "repository": "https://github.com/jkershawrh/from-change-to-work",
+  "branch": "main",
+  "fresh_history": true,
+  "source_snapshot_commit": "b40e8d44ba412d6208f134f0ad76b84fdeba4736",
+  "checks": {
+    "service_tests": 26,
+    "dispatch_tests": 12,
+    "network_proof_tests": 18,
+    "rust_tests": 8,
+    "dashboard_tests": 9,
+    "presentation_tests": 55,
+    "total": 128,
+    "builds": "dashboard and presentation",
+    "blueprint": "PASS",
+    "offline_assets": "PASS",
+    "independent_saved_network_audit": "PASS"
+  },
+  "restored_public_evidence_files": 33,
+  "restored_bytes_match_original": true,
+  "retained_failure": "standalone-check.log shows initial missing-public-evidence packaging failure; corrected with explicit ignore exceptions.",
+  "development_dependencies": "Local verification reuses ignored Python/Node/native build caches from the existing development checkout. These symlinks are not shipped; recipient setup installs/builds project dependencies. No fresh-install qualification is claimed.",
+  "handoff": "docs/HANDOFF.md",
+  "hardware_inventory": "PENDING_USER_DETAILS",
+  "TDD": "GREEN for 128 software tests",
+  "EDD": "GREEN for independent retained simulator audit; new host acceptance remains pending",
+  "CDD": "GREEN for existing contracts and rejection checks",
+  "BDD": "Retained simulator behavior and prior browser checks; no new physical challenge claimed",
+  "CBT": "Existing software boundaries and retained separate-host proof; no new host qualification claimed",
+  "hosted_ci": "Reported separately after push. Prior account billing restriction is not a local test failure."
+}

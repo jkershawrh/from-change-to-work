@@ -1,0 +1,393 @@
+{
+  "movie_sha256": "422f2833be2012a43e285030e1b65903bde370a52408452f882a080ea32a10ad",
+  "scope": "Encoded final MP4; full-frame integrity and objective audio/timing review. No subjective listening claimed.",
+  "frame_count": 8287,
+  "full_frame_decode": true,
+  "near_black_times": [
+    0.0
+  ],
+  "large_frame_changes": [
+    {
+      "time": 0.04,
+      "mean_pixel_change": 15.82
+    },
+    {
+      "time": 0.08,
+      "mean_pixel_change": 15.71
+    },
+    {
+      "time": 0.12,
+      "mean_pixel_change": 16.16
+    },
+    {
+      "time": 0.16,
+      "mean_pixel_change": 15.94
+    },
+    {
+      "time": 5.0,
+      "mean_pixel_change": 63.12
+    },
+    {
+      "time": 5.08,
+      "mean_pixel_change": 12.05
+    },
+    {
+      "time": 5.12,
+      "mean_pixel_change": 12.02
+    },
+    {
+      "time": 5.16,
+      "mean_pixel_change": 12.02
+    },
+    {
+      "time": 9.56,
+      "mean_pixel_change": 18.6
+    },
+    {
+      "time": 42.84,
+      "mean_pixel_change": 36.21
+    },
+    {
+      "time": 86.76,
+      "mean_pixel_change": 25.85
+    },
+    {
+      "time": 134.76,
+      "mean_pixel_change": 53.46
+    },
+    {
+      "time": 180.48,
+      "mean_pixel_change": 54.6
+    }
+  ],
+  "transport_region_anomalies": [],
+  "opening_mix_correlation": 0.9999760162742384,
+  "voice_footer_region_anomalies": [],
+  "audio_peak_dbfs": -0.711,
+  "audio_windows": [
+    {
+      "movie_start": 5.0,
+      "mix_correlation": 0.999984
+    },
+    {
+      "movie_start": 10.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 15.0,
+      "mix_correlation": 0.999979
+    },
+    {
+      "movie_start": 20.0,
+      "mix_correlation": 0.99997
+    },
+    {
+      "movie_start": 25.0,
+      "mix_correlation": 0.999973
+    },
+    {
+      "movie_start": 30.0,
+      "mix_correlation": 0.999983
+    },
+    {
+      "movie_start": 35.0,
+      "mix_correlation": 0.999986
+    },
+    {
+      "movie_start": 40.0,
+      "mix_correlation": 0.999983
+    },
+    {
+      "movie_start": 45.0,
+      "mix_correlation": 0.999968
+    },
+    {
+      "movie_start": 50.0,
+      "mix_correlation": 0.999978
+    },
+    {
+      "movie_start": 55.0,
+      "mix_correlation": 0.999978
+    },
+    {
+      "movie_start": 60.0,
+      "mix_correlation": 0.999987
+    },
+    {
+      "movie_start": 65.0,
+      "mix_correlation": 0.999971
+    },
+    {
+      "movie_start": 70.0,
+      "mix_correlation": 0.999982
+    },
+    {
+      "movie_start": 75.0,
+      "mix_correlation": 0.999982
+    },
+    {
+      "movie_start": 80.0,
+      "mix_correlation": 0.999979
+    },
+    {
+      "movie_start": 85.0,
+      "mix_correlation": 0.999988
+    },
+    {
+      "movie_start": 90.0,
+      "mix_correlation": 0.999974
+    },
+    {
+      "movie_start": 95.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 100.0,
+      "mix_correlation": 0.999975
+    },
+    {
+      "movie_start": 105.0,
+      "mix_correlation": 0.999969
+    },
+    {
+      "movie_start": 110.0,
+      "mix_correlation": 0.999977
+    },
+    {
+      "movie_start": 115.0,
+      "mix_correlation": 0.999966
+    },
+    {
+      "movie_start": 120.0,
+      "mix_correlation": 0.999977
+    },
+    {
+      "movie_start": 125.0,
+      "mix_correlation": 0.999984
+    },
+    {
+      "movie_start": 130.0,
+      "mix_correlation": 0.999981
+    },
+    {
+      "movie_start": 135.0,
+      "mix_correlation": 0.999969
+    },
+    {
+      "movie_start": 140.0,
+      "mix_correlation": 0.999975
+    },
+    {
+      "movie_start": 145.0,
+      "mix_correlation": 0.999971
+    },
+    {
+      "movie_start": 150.0,
+      "mix_correlation": 0.999958
+    },
+    {
+      "movie_start": 155.0,
+      "mix_correlation": 0.999975
+    },
+    {
+      "movie_start": 160.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 165.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 170.0,
+      "mix_correlation": 0.999974
+    },
+    {
+      "movie_start": 175.0,
+      "mix_correlation": 0.999982
+    },
+    {
+      "movie_start": 180.0,
+      "mix_correlation": 0.999961
+    },
+    {
+      "movie_start": 185.0,
+      "mix_correlation": 0.999961
+    },
+    {
+      "movie_start": 190.0,
+      "mix_correlation": 0.999983
+    },
+    {
+      "movie_start": 195.0,
+      "mix_correlation": 0.999986
+    },
+    {
+      "movie_start": 200.0,
+      "mix_correlation": 0.999982
+    },
+    {
+      "movie_start": 205.0,
+      "mix_correlation": 0.999986
+    },
+    {
+      "movie_start": 210.0,
+      "mix_correlation": 0.999984
+    },
+    {
+      "movie_start": 215.0,
+      "mix_correlation": 0.999989
+    },
+    {
+      "movie_start": 220.0,
+      "mix_correlation": 0.999987
+    },
+    {
+      "movie_start": 225.0,
+      "mix_correlation": 0.999981
+    },
+    {
+      "movie_start": 230.0,
+      "mix_correlation": 0.999987
+    },
+    {
+      "movie_start": 235.0,
+      "mix_correlation": 0.999988
+    },
+    {
+      "movie_start": 240.0,
+      "mix_correlation": 0.999986
+    },
+    {
+      "movie_start": 245.0,
+      "mix_correlation": 0.999989
+    },
+    {
+      "movie_start": 250.0,
+      "mix_correlation": 0.999987
+    },
+    {
+      "movie_start": 255.0,
+      "mix_correlation": 0.99999
+    },
+    {
+      "movie_start": 260.0,
+      "mix_correlation": 0.999991
+    },
+    {
+      "movie_start": 265.0,
+      "mix_correlation": 0.999987
+    },
+    {
+      "movie_start": 270.0,
+      "mix_correlation": 0.999987
+    },
+    {
+      "movie_start": 275.0,
+      "mix_correlation": 0.999981
+    },
+    {
+      "movie_start": 280.0,
+      "mix_correlation": 0.999989
+    },
+    {
+      "movie_start": 285.0,
+      "mix_correlation": 0.999988
+    },
+    {
+      "movie_start": 290.0,
+      "mix_correlation": 0.999987
+    },
+    {
+      "movie_start": 295.0,
+      "mix_correlation": 0.999982
+    },
+    {
+      "movie_start": 300.0,
+      "mix_correlation": 0.999978
+    },
+    {
+      "movie_start": 305.0,
+      "mix_correlation": 0.999973
+    },
+    {
+      "movie_start": 310.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 315.0,
+      "mix_correlation": 0.999986
+    },
+    {
+      "movie_start": 320.0,
+      "mix_correlation": 0.999984
+    },
+    {
+      "movie_start": 325.0,
+      "mix_correlation": 0.999986
+    },
+    {
+      "movie_start": 330.0,
+      "mix_correlation": 0.999968
+    }
+  ],
+  "chapters": [
+    {
+      "id": "cell",
+      "movie_start": 5.0,
+      "movie_end": 42.75,
+      "music_below_voice_db": 18.52,
+      "last_spoken_end": 42.160000000000004,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "recipe",
+      "movie_start": 42.75,
+      "movie_end": 86.74,
+      "music_below_voice_db": 19.09,
+      "last_spoken_end": 86.14999999999999,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "architecture",
+      "movie_start": 86.74,
+      "movie_end": 134.73000000000002,
+      "music_below_voice_db": 19.33,
+      "last_spoken_end": 134.14000000000001,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "disconnect",
+      "movie_start": 134.73000000000002,
+      "movie_end": 180.44000000000003,
+      "music_below_voice_db": 19.42,
+      "last_spoken_end": 179.85000000000002,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "recovery",
+      "movie_start": 180.44000000000003,
+      "movie_end": 226.55000000000004,
+      "music_below_voice_db": 18.85,
+      "last_spoken_end": 225.96000000000004,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "ecosystem",
+      "movie_start": 226.55000000000004,
+      "movie_end": 281.44000000000005,
+      "music_below_voice_db": 19.13,
+      "last_spoken_end": 280.85,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "qualify",
+      "movie_start": 281.44000000000005,
+      "movie_end": 331.4519954648527,
+      "music_below_voice_db": 19.14,
+      "last_spoken_end": 329.2119954648527,
+      "hold_after_speech": 2.24
+    }
+  ],
+  "subjective_listening_performed": false,
+  "status": "PASS_FULL_TIMELINE_OBJECTIVE_CHECKS"
+}

@@ -1,0 +1,42 @@
+
+> evy-aeris-edge-actions-frontend@0.1.0 build
+> tsc -b && vite build && node ../scripts/build_story.mjs
+
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 2613 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               0.66 kB │ gzip:   0.40 kB
+dist/assets/Dashboard-CGx9hCnH.css           17.32 kB │ gzip:   4.29 kB
+dist/assets/TransferWorkbench-DSMo2Dmr.css   29.31 kB │ gzip:   5.92 kB
+dist/assets/index-DclSUKqI.css               32.39 kB │ gzip:   7.67 kB
+dist/assets/with-selector-BHyRhoev.js         1.62 kB │ gzip:   0.71 kB
+dist/assets/contracts-BQCCJMdm.js             9.24 kB │ gzip:   4.10 kB
+dist/assets/Dashboard-BA3nFipY.js            31.18 kB │ gzip:  10.64 kB
+dist/assets/TransferWorkbench-BuNxAPoS.js   196.23 kB │ gzip:  63.69 kB
+dist/assets/index-BG77VCma.js               222.27 kB │ gzip:  69.81 kB
+dist/assets/ArmScene-Bbbi9YEs.js            944.65 kB │ gzip: 251.49 kB
+
+✓ built in 1.48s
+
+> evy-aeris-cinema@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 2881 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.53 kB │ gzip:   0.33 kB
+dist/assets/Story-mZuWp8uY.css   23.39 kB │ gzip:   5.51 kB
+dist/assets/index-CYKxR5YS.css   25.03 kB │ gzip:   5.29 kB
+dist/assets/model-CFMX5iEY.js     2.56 kB │ gzip:   1.21 kB
+dist/assets/record-C5bW8kOW.js    6.02 kB │ gzip:   3.05 kB
+dist/assets/Story-CbFvETJr.js    43.33 kB │ gzip:  16.25 kB
+dist/assets/App-CDIVkrv_.js     159.02 kB │ gzip:  50.23 kB
+dist/assets/index-CARV2bBZ.js   222.35 kB │ gzip:  69.82 kB
+dist/assets/World-BGSTPyhj.js   982.96 kB │ gzip: 262.82 kB
+
+✓ built in 1.93s
+Cinematic story packaged with the dashboard at /show/.

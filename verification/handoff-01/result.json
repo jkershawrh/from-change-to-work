@@ -1,0 +1,123 @@
+{
+  "schema": "aeris.frontend-action-handoff-result.v1",
+  "verified_utc": "2026-10-22T23:47:32.422134+00:00",
+  "status": "PASS_STANDALONE_LOCAL_SIMULATION",
+  "repository": "https://github.com/jkershawrh/evy-aeris-edge-actions",
+  "private": true,
+  "frontend": "React/Vite, React Flow, MJCF-derived Three.js arm; recorded proof and live observations separated.",
+  "backend": "Same-origin authenticated console, existing EVY action gateway, bounded lab data-plane relay, simulator-only edge control endpoints, unchanged Rust transfer/execution.",
+  "current_host": "Darwin / arm64; local TLS and separate processes. This does not inherit Intel/RHEL hardware qualification.",
+  "tests": {
+    "service_and_saved_evidence": 19,
+    "existing_evy_rejection_suite": 12,
+    "rust": 8,
+    "frontend_contracts": 4,
+    "browser_workflow_and_layouts": 4,
+    "retained_separate_host_audit_tests": 18,
+    "npm_advisories": 0
+  },
+  "current_session_audit": {
+    "schema": "aeris.action-session-audit.v1",
+    "status": "PASS_LOCAL_SIMULATION_ACCOUNTING",
+    "scope": "No separate-host, physical-robot or real-time qualification inferred.",
+    "tasks": [
+      {
+        "task": "action-action-ea7aad0c",
+        "status": "COMPLETE",
+        "control_ticks": 420,
+        "physics_substeps": 4200,
+        "peak_speed_rad_s": 0.39999999999996266,
+        "peak_acceleration_rad_s2": 0.8500000000000001,
+        "peak_displacement_rad": 0.2889393093702899
+      },
+      {
+        "task": "action-action-4674ae11",
+        "status": "INTERRUPTED",
+        "control_ticks": 50,
+        "physics_substeps": 500,
+        "peak_speed_rad_s": 0.3033786862239538,
+        "peak_acceleration_rad_s2": 0.8499999999957742,
+        "peak_displacement_rad": 0.12245368549406455
+      },
+      {
+        "task": "action-action-18a39603",
+        "status": "COMPLETE",
+        "control_ticks": 256,
+        "physics_substeps": 2560,
+        "peak_speed_rad_s": 0.3999999999994139,
+        "peak_acceleration_rad_s2": 0.8500000000000035,
+        "peak_displacement_rad": 0.12888541158435873
+      }
+    ],
+    "total_control_ticks": 726,
+    "total_physics_substeps": 7260,
+    "disconnect_and_local_completion": true,
+    "explicit_recovery_and_new_action": true,
+    "physical_motion_authorized": false
+  },
+  "controls": [
+    "transfer",
+    "disconnect central data plane",
+    "reconnect",
+    "interrupt known simulator executor",
+    "explicit local Rust recovery",
+    "deliberate new action"
+  ],
+  "handoff": [
+    "fresh Python environment and pip check",
+    "own frontend package-lock and clean npm install",
+    "independent native Rust build",
+    "no sibling checkout or saved cluster credentials required",
+    "Preston compute and two-host validation guide",
+    "physical motion disabled"
+  ],
+  "rubric": [
+    {
+      "id": "TDD",
+      "status": "GREEN",
+      "scope": "Retained red-first contracts and uncertain-ack failure, then passing suites."
+    },
+    {
+      "id": "EDD",
+      "status": "GREEN",
+      "scope": "Source-matched capture, complete SQLite/physics accounting, three semantic evidence mutations rejected."
+    },
+    {
+      "id": "CDD",
+      "status": "GREEN",
+      "scope": "Closed requests, roles, same-origin/session checks, release/task identity and simulator-only authority."
+    },
+    {
+      "id": "BDD",
+      "status": "GREEN",
+      "scope": "Actual browser transfer/cut/completion/retry/interruption/recovery/new action."
+    },
+    {
+      "id": "CBT",
+      "status": "GREEN",
+      "scope": "Real browser/EVY/TLS/Rust/MuJoCo boundaries on the recorded local host."
+    },
+    {
+      "id": "NEW_UI_ON_INTEL_RED_HAT_HARDWARE",
+      "status": "RED",
+      "scope": "Pending Preston. Historical separate-host baseline remains separately qualified and included."
+    },
+    {
+      "id": "PRODUCTION_READINESS",
+      "status": "AMBER",
+      "scope": "Disposable simulator lab; customer identity, fleet rollout and external device attestation pending."
+    },
+    {
+      "id": "PHYSICAL_ROBOT_AND_HARD_REAL_TIME",
+      "status": "RED",
+      "scope": "No physical driver, safeguarding or continuous real-time qualification."
+    }
+  ],
+  "retained_failures": [
+    {
+      "path": "failed-attempt-001",
+      "reason": "Native build overlap; rework refused STALE_OBSERVATION. No thresholds relaxed."
+    }
+  ],
+  "scope_note": "A browser export is observations only. Independent audit is a separate operator step; live UI does not silently import historical green gates."
+}

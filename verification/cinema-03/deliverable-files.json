@@ -1,0 +1,13 @@
+{
+  "presentation/public/film/from-change-to-work-hangar.mp4": "f61ae24843fa734d42a9e56f7f23c54885404736582c6a2372b49be4c50a5efe",
+  "presentation/public/film/production.json": "8229a6a142e8a07a09ac452ee9c01a5d4567d1d2d8d68a9a69f284921f0173f5",
+  "presentation/src/cinema/Hangar.tsx": "8e92bfe841a9191b6e51b766a0c430887374c0a2ff4f1e33a30da07695109117",
+  "presentation/src/cinema/EventFlow.tsx": "aa3473bc2722315e84334f90dac61648d28a0ef280a64109c1227604b71fb015",
+  "presentation/src/cinema/events.ts": "fe8d110b61b21dfb101a2a84cdd2bf35425f44f72690d4c3b0aabd585797e88d",
+  "presentation/src/cinema/SceneLabel.tsx": "aa55ed88d52634c11e6c17ac6cf05b5f4242b3e5d98e1b332d0428627ed49bd2",
+  "presentation/src/cinema/Story.tsx": "6b74e5c4a0d1304f972e07f4f2e0cc76866ab4beeaa63e58aefb30eb360d279d",
+  "presentation/src/cinema/World.tsx": "20735ead617ec1c52be330a0920115ca0af7966ae1cea96a88f175a8b5549e3c",
+  "presentation/src/cinema/record.ts": "eb3c8e1dbceb14e44c8ed57e176bcb495f8299766a8a30440383ea219eb90e43",
+  "presentation/src/cinema/record.test.ts": "3999872a09b23cd3887e53a684d33940e348050e46636dbe13f37bd29c39da95",
+  "verification/cinema-03/result.json": "283e7d4e9753a65fd9a68bcd20c69f1ec03b9d93a9bb606e09ff58c37010cebb"
+}

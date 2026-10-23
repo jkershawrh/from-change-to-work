@@ -1,0 +1,7 @@
+{
+  "schema": "aeris.owned-proof-cleanup.v1",
+  "namespace": "aeris-transfer-ae928d8d71",
+  "namespace_uid": "ac5890af-e053-422d-83d2-f2e410da17c5",
+  "uid_precondition": true,
+  "status": "PASS_NAMESPACE_ABSENT"
+}

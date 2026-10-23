@@ -1,0 +1,15 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test --grep all cinematic|spatial architecture --timeout 45000
+
+
+Running 4 tests using 1 worker
+
+(node:3545) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage (5.7s)
+  ✓  2 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop (4.8s)
+  ✓  3 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile (4.5s)
+  ✓  4 visual-tests/cinema.spec.ts:51:1 › spatial architecture walks every event and robot hangar views remain passive (3.7s)
+
+  4 passed (20.4s)

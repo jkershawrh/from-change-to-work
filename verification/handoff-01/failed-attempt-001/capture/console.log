@@ -1,0 +1,243 @@
+INFO:     Started server process [56815]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8090 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55408 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55411 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55415 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55418 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55421 - "POST /cascade HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:55428 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55431 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55434 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55437 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55444 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55447 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55450 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55453 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55456 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55459 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55490 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55505 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55549 - "GET /?actions=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55549 - "GET /assets/index-BpRXETQp.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55550 - "GET /assets/index-Bk8p_8aJ.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55550 - "GET /logos/intel.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55549 - "GET /logos/redhat.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55550 - "GET /fonts/RedHatMono-Regular.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55549 - "GET /fonts/RedHatText-Regular.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55551 - "GET /fonts/RedHatDisplay-Bold.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55552 - "GET /fonts/RedHatText-Bold.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "GET /action-proof.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /models/ur5e/model.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "GET /assets/ArmScene-BDOV3jgn.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "POST /api/action-demo/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55552 - "GET /models/ur5e/base_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "GET /models/ur5e/base_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55549 - "GET /models/ur5e/shoulder_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55552 - "GET /models/ur5e/shoulder_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /models/ur5e/upperarm_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55551 - "GET /models/ur5e/shoulder_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55550 - "GET /models/ur5e/upperarm_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /models/ur5e/upperarm_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55551 - "GET /models/ur5e/upperarm_3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "GET /models/ur5e/forearm_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55550 - "GET /models/ur5e/forearm_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55550 - "GET /models/ur5e/forearm_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "GET /models/ur5e/wrist1_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55549 - "GET /models/ur5e/forearm_3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55550 - "GET /models/ur5e/wrist1_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55553 - "GET /models/ur5e/wrist1_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55552 - "GET /models/ur5e/wrist2_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55549 - "GET /models/ur5e/wrist2_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /models/ur5e/wrist2_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55552 - "GET /models/ur5e/wrist3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55552 - "POST /api/action-demo/actions HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55552 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "POST /api/action-demo/controls/disconnect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55622 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "POST /api/action-demo/controls/reconnect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55913 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55913 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "POST /api/action-demo/actions HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55929 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55554 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56006 - "POST /api/action-demo/actions HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:56006 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56006 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56102 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56104 - "POST /api/action-demo/controls/interrupt HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:56136 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56136 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56136 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56136 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56136 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56136 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56136 - "GET /api/action-demo/state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /?actions=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /assets/index-BpRXETQp.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /assets/index-Bk8p_8aJ.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /logos/redhat.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /logos/intel.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /fonts/RedHatMono-Regular.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /fonts/RedHatText-Regular.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56262 - "GET /fonts/RedHatDisplay-Bold.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56263 - "GET /fonts/RedHatText-Bold.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56264 - "GET /action-proof.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56265 - "GET /models/ur5e/model.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56265 - "GET /assets/ArmScene-BDOV3jgn.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56265 - "GET /models/ur5e/base_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56265 - "GET /models/ur5e/base_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56264 - "GET /models/ur5e/shoulder_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56262 - "GET /models/ur5e/upperarm_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /models/ur5e/shoulder_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56263 - "GET /models/ur5e/shoulder_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /models/ur5e/upperarm_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56262 - "GET /models/ur5e/upperarm_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56265 - "GET /models/ur5e/upperarm_3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /models/ur5e/forearm_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /models/ur5e/forearm_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /models/ur5e/forearm_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /models/ur5e/forearm_3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /models/ur5e/wrist1_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56263 - "GET /models/ur5e/wrist1_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56264 - "GET /models/ur5e/wrist1_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56263 - "GET /models/ur5e/wrist2_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /models/ur5e/wrist2_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56262 - "GET /models/ur5e/wrist2_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56263 - "GET /models/ur5e/wrist3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56288 - "GET /?actions=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56288 - "GET /assets/index-BpRXETQp.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56289 - "GET /assets/index-Bk8p_8aJ.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56288 - "GET /logos/redhat.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56289 - "GET /logos/intel.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56290 - "GET /fonts/RedHatMono-Regular.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56291 - "GET /fonts/RedHatText-Regular.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56292 - "GET /fonts/RedHatDisplay-Bold.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56293 - "GET /fonts/RedHatText-Bold.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56288 - "GET /action-proof.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56289 - "GET /models/ur5e/model.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56289 - "GET /assets/ArmScene-BDOV3jgn.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56289 - "GET /models/ur5e/base_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56290 - "GET /models/ur5e/upperarm_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56289 - "GET /models/ur5e/base_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56292 - "GET /models/ur5e/upperarm_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56288 - "GET /models/ur5e/shoulder_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56293 - "GET /models/ur5e/shoulder_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56291 - "GET /models/ur5e/shoulder_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56292 - "GET /models/ur5e/upperarm_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56289 - "GET /models/ur5e/upperarm_3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56293 - "GET /models/ur5e/forearm_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56290 - "GET /models/ur5e/forearm_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56290 - "GET /models/ur5e/forearm_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56293 - "GET /models/ur5e/forearm_3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56290 - "GET /models/ur5e/wrist1_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56291 - "GET /models/ur5e/wrist1_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56288 - "GET /models/ur5e/wrist1_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56290 - "GET /models/ur5e/wrist2_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56293 - "GET /models/ur5e/wrist2_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56290 - "GET /models/ur5e/wrist2_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56292 - "GET /models/ur5e/wrist3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56312 - "GET /?actions=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56312 - "GET /assets/index-BpRXETQp.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56313 - "GET /assets/index-Bk8p_8aJ.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56313 - "GET /logos/intel.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56312 - "GET /logos/redhat.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56313 - "GET /fonts/RedHatMono-Regular.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56312 - "GET /fonts/RedHatDisplay-Bold.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /models/ur5e/model.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56316 - "GET /fonts/RedHatText-Regular.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56317 - "GET /fonts/RedHatText-Bold.otf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56318 - "GET /action-proof.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /assets/ArmScene-BDOV3jgn.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /models/ur5e/base_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /models/ur5e/base_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56312 - "GET /models/ur5e/upperarm_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56318 - "GET /models/ur5e/shoulder_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56316 - "GET /models/ur5e/shoulder_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56313 - "GET /models/ur5e/upperarm_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56317 - "GET /models/ur5e/shoulder_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56312 - "GET /models/ur5e/upperarm_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56317 - "GET /models/ur5e/upperarm_3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /models/ur5e/forearm_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56313 - "GET /models/ur5e/forearm_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56313 - "GET /models/ur5e/forearm_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56316 - "GET /models/ur5e/forearm_3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56313 - "GET /models/ur5e/wrist1_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /models/ur5e/wrist1_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56318 - "GET /models/ur5e/wrist1_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /models/ur5e/wrist2_0.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56316 - "GET /models/ur5e/wrist2_1.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /models/ur5e/wrist2_2.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56312 - "GET /models/ur5e/wrist3.obj HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56350 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56353 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56356 - "POST /cascade HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:56363 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56366 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56369 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56372 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56375 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56378 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56381 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56384 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56387 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56390 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56415 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56427 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56443 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56446 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56449 - "POST /cascade HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:56456 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56459 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56462 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56465 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56468 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56471 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56474 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56477 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56480 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56483 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56518 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56525 - "GET /health HTTP/1.1" 404 Not Found

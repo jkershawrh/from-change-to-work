@@ -1,0 +1,42 @@
+INFO:     Started server process [59829]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on https://127.0.0.1:28444 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57003 - "GET /actions/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57011 - "GET /actions/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57016 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57040 - "GET /actions/capability-transfer/action-ea7aad0c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57049 - "GET /actions/capability-transfer/action-ea7aad0c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57059 - "GET /actions/capability-transfer/action-ea7aad0c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /actions/capability-transfer/action-ea7aad0c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /actions/capability-transfer/action-ea7aad0c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /actions/capability-transfer/action-ea7aad0c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57303 - "GET /actions/capability-transfer/action-ea7aad0c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57300 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57327 - "GET /actions/capability-transfer/action-ea7aad0c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57336 - "GET /actions/capability-transfer/action-ea7aad0c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57344 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57356 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57365 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57374 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57394 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57404 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57413 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57423 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57432 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57441 - "GET /actions/capability-transfer/action-4674ae11 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57449 - "POST /actions/capability-transfer HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57458 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57467 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57491 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57502 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57521 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57531 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57552 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57561 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57570 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57579 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57588 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57609 - "GET /actions/capability-transfer/action-18a39603 HTTP/1.1" 200 OK

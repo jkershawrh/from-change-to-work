@@ -1,0 +1,13 @@
+{
+  "scope": "Editorial film composition: separately captured opening cover and unchanged reviewed story body",
+  "body_picture_sha256": "833c00e45469353ee7ecbe12ec205eaad4abfe522104215f4b5b54e4d1b25eea",
+  "body_presentation_registration_sha256": "1e12792d1be9cb71fd9df770363fd9ad86011c6d4b3b672236bbd0e2c2104c83",
+  "cover_presentation_registration_sha256": "1de5b0060745f1beec5ef9724694c7ce0f63f220db36f2e3c0847d25d32b3504",
+  "cover_png_sha256": "bc56a6bd8ebc5f46d491435b91bd7c993f2740d22f53eff4145cdd30c9a701e0",
+  "body_seconds": 326.4519954648526,
+  "opening_seconds": 4,
+  "audio_source": "presentation/public/audio/cinema-06/film-mix.wav",
+  "audio_sha256": "b559b9bca923bcbb288825a46783eac1c0c573de03c884bcb72c3c5f434337e0",
+  "current_voice_profile_changed": false,
+  "provider_requests": 0
+}

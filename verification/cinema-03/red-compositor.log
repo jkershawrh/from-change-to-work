@@ -1,0 +1,43 @@
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run --run src/cinema/record.test.ts
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+ ❯ src/cinema/record.test.ts (2 tests | 1 failed) 5ms
+     × shows the delivery journey without importing the later connection-cut claim 4ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/cinema/record.test.ts > export chapter isolation > shows the delivery journey without importing the later connection-cut claim
+AssertionError: expected '01\nEngineering\nRelease one approved…' not to contain 'CENTRAL DATA PLANE / CUT'
+
+- Expected
++ Received
+
++ 01
++ Engineering
++ Release one approved task.
++ 02
++ Delivery
++ Carry the exact package.
++ 03
++ Local acceptance
++ Accept it before work begins.
+  CENTRAL DATA PLANE / CUT
++ Local execution owns the task.
++ Separate observer available.
++ Retained simulator playback, not a safety stop.
+
+ ❯ src/cinema/record.test.ts:5:207
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 1 passed (2)
+   Start at  21:01:43
+   Duration  789ms (transform 39ms, setup 63ms, import 34ms, tests 5ms, environment 570ms)
+

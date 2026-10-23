@@ -1,0 +1,12 @@
+
+> evy-aeris-edge-actions-frontend@0.1.0 test:visual
+> playwright test --config playwright.actions.config.ts actions.spec.ts --grep operator transfers
+
+
+Running 1 test using 1 worker
+
+(node:75788) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/actions.spec.ts:5:1 › operator transfers, cuts actual data plane, observes completion, interrupts and explicitly recovers (32.8s)
+
+  1 passed (33.5s)

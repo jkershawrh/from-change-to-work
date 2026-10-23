@@ -1,0 +1,22 @@
+{
+  "status": "PASS_UNCHANGED_SAVED_AUDIO",
+  "provider_requests": 0,
+  "files": {
+    "presentation/audio/voice-profile.json": {
+      "sha256": "1059c0d9cf38180324ae9579bdc3a8b37acc754666f41d0180fcac315f0f39e3",
+      "matches_previous_commit": true
+    },
+    "presentation/public/audio/cinema-02/plan.json": {
+      "sha256": "12fe87d4809a14c892cd1065df529869c7bb8584795cc387b669fcff93d796d0",
+      "matches_previous_commit": true
+    },
+    "presentation/public/audio/cinema-02/narration.wav": {
+      "sha256": "17a71ee1ecdb545e0cd27a703c4790af0c5d78e787cea2989fd596048dd5ea89",
+      "matches_previous_commit": true
+    },
+    "presentation/public/audio/cinema-02/film-mix.wav": {
+      "sha256": "7f340373f54e7e6cdad9f5b711d29a4c837a9756f3a4abf9be0dfdf44dcff93e",
+      "matches_previous_commit": true
+    }
+  }
+}

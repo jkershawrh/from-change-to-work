@@ -1,0 +1,32 @@
+{
+  "status": "REVIEW_PACKAGE_READY",
+  "visual_acceptance": "PENDING_USER_REVIEW",
+  "film_regenerated": false,
+  "interactive_aircraft_replaced": false,
+  "physical_motion_authorized": false,
+  "source_registration": {
+    "status": "MATCH",
+    "files": 179
+  },
+  "checks": {
+    "artifact_integrity": "PASS",
+    "negative_tests": 5,
+    "presentation_build": "PASS",
+    "three_views_visually_inspected": true
+  },
+  "rubric": {
+    "TDD": "GREEN: missing artifacts failed first; five integrity/rejection tests now pass",
+    "EDD": "GREEN for retained authoring evidence only; no new execution proof",
+    "CDD": "GREEN: source/image hashes, embedded assets and no-motion scope checked",
+    "BDD": "AMBER: three requested views delivered; user visual acceptance pending",
+    "CBT": "GREEN: pinned GLB, decoder, Blender/Cycles and independent PNG verification"
+  },
+  "qualification": {
+    "new_hardware": "NOT_TESTED",
+    "physical_robot": "NOT_TESTED",
+    "inspection_accuracy": "NOT_TESTED",
+    "real_time": "NOT_TESTED"
+  },
+  "authoring_host": "Apple M2 / Blender 4.5.15 LTS; CPU wide frame, Metal remaining frames. Not an Intel edge qualification.",
+  "hosted_ci": "Not run for this review-artifact commit; prior account billing block remains separate."
+}

@@ -1,0 +1,36 @@
+
+> aeris-demo@0.1.0 test
+> vitest run --run src/actions/contracts.test.ts
+
+
+ RUN  v4.1.11 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/frontend
+
+ ❯ src/actions/contracts.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/actions/contracts.test.ts [ src/actions/contracts.test.ts ]
+Error: Failed to resolve import "./contracts" from "src/actions/contracts.test.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/frontend/src/actions/contracts.test.ts:2:51
+  1  |  import { describe, it, expect } from "vitest";
+  2  |  import { parseLive, parseRecorded, canControl } from "./contracts";
+     |                                                        ^
+  3  |  describe("action evidence boundaries", () => {
+  4  |  	it("rejects physical authority and silent recorded substitution", () => {
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:8393:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:8390:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:26058:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:26128:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:26094:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:8172:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:19634:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  no tests
+   Start at  18:16:29
+   Duration  1.14s (transform 20ms, setup 92ms, import 0ms, tests 0ms, environment 824ms)
+

@@ -1,0 +1,23 @@
+{
+    "apiVersion": "networking.k8s.io/v1",
+    "kind": "NetworkPolicy",
+    "metadata": {
+        "creationTimestamp": "2026-10-22T22:00:03Z",
+        "generation": 1,
+        "name": "central-disconnection",
+        "namespace": "aeris-transfer-ae928d8d71",
+        "resourceVersion": "164234967",
+        "uid": "a51c94d7-9443-4924-bf13-fdfed7c9aac1"
+    },
+    "spec": {
+        "podSelector": {
+            "matchLabels": {
+                "aeris-proof-role": "central"
+            }
+        },
+        "policyTypes": [
+            "Ingress",
+            "Egress"
+        ]
+    }
+}

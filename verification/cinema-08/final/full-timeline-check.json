@@ -1,0 +1,416 @@
+{
+  "movie_sha256": "2a15883e91b701b468803a98be2b76723b788f4aca6cd79546bb0f61249805ca",
+  "scope": "Encoded final MP4; full-frame integrity and objective audio/timing review. No subjective listening claimed.",
+  "frame_count": 8262,
+  "full_frame_decode": true,
+  "near_black_times": [
+    0.0,
+    4.0
+  ],
+  "large_frame_changes": [
+    {
+      "time": 0.04,
+      "mean_pixel_change": 12.75
+    },
+    {
+      "time": 0.08,
+      "mean_pixel_change": 12.85
+    },
+    {
+      "time": 0.12,
+      "mean_pixel_change": 12.73
+    },
+    {
+      "time": 0.16,
+      "mean_pixel_change": 12.76
+    },
+    {
+      "time": 0.2,
+      "mean_pixel_change": 12.57
+    },
+    {
+      "time": 3.84,
+      "mean_pixel_change": 12.62
+    },
+    {
+      "time": 3.88,
+      "mean_pixel_change": 12.7
+    },
+    {
+      "time": 3.92,
+      "mean_pixel_change": 12.73
+    },
+    {
+      "time": 3.96,
+      "mean_pixel_change": 12.8
+    },
+    {
+      "time": 4.0,
+      "mean_pixel_change": 12.82
+    },
+    {
+      "time": 4.04,
+      "mean_pixel_change": 12.08
+    },
+    {
+      "time": 4.08,
+      "mean_pixel_change": 12.13
+    },
+    {
+      "time": 4.12,
+      "mean_pixel_change": 12.09
+    },
+    {
+      "time": 4.16,
+      "mean_pixel_change": 12.07
+    },
+    {
+      "time": 8.56,
+      "mean_pixel_change": 18.61
+    },
+    {
+      "time": 41.84,
+      "mean_pixel_change": 36.21
+    },
+    {
+      "time": 85.76,
+      "mean_pixel_change": 25.85
+    },
+    {
+      "time": 133.76,
+      "mean_pixel_change": 53.46
+    },
+    {
+      "time": 179.48,
+      "mean_pixel_change": 54.57
+    }
+  ],
+  "transport_region_anomalies": [],
+  "audio_peak_dbfs": -0.704,
+  "audio_windows": [
+    {
+      "movie_start": 4.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 9.0,
+      "mix_correlation": 0.999967
+    },
+    {
+      "movie_start": 14.0,
+      "mix_correlation": 0.99998
+    },
+    {
+      "movie_start": 19.0,
+      "mix_correlation": 0.999974
+    },
+    {
+      "movie_start": 24.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 29.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 34.0,
+      "mix_correlation": 0.999986
+    },
+    {
+      "movie_start": 39.0,
+      "mix_correlation": 0.999978
+    },
+    {
+      "movie_start": 44.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 49.0,
+      "mix_correlation": 0.99998
+    },
+    {
+      "movie_start": 54.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 59.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 64.0,
+      "mix_correlation": 0.999973
+    },
+    {
+      "movie_start": 69.0,
+      "mix_correlation": 0.999984
+    },
+    {
+      "movie_start": 74.0,
+      "mix_correlation": 0.999977
+    },
+    {
+      "movie_start": 79.0,
+      "mix_correlation": 0.999981
+    },
+    {
+      "movie_start": 84.0,
+      "mix_correlation": 0.999981
+    },
+    {
+      "movie_start": 89.0,
+      "mix_correlation": 0.999982
+    },
+    {
+      "movie_start": 94.0,
+      "mix_correlation": 0.999963
+    },
+    {
+      "movie_start": 99.0,
+      "mix_correlation": 0.999977
+    },
+    {
+      "movie_start": 104.0,
+      "mix_correlation": 0.999967
+    },
+    {
+      "movie_start": 109.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 114.0,
+      "mix_correlation": 0.999971
+    },
+    {
+      "movie_start": 119.0,
+      "mix_correlation": 0.999974
+    },
+    {
+      "movie_start": 124.0,
+      "mix_correlation": 0.99998
+    },
+    {
+      "movie_start": 129.0,
+      "mix_correlation": 0.999981
+    },
+    {
+      "movie_start": 134.0,
+      "mix_correlation": 0.999975
+    },
+    {
+      "movie_start": 139.0,
+      "mix_correlation": 0.999971
+    },
+    {
+      "movie_start": 144.0,
+      "mix_correlation": 0.99997
+    },
+    {
+      "movie_start": 149.0,
+      "mix_correlation": 0.999955
+    },
+    {
+      "movie_start": 154.0,
+      "mix_correlation": 0.999967
+    },
+    {
+      "movie_start": 159.0,
+      "mix_correlation": 0.999981
+    },
+    {
+      "movie_start": 164.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 169.0,
+      "mix_correlation": 0.999972
+    },
+    {
+      "movie_start": 174.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 179.0,
+      "mix_correlation": 0.999969
+    },
+    {
+      "movie_start": 184.0,
+      "mix_correlation": 0.999963
+    },
+    {
+      "movie_start": 189.0,
+      "mix_correlation": 0.999984
+    },
+    {
+      "movie_start": 194.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 199.0,
+      "mix_correlation": 0.999982
+    },
+    {
+      "movie_start": 204.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 209.0,
+      "mix_correlation": 0.999984
+    },
+    {
+      "movie_start": 214.0,
+      "mix_correlation": 0.999983
+    },
+    {
+      "movie_start": 219.0,
+      "mix_correlation": 0.99998
+    },
+    {
+      "movie_start": 224.0,
+      "mix_correlation": 0.999984
+    },
+    {
+      "movie_start": 229.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 234.0,
+      "mix_correlation": 0.999989
+    },
+    {
+      "movie_start": 239.0,
+      "mix_correlation": 0.999976
+    },
+    {
+      "movie_start": 244.0,
+      "mix_correlation": 0.999989
+    },
+    {
+      "movie_start": 249.0,
+      "mix_correlation": 0.999988
+    },
+    {
+      "movie_start": 254.0,
+      "mix_correlation": 0.999993
+    },
+    {
+      "movie_start": 259.0,
+      "mix_correlation": 0.999989
+    },
+    {
+      "movie_start": 264.0,
+      "mix_correlation": 0.999984
+    },
+    {
+      "movie_start": 269.0,
+      "mix_correlation": 0.999986
+    },
+    {
+      "movie_start": 274.0,
+      "mix_correlation": 0.999983
+    },
+    {
+      "movie_start": 279.0,
+      "mix_correlation": 0.99999
+    },
+    {
+      "movie_start": 284.0,
+      "mix_correlation": 0.999989
+    },
+    {
+      "movie_start": 289.0,
+      "mix_correlation": 0.999986
+    },
+    {
+      "movie_start": 294.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 299.0,
+      "mix_correlation": 0.999977
+    },
+    {
+      "movie_start": 304.0,
+      "mix_correlation": 0.999979
+    },
+    {
+      "movie_start": 309.0,
+      "mix_correlation": 0.999972
+    },
+    {
+      "movie_start": 314.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 319.0,
+      "mix_correlation": 0.99998
+    },
+    {
+      "movie_start": 324.0,
+      "mix_correlation": 0.999985
+    },
+    {
+      "movie_start": 329.0,
+      "mix_correlation": 0.999974
+    }
+  ],
+  "chapters": [
+    {
+      "id": "cell",
+      "movie_start": 4,
+      "movie_end": 41.75,
+      "music_below_voice_db": 18.52,
+      "last_spoken_end": 41.160000000000004,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "recipe",
+      "movie_start": 41.75,
+      "movie_end": 85.74,
+      "music_below_voice_db": 19.09,
+      "last_spoken_end": 85.14999999999999,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "architecture",
+      "movie_start": 85.74,
+      "movie_end": 133.73000000000002,
+      "music_below_voice_db": 19.33,
+      "last_spoken_end": 133.14000000000001,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "disconnect",
+      "movie_start": 133.73000000000002,
+      "movie_end": 179.44000000000003,
+      "music_below_voice_db": 19.42,
+      "last_spoken_end": 178.85000000000002,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "recovery",
+      "movie_start": 179.44000000000003,
+      "movie_end": 225.55000000000004,
+      "music_below_voice_db": 18.85,
+      "last_spoken_end": 224.96000000000004,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "ecosystem",
+      "movie_start": 225.55000000000004,
+      "movie_end": 280.44000000000005,
+      "music_below_voice_db": 19.13,
+      "last_spoken_end": 279.85,
+      "hold_after_speech": 0.59
+    },
+    {
+      "id": "qualify",
+      "movie_start": 280.44000000000005,
+      "movie_end": 330.4519954648527,
+      "music_below_voice_db": 19.14,
+      "last_spoken_end": 328.2119954648527,
+      "hold_after_speech": 2.24
+    }
+  ],
+  "subjective_listening_performed": false,
+  "status": "PASS_FULL_TIMELINE_OBJECTIVE_CHECKS"
+}

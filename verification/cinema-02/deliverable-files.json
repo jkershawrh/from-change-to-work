@@ -1,0 +1,12 @@
+{
+  "presentation/public/film/from-change-to-work.mp4": "0bbba139db51f63ec53cdea8352b36b22c3377dfe5393497e9825da510c72ae3",
+  "presentation/public/film/production.json": "5e6568be67ac27bf7f8abdfb3b622b4017d8cf1d10df15e4d56c9ad16b652ae8",
+  "presentation/src/cinema/process.ts": "ed8a7f37f70208dad13f8fc0b25a6872b6a2c74cd225e396496a7f64c40793bf",
+  "presentation/src/cinema/Story.tsx": "9adc4d4374739c74eceb8b6a470eb8532756f3f46d0676143bae30dd4cefa544",
+  "presentation/src/cinema/record.ts": "26f8df36ce83285e046fc7728de6b0ff275f0391b301ebcefacbc1c2a468239b",
+  "presentation/public/audio/cinema-02/plan.json": "12fe87d4809a14c892cd1065df529869c7bb8584795cc387b669fcff93d796d0",
+  "presentation/audio/cinema-02/script.json": "b9ffcc7d6041e52b73d174dc6922ccac3e9a28ce29057066288ef5b7995b7e14",
+  "presentation/audio/voice-profile.json": "1059c0d9cf38180324ae9579bdc3a8b37acc754666f41d0180fcac315f0f39e3",
+  "docs/BUSINESS_STORY.md": "6bacc1ba5b547a7a1622ba1de89e38de9bca74262a77ea8a49960bb4802ffe93",
+  "verification/cinema-02/result.json": "2846deb88621e9615b6b1958e3f5b38a9fa37f95426b873b31fe42e57e4c5b43"
+}

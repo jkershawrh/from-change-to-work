@@ -1,0 +1,7 @@
+{
+  "status": "PASS_OBJECTIVE_AUDIO_LEVELS",
+  "integrated_lufs": -18.5,
+  "true_peak_dbfs": -0.7,
+  "silence_intervals_at_minus_60db_over_250ms": 0,
+  "subjective_listening_performed": false
+}

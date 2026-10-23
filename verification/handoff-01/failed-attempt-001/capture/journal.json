@@ -1,0 +1,1044 @@
+[
+  {
+    "sequence": 1,
+    "observed_at_ms": 1792712408098,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": null,
+      "phase": "AWAITING_ACTION",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 2,
+    "observed_at_ms": 1792712408627,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": null,
+      "phase": "AWAITING_ACTION",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 3,
+    "observed_at_ms": 1792712408722,
+    "event": "TRANSFER_REQUESTED",
+    "payload": {
+      "action": {
+        "schema": "evy.capability-action.v1",
+        "action_id": "action-8d004322",
+        "edge_id": "sim-cell-01",
+        "skill_id": "inspection-positioning",
+        "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+      },
+      "observation": {
+        "schema": "evy.capability-action-result.v1",
+        "action_id": "action-8d004322",
+        "edge_id": "sim-cell-01",
+        "state": "QUEUED",
+        "observation": {
+          "action": {
+            "action_id": "action-8d004322",
+            "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b",
+            "schema": "evy-aeris.transfer-action.v1",
+            "skill_id": "inspection-positioning"
+          },
+          "edge_id": "sim-cell-01",
+          "physical_motion_authorized": false,
+          "result": null,
+          "schema": "evy-aeris.edge-action.v1",
+          "simulation_only": true,
+          "state": "QUEUED",
+          "worker_pid": null
+        },
+        "source": "EDGE_OBSERVED",
+        "simulation_only": true,
+        "physical_motion_authorized": false
+      }
+    }
+  },
+  {
+    "sequence": 4,
+    "observed_at_ms": 1792712410573,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 5,
+    "observed_at_ms": 1792712410663,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 6,
+    "observed_at_ms": 1792712411905,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 35,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 7,
+    "observed_at_ms": 1792712412317,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 47,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 8,
+    "observed_at_ms": 1792712412395,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 49,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 9,
+    "observed_at_ms": 1792712412512,
+    "event": "DISCONNECT",
+    "payload": {
+      "request": {
+        "schema": "aeris.lab-command.v1",
+        "command_id": "e90ba53c-5d9d-4035-b52a-e4b340f6dca4",
+        "action_id": "action-8d004322"
+      },
+      "result": {
+        "schema": "aeris.link-control.v1",
+        "command_id": "e90ba53c-5d9d-4035-b52a-e4b340f6dca4",
+        "operation": "disconnect",
+        "connected": false,
+        "observed_at_ms": 1792712412403,
+        "scope": "SIMULATOR_DATA_PLANE_ONLY",
+        "observer_channel": "AVAILABLE",
+        "publisher_probe": {
+          "error": "URLError",
+          "reachable": false,
+          "schema": "aeris.connectivity-observation.v1"
+        }
+      },
+      "before": {
+        "phase": "RUNNING",
+        "ticks": 49
+      }
+    }
+  },
+  {
+    "sequence": 10,
+    "observed_at_ms": 1792712412773,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 59,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 11,
+    "observed_at_ms": 1792712413374,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 69,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 12,
+    "observed_at_ms": 1792712415255,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 99,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 13,
+    "observed_at_ms": 1792712415488,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 102,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 14,
+    "observed_at_ms": 1792712415814,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 109,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 15,
+    "observed_at_ms": 1792712416376,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 120,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 16,
+    "observed_at_ms": 1792712416384,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 120,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 17,
+    "observed_at_ms": 1792712417469,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 141,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 18,
+    "observed_at_ms": 1792712417840,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 147,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 19,
+    "observed_at_ms": 1792712418592,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 160,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 20,
+    "observed_at_ms": 1792712419556,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 179,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 21,
+    "observed_at_ms": 1792712419647,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 181,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 22,
+    "observed_at_ms": 1792712420593,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 203,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 23,
+    "observed_at_ms": 1792712420686,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 206,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 24,
+    "observed_at_ms": 1792712421626,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 228,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 25,
+    "observed_at_ms": 1792712421722,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 231,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 26,
+    "observed_at_ms": 1792712422664,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 253,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 27,
+    "observed_at_ms": 1792712422789,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 256,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 28,
+    "observed_at_ms": 1792712423693,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 278,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 29,
+    "observed_at_ms": 1792712423835,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 282,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 30,
+    "observed_at_ms": 1792712424730,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 301,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 31,
+    "observed_at_ms": 1792712424885,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 305,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 32,
+    "observed_at_ms": 1792712425771,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 327,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 33,
+    "observed_at_ms": 1792712425928,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 331,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 34,
+    "observed_at_ms": 1792712427075,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 351,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 35,
+    "observed_at_ms": 1792712427184,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 354,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 36,
+    "observed_at_ms": 1792712428145,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 370,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 37,
+    "observed_at_ms": 1792712428670,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 381,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 38,
+    "observed_at_ms": 1792712429257,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 390,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 39,
+    "observed_at_ms": 1792712430370,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "RUNNING",
+      "ticks": 407,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 40,
+    "observed_at_ms": 1792712431163,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 41,
+    "observed_at_ms": 1792712431411,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 42,
+    "observed_at_ms": 1792712431464,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 43,
+    "observed_at_ms": 1792712432945,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 44,
+    "observed_at_ms": 1792712434158,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 45,
+    "observed_at_ms": 1792712434218,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 46,
+    "observed_at_ms": 1792712434247,
+    "event": "RECONNECT",
+    "payload": {
+      "request": {
+        "schema": "aeris.lab-command.v1",
+        "command_id": "33c513f6-658e-414c-94ce-381ed43445fe",
+        "action_id": "action-8d004322"
+      },
+      "result": {
+        "schema": "aeris.link-control.v1",
+        "command_id": "33c513f6-658e-414c-94ce-381ed43445fe",
+        "operation": "reconnect",
+        "connected": true,
+        "observed_at_ms": 1792712434226,
+        "scope": "SIMULATOR_DATA_PLANE_ONLY",
+        "observer_channel": "AVAILABLE",
+        "publisher_probe": {
+          "reachable": true,
+          "schema": "aeris.connectivity-observation.v1",
+          "status": 403
+        }
+      },
+      "before": {
+        "phase": "COMPLETE",
+        "ticks": 415
+      }
+    }
+  },
+  {
+    "sequence": 47,
+    "observed_at_ms": 1792712436126,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 48,
+    "observed_at_ms": 1792712436252,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 49,
+    "observed_at_ms": 1792712439299,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 50,
+    "observed_at_ms": 1792712439440,
+    "event": "TRANSFER_REQUESTED",
+    "payload": {
+      "action": {
+        "action_id": "action-8d004322",
+        "edge_id": "sim-cell-01",
+        "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b",
+        "schema": "evy.capability-action.v1",
+        "skill_id": "inspection-positioning"
+      },
+      "observation": {
+        "schema": "evy.capability-action-result.v1",
+        "action_id": "action-8d004322",
+        "edge_id": "sim-cell-01",
+        "state": "COMPLETE",
+        "observation": {
+          "action": {
+            "action_id": "action-8d004322",
+            "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b",
+            "schema": "evy-aeris.transfer-action.v1",
+            "skill_id": "inspection-positioning"
+          },
+          "edge_id": "sim-cell-01",
+          "physical_motion_authorized": false,
+          "result": {
+            "action_id": "action-8d004322",
+            "idempotent": false,
+            "physical_motion_authorized": false,
+            "receipt": {
+              "behavior_sha256": "ba36c3fa459e510803b3fbe604d7d5db8b0f4505b14eb2727b765aa4380c6867",
+              "completed_at_unix_ms": 1792712430800,
+              "completed_goals": 4,
+              "deadline_refusals": 45,
+              "error": null,
+              "host_elapsed_ms": 21547.696042,
+              "physical_motion_authorized": false,
+              "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b",
+              "requested_goals": 4,
+              "schema": "evy-aeris.sim-transfer-receipt.v2",
+              "sequence": 1,
+              "simulation_only": true,
+              "started_at_unix_ms": 1792712409252,
+              "status": "COMPLETE",
+              "target": {
+                "adapter_sha256": "b60f0342795d18d2660f279256183c9f64f0fbfbe8ce5e51ad835c6c1b30362e",
+                "calibration_sha256": "0245e6e42acd09ea3ce2f5606414f4d0e5fc9127d5b7988f719037797d9d4909",
+                "frame": "world-base",
+                "host_arch": "aarch64",
+                "host_os": "macos",
+                "joint_names": [
+                  "shoulder_pan_joint",
+                  "shoulder_lift_joint",
+                  "elbow_joint",
+                  "wrist_1_joint",
+                  "wrist_2_joint",
+                  "wrist_3_joint"
+                ],
+                "plant_sha256": "3cc976e7249490c535c4317f6dbd0077a75ab142129ad93fecf78efee3e76ab1",
+                "profile": "mujoco-six-axis-goals-v1",
+                "runtime": "mujoco-rust-mpc-v1",
+                "runtime_version": "3.3.7",
+                "units": "rad"
+              },
+              "task": "action-action-8d004322",
+              "ticks": 415,
+              "training_required": false
+            },
+            "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b",
+            "schema": "evy-aeris.transfer-action-result.v1",
+            "simulation_only": true,
+            "skill_id": "inspection-positioning",
+            "status": "COMPLETE",
+            "task": "action-action-8d004322"
+          },
+          "schema": "evy-aeris.edge-action.v1",
+          "simulation_only": true,
+          "state": "COMPLETE",
+          "worker_pid": 56954
+        },
+        "source": "EDGE_OBSERVED",
+        "simulation_only": true,
+        "physical_motion_authorized": false
+      }
+    }
+  },
+  {
+    "sequence": 51,
+    "observed_at_ms": 1792712439464,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 52,
+    "observed_at_ms": 1792712442096,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 53,
+    "observed_at_ms": 1792712444623,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 54,
+    "observed_at_ms": 1792712449638,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 55,
+    "observed_at_ms": 1792712449645,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-8d004322",
+      "phase": "COMPLETE",
+      "ticks": 415,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "8ff8ce0767641babda3a59fa6fab33d29ce3a7d4cb89f8c891ab1b7f5e91c32b"
+    }
+  },
+  {
+    "sequence": 56,
+    "observed_at_ms": 1792712449714,
+    "event": "TRANSFER_REQUESTED",
+    "payload": {
+      "action": {
+        "schema": "evy.capability-action.v1",
+        "action_id": "action-4be1beff",
+        "edge_id": "sim-cell-01",
+        "skill_id": "rework-positioning",
+        "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+      },
+      "observation": {
+        "schema": "evy.capability-action-result.v1",
+        "action_id": "action-4be1beff",
+        "edge_id": "sim-cell-01",
+        "state": "QUEUED",
+        "observation": {
+          "action": {
+            "action_id": "action-4be1beff",
+            "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583",
+            "schema": "evy-aeris.transfer-action.v1",
+            "skill_id": "rework-positioning"
+          },
+          "edge_id": "sim-cell-01",
+          "physical_motion_authorized": false,
+          "result": null,
+          "schema": "evy-aeris.edge-action.v1",
+          "simulation_only": true,
+          "state": "QUEUED",
+          "worker_pid": null
+        },
+        "source": "EDGE_OBSERVED",
+        "simulation_only": true,
+        "physical_motion_authorized": false
+      }
+    }
+  },
+  {
+    "sequence": 57,
+    "observed_at_ms": 1792712452737,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "RUNNING",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 58,
+    "observed_at_ms": 1792712455594,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "RUNNING",
+      "ticks": 28,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 59,
+    "observed_at_ms": 1792712463905,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 60,
+    "observed_at_ms": 1792712463909,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 61,
+    "observed_at_ms": 1792712469646,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 62,
+    "observed_at_ms": 1792712472578,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 63,
+    "observed_at_ms": 1792712476577,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 64,
+    "observed_at_ms": 1792712480510,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 65,
+    "observed_at_ms": 1792712483418,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 66,
+    "observed_at_ms": 1792712485297,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 67,
+    "observed_at_ms": 1792712486581,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  },
+  {
+    "sequence": 68,
+    "observed_at_ms": 1792712489066,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-4be1beff",
+      "phase": "FAILED",
+      "ticks": 143,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "b649b045215a319271b6f6fbaab8dedb8dc759c0c2d3060221f4bc08999f5583"
+    }
+  }
+]

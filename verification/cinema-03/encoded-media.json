@@ -1,0 +1,20 @@
+{
+  "schema": "aeris.encoded-story.v1",
+  "status": "PASS_ENCODED_MEDIA",
+  "film_name": "from-change-to-work-hangar.mp4",
+  "edition": "cinema-03",
+  "audio_edition": "cinema-02",
+  "duration_seconds": 377.76,
+  "resolution": "1920x1080",
+  "fps": 25,
+  "audio": "AAC / complete saved Kersh waveform and original quiet bed",
+  "decoded_audio_rms": 3435.6051271440274,
+  "entire_audio_timeline_retained": true,
+  "frame_samples": 8,
+  "full_video_audio_decode": true,
+  "sha256": "f61ae24843fa734d42a9e56f7f23c54885404736582c6a2372b49be4c50a5efe",
+  "voice_profile": "audio/voice-profile.json",
+  "browser_actuation_requests": 0,
+  "scope": "Narrated retained-evidence story. Not a new physical, hardware or live execution proof.",
+  "subjective_listening_performed": false
+}

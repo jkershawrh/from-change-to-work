@@ -1,0 +1,39 @@
+{
+  "scope": "ROADMAP_DASHBOARD_ONLY",
+  "source_status": "MATCH",
+  "registered_files": 179,
+  "changed": [],
+  "tests": {
+    "frontend": 9,
+    "presentation": 44,
+    "browser": 5,
+    "build": "PASS",
+    "blueprint": "PASS",
+    "offline_assets": "PASS"
+  },
+  "evidence": {
+    "red_first": "red.log",
+    "frontend": "unit.log",
+    "browser": "browser.log",
+    "desktop": "roadmap-desktop.png",
+    "mobile": "roadmap-mobile.png"
+  },
+  "rubric": {
+    "TDD": "GREEN: red-first component test and passing scope checks",
+    "EDD": "GREEN: retained local UI logs, screenshots and source comparison; no new execution audit",
+    "CDD": "GREEN: evidence labels and missing baselines preserved; runtime contracts unchanged",
+    "BDD": "GREEN: roadmap navigation, deep link and onboarding browser checks",
+    "CBT": "GREEN: browser/dashboard rendering and read-only readiness; not a new transfer test"
+  },
+  "physical_motion_authorized": false,
+  "new_execution_proof": false,
+  "business_baseline": "UNMEASURED",
+  "hardware_qualification": "PENDING",
+  "film": "UNCHANGED_HANGAR_EDITION",
+  "hosted_ci": {
+    "status": "BLOCKED_BEFORE_JOB_START",
+    "commit": "74d6e79e4c02a66824427c7ca432379b46c05daa",
+    "url": "https://github.com/jkershawrh/evy-aeris-edge-actions/actions/runs/39888948662",
+    "reason": "The job was not started because recent account payments have failed or your spending limit needs to be increased."
+  }
+}

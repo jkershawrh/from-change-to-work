@@ -1,0 +1,124 @@
+
+Running 4 tests using 1 worker
+
+(node:49929) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 visual-tests/actions.spec.ts:5:1 › operator transfers, cuts actual data plane, observes completion, interrupts and explicitly recovers (2.0m)
+(node:50495) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits stage (357ms)
+(node:50505) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits laptop (312ms)
+(node:50510) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits mobile (259ms)
+
+
+  1) visual-tests/actions.spec.ts:5:1 › operator transfers, cuts actual data plane, observes completion, interrupts and explicitly recovers 
+
+    Test timeout of 120000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 120000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Capability', { exact: true })
+
+
+      20 |  await page.getByRole('button',{name:'Reconnect central link',exact:true}).click();await expect(transfer).toBeEnabled({timeout:20000})
+      21 |  await transfer.click();const retry=await page.request.get('/api/action-demo/state').then(r=>r.json());expect(retry.task.ticks).toBe(isolated.task.ticks);expect(retry.task.task).toBe(isolated.task.task)
+    > 22 |  await page.getByLabel('Capability',{exact:true}).selectOption('rework-positioning');await page.getByRole('button',{name:'New deliberate action ID'}).click();await transfer.click()
+         |                                                   ^
+      23 |  const interrupt=page.getByRole('button',{name:'Interrupt simulator executor',exact:true});await expect(interrupt).toBeEnabled({timeout:30000});await interrupt.click()
+      24 |  await expect(page.locator('.action-state-overlay strong')).toHaveText('RECOVERY REQUIRED',{timeout:20000});await expect(transfer).toBeDisabled()
+      25 |  await page.getByRole('button',{name:'Explicitly recover executor'}).click();await expect(page.locator('.action-state-overlay strong')).toHaveText('INTERRUPTED',{timeout:20000})
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/frontend/visual-tests/actions.spec.ts:22:51
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/actions-operator-transfers-de32d-pts-and-explicitly-recovers/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/actions-operator-transfers-de32d-pts-and-explicitly-recovers/error-context.md
+
+  2) visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits stage ─────────────
+
+    Error: locator.fill: Error: Malformed value
+    Call log:
+      - waiting for getByLabel('Exploded presentation view')
+        - locator resolved to <input min="0" max="1" value="0" step=".01" type="range" aria-label="Exploded presentation view"/>
+        - fill(".4")
+      - attempting fill action
+        - waiting for element to be visible, enabled and editable
+
+
+      32 |  mkdirSync(out,{recursive:true});await page.setViewportSize({width,height});await page.goto('/?actions=1');await expect(page.getByText('RETAINED FLIGHTPATH PROOF',{exact:true})).toBeVisible();await expect(page.locator('.action-metric-pair').getByText('761',{exact:true})).toBeVisible()
+      33 |  await expect(page.getByRole('button',{name:'Transfer & execute'})).toHaveCount(0)
+    > 34 |  await page.getByLabel('Exploded presentation view').fill('.4');await page.getByRole('button',{name:'Solid model',exact:true}).click();await page.waitForTimeout(1500)
+         |                                                      ^
+      35 |  await page.screenshot({path:out+'/recorded-'+name+'.png',fullPage:true})
+      36 |  if(width>1000){expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+2)).toBe(true)}
+      37 | })}
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/frontend/visual-tests/actions.spec.ts:34:54
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/actions-recorded-proof-stays-labeled-and-fits-stage/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/actions-recorded-proof-stays-labeled-and-fits-stage/error-context.md
+
+  3) visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits laptop ────────────
+
+    Error: locator.fill: Error: Malformed value
+    Call log:
+      - waiting for getByLabel('Exploded presentation view')
+        - locator resolved to <input min="0" max="1" value="0" step=".01" type="range" aria-label="Exploded presentation view"/>
+        - fill(".4")
+      - attempting fill action
+        - waiting for element to be visible, enabled and editable
+
+
+      32 |  mkdirSync(out,{recursive:true});await page.setViewportSize({width,height});await page.goto('/?actions=1');await expect(page.getByText('RETAINED FLIGHTPATH PROOF',{exact:true})).toBeVisible();await expect(page.locator('.action-metric-pair').getByText('761',{exact:true})).toBeVisible()
+      33 |  await expect(page.getByRole('button',{name:'Transfer & execute'})).toHaveCount(0)
+    > 34 |  await page.getByLabel('Exploded presentation view').fill('.4');await page.getByRole('button',{name:'Solid model',exact:true}).click();await page.waitForTimeout(1500)
+         |                                                      ^
+      35 |  await page.screenshot({path:out+'/recorded-'+name+'.png',fullPage:true})
+      36 |  if(width>1000){expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+2)).toBe(true)}
+      37 | })}
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/frontend/visual-tests/actions.spec.ts:34:54
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/actions-recorded-proof-stays-labeled-and-fits-laptop/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/actions-recorded-proof-stays-labeled-and-fits-laptop/error-context.md
+
+  4) visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits mobile ────────────
+
+    Error: locator.fill: Error: Malformed value
+    Call log:
+      - waiting for getByLabel('Exploded presentation view')
+        - locator resolved to <input min="0" max="1" value="0" step=".01" type="range" aria-label="Exploded presentation view"/>
+        - fill(".4")
+      - attempting fill action
+        - waiting for element to be visible, enabled and editable
+
+
+      32 |  mkdirSync(out,{recursive:true});await page.setViewportSize({width,height});await page.goto('/?actions=1');await expect(page.getByText('RETAINED FLIGHTPATH PROOF',{exact:true})).toBeVisible();await expect(page.locator('.action-metric-pair').getByText('761',{exact:true})).toBeVisible()
+      33 |  await expect(page.getByRole('button',{name:'Transfer & execute'})).toHaveCount(0)
+    > 34 |  await page.getByLabel('Exploded presentation view').fill('.4');await page.getByRole('button',{name:'Solid model',exact:true}).click();await page.waitForTimeout(1500)
+         |                                                      ^
+      35 |  await page.screenshot({path:out+'/recorded-'+name+'.png',fullPage:true})
+      36 |  if(width>1000){expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+2)).toBe(true)}
+      37 | })}
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/frontend/visual-tests/actions.spec.ts:34:54
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/actions-recorded-proof-stays-labeled-and-fits-mobile/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/actions-recorded-proof-stays-labeled-and-fits-mobile/error-context.md
+
+  4 failed
+    visual-tests/actions.spec.ts:5:1 › operator transfers, cuts actual data plane, observes completion, interrupts and explicitly recovers 
+    visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits stage ──────────────
+    visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits laptop ─────────────
+    visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits mobile ─────────────

@@ -1,0 +1,11 @@
+{
+ "schema":"aeris.onboarding-acceptance-plan.v1",
+ "scope":"Agent onboarding and dashboard on current local simulator host; no new two-host or physical qualification.",
+ "red_first":["readiness-red.log","frontend-red.log"],
+ "TDD":"Missing/old tooling, unpulled assets, package mismatch, false alignment and evidence overwrite must reject.",
+ "CDD":"Authenticated fixed read-only readiness, no browser commands/targets, viewer cannot control, missing observations remain missing in packet.",
+ "BDD":"Dashboard login, actual preflight, proposed hardware intake and packet export; navigate to actual workbench with viewer restrictions; existing real transfer/fault/recovery journey still passes.",
+ "CBT":"Browser to actual API and standard-library local probes; actual EVY/TLS/Rust/MuJoCo for the transfer regression.",
+ "EDD":"Fresh state/source freeze, retained browser images, public capture, independent audit and no edits to historical evidence.",
+ "hardware_gate":"Pending Preston; physical motion and hard real time remain unproved."
+}

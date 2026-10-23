@@ -1,0 +1,427 @@
+{
+  "schema": "aeris.story-audio-plan.v1",
+  "duration": 377.76,
+  "voice_duration": 327.76,
+  "lead_seconds": 2.0,
+  "chapter_hold_seconds": 6.0,
+  "closing_hold_seconds": 12.0,
+  "chapters": [
+    {
+      "id": "cell",
+      "start": 0.0,
+      "end": 44.92
+    },
+    {
+      "id": "recipe",
+      "start": 44.92,
+      "end": 94.84
+    },
+    {
+      "id": "architecture",
+      "start": 94.84,
+      "end": 148.56
+    },
+    {
+      "id": "disconnect",
+      "start": 148.56,
+      "end": 200.2
+    },
+    {
+      "id": "recovery",
+      "start": 200.2,
+      "end": 252.14
+    },
+    {
+      "id": "ecosystem",
+      "start": 252.14,
+      "end": 312.76
+    },
+    {
+      "id": "qualify",
+      "start": 312.76,
+      "end": 377.76
+    }
+  ],
+  "captions": [
+    {
+      "start": 2.0,
+      "end": 5.04,
+      "text": "An aerospace panel waits in its fixture."
+    },
+    {
+      "start": 5.1129999999999995,
+      "end": 9.2,
+      "text": "Engineering has prepared a task change, but the cell needs more than an"
+    },
+    {
+      "start": 9.253,
+      "end": 11.44,
+      "text": "instruction sent from somewhere else."
+    },
+    {
+      "start": 11.573,
+      "end": 16.0,
+      "text": "It needs an approved task it can accept, an operator who knows what will"
+    },
+    {
+      "start": 16.069000000000003,
+      "end": 18.88,
+      "text": "happen, and a result that can be traced."
+    },
+    {
+      "start": 19.12,
+      "end": 24.0,
+      "text": "That is our business question: how do we get from a change that is ready to"
+    },
+    {
+      "start": 24.08,
+      "end": 29.12,
+      "text": "work that is accountable? The production floor you see is an illustration."
+    },
+    {
+      "start": 29.2,
+      "end": 32.08,
+      "text": "We have not measured factory delay or savings."
+    },
+    {
+      "start": 32.107,
+      "end": 36.64,
+      "text": "We are building the smallest practical proof of the handoff, before asking a"
+    },
+    {
+      "start": 36.711,
+      "end": 38.56,
+      "text": "customer to bet production on it."
+    },
+    {
+      "start": 44.92,
+      "end": 50.8,
+      "text": "Start in engineering. Package one bounded task, identify the receiving"
+    },
+    {
+      "start": 50.88,
+      "end": 54.96,
+      "text": "profile, and define the result we expect back."
+    },
+    {
+      "start": 54.987,
+      "end": 58.96,
+      "text": "Think of this as a work package, rather than a remote hand taking over the"
+    },
+    {
+      "start": 59.04,
+      "end": 64.96000000000001,
+      "text": "robot. In this implementation, the package contains signed joint goals for a"
+    },
+    {
+      "start": 65.024,
+      "end": 68.88,
+      "text": "simulator. It carries an exact release identity."
+    },
+    {
+      "start": 69.013,
+      "end": 73.52,
+      "text": "It does not install a driver, a new robot program, or trained weights."
+    },
+    {
+      "start": 73.7,
+      "end": 78.08,
+      "text": "The receiving cell still has its own approval and operating limits."
+    },
+    {
+      "start": 78.16,
+      "end": 83.04,
+      "text": "The exploded view separates those responsibilities: what work is proposed,"
+    },
+    {
+      "start": 83.147,
+      "end": 87.6,
+      "text": "where it is allowed to run, and what receipt will connect the outcome to the"
+    },
+    {
+      "start": 87.68,
+      "end": 88.32,
+      "text": "request."
+    },
+    {
+      "start": 94.84,
+      "end": 98.48,
+      "text": "Now follow the change across the distance."
+    },
+    {
+      "start": 98.613,
+      "end": 101.6,
+      "text": "An operator chooses the approved capability."
+    },
+    {
+      "start": 101.7,
+      "end": 106.48,
+      "text": "The central dispatcher binds the request to its destination and release."
+    },
+    {
+      "start": 106.6,
+      "end": 109.28,
+      "text": "The delivery channel moves the package."
+    },
+    {
+      "start": 109.467,
+      "end": 114.48,
+      "text": "At the receiving boundary, the local runtime checks what arrived against what"
+    },
+    {
+      "start": 114.528,
+      "end": 116.4,
+      "text": "that cell is allowed to accept."
+    },
+    {
+      "start": 116.56,
+      "end": 119.36,
+      "text": "Only an idle executor can activate it."
+    },
+    {
+      "start": 119.584,
+      "end": 124.24,
+      "text": "Once work starts, the task keeps its exact release."
+    },
+    {
+      "start": 124.384,
+      "end": 129.28,
+      "text": "Each boundary answers a business question: did we send the right change, did"
+    },
+    {
+      "start": 129.3,
+      "end": 132.95999999999998,
+      "text": "the right cell accept it, and can we account for what happened?"
+    },
+    {
+      "start": 133.18,
+      "end": 136.56,
+      "text": "The technical checks are available for inspection."
+    },
+    {
+      "start": 136.7,
+      "end": 142.24,
+      "text": "The overarching idea is simple: remote delivery, local responsibility."
+    },
+    {
+      "start": 148.56,
+      "end": 152.16,
+      "text": "This is where the robot earns its place in the story."
+    },
+    {
+      "start": 152.26,
+      "end": 154.48,
+      "text": "The cell has accepted the task."
+    },
+    {
+      "start": 154.64,
+      "end": 157.68,
+      "text": "Local execution now owns the movement."
+    },
+    {
+      "start": 157.92,
+      "end": 161.8,
+      "text": "Cut the central data plane after progress has begun."
+    },
+    {
+      "start": 161.92,
+      "end": 166.56,
+      "text": "In the retained simulator proof, the finite task completes without that"
+    },
+    {
+      "start": 166.61,
+      "end": 172.0,
+      "text": "central path. The separate management observer remains available; this is not"
+    },
+    {
+      "start": 172.08,
+      "end": 174.72,
+      "text": "a total network blackout or a safety stop."
+    },
+    {
+      "start": 174.92,
+      "end": 179.12,
+      "text": "The robot poses replay committed simulator samples."
+    },
+    {
+      "start": 179.253,
+      "end": 183.84,
+      "text": "To challenge the mechanism yourself, open the workbench and use the real"
+    },
+    {
+      "start": 183.92,
+      "end": 189.04,
+      "text": "transfer and disconnect controls. Reconnect and retry the same completed"
+    },
+    {
+      "start": 189.12,
+      "end": 193.68,
+      "text": "request: the receipt returns, rather than starting the movement again."
+    },
+    {
+      "start": 200.2,
+      "end": 204.4,
+      "text": "A lost connection and a lost executor are different problems."
+    },
+    {
+      "start": 204.533,
+      "end": 209.92,
+      "text": "If the executor dies, we cannot turn uncertainty into a success message."
+    },
+    {
+      "start": 210.103,
+      "end": 214.88,
+      "text": "Follow the work history. The old task remains visible."
+    },
+    {
+      "start": 214.996,
+      "end": 218.08,
+      "text": "Explicit recovery records it as interrupted."
+    },
+    {
+      "start": 218.24,
+      "end": 221.12,
+      "text": "It does not silently resume the movement."
+    },
+    {
+      "start": 221.307,
+      "end": 226.64,
+      "text": "If the operator decides to try again, that is a deliberately new action, with"
+    },
+    {
+      "start": 226.7,
+      "end": 228.88,
+      "text": "its own identity and outcome."
+    },
+    {
+      "start": 229.088,
+      "end": 234.4,
+      "text": "This is the operational value we want to test: can the team understand what"
+    },
+    {
+      "start": 234.462,
+      "end": 239.28,
+      "text": "happened, recover deliberately, and avoid accidental repeated work?"
+    },
+    {
+      "start": 239.44,
+      "end": 242.24,
+      "text": "The evidence must answer that question."
+    },
+    {
+      "start": 242.6,
+      "end": 245.72,
+      "text": "A polished animation cannot answer it for us."
+    },
+    {
+      "start": 252.14,
+      "end": 257.91999999999996,
+      "text": "Now change the task. Inspection positioning and rework positioning already"
+    },
+    {
+      "start": 258.009,
+      "end": 262.0,
+      "text": "exercise the same delivery and recovery process in simulation."
+    },
+    {
+      "start": 262.18,
+      "end": 268.15999999999997,
+      "text": "The reusable part is the handoff: bind the request, admit the release,"
+    },
+    {
+      "start": 268.23,
+      "end": 272.64,
+      "text": "execute locally, retain the receipt, and recover explicitly."
+    },
+    {
+      "start": 272.77,
+      "end": 278.08000000000004,
+      "text": "Machine tending and other cell types are possible next modules, shown here as"
+    },
+    {
+      "start": 278.15999999999997,
+      "end": 283.68,
+      "text": "concepts. Their device interfaces, calibration, tooling and acceptance"
+    },
+    {
+      "start": 283.773,
+      "end": 289.44,
+      "text": "still need reviewed adapters. Intel and Red Hat provide the target compute and"
+    },
+    {
+      "start": 289.502,
+      "end": 295.2,
+      "text": "platform context. Historical separate-host evidence used Intel processors"
+    },
+    {
+      "start": 295.3,
+      "end": 298.56,
+      "text": "and Red Hat Enterprise Linux on OpenShift."
+    },
+    {
+      "start": 298.656,
+      "end": 304.0,
+      "text": "That evidence does not qualify a new host, demonstrate accelerator benefit, or"
+    },
+    {
+      "start": 304.064,
+      "end": 306.44,
+      "text": "establish a physical robot installation."
+    },
+    {
+      "start": 312.76,
+      "end": 317.44,
+      "text": "The next commitment is a focused pilot, not a fleet promise."
+    },
+    {
+      "start": 317.589,
+      "end": 323.52,
+      "text": "Choose one bounded task, name the central and edge hosts, and give acceptance"
+    },
+    {
+      "start": 323.573,
+      "end": 328.8,
+      "text": "to an owner. Measure the effort from approved release to accepted task, the"
+    },
+    {
+      "start": 328.88,
+      "end": 333.12,
+      "text": "manual handoffs, the recovery effort, and the verified result."
+    },
+    {
+      "start": 333.4,
+      "end": 338.8,
+      "text": "Use the dashboard and agent start packet to inspect the implementation and run"
+    },
+    {
+      "start": 338.82,
+      "end": 344.48,
+      "text": "the tests. Keep software evidence, compute qualification, and physical cell"
+    },
+    {
+      "start": 344.531,
+      "end": 350.24,
+      "text": "acceptance distinct. Red, amber and green must refer to a specific"
+    },
+    {
+      "start": 350.352,
+      "end": 353.76,
+      "text": "test and its scope. I am Kersh."
+    },
+    {
+      "start": 353.88,
+      "end": 357.2,
+      "text": "I work at Red Hat; these are my personal views."
+    },
+    {
+      "start": 357.328,
+      "end": 363.2,
+      "text": "From change to work: deliver the capability, keep control local, and"
+    },
+    {
+      "start": 363.28,
+      "end": 365.44,
+      "text": "earn the next step with evidence."
+    }
+  ]
+}

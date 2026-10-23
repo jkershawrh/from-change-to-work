@@ -1,0 +1,58 @@
+{
+  "status": "PASS_ANNOUNCED_OPENER_AND_FOOTER_REMOVAL",
+  "edition": "cinema-09",
+  "movie": "presentation/public/film/from-change-to-work-announced.mp4",
+  "announcement": "From change to work. A Red Hat and Intel robotics story.",
+  "opening_seconds": 5,
+  "provider_requests": 1,
+  "voice_settings_changed": false,
+  "voice_disclaimer_footer_removed": true,
+  "aircraft_credit_retained": true,
+  "TDD": {
+    "status": "GREEN",
+    "presentation_tests_passed": 55,
+    "title_tests_passed": 3,
+    "red": "unit-red.log",
+    "green": "unit.log",
+    "final_title": "title-unit-final.log"
+  },
+  "EDD": {
+    "status": "GREEN",
+    "decoded_movie_frames": 8287,
+    "review": "final/full-timeline-check.json",
+    "footer_visual": "footer-removed.png"
+  },
+  "CDD": {
+    "status": "GREEN",
+    "body_audio": "Original cinema-07 lossless mix; source correlation checked in each five-second encoded window.",
+    "source_package": "source-package-check.json",
+    "voice_settings": "Exact approved voice-profile.json"
+  },
+  "BDD": {
+    "status": "GREEN",
+    "scenarios_passed": [
+      "Title announcement finishes before story starts",
+      "Media clock plays, pauses and seeks",
+      "Voice production footer absent",
+      "Verified final MP4 download"
+    ],
+    "browser_reports": [
+      "browser.log",
+      "browser-download-final.log"
+    ]
+  },
+  "CBT": {
+    "status": "GREEN",
+    "scope": "Title audio ended event to existing story audio; final encoded audio/picture; HTTP range download."
+  },
+  "retained_failure": {
+    "log": "browser.log",
+    "reason": "Download check used its old five-second timeout while the new five-second title still covered the story. It now explicitly waits for the title-ended handoff before checking the link; targeted rerun passed."
+  },
+  "subjective_listening_performed": false,
+  "hardware_scope": "No new robot execution or hardware qualification.",
+  "hosted_ci": {
+    "status": "AMBER",
+    "reason": "Previous hosted checks could not start due to GitHub billing/spending restriction; current push checked separately."
+  }
+}

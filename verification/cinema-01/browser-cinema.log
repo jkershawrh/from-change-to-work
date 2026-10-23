@@ -1,0 +1,157 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test
+
+
+Running 4 tests using 1 worker
+
+(node:71754) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage (31.4s)
+(node:71894) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop (30.9s)
+(node:72047) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile (30.8s)
+(node:72209) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 visual-tests/cinema.spec.ts:26:1 › voice clock plays, pauses and seeks without running a robot action (1.5m)
+
+
+  1) visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage ────
+
+    Error: expect(locator).toBeEnabled() failed
+
+    Locator:  getByRole('button', { name: /Watch the narrated story/ })
+    Expected: enabled
+    Received: disabled
+    Timeout:  30000ms
+
+    Call log:
+      - Expect "toBeEnabled" getByRole('button', { name: /Watch the narrated story/ }) with timeout 30000ms
+      - waiting for getByRole('button', { name: /Watch the narrated story/ })
+        48 × locator resolved to <button disabled class="cine-primary">…</button>
+           - unexpected value "disabled"
+
+
+      3 | const out='verification/cinema-01'
+      4 | for(const [name,width,height] of [['stage',1920,1080],['laptop',1440,900],['mobile',390,844]] as const)test('all cinematic chapters and mechanism reveals fit '+name,async({page})=>{
+    > 5 |  mkdirSync(out,{recursive:true});await page.setViewportSize({width,height});const writes:string[]=[];page.on('request',r=>{if(r.method()!=='GET'&&r.url().includes('/api/'))writes.push(r.url())});await page.goto('/show/');await expect(page.getByRole('button',{name:/Watch the narrated story/})).toBeEnabled({timeout:30000});await page.waitForTimeout(1500);await page.screenshot({path:out+'/opening-'+name+'.png',fullPage:true})
+        |                                                                                                                                                                                                                                                                                                       ^
+      6 |  const plan=await page.request.get('/show/audio/plan.json').then(r=>r.json());expect(plan.duration).toBeGreaterThan(300)
+      7 |  for(let i=0;i<plan.chapters.length;i++){
+      8 |   const ch=plan.chapters[i];await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),ch.start+(ch.end-ch.start)*.4);await page.waitForTimeout(150)
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:5:295
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/cinema-all-cinematic-chapt-34826-mechanism-reveals-fit-stage/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/cinema-all-cinematic-chapt-34826-mechanism-reveals-fit-stage/error-context.md
+
+  2) visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop ───
+
+    Error: expect(locator).toBeEnabled() failed
+
+    Locator:  getByRole('button', { name: /Watch the narrated story/ })
+    Expected: enabled
+    Received: disabled
+    Timeout:  30000ms
+
+    Call log:
+      - Expect "toBeEnabled" getByRole('button', { name: /Watch the narrated story/ }) with timeout 30000ms
+      - waiting for getByRole('button', { name: /Watch the narrated story/ })
+        48 × locator resolved to <button disabled class="cine-primary">…</button>
+           - unexpected value "disabled"
+
+
+      3 | const out='verification/cinema-01'
+      4 | for(const [name,width,height] of [['stage',1920,1080],['laptop',1440,900],['mobile',390,844]] as const)test('all cinematic chapters and mechanism reveals fit '+name,async({page})=>{
+    > 5 |  mkdirSync(out,{recursive:true});await page.setViewportSize({width,height});const writes:string[]=[];page.on('request',r=>{if(r.method()!=='GET'&&r.url().includes('/api/'))writes.push(r.url())});await page.goto('/show/');await expect(page.getByRole('button',{name:/Watch the narrated story/})).toBeEnabled({timeout:30000});await page.waitForTimeout(1500);await page.screenshot({path:out+'/opening-'+name+'.png',fullPage:true})
+        |                                                                                                                                                                                                                                                                                                       ^
+      6 |  const plan=await page.request.get('/show/audio/plan.json').then(r=>r.json());expect(plan.duration).toBeGreaterThan(300)
+      7 |  for(let i=0;i<plan.chapters.length;i++){
+      8 |   const ch=plan.chapters[i];await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),ch.start+(ch.end-ch.start)*.4);await page.waitForTimeout(150)
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:5:295
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/cinema-all-cinematic-chapt-47e60-echanism-reveals-fit-laptop/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/cinema-all-cinematic-chapt-47e60-echanism-reveals-fit-laptop/error-context.md
+
+  3) visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile ───
+
+    Error: expect(locator).toBeEnabled() failed
+
+    Locator:  getByRole('button', { name: /Watch the narrated story/ })
+    Expected: enabled
+    Received: disabled
+    Timeout:  30000ms
+
+    Call log:
+      - Expect "toBeEnabled" getByRole('button', { name: /Watch the narrated story/ }) with timeout 30000ms
+      - waiting for getByRole('button', { name: /Watch the narrated story/ })
+        49 × locator resolved to <button disabled class="cine-primary">…</button>
+           - unexpected value "disabled"
+
+
+      3 | const out='verification/cinema-01'
+      4 | for(const [name,width,height] of [['stage',1920,1080],['laptop',1440,900],['mobile',390,844]] as const)test('all cinematic chapters and mechanism reveals fit '+name,async({page})=>{
+    > 5 |  mkdirSync(out,{recursive:true});await page.setViewportSize({width,height});const writes:string[]=[];page.on('request',r=>{if(r.method()!=='GET'&&r.url().includes('/api/'))writes.push(r.url())});await page.goto('/show/');await expect(page.getByRole('button',{name:/Watch the narrated story/})).toBeEnabled({timeout:30000});await page.waitForTimeout(1500);await page.screenshot({path:out+'/opening-'+name+'.png',fullPage:true})
+        |                                                                                                                                                                                                                                                                                                       ^
+      6 |  const plan=await page.request.get('/show/audio/plan.json').then(r=>r.json());expect(plan.duration).toBeGreaterThan(300)
+      7 |  for(let i=0;i<plan.chapters.length;i++){
+      8 |   const ch=plan.chapters[i];await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),ch.start+(ch.end-ch.start)*.4);await page.waitForTimeout(150)
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:5:295
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/cinema-all-cinematic-chapt-d7f19-echanism-reveals-fit-mobile/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/cinema-all-cinematic-chapt-d7f19-echanism-reveals-fit-mobile/error-context.md
+
+  4) visual-tests/cinema.spec.ts:26:1 › voice clock plays, pauses and seeks without running a robot action 
+
+    Test timeout of 90000ms exceeded.
+
+    Error: locator.click: Test timeout of 90000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /Watch the narrated story/ })
+        - locator resolved to <button disabled class="cine-primary">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not enabled
+        - retrying click action
+          - waiting 100ms
+        82 × waiting for element to be visible, enabled and stable
+           - element is not enabled
+         - retrying click action
+           - waiting 500ms
+
+
+      25 | })
+      26 | test('voice clock plays, pauses and seeks without running a robot action',async({page})=>{
+    > 27 |  const writes:string[]=[];page.on('request',r=>{if(r.method()!=='GET'&&r.url().includes('/api/'))writes.push(r.url())});await page.goto('/show/');await page.getByRole('button',{name:/Watch the narrated story/}).click();await expect.poll(()=>page.evaluate(()=>window.__AERIS_CINEMA__!.getState().time)).toBeGreaterThan(.5)
+         |                                                                                                                                                                                                                    ^
+      28 |  await page.getByRole('button',{name:'Pause story',exact:true}).click();const t=await page.evaluate(()=>window.__AERIS_CINEMA__!.getState().time);await page.waitForTimeout(500);expect(await page.evaluate(()=>window.__AERIS_CINEMA__!.getState().time)).toBeCloseTo(t,1)
+      29 |  await page.getByLabel('Story position').fill('100');expect(await page.evaluate(()=>document.querySelector('audio')!.currentTime)).toBeCloseTo(100,0)
+      30 |  await page.getByRole('button',{name:'Read session observations',exact:true}).click();await expect(page.getByRole('alert')).toContainText('Unlock the dashboard');expect(writes).toEqual([])
+        at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:27:212
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/cinema-voice-clock-plays-p-a3212-hout-running-a-robot-action/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/cinema-voice-clock-plays-p-a3212-hout-running-a-robot-action/error-context.md
+
+  4 failed
+    visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit stage ─────
+    visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit laptop ────
+    visual-tests/cinema.spec.ts:4:104 › all cinematic chapters and mechanism reveals fit mobile ────
+    visual-tests/cinema.spec.ts:26:1 › voice clock plays, pauses and seeks without running a robot action 

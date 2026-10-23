@@ -1,0 +1,5 @@
+
+> evy-aeris-cinema@0.1.0 verify:offline
+> node scripts/verify-offline.mjs
+
+Offline assets verified in /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/dist/.

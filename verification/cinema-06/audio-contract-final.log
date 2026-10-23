@@ -1,0 +1,13 @@
+..F.
+======================================================================
+FAIL: test_boundary_pauses_are_short_and_events_follow_spoken_alignment (test_edit_story_audio.ProducedAudioContract.test_boundary_pauses_are_short_and_events_follow_spoken_alignment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/scripts/test_edit_story_audio.py", line 31, in test_boundary_pauses_are_short_and_events_follow_spoken_alignment
+    self.assertLess(after-before,.8)
+AssertionError: 4.363000000000014 not less than 0.8
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=1)

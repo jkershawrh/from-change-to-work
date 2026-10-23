@@ -1,0 +1,23 @@
+test_completed_before_partition_rejects (test_audit.AuditTests.test_completed_before_partition_rejects) ... ok
+test_control_continues_then_completes (test_audit.AuditTests.test_control_continues_then_completes) ... ok
+test_distinct_hardware_passes (test_audit.AuditTests.test_distinct_hardware_passes) ... ok
+test_no_post_partition_control_rejects (test_audit.AuditTests.test_no_post_partition_control_rejects) ... ok
+test_non_intel_or_non_redhat_rejects (test_audit.AuditTests.test_non_intel_or_non_redhat_rejects) ... ok
+test_same_node_or_system_uuid_rejects (test_audit.AuditTests.test_same_node_or_system_uuid_rejects) ... ok
+test_binding_survives_restart_and_rejects_changed_request (test_gateway.GatewayTests.test_binding_survives_restart_and_rejects_changed_request) ... ok
+test_duplicate_json_and_authority_fields_rejected (test_gateway.GatewayTests.test_duplicate_json_and_authority_fields_rejected) ... ok
+test_running_is_interrupted_on_restart_not_replayed (test_gateway.GatewayTests.test_running_is_interrupted_on_restart_not_replayed) ... ok
+test_same_database_cannot_change_local_authority (test_gateway.GatewayTests.test_same_database_cannot_change_local_authority) ... ok
+test_terminal_retry_cannot_requeue (test_gateway.GatewayTests.test_terminal_retry_cannot_requeue) ... ok
+test_fake_completion_rejected (test_saved_audit.SavedAuditTests.test_fake_completion_rejected) ... ok
+test_missing_network_refusal_rejected (test_saved_audit.SavedAuditTests.test_missing_network_refusal_rejected) ... ok
+test_no_post_partition_progress_rejected (test_saved_audit.SavedAuditTests.test_no_post_partition_progress_rejected) ... ok
+test_original_passes (test_saved_audit.SavedAuditTests.test_original_passes) ... ok
+test_receipt_version_change_rejected (test_saved_audit.SavedAuditTests.test_receipt_version_change_rejected) ... ok
+test_same_host_rejected (test_saved_audit.SavedAuditTests.test_same_host_rejected) ... ok
+test_source_tampering_rejected (test_saved_audit.SavedAuditTests.test_source_tampering_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 2.127s
+
+OK

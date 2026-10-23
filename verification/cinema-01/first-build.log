@@ -1,0 +1,19 @@
+
+> evy-aeris-cinema@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 2878 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                        0.50 kB │ gzip:   0.30 kB
+dist/assets/Story-LEgWa-by.css        19.85 kB │ gzip:   4.76 kB
+dist/assets/index-CYKxR5YS.css        25.03 kB │ gzip:   5.29 kB
+dist/assets/BrandLockup-8oCiUJun.js    0.38 kB │ gzip:   0.26 kB
+dist/assets/Story-ChPoZCwl.js         32.62 kB │ gzip:  11.76 kB
+dist/assets/App-DixM6CP7.js          160.57 kB │ gzip:  50.57 kB
+dist/assets/index-DkETvgvI.js        222.36 kB │ gzip:  69.83 kB
+dist/assets/World-BKSA0-BV.js        981.70 kB │ gzip: 262.59 kB
+
+✓ built in 943ms

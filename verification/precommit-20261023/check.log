@@ -1,0 +1,202 @@
+test_browser_cannot_supply_paths_or_release_authority (test_console_auth.ConsoleAuth.test_browser_cannot_supply_paths_or_release_authority) ... ok
+test_changed_destination_cannot_reuse_database (test_console_auth.ConsoleAuth.test_changed_destination_cannot_reuse_database) ... ok
+test_cross_origin_request_refused_even_with_session (test_console_auth.ConsoleAuth.test_cross_origin_request_refused_even_with_session) ... ok
+test_login_requires_same_origin_and_never_returns_code (test_console_auth.ConsoleAuth.test_login_requires_same_origin_and_never_returns_code) ... ok
+test_unauthenticated_actions_fail (test_console_auth.ConsoleAuth.test_unauthenticated_actions_fail) ... ok
+test_uncertain_control_ack_never_claims_recovery (test_console_auth.ConsoleAuth.test_uncertain_control_ack_never_claims_recovery) ... ok
+test_viewer_cannot_transfer_or_cut_link (test_console_auth.ConsoleAuth.test_viewer_cannot_transfer_or_cut_link) ... ok
+test_handoff_exposes_only_existing_action_and_health_routes (test_evy_surface.EvySurface.test_handoff_exposes_only_existing_action_and_health_routes) ... /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/.venv/lib/python3.12/site-packages/pydantic/main.py:253: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+ok
+test_duplicate_fields_rejected (test_lab_contracts.Contracts.test_duplicate_fields_rejected) ... ok
+test_physical_target_cannot_enable_fault_controls (test_lab_contracts.Contracts.test_physical_target_cannot_enable_fault_controls) ... ok
+test_safe_same_origin_required (test_lab_contracts.Contracts.test_safe_same_origin_required) ... ok
+test_unknown_fields_and_physical_scope_rejected (test_lab_contracts.Contracts.test_unknown_fields_and_physical_scope_rejected) ... ok
+test_command_retry_does_not_reverse_a_newer_transition (test_link.LinkTests.test_command_retry_does_not_reverse_a_newer_transition) ... ok
+test_same_id_cannot_change_operation (test_link.LinkTests.test_same_id_cannot_change_operation) ... ok
+test_unknown_operation_rejects (test_link.LinkTests.test_unknown_operation_rejects) ... ok
+test_missing_old_or_unobserved_tools_block (test_readiness.ReadinessContracts.test_missing_old_or_unobserved_tools_block) ... ok
+test_ready_means_simulator_prerequisites_only (test_readiness.ReadinessContracts.test_ready_means_simulator_prerequisites_only) ... ok
+test_report_cannot_overwrite_previous_evidence (test_readiness.ReadinessContracts.test_report_cannot_overwrite_previous_evidence) ... ok
+test_unknown_cpu_or_non_rhel_never_claims_alignment (test_readiness.ReadinessContracts.test_unknown_cpu_or_non_rhel_never_claims_alignment) ... ok
+test_unpulled_assets_and_dependency_mismatch_block (test_readiness.ReadinessContracts.test_unpulled_assets_and_dependency_mismatch_block) ... ok
+test_manifest_source_map_resolves (test_readiness_api.ReadinessAPI.test_manifest_source_map_resolves) ... ok
+test_preflight_is_authenticated_read_only_and_cached (test_readiness_api.ReadinessAPI.test_preflight_is_authenticated_read_only_and_cached) ... ok
+test_cut_without_continued_local_completion_rejected (test_session_audit.SessionAudit.test_cut_without_continued_local_completion_rejected) ... ok
+test_forged_physics_sample_rejected (test_session_audit.SessionAudit.test_forged_physics_sample_rejected) ... ok
+test_lost_recovery_evidence_rejected (test_session_audit.SessionAudit.test_lost_recovery_evidence_rejected) ... ok
+test_real_capture_passes (test_session_audit.SessionAudit.test_real_capture_passes) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 1.384s
+
+OK
+............                                                             [100%]
+=============================== warnings summary ===============================
+integrations/evy/tests/actions/test_capability_actions.py::test_actual_evy_gateway_registers_disabled_action_routes
+  /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/.venv/lib/python3.12/site-packages/starlette/testclient.py:37: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+
+integrations/evy/tests/actions/test_capability_actions.py::test_actual_evy_gateway_registers_disabled_action_routes
+  /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/.venv/lib/python3.12/site-packages/pydantic/_internal/_config.py:323: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+    warnings.warn(DEPRECATION_MESSAGE, DeprecationWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+12 passed, 2 warnings in 0.40s
+test_completed_before_partition_rejects (test_audit.AuditTests.test_completed_before_partition_rejects) ... ok
+test_control_continues_then_completes (test_audit.AuditTests.test_control_continues_then_completes) ... ok
+test_distinct_hardware_passes (test_audit.AuditTests.test_distinct_hardware_passes) ... ok
+test_no_post_partition_control_rejects (test_audit.AuditTests.test_no_post_partition_control_rejects) ... ok
+test_non_intel_or_non_redhat_rejects (test_audit.AuditTests.test_non_intel_or_non_redhat_rejects) ... ok
+test_same_node_or_system_uuid_rejects (test_audit.AuditTests.test_same_node_or_system_uuid_rejects) ... ok
+test_binding_survives_restart_and_rejects_changed_request (test_gateway.GatewayTests.test_binding_survives_restart_and_rejects_changed_request) ... ok
+test_duplicate_json_and_authority_fields_rejected (test_gateway.GatewayTests.test_duplicate_json_and_authority_fields_rejected) ... ok
+test_running_is_interrupted_on_restart_not_replayed (test_gateway.GatewayTests.test_running_is_interrupted_on_restart_not_replayed) ... ok
+test_same_database_cannot_change_local_authority (test_gateway.GatewayTests.test_same_database_cannot_change_local_authority) ... ok
+test_terminal_retry_cannot_requeue (test_gateway.GatewayTests.test_terminal_retry_cannot_requeue) ... ok
+test_fake_completion_rejected (test_saved_audit.SavedAuditTests.test_fake_completion_rejected) ... ok
+test_missing_network_refusal_rejected (test_saved_audit.SavedAuditTests.test_missing_network_refusal_rejected) ... ok
+test_no_post_partition_progress_rejected (test_saved_audit.SavedAuditTests.test_no_post_partition_progress_rejected) ... ok
+test_original_passes (test_saved_audit.SavedAuditTests.test_original_passes) ... ok
+test_receipt_version_change_rejected (test_saved_audit.SavedAuditTests.test_receipt_version_change_rejected) ... ok
+test_same_host_rejected (test_saved_audit.SavedAuditTests.test_same_host_rejected) ... ok
+test_source_tampering_rejected (test_saved_audit.SavedAuditTests.test_source_tampering_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 2.230s
+
+OK
+{"schema": "evy-aeris.network-audit.v1", "status": "PASS_SEPARATE_HOST_SIMULATION", "tasks": [{"task": "action-inspection-disconnected", "status": "COMPLETE", "control_ticks": 426, "physics_substeps": 4260, "peak_speed_rad_s": 0.39999999999995567, "peak_acceleration_rad_s2": 0.8500000000000035, "peak_displacement_rad": 0.28894965300372033}, {"task": "action-rework-interrupted", "status": "INTERRUPTED", "control_ticks": 62, "physics_substeps": 620, "peak_speed_rad_s": 0.30337868622396985, "peak_acceleration_rad_s2": 0.8500000000000003, "peak_displacement_rad": 0.1221151181168576}, {"task": "action-rework-recovered", "status": "COMPLETE", "control_ticks": 273, "physics_substeps": 2730, "peak_speed_rad_s": 0.3999999999994137, "peak_acceleration_rad_s2": 0.8499999999979357, "peak_displacement_rad": 0.12889142055924552}], "total_control_ticks": 761, "total_physics_substeps": 7610, "cross_host_tls_deliveries": 3, "hosts": {"central": "fp2.fm2aihpcsed.com", "edge": "fp3.fm2aihpcsed.com"}, "evy_action_gateway_exercised": true, "simulation_only": true, "physical_motion_authorized": false, "independent_physics": false, "lab_control_plane_trust": "AMBER_TOFU"}
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.42s
+     Running unittests src/lib.rs (crates/aeris-skill-transfer/target/debug/deps/aeris_skill_transfer-c9954a8847b5e45e)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (crates/aeris-skill-transfer/target/debug/deps/aeris_skill_transfer-dad8cb4d6483cffc)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/lifecycle.rs (crates/aeris-skill-transfer/target/debug/deps/lifecycle-1490886f4d2709d1)
+
+running 8 tests
+test action_identity_is_immutable_across_retries ... ok
+test pinned_execution_refuses_another_release_even_for_a_completed_task ... ok
+test tampering_and_replay_do_not_change_active_or_floor ... ok
+test staged_bytes_and_active_pointer_survive_reopen ... ok
+test activation_refuses_a_stored_bundle_under_the_wrong_digest ... ok
+test duplicate_delivery_is_idempotent_and_wrong_local_config_refused ... ok
+test orphaned_running_task_blocks_activation_until_explicit_recovery ... ok
+test signed_contract_rejections_leave_an_empty_store ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.07s
+
+     Running tests/test_support.rs (crates/aeris-skill-transfer/target/debug/deps/test_support-1c8cf4df3cf9ae4c)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests aeris_skill_transfer
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+> evy-aeris-edge-actions-frontend@0.1.0 check
+> npm run test && npm run build
+
+
+> evy-aeris-edge-actions-frontend@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/frontend
+
+
+ Test Files  3 passed (3)
+      Tests  9 passed (9)
+   Start at  09:30:54
+   Duration  1.35s (transform 153ms, setup 431ms, import 152ms, tests 31ms, environment 2.77s)
+
+
+> evy-aeris-edge-actions-frontend@0.1.0 build
+> tsc -b && vite build && node ../scripts/build_story.mjs
+
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 2614 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               0.66 kB │ gzip:   0.40 kB
+dist/assets/Dashboard-C2dCndp4.css           18.82 kB │ gzip:   4.55 kB
+dist/assets/TransferWorkbench-DSMo2Dmr.css   29.31 kB │ gzip:   5.92 kB
+dist/assets/index-DclSUKqI.css               32.39 kB │ gzip:   7.67 kB
+dist/assets/with-selector-C6hiQgup.js         1.62 kB │ gzip:   0.71 kB
+dist/assets/contracts-CvUlIhTX.js             9.24 kB │ gzip:   4.09 kB
+dist/assets/Dashboard-DKU-6NrG.js            38.34 kB │ gzip:  12.75 kB
+dist/assets/TransferWorkbench-Csyv-n4X.js   196.23 kB │ gzip:  63.69 kB
+dist/assets/index-CnJCtcfp.js               222.27 kB │ gzip:  69.81 kB
+dist/assets/ArmScene-BWaci75i.js            944.65 kB │ gzip: 251.49 kB
+
+✓ built in 894ms
+
+> evy-aeris-cinema@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 2897 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                            0.53 kB │ gzip:   0.33 kB
+dist/assets/index-CYKxR5YS.css            25.03 kB │ gzip:   5.29 kB
+dist/assets/Story-nEfApvAr.css            32.40 kB │ gzip:   7.31 kB
+dist/assets/model-24oV5hyS.js              2.56 kB │ gzip:   1.21 kB
+dist/assets/approvedScene-BO8ohOqk.js      5.61 kB │ gzip:   2.46 kB
+dist/assets/record-Bs6npg1B.js             6.55 kB │ gzip:   3.31 kB
+dist/assets/Story-Bt-I-sN8.js             49.73 kB │ gzip:  17.93 kB
+dist/assets/App-BMlCSSGz.js              159.02 kB │ gzip:  50.22 kB
+dist/assets/index-DEBAkhoT.js            222.39 kB │ gzip:  69.84 kB
+dist/assets/World-pktU9bMh.js          1,018.17 kB │ gzip: 273.18 kB
+
+✓ built in 3.13s
+[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 2.4s of this 3.1s build (77%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:prepare-out-dir renderStart (54%, 1.7s, 1 call)
+Additional callback time came from the callbacks below and from callbacks under 1s.
+2 callbacks are listed without a time. Their calls overlapped, so the time inside one call includes work from other calls. To find their cost, profile the build with `node --cpu-prof`:
+  - plugin vite:css transform (3 calls)
+  - plugin vite:css-post renderChunk (7 calls)
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+
+Cinematic story packaged with the dashboard at /show/.
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+
+ Test Files  13 passed (13)
+      Tests  55 passed (55)
+   Start at  09:31:18
+   Duration  9.97s (transform 2.14s, setup 4.51s, import 6.79s, tests 3.68s, environment 36.28s)
+
+
+> evy-aeris-cinema@0.1.0 validate:blueprint
+> node --experimental-strip-types scripts/validate-blueprint.ts demo-blueprint.yaml
+
+(node:28240) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Blueprint structure is valid: /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/demo-blueprint.yaml
+
+> evy-aeris-cinema@0.1.0 verify:offline
+> node scripts/verify-offline.mjs
+
+Offline assets verified in /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/dist/.

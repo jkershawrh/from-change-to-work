@@ -1,0 +1,100 @@
+{
+  "schema": "aeris.readiness-report.v1",
+  "observed_at_ms": 1792713717270,
+  "measurement_scope": "CURRENT_PROCESS_HOST_ONLY",
+  "simulation_prerequisites": "READY",
+  "simulation_only": true,
+  "physical_motion_authorized": false,
+  "host": {
+    "system": "Darwin",
+    "architecture": "arm64",
+    "kernel": "25.6.0",
+    "logical_cpus": 8,
+    "cpu_vendor": null,
+    "cpu_model": null,
+    "os_id": "darwin",
+    "os_version": null
+  },
+  "source": {
+    "commit": "88efe378e44fcd8a19fe4ac609c7aa420e3f428f",
+    "dirty": true,
+    "runtime_sha256": "f5171e48555b9abef4aa49eb46b4d12b8d3526e4288c45749b0a5a1f0d9cec55",
+    "identity_note": "Dirty reflects tracked edits only; runtime hash includes the selected current source tree."
+  },
+  "checks": [
+    {
+      "id": "python",
+      "status": "GREEN",
+      "detail": "Python 3.12.14",
+      "next_step": null
+    },
+    {
+      "id": "node",
+      "status": "GREEN",
+      "detail": "v22.15.0",
+      "next_step": null
+    },
+    {
+      "id": "cargo",
+      "status": "GREEN",
+      "detail": "cargo 1.90.0 (840b83a10 2025-07-30)",
+      "next_step": null
+    },
+    {
+      "id": "lfs",
+      "status": "GREEN",
+      "detail": "git-lfs/3.8.0 (GitHub; darwin arm64; go 1.27.0; git aece9221)",
+      "next_step": null
+    },
+    {
+      "id": "dependencies",
+      "status": "GREEN",
+      "detail": "Pinned Python packages: MATCH",
+      "next_step": null
+    },
+    {
+      "id": "executor",
+      "status": "GREEN",
+      "detail": "executor: PRESENT",
+      "next_step": null
+    },
+    {
+      "id": "frontend",
+      "status": "GREEN",
+      "detail": "frontend: PRESENT",
+      "next_step": null
+    },
+    {
+      "id": "plant_assets",
+      "status": "GREEN",
+      "detail": "plant assets: PRESENT",
+      "next_step": null
+    }
+  ],
+  "alignment": {
+    "status": "UNVERIFIED",
+    "scope": "Observed Intel vendor plus RHEL OS ID is a candidate configuration, not certification. Console host inventory does not identify the edge host or OpenShift nodes."
+  },
+  "qualification": [
+    {
+      "id": "CURRENT_SESSION",
+      "status": "RED",
+      "reason": "No execution acceptance is inferred from this inventory."
+    },
+    {
+      "id": "TWO_HOST_HARDWARE",
+      "status": "RED",
+      "reason": "Separate central/edge identities and independently reconciled execution evidence are required."
+    },
+    {
+      "id": "PHYSICAL_ROBOT",
+      "status": "RED",
+      "reason": "No reviewed physical adapter, calibration, safeguarding or OEM stop acceptance."
+    },
+    {
+      "id": "HARD_REAL_TIME",
+      "status": "RED",
+      "reason": "No continuous hardware timing or watchdog qualification."
+    }
+  ]
+}

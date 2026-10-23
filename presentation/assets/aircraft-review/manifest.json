@@ -1,0 +1,25 @@
+{
+  "schema": "robot-demo.visual-asset.v1",
+  "status": "CANDIDATE_FOR_VISUAL_REVIEW",
+  "asset": "c17.glb",
+  "sha256": "b50c651330f108b6330b918937a46d2aecedbdf96d2ab31ba41a45a3a5494de1",
+  "title": "c17 Globemaster with animation",
+  "creator": "pilotcandle5470",
+  "original_source": "https://sketchfab.com/3d-models/c17-globemaster-with-animation-809e3e068f324db6b9cfe57611a69726",
+  "redistributor": "AiZity",
+  "source_page": "https://aizity.com/assets/free-3d-model-download/c17-globemaster-with-animation-3d-model",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "retrieved_on": "2026-10-22",
+  "supplier_changes": "Centered, grounded, renamed parts; converted and optimized viewer copy; animation removed.",
+  "review_changes": [
+    "Decoded Draco and meshopt for Blender while retaining textures.",
+    "Illustrative 53 m overall length; not engineering calibration.",
+    "Removed four overlapping control-surface render layers and applied a review topcoat to two named panels.",
+    "Authored hangar, maintenance supports, lighting and camera compositions.",
+    "Existing simulator-derived robot visual geometry; no robot execution.",
+    "Neutral review topcoat and suppressed duplicate-layer shadows on wide overlapping wing skins.",
+    "Neutral paint overrides remove source livery from wide skins; remaining component textures are retained."
+  ],
+  "scope": "Visual scenery only. No OEM endorsement, inspection accuracy or physical hardware acceptance is implied."
+}

@@ -1,0 +1,42 @@
+
+> evy-aeris-cinema@0.1.0 check
+> npm run test && npm run build && npm run verify:offline
+
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+
+ Test Files  5 passed (5)
+      Tests  36 passed (36)
+   Start at  19:17:28
+   Duration  2.37s (transform 376ms, setup 441ms, import 882ms, tests 813ms, environment 5.54s)
+
+
+> evy-aeris-cinema@0.1.0 build
+> tsc -b && vite build
+
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 2879 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.50 kB │ gzip:   0.30 kB
+dist/assets/Story-LEgWa-by.css   19.85 kB │ gzip:   4.76 kB
+dist/assets/index-CYKxR5YS.css   25.03 kB │ gzip:   5.29 kB
+dist/assets/model-Dwl4quSW.js     2.56 kB │ gzip:   1.21 kB
+dist/assets/record-BnQ5KTi3.js    5.78 kB │ gzip:   2.94 kB
+dist/assets/Story-CuuBXvlf.js    30.83 kB │ gzip:  11.17 kB
+dist/assets/App-BMsjc8aA.js     159.01 kB │ gzip:  50.22 kB
+dist/assets/index-CyHgFZaL.js   222.35 kB │ gzip:  69.82 kB
+dist/assets/World-BdgChM7z.js   981.70 kB │ gzip: 262.59 kB
+
+✓ built in 633ms
+
+> evy-aeris-cinema@0.1.0 verify:offline
+> node scripts/verify-offline.mjs
+
+Offline assets verified in /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/dist/.

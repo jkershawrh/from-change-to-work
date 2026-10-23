@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/cleanup.py", line 42, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/aeris/proof/skill_transfer_network_v1/cleanup.py", line 23, in main
+    else:ctx.load_verify_locations(cafile=cluster['certificate-authority'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory

@@ -1,0 +1,38 @@
+{
+  "status": "PASS_PUBLIC_EXPORT_SCREEN",
+  "files": 33,
+  "private_key_or_bearer_or_password_matches": [],
+  "sqlite_tables": {
+    "proof/skill_transfer_network_v1/runs/flightpath-001/central/evidence/evy.snapshot": [
+      "actions"
+    ],
+    "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/inbox.snapshot": [
+      "authority",
+      "jobs"
+    ],
+    "proof/skill_transfer_network_v1/runs/flightpath-001/edge/evidence/rust.snapshot": [
+      "meta",
+      "releases",
+      "tasks",
+      "samples",
+      "events",
+      "actions"
+    ],
+    "proof/skill_transfer_network_v1/runs/flightpath-002/central/evidence/evy.snapshot": [
+      "actions"
+    ],
+    "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/inbox.snapshot": [
+      "authority",
+      "jobs"
+    ],
+    "proof/skill_transfer_network_v1/runs/flightpath-002/edge/evidence/rust.snapshot": [
+      "meta",
+      "releases",
+      "tasks",
+      "samples",
+      "events",
+      "actions"
+    ]
+  },
+  "scope": "Targeted screen of restored public exports; not a comprehensive security audit."
+}

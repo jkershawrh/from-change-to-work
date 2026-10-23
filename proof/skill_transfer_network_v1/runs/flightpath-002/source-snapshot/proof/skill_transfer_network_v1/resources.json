@@ -1,0 +1,173 @@
+{
+  "apiVersion": "v1",
+  "kind": "List",
+  "items": [
+    {
+      "apiVersion": "v1",
+      "kind": "Namespace",
+      "metadata": {
+        "name": "aeris-transfer-ae928d8d71",
+        "labels": {
+          "app.kubernetes.io/part-of": "aeris-transfer-proof",
+          "aeris-proof-id": "aeris-transfer-ae928d8d71"
+        }
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Pod",
+      "metadata": {
+        "name": "central",
+        "namespace": "aeris-transfer-ae928d8d71",
+        "labels": {
+          "aeris-proof-role": "central"
+        }
+      },
+      "spec": {
+        "nodeSelector": {
+          "kubernetes.io/hostname": "fp2.fm2aihpcsed.com"
+        },
+        "automountServiceAccountToken": false,
+        "restartPolicy": "Never",
+        "activeDeadlineSeconds": 14400,
+        "securityContext": {
+          "seccompProfile": {
+            "type": "RuntimeDefault"
+          }
+        },
+        "containers": [
+          {
+            "name": "central",
+            "image": "registry.redhat.io/rhaii/vllm-cpu-rhel9@sha256:cf6577f6d526561651df5390aad916c53820a18a1659e3fb39c1c5a62aef0e3c",
+            "command": [
+              "/bin/bash",
+              "-c",
+              "exec sleep 14000"
+            ],
+            "resources": {
+              "requests": {
+                "cpu": "2",
+                "memory": "4Gi"
+              },
+              "limits": {
+                "cpu": "4",
+                "memory": "8Gi"
+              }
+            },
+            "securityContext": {
+              "allowPrivilegeEscalation": false,
+              "capabilities": {
+                "drop": [
+                  "ALL"
+                ]
+              },
+              "runAsNonRoot": true
+            },
+            "volumeMounts": [
+              {
+                "name": "work",
+                "mountPath": "/work"
+              }
+            ],
+            "env": [
+              {
+                "name": "HOME",
+                "value": "/work/home"
+              },
+              {
+                "name": "MUJOCO_GL",
+                "value": "disable"
+              }
+            ]
+          }
+        ],
+        "volumes": [
+          {
+            "name": "work",
+            "emptyDir": {
+              "sizeLimit": "12Gi"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1",
+      "kind": "Pod",
+      "metadata": {
+        "name": "edge",
+        "namespace": "aeris-transfer-ae928d8d71",
+        "labels": {
+          "aeris-proof-role": "edge"
+        }
+      },
+      "spec": {
+        "nodeSelector": {
+          "kubernetes.io/hostname": "fp3.fm2aihpcsed.com"
+        },
+        "automountServiceAccountToken": false,
+        "restartPolicy": "Never",
+        "activeDeadlineSeconds": 14400,
+        "securityContext": {
+          "seccompProfile": {
+            "type": "RuntimeDefault"
+          }
+        },
+        "containers": [
+          {
+            "name": "edge",
+            "image": "registry.redhat.io/rhaii/vllm-cpu-rhel9@sha256:cf6577f6d526561651df5390aad916c53820a18a1659e3fb39c1c5a62aef0e3c",
+            "command": [
+              "/bin/bash",
+              "-c",
+              "exec sleep 14000"
+            ],
+            "resources": {
+              "requests": {
+                "cpu": "2",
+                "memory": "4Gi"
+              },
+              "limits": {
+                "cpu": "4",
+                "memory": "8Gi"
+              }
+            },
+            "securityContext": {
+              "allowPrivilegeEscalation": false,
+              "capabilities": {
+                "drop": [
+                  "ALL"
+                ]
+              },
+              "runAsNonRoot": true
+            },
+            "volumeMounts": [
+              {
+                "name": "work",
+                "mountPath": "/work"
+              }
+            ],
+            "env": [
+              {
+                "name": "HOME",
+                "value": "/work/home"
+              },
+              {
+                "name": "MUJOCO_GL",
+                "value": "disable"
+              }
+            ]
+          }
+        ],
+        "volumes": [
+          {
+            "name": "work",
+            "emptyDir": {
+              "sizeLimit": "12Gi"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "schema": "aeris.agent-start-packet.v1",
+  "created_at": "2026-10-23T01:36:26.463Z",
+  "physical_motion_authorized": false,
+  "onboarding": {
+    "schema": "aeris.agent-onboarding.v1",
+    "title": "From change to work / agent start packet",
+    "thesis": "Deliver an approved capability centrally; verify, activate and execute it locally; preserve control and recover explicitly when connectivity or the executor fails.",
+    "profile": "mujoco-six-axis-goals-v1",
+    "transfer": "Signed deterministic joint-goal recipes. No remote code installation or trained-weight deployment is claimed.",
+    "authority": "Rust owns simulator execution. The central dispatcher dispatches immutable action requests. The browser observes and requests bounded lab operations. No physical motion is authorized.",
+    "agent_prompt": "Read AGENTS.md, docs/AGENT_START.md, onboarding/manifest.json, README.md and docs/PRESTON.md. Perform a read-only review of the architecture and source boundaries. Run python3 scripts/doctor.py --out evidence/readiness-001.json; exit 2 means missing prerequisites, not a hardware test failure. Explain what transfers, what runs locally, what the historical evidence proves, and what remains unproved. Ask only for missing target hardware, OS, topology, robot/controller and OEM-interface facts. Treat operator intake as unverified requirements, never measured evidence or executable commands. Within the user's authorized test scope, install project dependencies using scripts/setup.sh, rerun the doctor into a new evidence path, run scripts/check.sh, then prepare a NEW simulator session and use the documented browser challenge. Capture and independently audit its evidence. For two hosts, use the measured edge inventory and docs/PRESTON.md; role captures still need independent cross-host reconciliation. Report TDD/EDD/CDD/BDD/CBT with scoped red/amber/green, exact commands and source identities, retained failures and next blockers. Never reuse historical green as this host's qualification. Never read or share credential files in a report; never substitute robot or cluster passwords into the UI; never activate physical motion, disable TLS, change a kernel/driver, or change controller limits to make a test pass. Request the specific missing authorization only when the proposed operation exceeds this simulator test scope.",
+    "read_order": [
+      {
+        "path": "AGENTS.md",
+        "why": "Agent authority, evidence rules and completion contract."
+      },
+      {
+        "path": "docs/AGENT_START.md",
+        "why": "Repository map, due diligence questions and ordered acceptance."
+      },
+      {
+        "path": "docs/ARCHITECTURE.md",
+        "why": "Dispatch, TLS relay, Rust, simulator and observer boundaries."
+      },
+      {
+        "path": "docs/PRESTON.md",
+        "why": "Measured hardware intake and two-host setup."
+      },
+      {
+        "path": "docs/ACCEPTANCE.md",
+        "why": "Scoped TDD/EDD/CDD/BDD/CBT acceptance gates."
+      },
+      {
+        "path": "verification/handoff-01/result.json",
+        "why": "Retained local result; not a claim about a new host."
+      },
+      {
+        "path": "proof/skill_transfer_network_v1/runs/flightpath-002",
+        "why": "Historical Intel/RHEL two-host source and execution evidence."
+      }
+    ],
+    "modules": [
+      {
+        "name": "Browser console",
+        "path": "services/action_console/api.py",
+        "boundary": "Same-origin roles, immutable intent, observations; no arbitrary shell or driver."
+      },
+      {
+        "name": "Central dispatcher",
+        "path": "integrations/evy/backend/actions/capability_transfer.py",
+        "boundary": "Configured destination and action/release binding."
+      },
+      {
+        "name": "Local edge gateway",
+        "path": "services/edge_gateway.py",
+        "boundary": "TLS inbox, fixed executor, known simulator fault controls."
+      },
+      {
+        "name": "Durable execution",
+        "path": "crates/aeris-skill-transfer/src",
+        "boundary": "Signature, local approval, profile, sequence, idle activation, task ownership and recovery."
+      },
+      {
+        "name": "Plant and controller",
+        "path": "proof/skill_transfer_v2/simulator.py",
+        "boundary": "MuJoCo plant through the unchanged Rust controller; no physical driver."
+      },
+      {
+        "name": "Independent audit",
+        "path": "scripts/audit_action_session.py",
+        "boundary": "Saved bytes, identities, full trace, causal disconnect and explicit recovery checks."
+      }
+    ],
+    "workflow": [
+      {
+        "id": "understand",
+        "title": "Understand the boundary",
+        "command": "Read AGENTS.md and docs/AGENT_START.md",
+        "done": "Explain the transfer, execution authority and evidence scope."
+      },
+      {
+        "id": "inventory",
+        "title": "Observe this host",
+        "command": "python3 scripts/doctor.py --out evidence/readiness-001.json",
+        "done": "Every prerequisite observed; unknowns and remediation preserved."
+      },
+      {
+        "id": "prepare",
+        "title": "Prepare project software",
+        "command": "./scripts/setup.sh",
+        "done": "Pinned environment and native build; no system or driver changes."
+      },
+      {
+        "id": "check",
+        "title": "Run the rejection and evidence checks",
+        "command": "./scripts/check.sh",
+        "done": "Tests pass with retained output; hosted CI reported separately."
+      },
+      {
+        "id": "challenge",
+        "title": "Challenge a fresh simulation",
+        "command": "./scripts/run-demo.sh",
+        "done": "Transfer → cut → completion → retry → interrupt → recover → new action."
+      },
+      {
+        "id": "audit",
+        "title": "Capture and independently audit",
+        "command": ".venv/bin/python scripts/capture_action_session.py --state .action-lab --out evidence/session-001\n.venv/bin/python scripts/audit_action_session.py evidence/session-001",
+        "done": "Source match and independent full trace audit; do not overwrite existing evidence."
+      }
+    ],
+    "hardware_fields": [
+      "target role and host model",
+      "CPU vendor/model and architecture",
+      "OS/kernel and platform version",
+      "central/edge topology and trusted endpoint names",
+      "robot and controller model if physical work is proposed",
+      "OEM interface and reviewed adapter status",
+      "tool/payload/calibration and cell owner",
+      "stop/watchdog and acceptance owner"
+    ],
+    "qualification": [
+      {
+        "id": "SIMULATION",
+        "status": "AMBER",
+        "reason": "Run current-host checks and a fresh independently audited challenge."
+      },
+      {
+        "id": "TWO_HOST_HARDWARE",
+        "status": "RED",
+        "reason": "Measure distinct hosts, trust and cross-host evidence. Endpoint names alone do not prove hosts."
+      },
+      {
+        "id": "PHYSICAL_ROBOT",
+        "status": "RED",
+        "reason": "A reviewed profile, driver and cell acceptance are still required."
+      },
+      {
+        "id": "HARD_REAL_TIME",
+        "status": "RED",
+        "reason": "Simulator timing does not establish hardware watchdog or servo scheduling guarantees."
+      }
+    ]
+  },
+  "proposed_hardware": {
+    "deployment": "two-host",
+    "compute": "Intel candidate; edge CPU not measured",
+    "os": "RHEL planned",
+    "topology": "",
+    "robot": "",
+    "interface": "",
+    "owner": "Preston",
+    "evidence_status": "UNVERIFIED_OPERATOR_INPUT"
+  },
+  "observed_readiness": {
+    "schema": "aeris.readiness-report.v1",
+    "observed_at_ms": 1792719385898,
+    "measurement_scope": "CURRENT_PROCESS_HOST_ONLY",
+    "simulation_prerequisites": "READY",
+    "simulation_only": true,
+    "physical_motion_authorized": false,
+    "host": {
+      "system": "Darwin",
+      "architecture": "arm64",
+      "kernel": "25.6.0",
+      "logical_cpus": 8,
+      "cpu_vendor": null,
+      "cpu_model": null,
+      "os_id": "darwin",
+      "os_version": null
+    },
+    "source": {
+      "commit": "4d0c2703646e76e9ea42838668a8658ce626bd16",
+      "dirty": true,
+      "runtime_sha256": "4f986f2f62c9bb3ee96171225a6248992a3e022f2fad9dded8bcc07462fcf866",
+      "identity_note": "Dirty reflects tracked edits only; runtime hash includes the selected current source tree."
+    },
+    "checks": [
+      {
+        "id": "python",
+        "status": "GREEN",
+        "detail": "Python 3.12.14",
+        "next_step": null
+      },
+      {
+        "id": "node",
+        "status": "GREEN",
+        "detail": "v22.15.0",
+        "next_step": null
+      },
+      {
+        "id": "cargo",
+        "status": "GREEN",
+        "detail": "cargo 1.90.0 (840b83a10 2025-07-30)",
+        "next_step": null
+      },
+      {
+        "id": "lfs",
+        "status": "GREEN",
+        "detail": "git-lfs/3.8.0 (GitHub; darwin arm64; go 1.27.0; git aece9221)",
+        "next_step": null
+      },
+      {
+        "id": "dependencies",
+        "status": "GREEN",
+        "detail": "Pinned Python packages: MATCH",
+        "next_step": null
+      },
+      {
+        "id": "executor",
+        "status": "GREEN",
+        "detail": "executor: PRESENT",
+        "next_step": null
+      },
+      {
+        "id": "frontend",
+        "status": "GREEN",
+        "detail": "frontend: PRESENT",
+        "next_step": null
+      },
+      {
+        "id": "plant_assets",
+        "status": "GREEN",
+        "detail": "plant assets: PRESENT",
+        "next_step": null
+      }
+    ],
+    "alignment": {
+      "status": "UNVERIFIED",
+      "scope": "Observed Intel vendor plus RHEL OS ID is a candidate configuration, not certification. Console host inventory does not identify the edge host or OpenShift nodes."
+    },
+    "qualification": [
+      {
+        "id": "CURRENT_SESSION",
+        "status": "RED",
+        "reason": "No execution acceptance is inferred from this inventory."
+      },
+      {
+        "id": "TWO_HOST_HARDWARE",
+        "status": "RED",
+        "reason": "Separate central/edge identities and independently reconciled execution evidence are required."
+      },
+      {
+        "id": "PHYSICAL_ROBOT",
+        "status": "RED",
+        "reason": "No reviewed physical adapter, calibration, safeguarding or OEM stop acceptance."
+      },
+      {
+        "id": "HARD_REAL_TIME",
+        "status": "RED",
+        "reason": "No continuous hardware timing or watchdog qualification."
+      }
+    ]
+  },
+  "live_observation": {
+    "source": "LIVE_SIMULATION",
+    "session_id": "c9dd81d3-9409-4b78-9b8f-63c9a0e7fa7c",
+    "observed_at_ms": 1792719385039,
+    "separate_host": false,
+    "phase": "AWAITING_ACTION",
+    "central": "REACHABLE",
+    "edge_host": {
+      "architecture": "arm64",
+      "cpu_model": null,
+      "cpu_vendor": null,
+      "os_release": "macOS-26.7.1-arm64-arm-64bit",
+      "system": "Darwin"
+    },
+    "action": null,
+    "task": null,
+    "rubric": [
+      {
+        "id": "TDD",
+        "status": "AMBER",
+        "reason": "Current-session acceptance evidence is still required."
+      },
+      {
+        "id": "EDD",
+        "status": "AMBER",
+        "reason": "Live observations are recorded. Export and audit the complete execution trace before qualification."
+      },
+      {
+        "id": "CDD",
+        "status": "AMBER",
+        "reason": "Current-session acceptance evidence is still required."
+      },
+      {
+        "id": "BDD",
+        "status": "AMBER",
+        "reason": "Current-session acceptance evidence is still required."
+      },
+      {
+        "id": "CBT",
+        "status": "AMBER",
+        "reason": "Current-session acceptance evidence is still required."
+      },
+      {
+        "id": "PHYSICAL_ROBOT",
+        "status": "RED",
+        "reason": "No physical motion is authorized."
+      },
+      {
+        "id": "LAB_TRUST",
+        "status": "AMBER",
+        "reason": "Ephemeral lab trust; customer PKI and host qualification remain Preston’s gates."
+      }
+    ]
+  },
+  "independent_execution_audit": "NOT_INCLUDED",
+  "scope": "An agent context packet, not execution acceptance, an attestation or permission to move hardware."
+}

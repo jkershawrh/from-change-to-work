@@ -1,0 +1,124 @@
+{
+  "schema": "story.visual-revision-result.v1",
+  "title": "From change to work / aerospace hangar edition",
+  "client_date": "2026-10-22",
+  "created_at": "2026-10-23T02:11:37.124046+00:00",
+  "source_base": "ad246c8",
+  "scope": "Illustrative 3D scenery, causal event flow and corrected film. No new execution or hardware proof.",
+  "features": [
+    "Procedural aerospace hangar with airframe, structure, crane, fixtures, tooling and services",
+    "Original MJCF-derived detailed robot and retained joint poses",
+    "Wide, cell, detail, orbit, blueprint and visual exploded assembly views",
+    "Seven inspectable process events with distinct delivery, local-control and evidence lanes",
+    "Separate authenticated observer; source-linked checks and keyboard/touch selection"
+  ],
+  "checks": {
+    "presentation_tests": 44,
+    "end_to_end_browser_checks": 8,
+    "production_build": "PASS",
+    "blueprint": "PASS",
+    "offline_assets": "PASS",
+    "registered_final_sources": {
+      "status": "MATCH",
+      "registered_files": 177,
+      "scope": "Fresh idle preview source/build registration only",
+      "compositor_source": "eb3c8e1dbceb14e44c8ed57e176bcb495f8299766a8a30440383ea219eb90e43",
+      "compositor_regression_test": "3999872a09b23cd3887e53a684d33940e348050e46636dbe13f37bd29c39da95"
+    },
+    "browser_recording_errors": 0,
+    "browser_recording_action_requests": 0,
+    "new_task_executions": 0
+  },
+  "media": {
+    "schema": "aeris.encoded-story.v1",
+    "status": "PASS_ENCODED_MEDIA",
+    "film_name": "from-change-to-work-hangar.mp4",
+    "edition": "cinema-03",
+    "audio_edition": "cinema-02",
+    "duration_seconds": 377.76,
+    "resolution": "1920x1080",
+    "fps": 25,
+    "audio": "AAC / complete saved Kersh waveform and original quiet bed",
+    "decoded_audio_rms": 3435.6051271440274,
+    "entire_audio_timeline_retained": true,
+    "frame_samples": 8,
+    "full_video_audio_decode": true,
+    "sha256": "f61ae24843fa734d42a9e56f7f23c54885404736582c6a2372b49be4c50a5efe",
+    "voice_profile": "audio/voice-profile.json",
+    "browser_actuation_requests": 0,
+    "scope": "Narrated retained-evidence story. Not a new physical, hardware or live execution proof.",
+    "subjective_listening_performed": false
+  },
+  "visual_review": {
+    "status": "PASS_CORRECTED_FRAME_REVIEW",
+    "frames": [
+      "encoded-views/architecture.png",
+      "encoded-views/hangar-wide.png",
+      "encoded-views/robot-detail.png"
+    ],
+    "first_export": "WITHDRAWN_VISUAL_REVIEW",
+    "failure_evidence": "initial-compositor-review.json",
+    "regression": "presentation/src/cinema/record.test.ts",
+    "corrected_recording": "recording-corrected.log"
+  },
+  "narration": {
+    "audio_edition": "cinema-02",
+    "voice_profile": "presentation/audio/voice-profile.json",
+    "new_provider_calls": 0,
+    "settings_changed": false,
+    "subjective_listening_performed": false
+  },
+  "rubric": [
+    {
+      "id": "TDD",
+      "status": "GREEN",
+      "scope": "Red-first event and compositor contracts; 44 presentation tests pass"
+    },
+    {
+      "id": "EDD",
+      "status": "GREEN",
+      "scope": "Retained failures, source registration, screenshots, complete decode, corrected-frame review and hashes"
+    },
+    {
+      "id": "CDD",
+      "status": "GREEN",
+      "scope": "Typed event lanes/local boundary and exclusive chapter callouts; action/controller contracts unchanged"
+    },
+    {
+      "id": "BDD",
+      "status": "GREEN",
+      "scope": "Eight real browser journeys including inspection, camera controls and idle observations"
+    },
+    {
+      "id": "CBT",
+      "status": "GREEN",
+      "scope": "Browser/WebGL, authenticated read-only API and encoded-media delivery; no new task execution"
+    },
+    {
+      "id": "NEW_INTEL_RED_HAT_HARDWARE",
+      "status": "RED",
+      "scope": "Not qualified by this visual revision; historical Intel/RHEL evidence remains historical"
+    },
+    {
+      "id": "PHYSICAL_REAL_TIME",
+      "status": "RED",
+      "scope": "No physical motion or real-time qualification"
+    },
+    {
+      "id": "BUSINESS_VALUE",
+      "status": "AMBER",
+      "scope": "Pilot hypothesis and measurements remain unmeasured"
+    }
+  ],
+  "urls": {
+    "hangar": "http://127.0.0.1:8090/show/?t=151.56",
+    "architecture": "http://127.0.0.1:8090/show/?t=124.39",
+    "movie": "http://127.0.0.1:8090/show/film/from-change-to-work-hangar.mp4"
+  },
+  "hosted_ci": {
+    "status": "BLOCKED_HOSTED_INFRASTRUCTURE",
+    "report": "hosted-check-status.json",
+    "hosted_checks_ran": false
+  },
+  "delivered_code_revision": "9153d14ce135d83381c1a7ce2c6275594ee0ba0f"
+}

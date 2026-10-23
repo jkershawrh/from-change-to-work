@@ -1,0 +1,14 @@
+
+> evy-aeris-cinema@0.1.0 test
+> vitest run --maxWorkers=1
+
+
+ RUN  v4.1.12 /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation
+
+Not implemented: HTMLMediaElement's pause() method
+
+ Test Files  13 passed (13)
+      Tests  55 passed (55)
+   Start at  08:51:17
+   Duration  17.59s (transform 511ms, setup 868ms, import 1.84s, tests 1.58s, environment 10.58s)
+

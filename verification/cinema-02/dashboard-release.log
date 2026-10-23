@@ -1,0 +1,17 @@
+
+> evy-aeris-edge-actions-frontend@0.1.0 test:visual
+> playwright test --config playwright.actions.config.ts --grep agent packet|dashboard and|recorded proof
+
+
+Running 6 tests using 1 worker
+
+(node:95750) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits stage (3.2s)
+  ✓  2 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits laptop (2.5s)
+  ✓  3 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits mobile (2.6s)
+  ✓  4 visual-tests/dashboard.spec.ts:5:1 › agent packet separates proposed hardware, observed readiness and missing audit (3.6s)
+  ✓  5 visual-tests/dashboard.spec.ts:23:87 › dashboard and agent guide fit desktop (2.9s)
+  ✓  6 visual-tests/dashboard.spec.ts:23:87 › dashboard and agent guide fit mobile (2.8s)
+
+  6 passed (18.7s)

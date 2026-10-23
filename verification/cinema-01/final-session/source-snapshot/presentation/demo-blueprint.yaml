@@ -1,0 +1,105 @@
+version: 1
+status: reviewed
+source:
+  name: EVY AERIS Edge Actions
+  kind: repository
+  location: ..
+  revision: b1ad446
+  discovered_at: 2026-10-22
+  inspected_artifacts:
+    - ../README.md
+    - ../AGENTS.md
+    - ../services/action_console/api.py
+    - ../services/edge_gateway.py
+    - ../integrations/evy/backend/actions/capability_transfer.py
+    - ../crates/aeris-skill-transfer/src/action.rs
+    - ../crates/aeris-skill-transfer/src/executor.rs
+    - ../scripts/audit_action_session.py
+    - ../verification/onboarding-01/result.json
+    - ../verification/handoff-01/result.json
+    - ../proof/skill_transfer_network_v1/runs/flightpath-002
+  discrepancies:
+    - The aerospace cell and repeated hardware installations are illustrative concepts, not deployed physical equipment.
+    - Signed bounded goal recipes transfer; no training, JEPA, LLMPC intent planner or accelerated inference is implemented by this proof.
+    - Central data-plane cut preserves a separate observer; it is not a total network blackout or a safety stop.
+    - Prior Intel and RHEL evidence is historical. Current local development hardware is Darwin arm64.
+    - Red Hat fleet management, production PKI and physical driver integration remain qualification work.
+intent:
+  primary_user: Manufacturing operations owner and edge platform engineer
+  workload: Approved inspection or rework positioning capability in a simulated aerospace cell
+  recognized_problem: Rolling a task change out centrally must not place a remote dependency inside local execution or conceal an interrupted task.
+  audience_decision: Sponsor one bounded hardware qualification using the same transfer and acceptance process.
+  desired_outcome: A testable cell handoff with evidence, named owners and a reviewed profile boundary.
+architecture:
+  actors:
+    - {id: operator, name: Operator, kind: human, responsibility: Select an approved capability and deliberately initiate execution or recovery, status: verified, source: ../services/action_console/api.py}
+  runtime_objects:
+    - {id: console, name: Browser console, kind: application, responsibility: Bounded same-origin operator requests and separately labeled observations, status: verified, source: ../services/action_console/api.py}
+    - {id: evy, name: EVY central action gateway, kind: service, responsibility: Bind immutable action and configured edge destination, status: verified, source: ../integrations/evy/backend/actions/capability_transfer.py}
+    - {id: publisher, name: Approved recipe bank, kind: TLS service, responsibility: Publish preapproved signed bytes, status: verified, source: ../services/capability_publisher.py}
+    - {id: edge, name: Edge inbox, kind: TLS service, responsibility: Durable admission and fixed local executor, status: verified, source: ../services/edge_gateway.py}
+    - {id: rust, name: Rust executor, kind: local process, responsibility: Verify activate pin execute retain recover, status: verified, source: ../crates/aeris-skill-transfer/src/action.rs}
+    - {id: plant, name: MuJoCo and Rust controller, kind: simulator, responsibility: Local stepped plant and measured traces, status: verified, source: ../proof/skill_transfer_v2/simulator.py}
+    - {id: receipt, name: Retained receipt, kind: SQLite state, responsibility: Bind terminal result to exact task and release, status: verified, source: ../crates/aeris-skill-transfer/src/executor.rs}
+  boundaries:
+    - {id: central_link, name: Central data plane, kind: network, responsibility: Actual TCP relay can cut transfers while the independent observer stays available, status: verified, source: ../services/lab_link.py}
+    - {id: local_authority, name: Local execution authority, kind: trust, responsibility: Signed content cannot install a driver or replace local approval, status: verified, source: ../crates/aeris-skill-transfer/src/lib.rs}
+    - {id: physical, name: Physical hardware acceptance, kind: human authority, responsibility: Reviewed adapter and safeguarding required before physical motion, status: verified, source: ../docs/PRESTON.md}
+  external_dependencies:
+    - {id: narration, name: ElevenLabs saved Kersh voice, kind: production tool, responsibility: Offline narration only and never robot runtime, status: verified, source: audio/voice-profile.json}
+  flows:
+    - id: capability_delivery
+      name: Approved capability to local execution
+      kind: request
+      trigger: Deliberate operator action
+      outcome: Exact release is pinned to a locally owned task and receipt.
+      edges:
+        - {from: operator, to: console, purpose: Select a bounded approved recipe, protocol: same-origin HTTP, evidence_ids: [contracts]}
+        - {from: console, to: evy, purpose: Bind the immutable action, protocol: authenticated HTTPS, evidence_ids: [current_session]}
+        - {from: evy, to: edge, purpose: Admit the configured action, protocol: authenticated HTTPS, evidence_ids: [current_session]}
+        - {from: publisher, to: rust, purpose: Fetch and verify exact signed bytes, protocol: bounded HTTPS, evidence_ids: [contracts]}
+        - {from: rust, to: plant, purpose: Execute with local authority, protocol: local stepped IPC, evidence_ids: [current_session]}
+        - {from: rust, to: receipt, purpose: Persist pinned samples and terminal receipt, protocol: SQLite WAL, evidence_ids: [audit]}
+    - id: independent_observation
+      name: Observe progress through a data-plane cut
+      kind: evidence
+      trigger: Operator disconnects central data plane after observed progress
+      outcome: Observer retains task progress and completion without implying a total network blackout.
+      edges:
+        - {from: plant, to: console, purpose: Read committed local state over a distinct management channel, protocol: authenticated HTTPS, evidence_ids: [current_session]}
+operational_pattern:
+  name: Deliver verify activate execute challenge recover qualify
+  rationale: The recipe moves remotely; execution ownership and recovery remain local.
+  steps:
+    - {id: choose, label: Choose an approved task, question: What is allowed to change?, flow_ids: [capability_delivery], evidence_ids: [contracts]}
+    - {id: deliver, label: Deliver immutable bytes, question: What crosses the boundary?, flow_ids: [capability_delivery], evidence_ids: [contracts]}
+    - {id: execute, label: Run under local authority, question: Who owns execution?, flow_ids: [capability_delivery], evidence_ids: [current_session]}
+    - {id: challenge, label: Cut the central link, question: Does local work continue?, flow_ids: [independent_observation], evidence_ids: [current_session]}
+    - {id: recover, label: Interrupt and explicitly recover, question: What happens to uncertain work?, flow_ids: [capability_delivery], evidence_ids: [audit]}
+    - {id: qualify, label: Review evidence and hand off, question: What must be tested on the next host?, flow_ids: [capability_delivery], evidence_ids: [hardware]}
+  changed_condition: A data-plane cut followed by explicit simulator executor interruption; neither is physical safety qualification.
+  close: Continue into the dashboard and agent-guided hardware acceptance.
+evidence:
+  - {id: contracts, name: Strict transfer and action contracts, source: ../crates/aeris-skill-transfer/src, collection: Source plus passing rejection tests, supports: Local admission and immutable identity rules, status: verified}
+  - {id: current_session, name: Browser session observations, source: /api/action-demo/export, collection: Explicit same-origin read using the authenticated session, supports: Only the returned session observations, status: verified}
+  - {id: audit, name: Retained independently audited simulator trace, source: ../verification/onboarding-01/result.json, collection: Saved source-matched SQLite and trace audit, supports: Historical local simulation only, status: verified}
+  - {id: historical, name: Flightpath separate-host proof, source: /action-proof.json, collection: Retained Intel RHEL source and execution record, supports: Historical two-host simulator workflow only, status: verified}
+  - {id: hardware, name: Hardware handoff, source: ../docs/PRESTON.md, collection: Named future acceptance gates, supports: Pending compute and physical qualification, status: verified}
+decisions:
+  - {id: admit, owner: Rust executor and local allowlist, policy: Signature approval profile time sequence bounds, fail_closed_behavior: Refuse admission, status: verified}
+  - {id: recover, owner: Explicit operator, policy: Unknown acknowledgements never authorize a new task, fail_closed_behavior: Leave recovery required or terminal interrupted, status: verified}
+  - {id: qualify, owner: Hardware acceptance owner, policy: Independent scoped evidence before promotion, fail_closed_behavior: Keep unproved hardware and physical gates red, status: verified}
+ai_assessment:
+  needed: false
+  kind: none
+  rationale: This runtime transfer proof is deterministic. A user's external coding agent may assist onboarding; saved synthetic voice is presentation production only.
+  tasks: []
+  inputs: []
+  outputs: []
+  action_authority: none
+  fallback: Deterministic transfer and local control do not depend on an LLM or narrator.
+  final_decision_owner: Operator and hardware acceptance owner
+story_mapping:
+  format: Seven chapter cinematic story with narrator, presenter mode, shared evidence and a deliberate dashboard handoff.
+  mechanism: One aerospace cell, one signed recipe, one central cut, one explicit recovery, one repeatable qualification process.
+  numerical_claims: Only typed returned live observations or explicitly labeled retained evidence; no invented savings, performance or fleet capacity.

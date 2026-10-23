@@ -1,0 +1,394 @@
+{
+  "config": {
+    "argv": [
+      "/Users/jkershaw/.local/node-v22.15.0-darwin-arm64/bin/node",
+      "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/node_modules/.bin/playwright",
+      "test",
+      "--grep-invert",
+      "packaged video"
+    ],
+    "configFile": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/playwright.config.ts",
+    "rootDir": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests",
+        "testIgnore": [],
+        "testMatch": [
+          "cinema.spec.ts"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/verification/cinema-06/browser/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "cinema.spec.ts",
+      "file": "cinema.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "all cinematic chapters and mechanism reveals fit stage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6647,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T12:14:23.239Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-025cc829899b8a55eba5",
+          "file": "cinema.spec.ts",
+          "line": 4,
+          "column": 104
+        },
+        {
+          "title": "all cinematic chapters and mechanism reveals fit laptop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4933,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T12:14:33.184Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-48f3e6277954b35de894",
+          "file": "cinema.spec.ts",
+          "line": 4,
+          "column": 104
+        },
+        {
+          "title": "all cinematic chapters and mechanism reveals fit mobile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4163,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T12:14:38.131Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-a8d0ade3d07ad23a31bd",
+          "file": "cinema.spec.ts",
+          "line": 4,
+          "column": 104
+        },
+        {
+          "title": "voice clock plays, pauses and seeks without running a robot action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3432,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T12:14:42.310Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-1e9cad4bbbd2770b2117",
+          "file": "cinema.spec.ts",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "authenticated observations populate only the current session payoff",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2260,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T12:14:45.763Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-783a8663926b47ee3ba5",
+          "file": "cinema.spec.ts",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "business illustrations explain their elements on hover and keyboard focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2945,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T12:14:48.037Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-ae33dd218bcf53dcdf65",
+          "file": "cinema.spec.ts",
+          "line": 46,
+          "column": 1
+        },
+        {
+          "title": "spatial architecture walks every event and robot hangar views remain passive",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 14686,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.cine-event-nav')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.cine-event-nav') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.cine-event-nav')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.cine-event-nav')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.cine-event-nav') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.cine-event-nav')\u001b[22m\n\n    at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:56:326",
+                    "location": {
+                      "file": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts",
+                      "column": 326,
+                      "line": 56
+                    },
+                    "snippet": "  54 |  await expect(page.getByRole('button',{name:'Next process event',exact:true})).toBeDisabled();await page.getByRole('button',{name:'Previous process event',exact:true}).click();await expect(page.locator('.cinema')).toHaveAttribute('data-spatial-flow','execute');await page.getByRole('button',{name:'Close inspection'}).click()\n  55 |  await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),plan.chapters[3].start+1);await expect(page.locator('.robot-stage')).toHaveAttribute('data-asset-ready','true',{timeout:90000});for(const mode of ['hangar','aircraft','detail','cell']){await page.getByLabel('Hangar camera view').selectOption(mode);await expect(page.locator('.cinema')).toHaveAttribute('data-camera-view',mode);await page.waitForTimeout(1600);const colors=await page.locator('.robot-stage canvas').evaluate(node=>{const probe=document.createElement('canvas');probe.width=48;probe.height=32;const ctx=probe.getContext('2d')!;ctx.drawImage(node as HTMLCanvasElement,0,0,48,32);const pixels=ctx.getImageData(0,0,48,32).data,unique=new Set<string>();for(let i=0;i<pixels.length;i+=4)unique.add(pixels[i]+','+pixels[i+1]+','+pixels[i+2]);return unique.size});expect(colors,'nonempty 3D '+mode+' view').toBeGreaterThan(30);await page.screenshot({path:out+'/hangar-'+mode+'.png'})}\n> 56 |  await page.getByLabel('Exploded robot assembly').fill('0.4');await page.getByRole('button',{name:'Blueprint',exact:true}).click();await page.screenshot({path:out+'/robot-exploded-blueprint.png'});await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),plan.chapters[2].start+3);await expect(page.locator('.cine-event-nav')).toBeVisible();expect(writes).toEqual([]);expect(errors).toEqual([])\n     |                                                                                                                                                                                                                                                                                                                                      ^\n  57 | })\n  58 |\n  59 | test('approved scene and Blender opening views are local and passive',async({page})=>{"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts",
+                        "column": 326,
+                        "line": 56
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.cine-event-nav')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.cine-event-nav') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.cine-event-nav')\u001b[22m\n\n\n  54 |  await expect(page.getByRole('button',{name:'Next process event',exact:true})).toBeDisabled();await page.getByRole('button',{name:'Previous process event',exact:true}).click();await expect(page.locator('.cinema')).toHaveAttribute('data-spatial-flow','execute');await page.getByRole('button',{name:'Close inspection'}).click()\n  55 |  await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),plan.chapters[3].start+1);await expect(page.locator('.robot-stage')).toHaveAttribute('data-asset-ready','true',{timeout:90000});for(const mode of ['hangar','aircraft','detail','cell']){await page.getByLabel('Hangar camera view').selectOption(mode);await expect(page.locator('.cinema')).toHaveAttribute('data-camera-view',mode);await page.waitForTimeout(1600);const colors=await page.locator('.robot-stage canvas').evaluate(node=>{const probe=document.createElement('canvas');probe.width=48;probe.height=32;const ctx=probe.getContext('2d')!;ctx.drawImage(node as HTMLCanvasElement,0,0,48,32);const pixels=ctx.getImageData(0,0,48,32).data,unique=new Set<string>();for(let i=0;i<pixels.length;i+=4)unique.add(pixels[i]+','+pixels[i+1]+','+pixels[i+2]);return unique.size});expect(colors,'nonempty 3D '+mode+' view').toBeGreaterThan(30);await page.screenshot({path:out+'/hangar-'+mode+'.png'})}\n> 56 |  await page.getByLabel('Exploded robot assembly').fill('0.4');await page.getByRole('button',{name:'Blueprint',exact:true}).click();await page.screenshot({path:out+'/robot-exploded-blueprint.png'});await page.evaluate(t=>window.__AERIS_CINEMA__!.seek(t),plan.chapters[2].start+3);await expect(page.locator('.cine-event-nav')).toBeVisible();expect(writes).toEqual([]);expect(errors).toEqual([])\n     |                                                                                                                                                                                                                                                                                                                                      ^\n  57 | })\n  58 |\n  59 | test('approved scene and Blender opening views are local and passive',async({page})=>{\n    at /Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts:56:326"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T12:14:51.000Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/test-results/cinema-spatial-architectur-197a2-hangar-views-remain-passive/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/test-results/cinema-spatial-architectur-197a2-hangar-views-remain-passive/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/jkershaw/.codex/.chatgpt-projects/g-p-6ac936751b0c8191885bd0beaac7f0de/evy-aeris-edge-actions/presentation/visual-tests/cinema.spec.ts",
+                    "column": 326,
+                    "line": 56
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-0000f75bd8fb5bd685af",
+          "file": "cinema.spec.ts",
+          "line": 51,
+          "column": 1
+        },
+        {
+          "title": "approved scene and Blender opening views are local and passive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3272,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T12:15:06.175Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "db38e78971a4e4a27c38-3e98962d204a4850ffd2",
+          "file": "cinema.spec.ts",
+          "line": 59,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-23T12:14:22.779Z",
+    "duration": 47484.599,
+    "expected": 7,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

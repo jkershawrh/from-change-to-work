@@ -1,0 +1,437 @@
+{
+  "schema": "aeris.story-audio-plan.v1",
+  "duration": 367.12,
+  "voice_duration": 317.12,
+  "lead_seconds": 2.0,
+  "chapter_hold_seconds": 6.0,
+  "closing_hold_seconds": 12.0,
+  "chapters": [
+    {
+      "id": "cell",
+      "start": 0.0,
+      "end": 48.507
+    },
+    {
+      "id": "recipe",
+      "start": 48.507,
+      "end": 95.015
+    },
+    {
+      "id": "architecture",
+      "start": 95.015,
+      "end": 148.334
+    },
+    {
+      "id": "disconnect",
+      "start": 148.334,
+      "end": 198.017
+    },
+    {
+      "id": "recovery",
+      "start": 198.017,
+      "end": 250.472
+    },
+    {
+      "id": "ecosystem",
+      "start": 250.472,
+      "end": 304.36
+    },
+    {
+      "id": "qualify",
+      "start": 304.36,
+      "end": 367.12
+    }
+  ],
+  "captions": [
+    {
+      "start": 2.438,
+      "end": 4.8,
+      "text": "Imagine an aerospace manufacturing cell."
+    },
+    {
+      "start": 5.08,
+      "end": 7.24,
+      "text": "A new inspection task is ready."
+    },
+    {
+      "start": 7.31,
+      "end": 10.56,
+      "text": "The robot, the operator, and the part are here."
+    },
+    {
+      "start": 10.64,
+      "end": 13.68,
+      "text": "The team preparing the change may be somewhere else."
+    },
+    {
+      "start": 13.867,
+      "end": 16.560000000000002,
+      "text": "So here is the question I care about."
+    },
+    {
+      "start": 16.672,
+      "end": 20.72,
+      "text": "When that connection disappears, who owns the next move?"
+    },
+    {
+      "start": 20.864,
+      "end": 22.88,
+      "text": "This is EVY and AERIS."
+    },
+    {
+      "start": 23.04,
+      "end": 27.6,
+      "text": "We are exploring how a capability can travel from a central system to an edge"
+    },
+    {
+      "start": 27.68,
+      "end": 30.4,
+      "text": "cell, while control stays local."
+    },
+    {
+      "start": 30.54,
+      "end": 33.2,
+      "text": "The aircraft structure is an illustration."
+    },
+    {
+      "start": 33.32,
+      "end": 35.76,
+      "text": "Our executable robot is a simulator."
+    },
+    {
+      "start": 35.88,
+      "end": 40.24,
+      "text": "But the transfer, the interruption, and the recovery are things we can"
+    },
+    {
+      "start": 40.293,
+      "end": 41.84,
+      "text": "actually challenge."
+    },
+    {
+      "start": 48.507,
+      "end": 53.76,
+      "text": "Start with what travels. In this proof, it is a signed recipe: a bounded set"
+    },
+    {
+      "start": 53.813,
+      "end": 58.32,
+      "text": "of joint goals, with an exact identity and an approved target."
+    },
+    {
+      "start": 58.507,
+      "end": 63.28,
+      "text": "We are not downloading a new robot driver or asking a language model to invent"
+    },
+    {
+      "start": 63.32,
+      "end": 66.72,
+      "text": "a movement. The central system offers a capability."
+    },
+    {
+      "start": 66.82,
+      "end": 72.56,
+      "text": "The edge decides whether those exact bytes are approved, compatible, current,"
+    },
+    {
+      "start": 72.58,
+      "end": 76.44,
+      "text": "and allowed to run. That is the useful boundary."
+    },
+    {
+      "start": 76.587,
+      "end": 80.88,
+      "text": "We can change the task without giving the remote system the keys to local"
+    },
+    {
+      "start": 80.944,
+      "end": 85.52,
+      "text": "execution. Training can become another source of a capability later."
+    },
+    {
+      "start": 85.6,
+      "end": 88.16,
+      "text": "It is not the point of this demonstration."
+    },
+    {
+      "start": 95.015,
+      "end": 96.885,
+      "text": "Now follow that same recipe."
+    },
+    {
+      "start": 97.045,
+      "end": 99.925,
+      "text": "The operator chooses an approved task."
+    },
+    {
+      "start": 100.138,
+      "end": 103.685,
+      "text": "EVY binds the action to its destination and release."
+    },
+    {
+      "start": 103.845,
+      "end": 106.645,
+      "text": "The edge inbox accepts the request."
+    },
+    {
+      "start": 106.821,
+      "end": 112.805,
+      "text": "Rust checks the signature, local approval, compatibility, expiry, and"
+    },
+    {
+      "start": 112.885,
+      "end": 116.725,
+      "text": "sequence. Only an idle executor can activate it."
+    },
+    {
+      "start": 116.825,
+      "end": 122.085,
+      "text": "The task then pins its release before the local controller begins."
+    },
+    {
+      "start": 122.188,
+      "end": 124.165,
+      "text": "Notice where the network ends."
+    },
+    {
+      "start": 124.298,
+      "end": 127.765,
+      "text": "It is a delivery path, not the controller loop."
+    },
+    {
+      "start": 127.885,
+      "end": 133.445,
+      "text": "And notice what remains: durable state, committed samples, and a receipt"
+    },
+    {
+      "start": 133.57299999999998,
+      "end": 138.885,
+      "text": "tied to this task. Those details let us explain what happened instead of"
+    },
+    {
+      "start": 138.965,
+      "end": 141.60500000000002,
+      "text": "asking the audience to trust an animation."
+    },
+    {
+      "start": 148.334,
+      "end": 149.372,
+      "text": "Let us make the connection fail."
+    },
+    {
+      "start": 149.423,
+      "end": 153.365,
+      "text": "First, the task must be running with committed progress."
+    },
+    {
+      "start": 153.445,
+      "end": 156.229,
+      "text": "Then we cut the central data plane."
+    },
+    {
+      "start": 156.277,
+      "end": 161.285,
+      "text": "In the retained simulator proof, local work continues and completes."
+    },
+    {
+      "start": 161.365,
+      "end": 165.005,
+      "text": "A separate management observer can still read the edge."
+    },
+    {
+      "start": 165.045,
+      "end": 170.832,
+      "text": "That distinction matters: this is not a total network blackout, and it is not"
+    },
+    {
+      "start": 170.858,
+      "end": 176.775,
+      "text": "a safety stop. Reconnect, ask for the same action again, and inspect the"
+    },
+    {
+      "start": 176.845,
+      "end": 181.895,
+      "text": "result. A retry should return the existing receipt, not quietly start another"
+    },
+    {
+      "start": 181.965,
+      "end": 185.774,
+      "text": "movement. These pictures replay retained evidence."
+    },
+    {
+      "start": 185.836,
+      "end": 191.085,
+      "text": "For a new run, the workbench gives you the actual controls and observations."
+    },
+    {
+      "start": 198.017,
+      "end": 199.961,
+      "text": "A lost connection is one trial."
+    },
+    {
+      "start": 200.005,
+      "end": 202.725,
+      "text": "An interrupted executor is another."
+    },
+    {
+      "start": 202.805,
+      "end": 207.065,
+      "text": "If that process dies, we should not paint the task green."
+    },
+    {
+      "start": 207.085,
+      "end": 210.125,
+      "text": "Durable state preserves the uncertainty."
+    },
+    {
+      "start": 210.145,
+      "end": 215.621,
+      "text": "A new action is refused until the operator explicitly recovers the executor."
+    },
+    {
+      "start": 215.685,
+      "end": 219.632,
+      "text": "Recovery records the orphaned task as interrupted."
+    },
+    {
+      "start": 219.738,
+      "end": 221.385,
+      "text": "It does not resume motion."
+    },
+    {
+      "start": 221.385,
+      "end": 225.15,
+      "text": "Another execution needs a deliberately new action."
+    },
+    {
+      "start": 225.199,
+      "end": 228.645,
+      "text": "That is less magical, and much more useful."
+    },
+    {
+      "start": 228.725,
+      "end": 233.825,
+      "text": "We can inspect the refusal, the recovery, and the new receipt."
+    },
+    {
+      "start": 233.925,
+      "end": 238.555,
+      "text": "The same discipline applies to the evidence: a browser export is an"
+    },
+    {
+      "start": 238.605,
+      "end": 243.892,
+      "text": "observation. A complete captured trace still needs its independent audit."
+    },
+    {
+      "start": 250.472,
+      "end": 255.433,
+      "text": "Now pull back. Inspection positioning and rework positioning already share"
+    },
+    {
+      "start": 255.48,
+      "end": 260.85900000000004,
+      "text": "this process. The next module could support another manufacturing task, but a"
+    },
+    {
+      "start": 260.916,
+      "end": 265.733,
+      "text": "different robot still needs a reviewed adapter and its own acceptance."
+    },
+    {
+      "start": 265.933,
+      "end": 271.15999999999997,
+      "text": "That is the repeatable part: the contract, the delivery, local ownership,"
+    },
+    {
+      "start": 271.231,
+      "end": 276.80600000000004,
+      "text": "explicit recovery, and evidence. Intel compute and Red Hat"
+    },
+    {
+      "start": 276.89300000000003,
+      "end": 279.233,
+      "text": "platforms are the target foundation."
+    },
+    {
+      "start": 279.253,
+      "end": 284.909,
+      "text": "The retained separate-host baseline used Intel workers with RHEL on OpenShift."
+    },
+    {
+      "start": 285.005,
+      "end": 288.237,
+      "text": "New hardware must earn its own result."
+    },
+    {
+      "start": 288.285,
+      "end": 293.329,
+      "text": "We are not claiming an accelerator benefit, a production fleet, or physical"
+    },
+    {
+      "start": 293.38,
+      "end": 297.643,
+      "text": "robot qualification just because the diagram looks convincing."
+    },
+    {
+      "start": 304.36,
+      "end": 306.553,
+      "text": "So what is the next useful decision?"
+    },
+    {
+      "start": 306.573,
+      "end": 312.253,
+      "text": "Pick one cell, one approved capability, and named central and edge"
+    },
+    {
+      "start": 312.346,
+      "end": 316.193,
+      "text": "hardware. Give your testing agent the repository."
+    },
+    {
+      "start": 316.253,
+      "end": 320.99,
+      "text": "It can explain the architecture, check prerequisites, collect the hardware"
+    },
+    {
+      "start": 321.053,
+      "end": 324.133,
+      "text": "facts, and follow the acceptance workflow."
+    },
+    {
+      "start": 324.153,
+      "end": 329.493,
+      "text": "Then measure the things the business actually needs: rollout effort, recovery"
+    },
+    {
+      "start": 329.553,
+      "end": 334.013,
+      "text": "behavior, and whether the task delivers its intended result."
+    },
+    {
+      "start": 334.093,
+      "end": 338.813,
+      "text": "The dashboard, workbench, and evidence come with the handoff."
+    },
+    {
+      "start": 338.893,
+      "end": 342.893,
+      "text": "Physical motion and real-time behavior remain separate gates."
+    },
+    {
+      "start": 342.996,
+      "end": 348.173,
+      "text": "I am Kersh. I work at Red Hat; these are my personal views."
+    },
+    {
+      "start": 348.193,
+      "end": 352.073,
+      "text": "Capability travels. Control stays. What would you"
+    },
+    {
+      "start": 352.173,
+      "end": 355.133,
+      "text": "test first?"
+    }
+  ]
+}

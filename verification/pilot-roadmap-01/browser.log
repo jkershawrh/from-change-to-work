@@ -1,0 +1,16 @@
+
+> evy-aeris-edge-actions-frontend@0.1.0 test:visual
+> playwright test --config playwright.actions.config.ts dashboard.spec.ts
+
+
+Running 5 tests using 1 worker
+
+(node:12306) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/dashboard.spec.ts:5:1 › agent packet separates proposed hardware, observed readiness and missing audit (4.4s)
+  ✓  2 visual-tests/dashboard.spec.ts:23:87 › dashboard and agent guide fit desktop (2.8s)
+  ✓  3 visual-tests/dashboard.spec.ts:23:87 › dashboard and agent guide fit mobile (2.6s)
+  ✓  4 visual-tests/dashboard.spec.ts:29:87 › pilot roadmap preserves baseline scope and fits desktop (1.1s)
+  ✓  5 visual-tests/dashboard.spec.ts:29:87 › pilot roadmap preserves baseline scope and fits mobile (897ms)
+
+  5 passed (12.7s)

@@ -1,0 +1,11 @@
+
+Running 4 tests using 1 worker
+
+(node:59930) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/actions.spec.ts:5:1 › operator transfers, cuts actual data plane, observes completion, interrupts and explicitly recovers (33.9s)
+  ✓  2 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits stage (2.2s)
+  ✓  3 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits laptop (2.1s)
+  ✓  4 visual-tests/actions.spec.ts:31:105 › recorded proof stays labeled and fits mobile (1.9s)
+
+  4 passed (40.9s)

@@ -1,0 +1,145 @@
+{
+  "schema": "aeris.evy-separate-host-qualification.v1",
+  "observed_utc": "2026-10-22T22:03:20.811818+00:00",
+  "status": "PASS_SEPARATE_HOST_SIMULATION",
+  "aeris_parent": "9a63518",
+  "evy_base_commit": "ec644a54f6d39df48dc9da93f9593c49be091ebd",
+  "evy_delivery": "Existing private integration patch and source-bound EVY backend snapshot; original public EVY checkout unchanged.",
+  "cluster": "Flightpath",
+  "openshift_version": "4.21.10",
+  "hosts": {
+    "central": "fp2.fm2aihpcsed.com",
+    "edge": "fp3.fm2aihpcsed.com"
+  },
+  "cpu": "Intel Xeon 6767P on both workers",
+  "container_os": "Red Hat Enterprise Linux 9.6",
+  "qualification": "Isolated actual EVY API gateway to HTTPS reference inbox to unchanged Rust action/executor and six-axis MuJoCo simulator on distinct worker nodes.",
+  "scenarios_passed": 40,
+  "metrics": {
+    "schema": "evy-aeris.network-audit.v1",
+    "status": "PASS_SEPARATE_HOST_SIMULATION",
+    "tasks": [
+      {
+        "task": "action-inspection-disconnected",
+        "status": "COMPLETE",
+        "control_ticks": 426,
+        "physics_substeps": 4260,
+        "peak_speed_rad_s": 0.39999999999995567,
+        "peak_acceleration_rad_s2": 0.8500000000000035,
+        "peak_displacement_rad": 0.28894965300372033
+      },
+      {
+        "task": "action-rework-interrupted",
+        "status": "INTERRUPTED",
+        "control_ticks": 62,
+        "physics_substeps": 620,
+        "peak_speed_rad_s": 0.30337868622396985,
+        "peak_acceleration_rad_s2": 0.8500000000000003,
+        "peak_displacement_rad": 0.1221151181168576
+      },
+      {
+        "task": "action-rework-recovered",
+        "status": "COMPLETE",
+        "control_ticks": 273,
+        "physics_substeps": 2730,
+        "peak_speed_rad_s": 0.3999999999994137,
+        "peak_acceleration_rad_s2": 0.8499999999979357,
+        "peak_displacement_rad": 0.12889142055924552
+      }
+    ],
+    "total_control_ticks": 761,
+    "total_physics_substeps": 7610,
+    "cross_host_tls_deliveries": 3,
+    "hosts": {
+      "central": "fp2.fm2aihpcsed.com",
+      "edge": "fp3.fm2aihpcsed.com"
+    },
+    "evy_action_gateway_exercised": true,
+    "simulation_only": true,
+    "physical_motion_authorized": false,
+    "independent_physics": false,
+    "lab_control_plane_trust": "AMBER_TOFU"
+  },
+  "tests": {
+    "rust_on_intel_rhel": 8,
+    "network_adapter_and_audit": 18,
+    "saved_evidence_mutations_rejected": 6,
+    "evy_previous_regression_passed": 69,
+    "evy_previous_regression_skipped": 6
+  },
+  "prior_failed_attempts": [
+    {
+      "path": "proof/skill_transfer_network_v1/runs/flightpath-001",
+      "status": "FAIL",
+      "reason": "Task completed before separate remote fault command could arrive; no executor kill occurred.",
+      "repair_registration": "proof/skill_transfer_network_v1/registration-addendum-001.json"
+    }
+  ],
+  "rubric": [
+    {
+      "id": "TDD",
+      "status": "GREEN",
+      "scope": "Retained red-first inbox/audit tests; 8 actual Linux Rust tests; 18 adapter/audit tests pass."
+    },
+    {
+      "id": "EDD",
+      "status": "GREEN",
+      "scope": "Saved sources and deployed hashes, Linux binary, signed received bytes, SQLite snapshots, all substeps, causal operation transcript and independent audit; six real-evidence mutations rejected."
+    },
+    {
+      "id": "CDD",
+      "status": "GREEN",
+      "scope": "Finite signed deterministic recipe contract, local approval and compatibility; viewer/unknown edge/authority field/changed ID/wrong release refusals. Existing Rust contract implementation unchanged."
+    },
+    {
+      "id": "BDD",
+      "status": "GREEN",
+      "scope": "Deliver/activate/run, central network isolation and isolated completion, reconnect/retry, gateway restart, moving executor death, explicit recovery and new action, second capability."
+    },
+    {
+      "id": "CBT",
+      "status": "GREEN",
+      "scope": "Actual EVY FastAPI gateway to a distinct-node authenticated HTTPS inbox and Rust execution, local MuJoCo boundary, measured failures and retained results."
+    },
+    {
+      "id": "INTEL_RED_HAT_SEPARATE_HOST",
+      "status": "GREEN",
+      "scope": "Distinct node UIDs/systemUUIDs; observed GenuineIntel Xeon 6767P and RHEL 9.6 on OpenShift 4.21.10/RHCOS workers. This is simulator qualification, not independent device attestation or vendor certification."
+    },
+    {
+      "id": "LAB_TRUST_BOOTSTRAP",
+      "status": "AMBER",
+      "scope": "Temporary lab-only TOFU control-plane CA pins. Application TLS CA generated locally and known."
+    },
+    {
+      "id": "PRODUCTION_FLEET_READINESS",
+      "status": "AMBER",
+      "scope": "Isolated reference integration; production approval/revocation/key rotation/storage limits/fleet rollout require further work."
+    },
+    {
+      "id": "PHYSICAL_ROBOT",
+      "status": "RED",
+      "scope": "No physical robot, OEM/ROS driver qualification or inspection acceptance."
+    },
+    {
+      "id": "HARD_REAL_TIME",
+      "status": "RED",
+      "scope": "Stepped simulation; no continuously evolving plant or hardware watchdog qualification."
+    }
+  ],
+  "evidence": "proof/skill_transfer_network_v1/runs/flightpath-002",
+  "limitations": [
+    "Transferred artifact is bounded deterministic goals, not arbitrary model weights or executable code.",
+    "Python HTTP reference inbox; Rust owns verification/activation/execution state.",
+    "No Gaudi/OpenVINO acceleration claim, training claim or JEPA benefit.",
+    "No kernel modifications, privileged containers, node changes, production EVY changes or public-repo push.",
+    "Process failure and network partition, not power-loss or disk-corruption qualification."
+  ],
+  "cleanup": {
+    "schema": "aeris.owned-proof-cleanup.v1",
+    "namespace": "aeris-transfer-ae928d8d71",
+    "namespace_uid": "ac5890af-e053-422d-83d2-f2e410da17c5",
+    "uid_precondition": true,
+    "status": "PASS_NAMESPACE_ABSENT"
+  }
+}

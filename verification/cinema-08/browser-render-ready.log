@@ -1,0 +1,14 @@
+
+> evy-aeris-cinema@0.1.0 test:visual
+> playwright test --grep WebGL chapter identity|packaged video|approved scene
+
+
+Running 3 tests using 1 worker
+
+(node:12264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 visual-tests/cinema.spec.ts:41:1 › packaged video has verified metadata and a playable nonempty MP4 stream (2.5s)
+  ✓  2 visual-tests/cinema.spec.ts:59:1 › approved scene and Blender opening views are local and passive (6.8s)
+  ✓  3 visual-tests/cinema.spec.ts:84:1 › WebGL chapter identity matches after each scene handoff (5.0s)
+
+  3 passed (16.9s)

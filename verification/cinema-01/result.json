@@ -1,0 +1,173 @@
+{
+  "schema": "aeris.cinematic-release-result.v1",
+  "verified_at": "2026-10-23T00:41:43.546861+00:00",
+  "status": "PASS_LOCAL_CINEMATIC_DEMO_AND_SIMULATOR_HANDOFF",
+  "repository": "https://github.com/jkershawrh/evy-aeris-edge-actions",
+  "base_commit": "b1ad446",
+  "entrypoints": {
+    "story": "/show/",
+    "dashboard": "/",
+    "workbench": "/?actions=1&mode=live",
+    "film": "/show/film/evy-aeris.mp4"
+  },
+  "composition": "Canonical demo-story-starter bootstrap, reviewed blueprint, seven-chapter custom Three.js story; shared same-repository geometry/contracts; existing EVY/Rust/MuJoCo execution unchanged.",
+  "voice": {
+    "schema": "aeris.narrator-profile.v1",
+    "provider": "ElevenLabs",
+    "name": "Kersh",
+    "voice_id": "WQ3sRw57ETquvjONdorg",
+    "model_id": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.0
+    },
+    "source": "Plan a two-week visibility strategy / outputs/cascade-story-two/voice-production.json",
+    "production_rule": "Complete continuous narrative; provider timestamps; chapter holds without resynthesis or speed changes; preserve the entire original waveform and spoken ending.",
+    "disclosure": "Saved synthetic Kersh voice, used at the owner's request. Narration is presentation production only, outside the robotics runtime."
+  },
+  "audio_production": {
+    "schema": "aeris.story-audio-production.v1",
+    "duration_seconds": 367.12,
+    "original_voice_seconds": 317.12,
+    "entire_decoded_source_waveform_retained": true,
+    "provider_requests": 1,
+    "time_stretching": false,
+    "chapter_holds": 6,
+    "closing_hold_seconds": 12.0,
+    "original_ambient_bed_db_below_active_voice_rms": 34,
+    "clipped_samples": 0,
+    "voiced_sample_fraction": 0.6030717618637489,
+    "voice_settings_source": "audio/voice-profile.json",
+    "subjective_listening_performed": false,
+    "files": {
+      "captions.vtt": "24ffde0c80623cbbdc1475df7a1f9428f158c9231dd0d6f2f01b595681dbef50",
+      "ambient.wav": "ace07881b3c4859bc72d078d81c60c69f23d87284a7fce301c6ef7f35b1b192e",
+      "plan.json": "58ef4f394c038779c60a8f6e93bd96b90482aac43a876f7844c18a5dd1e9f7ee",
+      "kersh-raw.mp3": "7fb40cd372e361bf0a59175d029ae128b29a8983a829405214f2c639537cdb8c",
+      "film-mix.wav": "34bb2a833f32b2c743633e6b742c3f7b02f8f32ef999381edfe4dc2498bc9bb2",
+      "captions.srt": "d51b641d1e76fe7c3957a7926c662ace70ea08ee1f47fb645919c8e50114c981",
+      "narration.wav": "2b5eb1c058e5529a22a37535bc315e277fb5a0f4eab36fe41b1c249ceee34b41"
+    }
+  },
+  "media": {
+    "schema": "aeris.encoded-story.v1",
+    "status": "PASS_ENCODED_MEDIA",
+    "duration_seconds": 367.12,
+    "resolution": "1920x1080",
+    "fps": 25,
+    "audio": "AAC / complete saved Kersh waveform and original quiet bed",
+    "decoded_audio_rms": 3306.3247008800495,
+    "entire_audio_timeline_retained": true,
+    "frame_samples": 8,
+    "full_video_audio_decode": true,
+    "sha256": "8f56797b90d026c60a7ad781ac8cfd77ec412f66472961fa75f60ed477058761",
+    "voice_profile": "audio/voice-profile.json",
+    "browser_actuation_requests": 0,
+    "scope": "Narrated retained-evidence story. Not a new physical, hardware or live execution proof.",
+    "subjective_listening_performed": false
+  },
+  "current_simulator_audit": {
+    "schema": "aeris.action-session-audit.v1",
+    "status": "PASS_LOCAL_SIMULATION_ACCOUNTING",
+    "scope": "No separate-host, physical-robot or real-time qualification inferred.",
+    "tasks": [
+      {
+        "task": "action-action-1f791028",
+        "status": "COMPLETE",
+        "control_ticks": 427,
+        "physics_substeps": 4270,
+        "peak_speed_rad_s": 0.39999999999996266,
+        "peak_acceleration_rad_s2": 0.8499999999974084,
+        "peak_displacement_rad": 0.2889393093702899
+      },
+      {
+        "task": "action-action-a15565ca",
+        "status": "INTERRUPTED",
+        "control_ticks": 36,
+        "physics_substeps": 360,
+        "peak_speed_rad_s": 0.3033786862239538,
+        "peak_acceleration_rad_s2": 0.8499999999957742,
+        "peak_displacement_rad": 0.12035413670435058
+      },
+      {
+        "task": "action-action-573562fa",
+        "status": "COMPLETE",
+        "control_ticks": 273,
+        "physics_substeps": 2730,
+        "peak_speed_rad_s": 0.3999999999994139,
+        "peak_acceleration_rad_s2": 0.8499999999979357,
+        "peak_displacement_rad": 0.1288914205592433
+      }
+    ],
+    "total_control_ticks": 736,
+    "total_physics_substeps": 7360,
+    "disconnect_and_local_completion": true,
+    "explicit_recovery_and_new_action": true,
+    "physical_motion_authorized": false
+  },
+  "source_capture": "MATCH",
+  "tests": {
+    "services_and_current_capture_mutations": 26,
+    "existing_evy_rejections": 12,
+    "retained_network_audit_rejections": 18,
+    "rust": 8,
+    "dashboard_frontend_contracts": 7,
+    "presentation_contracts_and_components": 36,
+    "integrated_workbench_dashboard_browser": 7,
+    "final_source_transfer_challenge": 1,
+    "cinematic_chapters_media_scope_and_authenticated_browser": 6,
+    "npm_install_advisories": 0
+  },
+  "rubric": [
+    {
+      "id": "TDD",
+      "status": "GREEN",
+      "scope": "Clock/source contracts red before implementation; passing service, Rust, frontend and presentation checks."
+    },
+    {
+      "id": "EDD",
+      "status": "GREEN",
+      "scope": "Fresh source-matched capture, independent accounting, current semantic evidence mutation rejections; retained generation/alignment/media hashes and full decode."
+    },
+    {
+      "id": "CDD",
+      "status": "GREEN",
+      "scope": "Story interactions and recording issue no robot actions; typed current observations; unknown or unauthenticated data never becomes a payoff."
+    },
+    {
+      "id": "BDD",
+      "status": "GREEN",
+      "scope": "Six cinematic browser tests, seven integrated browser checks, and the exact final-source transfer/cut/retry/interruption/recovery/new-action workflow."
+    },
+    {
+      "id": "CBT",
+      "status": "GREEN",
+      "scope": "Actual browser/WebGL/local media/API and real local EVY/TLS/Rust/MuJoCo boundaries."
+    },
+    {
+      "id": "INTEL_RED_HAT_HARDWARE",
+      "status": "RED",
+      "scope": "New demo on target compute remains Preston\u2019s acceptance gate; historical Flightpath evidence stays separately labeled."
+    },
+    {
+      "id": "PRODUCTION_READINESS",
+      "status": "AMBER",
+      "scope": "Disposable lab identities and finite simulator profile. Production trust, fleet lifecycle and physical adapters are separate."
+    },
+    {
+      "id": "PHYSICAL_ROBOT_AND_HARD_REAL_TIME",
+      "status": "RED",
+      "scope": "No physical actuation, safeguarding, watchdog or continuous real-time qualification."
+    }
+  ],
+  "retained_failures": [
+    "retained-playback-failure/",
+    "browser-cinema-fixed.log: obsolete rendering rehearsal timed out before render-on-demand and lightweight future-cell optimization; final rehearsal passed."
+  ],
+  "subjective_listening_performed": false,
+  "hardware_motion_authorized": false,
+  "hosted_ci": "Reported separately; initial account billing/spending restriction is retained under verification/handoff-01/hosted-check-status.json. No hosted pass inferred."
+}

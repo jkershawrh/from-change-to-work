@@ -1,0 +1,2 @@
+import { defineConfig } from '@playwright/test'
+export default defineConfig({testDir:'./visual-tests',testMatch:['actions.spec.ts','dashboard.spec.ts'],timeout:120000,workers:1,use:{baseURL:process.env.AERIS_TEST_URL??'http://127.0.0.1:8090',colorScheme:'dark',reducedMotion:'reduce',trace:'off',screenshot:'only-on-failure',launchOptions:{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}},reporter:[['list'],['json',{outputFile:(process.env.AERIS_TEST_OUTPUT??'verification/action-workbench-01')+'/playwright-results.json'}]]})

@@ -1,0 +1,1227 @@
+[
+  {
+    "sequence": 1,
+    "observed_at_ms": 1792713642028,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": null,
+      "phase": "AWAITING_ACTION",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 2,
+    "observed_at_ms": 1792713644411,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": null,
+      "phase": "AWAITING_ACTION",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 3,
+    "observed_at_ms": 1792713645483,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": null,
+      "phase": "AWAITING_ACTION",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 4,
+    "observed_at_ms": 1792713670950,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": null,
+      "phase": "AWAITING_ACTION",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 5,
+    "observed_at_ms": 1792713671191,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": null,
+      "phase": "AWAITING_ACTION",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 6,
+    "observed_at_ms": 1792713671219,
+    "event": "TRANSFER_REQUESTED",
+    "payload": {
+      "action": {
+        "schema": "evy.capability-action.v1",
+        "action_id": "action-47cac088",
+        "edge_id": "sim-cell-01",
+        "skill_id": "inspection-positioning",
+        "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+      },
+      "observation": {
+        "schema": "evy.capability-action-result.v1",
+        "action_id": "action-47cac088",
+        "edge_id": "sim-cell-01",
+        "state": "QUEUED",
+        "observation": {
+          "action": {
+            "action_id": "action-47cac088",
+            "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f",
+            "schema": "evy-aeris.transfer-action.v1",
+            "skill_id": "inspection-positioning"
+          },
+          "edge_id": "sim-cell-01",
+          "physical_motion_authorized": false,
+          "result": null,
+          "schema": "evy-aeris.edge-action.v1",
+          "simulation_only": true,
+          "state": "QUEUED",
+          "worker_pid": null
+        },
+        "source": "EDGE_OBSERVED",
+        "simulation_only": true,
+        "physical_motion_authorized": false
+      }
+    }
+  },
+  {
+    "sequence": 7,
+    "observed_at_ms": 1792713671297,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 8,
+    "observed_at_ms": 1792713672297,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 4,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 9,
+    "observed_at_ms": 1792713672785,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 19,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 10,
+    "observed_at_ms": 1792713672828,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 21,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 11,
+    "observed_at_ms": 1792713672876,
+    "event": "DISCONNECT",
+    "payload": {
+      "request": {
+        "schema": "aeris.lab-command.v1",
+        "command_id": "2c1828ea-8f75-4174-b5c2-2db0aae1fc59",
+        "action_id": "action-47cac088"
+      },
+      "result": {
+        "schema": "aeris.link-control.v1",
+        "command_id": "2c1828ea-8f75-4174-b5c2-2db0aae1fc59",
+        "operation": "disconnect",
+        "connected": false,
+        "observed_at_ms": 1792713672833,
+        "scope": "SIMULATOR_DATA_PLANE_ONLY",
+        "observer_channel": "AVAILABLE",
+        "publisher_probe": {
+          "error": "URLError",
+          "reachable": false,
+          "schema": "aeris.connectivity-observation.v1"
+        }
+      },
+      "before": {
+        "phase": "RUNNING",
+        "ticks": 21
+      }
+    }
+  },
+  {
+    "sequence": 12,
+    "observed_at_ms": 1792713672932,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 24,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 13,
+    "observed_at_ms": 1792713673203,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 33,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 14,
+    "observed_at_ms": 1792713673315,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 36,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 15,
+    "observed_at_ms": 1792713673325,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 36,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 16,
+    "observed_at_ms": 1792713673593,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 45,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 17,
+    "observed_at_ms": 1792713674112,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 61,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 18,
+    "observed_at_ms": 1792713674345,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 68,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 19,
+    "observed_at_ms": 1792713675130,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 91,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 20,
+    "observed_at_ms": 1792713675367,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 98,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 21,
+    "observed_at_ms": 1792713676155,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 121,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 22,
+    "observed_at_ms": 1792713676390,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 128,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 23,
+    "observed_at_ms": 1792713677178,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 149,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 24,
+    "observed_at_ms": 1792713677412,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 156,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 25,
+    "observed_at_ms": 1792713678202,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 178,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 26,
+    "observed_at_ms": 1792713678434,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 184,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 27,
+    "observed_at_ms": 1792713679228,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 208,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 28,
+    "observed_at_ms": 1792713679457,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 214,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 29,
+    "observed_at_ms": 1792713680255,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 238,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 30,
+    "observed_at_ms": 1792713680479,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 244,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 31,
+    "observed_at_ms": 1792713681279,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 268,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 32,
+    "observed_at_ms": 1792713681501,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 274,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 33,
+    "observed_at_ms": 1792713682308,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 297,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 34,
+    "observed_at_ms": 1792713682526,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 302,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 35,
+    "observed_at_ms": 1792713683327,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 325,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 36,
+    "observed_at_ms": 1792713683546,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 332,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 37,
+    "observed_at_ms": 1792713684350,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 355,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 38,
+    "observed_at_ms": 1792713684568,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 362,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 39,
+    "observed_at_ms": 1792713685375,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 385,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 40,
+    "observed_at_ms": 1792713685590,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 391,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 41,
+    "observed_at_ms": 1792713686400,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 415,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 42,
+    "observed_at_ms": 1792713686614,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "RUNNING",
+      "ticks": 421,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 43,
+    "observed_at_ms": 1792713687438,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "COMPLETE",
+      "ticks": 427,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 44,
+    "observed_at_ms": 1792713687458,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "COMPLETE",
+      "ticks": 427,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 45,
+    "observed_at_ms": 1792713687596,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "COMPLETE",
+      "ticks": 427,
+      "central": "UNREACHABLE",
+      "link_connected": false,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 46,
+    "observed_at_ms": 1792713687607,
+    "event": "RECONNECT",
+    "payload": {
+      "request": {
+        "schema": "aeris.lab-command.v1",
+        "command_id": "2574e048-dbd6-4ceb-b54d-ea68bb42c81a",
+        "action_id": "action-47cac088"
+      },
+      "result": {
+        "schema": "aeris.link-control.v1",
+        "command_id": "2574e048-dbd6-4ceb-b54d-ea68bb42c81a",
+        "operation": "reconnect",
+        "connected": true,
+        "observed_at_ms": 1792713687599,
+        "scope": "SIMULATOR_DATA_PLANE_ONLY",
+        "observer_channel": "AVAILABLE",
+        "publisher_probe": {
+          "reachable": true,
+          "schema": "aeris.connectivity-observation.v1",
+          "status": 403
+        }
+      },
+      "before": {
+        "phase": "COMPLETE",
+        "ticks": 427
+      }
+    }
+  },
+  {
+    "sequence": 47,
+    "observed_at_ms": 1792713687713,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "COMPLETE",
+      "ticks": 427,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 48,
+    "observed_at_ms": 1792713687746,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "COMPLETE",
+      "ticks": 427,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 49,
+    "observed_at_ms": 1792713687944,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "COMPLETE",
+      "ticks": 427,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 50,
+    "observed_at_ms": 1792713687948,
+    "event": "TRANSFER_REQUESTED",
+    "payload": {
+      "action": {
+        "action_id": "action-47cac088",
+        "edge_id": "sim-cell-01",
+        "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f",
+        "schema": "evy.capability-action.v1",
+        "skill_id": "inspection-positioning"
+      },
+      "observation": {
+        "schema": "evy.capability-action-result.v1",
+        "action_id": "action-47cac088",
+        "edge_id": "sim-cell-01",
+        "state": "COMPLETE",
+        "observation": {
+          "action": {
+            "action_id": "action-47cac088",
+            "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f",
+            "schema": "evy-aeris.transfer-action.v1",
+            "skill_id": "inspection-positioning"
+          },
+          "edge_id": "sim-cell-01",
+          "physical_motion_authorized": false,
+          "result": {
+            "action_id": "action-47cac088",
+            "idempotent": false,
+            "physical_motion_authorized": false,
+            "receipt": {
+              "behavior_sha256": "ba36c3fa459e510803b3fbe604d7d5db8b0f4505b14eb2727b765aa4380c6867",
+              "completed_at_unix_ms": 1792713686811,
+              "completed_goals": 4,
+              "deadline_refusals": 0,
+              "error": null,
+              "host_elapsed_ms": 15477.331791999999,
+              "physical_motion_authorized": false,
+              "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f",
+              "requested_goals": 4,
+              "schema": "evy-aeris.sim-transfer-receipt.v2",
+              "sequence": 1,
+              "simulation_only": true,
+              "started_at_unix_ms": 1792713671333,
+              "status": "COMPLETE",
+              "target": {
+                "adapter_sha256": "b60f0342795d18d2660f279256183c9f64f0fbfbe8ce5e51ad835c6c1b30362e",
+                "calibration_sha256": "0245e6e42acd09ea3ce2f5606414f4d0e5fc9127d5b7988f719037797d9d4909",
+                "frame": "world-base",
+                "host_arch": "aarch64",
+                "host_os": "macos",
+                "joint_names": [
+                  "shoulder_pan_joint",
+                  "shoulder_lift_joint",
+                  "elbow_joint",
+                  "wrist_1_joint",
+                  "wrist_2_joint",
+                  "wrist_3_joint"
+                ],
+                "plant_sha256": "3cc976e7249490c535c4317f6dbd0077a75ab142129ad93fecf78efee3e76ab1",
+                "profile": "mujoco-six-axis-goals-v1",
+                "runtime": "mujoco-rust-mpc-v1",
+                "runtime_version": "3.3.7",
+                "units": "rad"
+              },
+              "task": "action-action-47cac088",
+              "ticks": 427,
+              "training_required": false
+            },
+            "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f",
+            "schema": "evy-aeris.transfer-action-result.v1",
+            "simulation_only": true,
+            "skill_id": "inspection-positioning",
+            "status": "COMPLETE",
+            "task": "action-action-47cac088"
+          },
+          "schema": "evy-aeris.edge-action.v1",
+          "simulation_only": true,
+          "state": "COMPLETE",
+          "worker_pid": 66172
+        },
+        "source": "EDGE_OBSERVED",
+        "simulation_only": true,
+        "physical_motion_authorized": false
+      }
+    }
+  },
+  {
+    "sequence": 51,
+    "observed_at_ms": 1792713688048,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "COMPLETE",
+      "ticks": 427,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 52,
+    "observed_at_ms": 1792713688379,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-47cac088",
+      "phase": "COMPLETE",
+      "ticks": 427,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "106e243bde582594d02edfa953bcc16fdf450d7ca3ea72e36d1181e4f351914f"
+    }
+  },
+  {
+    "sequence": 53,
+    "observed_at_ms": 1792713688407,
+    "event": "TRANSFER_REQUESTED",
+    "payload": {
+      "action": {
+        "schema": "evy.capability-action.v1",
+        "action_id": "action-36a74d82",
+        "edge_id": "sim-cell-01",
+        "skill_id": "rework-positioning",
+        "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+      },
+      "observation": {
+        "schema": "evy.capability-action-result.v1",
+        "action_id": "action-36a74d82",
+        "edge_id": "sim-cell-01",
+        "state": "QUEUED",
+        "observation": {
+          "action": {
+            "action_id": "action-36a74d82",
+            "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475",
+            "schema": "evy-aeris.transfer-action.v1",
+            "skill_id": "rework-positioning"
+          },
+          "edge_id": "sim-cell-01",
+          "physical_motion_authorized": false,
+          "result": null,
+          "schema": "evy-aeris.edge-action.v1",
+          "simulation_only": true,
+          "state": "QUEUED",
+          "worker_pid": null
+        },
+        "source": "EDGE_OBSERVED",
+        "simulation_only": true,
+        "physical_motion_authorized": false
+      }
+    }
+  },
+  {
+    "sequence": 54,
+    "observed_at_ms": 1792713688479,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-36a74d82",
+      "phase": "RUNNING",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 55,
+    "observed_at_ms": 1792713688816,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-36a74d82",
+      "phase": "RUNNING",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 56,
+    "observed_at_ms": 1792713689851,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-36a74d82",
+      "phase": "RUNNING",
+      "ticks": 19,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 57,
+    "observed_at_ms": 1792713690355,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-36a74d82",
+      "phase": "RUNNING",
+      "ticks": 34,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 58,
+    "observed_at_ms": 1792713690400,
+    "event": "INTERRUPT",
+    "payload": {
+      "request": {
+        "schema": "aeris.lab-command.v1",
+        "command_id": "9db4e429-7dc5-42d4-a0c8-c19dd8ea4897",
+        "action_id": "action-36a74d82"
+      },
+      "result": {
+        "action_id": "action-36a74d82",
+        "command_id": "9db4e429-7dc5-42d4-a0c8-c19dd8ea4897",
+        "observed_ticks": 35,
+        "operation": "interrupt",
+        "physical_motion_authorized": false,
+        "schema": "aeris.lab-result.v1",
+        "signal": "SIGKILL",
+        "simulation_only": true,
+        "status": "SIGNALLED"
+      },
+      "before": {
+        "phase": "RUNNING",
+        "ticks": 34
+      }
+    }
+  },
+  {
+    "sequence": 59,
+    "observed_at_ms": 1792713690466,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-36a74d82",
+      "phase": "RECOVERY_REQUIRED",
+      "ticks": 36,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 60,
+    "observed_at_ms": 1792713690690,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-36a74d82",
+      "phase": "RECOVERY_REQUIRED",
+      "ticks": 36,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 61,
+    "observed_at_ms": 1792713690748,
+    "event": "RECOVER",
+    "payload": {
+      "request": {
+        "schema": "aeris.lab-command.v1",
+        "command_id": "20aa6341-29c5-428f-a222-b8e425d7c279",
+        "action_id": "action-36a74d82"
+      },
+      "result": {
+        "action_id": "action-36a74d82",
+        "command_id": "20aa6341-29c5-428f-a222-b8e425d7c279",
+        "interrupted_tasks": 1,
+        "operation": "recover",
+        "physical_motion_authorized": false,
+        "physical_resume_authorized": false,
+        "schema": "aeris.lab-result.v1",
+        "simulation_only": true,
+        "status": "RECOVERED"
+      },
+      "before": {
+        "phase": "RECOVERY_REQUIRED",
+        "ticks": 36
+      }
+    }
+  },
+  {
+    "sequence": 62,
+    "observed_at_ms": 1792713690823,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-36a74d82",
+      "phase": "INTERRUPTED",
+      "ticks": 36,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 63,
+    "observed_at_ms": 1792713690940,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-36a74d82",
+      "phase": "INTERRUPTED",
+      "ticks": 36,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 64,
+    "observed_at_ms": 1792713691262,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-36a74d82",
+      "phase": "INTERRUPTED",
+      "ticks": 36,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 65,
+    "observed_at_ms": 1792713691301,
+    "event": "TRANSFER_REQUESTED",
+    "payload": {
+      "action": {
+        "schema": "evy.capability-action.v1",
+        "action_id": "action-6e55482f",
+        "edge_id": "sim-cell-01",
+        "skill_id": "rework-positioning",
+        "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+      },
+      "observation": {
+        "schema": "evy.capability-action-result.v1",
+        "action_id": "action-6e55482f",
+        "edge_id": "sim-cell-01",
+        "state": "QUEUED",
+        "observation": {
+          "action": {
+            "action_id": "action-6e55482f",
+            "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475",
+            "schema": "evy-aeris.transfer-action.v1",
+            "skill_id": "rework-positioning"
+          },
+          "edge_id": "sim-cell-01",
+          "physical_motion_authorized": false,
+          "result": null,
+          "schema": "evy-aeris.edge-action.v1",
+          "simulation_only": true,
+          "state": "QUEUED",
+          "worker_pid": null
+        },
+        "source": "EDGE_OBSERVED",
+        "simulation_only": true,
+        "physical_motion_authorized": false
+      }
+    }
+  },
+  {
+    "sequence": 66,
+    "observed_at_ms": 1792713691370,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 0,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": null
+    }
+  },
+  {
+    "sequence": 67,
+    "observed_at_ms": 1792713692049,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 2,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 68,
+    "observed_at_ms": 1792713693083,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 31,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 69,
+    "observed_at_ms": 1792713694114,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 59,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 70,
+    "observed_at_ms": 1792713695143,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 90,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 71,
+    "observed_at_ms": 1792713696171,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 120,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 72,
+    "observed_at_ms": 1792713697209,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 150,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 73,
+    "observed_at_ms": 1792713698244,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 179,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 74,
+    "observed_at_ms": 1792713699280,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 211,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 75,
+    "observed_at_ms": 1792713700317,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 240,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 76,
+    "observed_at_ms": 1792713701347,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "RUNNING",
+      "ticks": 272,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 77,
+    "observed_at_ms": 1792713702382,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "COMPLETE",
+      "ticks": 273,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  },
+  {
+    "sequence": 78,
+    "observed_at_ms": 1792713702541,
+    "event": "OBSERVED",
+    "payload": {
+      "action_id": "action-6e55482f",
+      "phase": "COMPLETE",
+      "ticks": 273,
+      "central": "REACHABLE",
+      "link_connected": true,
+      "release_digest": "92be905cc21ed073ac30df84011f47b609d951e8078fac2963598448f80fb475"
+    }
+  }
+]

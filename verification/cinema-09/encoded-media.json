@@ -1,0 +1,67 @@
+{
+  "schema": "aeris.encoded-story.v1",
+  "status": "PASS_ENCODED_MEDIA",
+  "film_name": "from-change-to-work-announced.mp4",
+  "edition": "cinema-09",
+  "audio_edition": "cinema-07",
+  "duration_seconds": 331.48,
+  "story_duration_seconds": 326.4519954648526,
+  "opening_title_seconds": 5.0,
+  "resolution": "1920x1080",
+  "fps": 25,
+  "audio": "AAC / Kersh title announcement and narration with original speech-ducked score",
+  "entire_audio_timeline_retained": true,
+  "original_provider_waveform_entirely_retained": false,
+  "frame_samples": 9,
+  "full_video_audio_decode": true,
+  "sha256": "422f2833be2012a43e285030e1b65903bde370a52408452f882a080ea32a10ad",
+  "voice_profile": "audio/voice-profile.json",
+  "browser_actuation_requests": 0,
+  "export_transport_overlay": false,
+  "body_footer_cleanup": "Recorded decorative transport masked at y957\u20131037; attribution retained",
+  "burned_in_captions": false,
+  "music": "Original pad and piano score, speech-ducked",
+  "scope": "Narrated retained-evidence story. Not a new physical, hardware or live execution proof.",
+  "subjective_listening_performed": false,
+  "picture_repair": {
+    "source_film": "from-change-to-work-music-cut.mp4",
+    "source_sha256": "17785d64c5ace80e563f9cc1213eeeb32baf16346d2c839dda5c4ac2f2308ee4",
+    "patches": [
+      {
+        "chapter": "architecture",
+        "start": 85.76,
+        "end": 86.6,
+        "source_frame": 86.6
+      },
+      {
+        "chapter": "disconnect",
+        "start": 133.76,
+        "end": 137.8,
+        "source_frame": 137.8
+      }
+    ],
+    "reason": "Brief stale WebGL scene/camera reset at chapter entries. Stable matching scene entry frames replace only those intervals.",
+    "audio_stream_sha256": "a86ed546fc898fe258f9dcd11822ab4045657e95f7e627390a95b730660866ba",
+    "audio_stream_byte_identical": true,
+    "scope": "Historical repair in the retained cinema-08 body; add 1 second to prior movie times."
+  },
+  "final_review_evidence": "verification/cinema-09/",
+  "voice_footer_overlay": false,
+  "opening_announcement": {
+    "text": "From change to work. A Red Hat and Intel robotics story.",
+    "voice_profile": "presentation/audio/voice-profile.json",
+    "voice_settings_changed": false,
+    "spoken_start_seconds": 0.2,
+    "spoken_end_seconds": 4.680000000000001,
+    "provider_requests": 1,
+    "mix_voice_gain": 1.0359247922897339,
+    "master_gain": 1.0
+  },
+  "reviewed_body_source": {
+    "movie": "from-change-to-work-final.mp4",
+    "sha256": "2a15883e91b701b468803a98be2b76723b788f4aca6cd79546bb0f61249805ca",
+    "original_intro_removed_seconds": 4,
+    "body_visuals_shift_seconds": 1,
+    "body_audio_source": "cinema-07 lossless film-mix.wav"
+  }
+}

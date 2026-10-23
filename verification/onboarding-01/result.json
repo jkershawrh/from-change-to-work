@@ -1,0 +1,115 @@
+{
+  "schema": "aeris.agent-onboarding-result.v1",
+  "observed_at": "2026-10-23T00:02:50.957173+00:00",
+  "status": "PASS_LOCAL_SIMULATOR_ONBOARDING_AND_DASHBOARD",
+  "base_commit": "88efe378e44fcd8a19fe4ac609c7aa420e3f428f",
+  "scope": "Current local Darwin/arm64 compute; actual browser/API/local probes and EVY/TLS/Rust/MuJoCo. No new separate-host, Intel/Red Hat hardware, physical robot or real-time qualification.",
+  "deliverables": [
+    "AGENTS.md and docs/AGENT_START.md",
+    "Machine-readable onboarding/manifest.json and source map",
+    "Standard-library doctor before setup; authenticated cached dashboard preflight",
+    "Default dashboard with 3D preview/live committed samples and actual connectivity/task observation",
+    "Unverified hardware intake and downloadable agent start packet",
+    "Preserved transfer/disconnect/interruption/recovery workbench and viewer restrictions"
+  ],
+  "tests": {
+    "services_and_current_saved_evidence": 26,
+    "existing_evy_rejections": 12,
+    "retained_network_audit_rejections": 18,
+    "rust": 8,
+    "frontend_contracts": 7,
+    "browser_dashboard_and_layouts": 3,
+    "browser_transfer_and_layouts": 4
+  },
+  "audit": {
+    "schema": "aeris.action-session-audit.v1",
+    "status": "PASS_LOCAL_SIMULATION_ACCOUNTING",
+    "scope": "No separate-host, physical-robot or real-time qualification inferred.",
+    "tasks": [
+      {
+        "task": "action-action-47cac088",
+        "status": "COMPLETE",
+        "control_ticks": 427,
+        "physics_substeps": 4270,
+        "peak_speed_rad_s": 0.39999999999996266,
+        "peak_acceleration_rad_s2": 0.8499999999974084,
+        "peak_displacement_rad": 0.2889393093702899
+      },
+      {
+        "task": "action-action-36a74d82",
+        "status": "INTERRUPTED",
+        "control_ticks": 36,
+        "physics_substeps": 360,
+        "peak_speed_rad_s": 0.3033786862239538,
+        "peak_acceleration_rad_s2": 0.8499999999957742,
+        "peak_displacement_rad": 0.12035413670435058
+      },
+      {
+        "task": "action-action-6e55482f",
+        "status": "COMPLETE",
+        "control_ticks": 273,
+        "physics_substeps": 2730,
+        "peak_speed_rad_s": 0.3999999999994139,
+        "peak_acceleration_rad_s2": 0.8499999999979357,
+        "peak_displacement_rad": 0.1288914205592433
+      }
+    ],
+    "total_control_ticks": 736,
+    "total_physics_substeps": 7360,
+    "disconnect_and_local_completion": true,
+    "explicit_recovery_and_new_action": true,
+    "physical_motion_authorized": false
+  },
+  "source_capture": "MATCH",
+  "evidence_paths": {
+    "browser": "frontend/verification/onboarding-01",
+    "capture": "verification/onboarding-01/session",
+    "preflight": "verification/onboarding-01/readiness-final.json",
+    "full_checks": "verification/onboarding-01/complete-check.log",
+    "current_capture_mutations": "verification/onboarding-01/current-session-tests.log"
+  },
+  "rubric": [
+    {
+      "id": "TDD",
+      "status": "GREEN",
+      "scope": "Retained failing tests before readiness/report implementation, then passing finite suites."
+    },
+    {
+      "id": "EDD",
+      "status": "GREEN",
+      "scope": "Fresh source-matched capture, full simulator accounting, current capture mutation rejections."
+    },
+    {
+      "id": "CDD",
+      "status": "GREEN",
+      "scope": "Read-only fixed probes, same-role restore, viewer inspection without control, no browser command or target input, proposed facts distinct from observations."
+    },
+    {
+      "id": "BDD",
+      "status": "GREEN",
+      "scope": "Actual dashboard login/intake/report/packet/navigation; transfer/cut/retry/interruption/recovery/new action."
+    },
+    {
+      "id": "CBT",
+      "status": "GREEN",
+      "scope": "Real browser/API/local prerequisites and EVY/TLS/Rust/MuJoCo components."
+    },
+    {
+      "id": "INTEL_RED_HAT_HARDWARE",
+      "status": "RED",
+      "scope": "New dashboard and target hardware validation pending Preston."
+    },
+    {
+      "id": "PRODUCTION_READINESS",
+      "status": "AMBER",
+      "scope": "Lab identities and finite simulator process; no fleet lifecycle or attested hardware."
+    },
+    {
+      "id": "PHYSICAL_ROBOT_AND_REAL_TIME",
+      "status": "RED",
+      "scope": "No reviewed physical adapter, cell safeguarding, watchdog or continuous timing qualification."
+    }
+  ],
+  "agent_execution": "Agent-ready context and instructions for the user\u2019s coding agent; no autonomous agent service or AI provider is installed.",
+  "hosted_ci": "Initial account billing/spending block retained under verification/handoff-01/hosted-check-status.json; no hosted pass claimed."
+}
